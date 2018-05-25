@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Entered Import Resolution" name="https://lod.milieuinfo.be/ns/dossier#" uri="file:/home/gehau/svn/ontologies/trunk/be/milieuinfo/lod/ns/dossier/dossier-ontology.rdf"/>
+    <uri id="User Entered Import Resolution" name="https://lod.milieuinfo.be/ns/waarde#" uri="file:/home/gehau/svn/ontologies/trunk/be/milieuinfo/lod/ns/waarde/waarde-ontology.rdf"/>
+    <uri id="User Entered Import Resolution" name="https://lod.milieuinfo.be/ns/zendantenne#" uri="file:/home/gehau/svn/ontologies/trunk/be/milieuinfo/lod/ns/zendantenne/zendantenne-ontology.rdf"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1526556764473" name="duplicate:https://lod.milieuinfo.be/id/zendantenne-archivering" uri="zendantenne-voorbeeldobjecten.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1526556764473" name="duplicate:https://lod.milieuinfo.be/id/zendantenne-archivering" uri="zendantenne-voorbeeldobjecten_resolved.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1526556764473" name="duplicate:https://lod.milieuinfo.be/id/zendantenne-archivering" uri="zendantenne-voorbeeldobjecten_inferred.rdf"/>
+    </group>
+</catalog>
