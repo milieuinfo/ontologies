@@ -126,7 +126,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/isPartOf">
         <rdfs:subPropertyOf rdf:resource="https://lod.milieuinfo.be/ns/dossier#vervangtOfisOnderdeelVan"/>
-        <rdfs:label xml:lang="nl">vervangt</rdfs:label>
+        <rdfs:label xml:lang="nl">isOnderdeelVan</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -141,7 +141,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/replaces">
         <rdfs:subPropertyOf rdf:resource="https://lod.milieuinfo.be/ns/dossier#vervangtOfisOnderdeelVan"/>
-        <rdfs:label xml:lang="nl">is onderdeel van</rdfs:label>
+        <rdfs:label xml:lang="nl">vervangt</rdfs:label>
     </owl:ObjectProperty>
     
 
