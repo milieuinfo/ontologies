@@ -1,4 +1,5 @@
 @prefix : <https://lod.milieuinfo.be/ns/dossier#> .
+@prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -8,29 +9,28 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix voaf: <http://purl.org/vocommons/voaf#> .
-@prefix terms: <http://purl.org/dc/terms/> .
+@prefix regorg: <http://www.w3.org/ns/regorg#> .
 @prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @base <https://lod.milieuinfo.be/ns/dossier#> .
 
 <https://lod.milieuinfo.be/ns/dossier#> rdf:type owl:Ontology ;
-                                         terms:title "Case"@en ;
+                                         foaf:maker [ foaf:name "Van Haute, Geert" ;
+                                                      foaf:mbox <mailto:geert.vanhaute@vlaanderen.be> ;
+                                                      schema:affiliation <http://data.vlaanderen.be/id/organisatie/OVO003751>
+                                                    ] ;
+                                         dcterms:title "Case"@en ;
                                          voaf:reliesOn foaf: ;
                                          owl:versionInfo "Eerste versie, zoals in gebruik genomen in het kader van archivering van zendantennes"@nl ;
                                          voaf:reliesOn <http://www.w3.org/ns/person#> ;
-                                         terms:issued "2018-06-01"^^xsd:date ;
+                                         dcterms:issued "2018-06-01"^^xsd:date ;
                                          vann:changes ""@nl ;
-                                         terms:title "Dossier"@nl ;
+                                         dcterms:title "Dossier"@nl ;
+                                         dcterms:temporal "2018" ;
                                          skos:altLabel "Zaak"@nl ;
                                          voaf:reliesOn <http://data.vlaanderen.be/ns/besluit#> ;
                                          vann:preferredNamespacePrefix "dossier" ;
                                          rdfs:label "Case"@en ;
-                                         foaf:maker [ foaf:mbox <mailto:geert.vanhaute@vlaanderen.be> ;
-                                                      schema:affiliation [ foaf:homepage <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> ;
-                                                                           foaf:mbox <mailto:didm.omgeving@vlaanderen.be> ;
-                                                                           foaf:name "Vlaamse Overheid, Departement Omgeving, Data-en informatiebeheer & Digitale Maatschappij"
-                                                                         ] ;
-                                                      foaf:name "Van Haute, Geert"
-                                                    ] ;
                                          voaf:reliesOn <http://dbpedia.org/ontology/> ;
                                          skos:prefLabel "Dossier"@nl ;
                                          voaf:reliesOn <http://www.w3.org/ns/prov#> ;
@@ -42,7 +42,11 @@
 #################################################################
 
 ###  http://purl.org/dc/terms/source
-terms:source rdf:type owl:AnnotationProperty .
+dcterms:source rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/type
+dcterms:type rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/vocab/vann/usageNote
@@ -51,6 +55,30 @@ vann:usageNote rdf:type owl:AnnotationProperty .
 
 ###  http://schema.org/affiliation
 schema:affiliation rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#altLabel
+skos:altLabel rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+skos:prefLabel rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/org#changedBy
+org:changedBy rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/org#classification
+org:classification rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/org#identifier
+org:identifier rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/regorg#orgStatus
+regorg:orgStatus rdf:type owl:AnnotationProperty .
 
 
 ###  http://xmlns.com/foaf/0.1/homepage
@@ -70,34 +98,34 @@ foaf:name rdf:type owl:AnnotationProperty .
 #################################################################
 
 ###  http://purl.org/dc/terms/hasPart
-terms:hasPart rdf:type owl:ObjectProperty .
+dcterms:hasPart rdf:type owl:ObjectProperty .
 
 
 ###  http://purl.org/dc/terms/isPartOf
-terms:isPartOf rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf :vervangtOfisOnderdeelVan ;
-               rdfs:label "vervangt"@nl .
+dcterms:isPartOf rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :vervangtOfisOnderdeelVan ;
+                 rdfs:label "is onderdeel van"@nl .
 
 
 ###  http://purl.org/dc/terms/isReplacedBy
-terms:isReplacedBy rdf:type owl:ObjectProperty .
+dcterms:isReplacedBy rdf:type owl:ObjectProperty .
 
 
 ###  http://purl.org/dc/terms/replaces
-terms:replaces rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf :vervangtOfisOnderdeelVan ;
-               rdfs:label "is onderdeel van"@nl .
+dcterms:replaces rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :vervangtOfisOnderdeelVan ;
+                 rdfs:label "vervangt"@nl .
 
 
 ###  http://purl.org/dc/terms/rights
-terms:rights rdf:type owl:ObjectProperty ;
-             owl:inverseOf :certifiëert ,
-                           :vergunt .
+dcterms:rights rdf:type owl:ObjectProperty ;
+               owl:inverseOf :certifiëert ,
+                             :vergunt .
 
 
 ###  https://lod.milieuinfo.be/ns/dossier#behoortTotDocument
 :behoortTotDocument rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf terms:isPartOf ;
+                    rdfs:subPropertyOf dcterms:isPartOf ;
                     owl:inverseOf :heeftOnderdeel ;
                     rdf:type owl:FunctionalProperty ,
                              owl:AsymmetricProperty ,
@@ -112,7 +140,7 @@ terms:rights rdf:type owl:ObjectProperty ;
 
 ###  https://lod.milieuinfo.be/ns/dossier#behoortTotDossier
 :behoortTotDossier rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf terms:isPartOf ;
+                   rdfs:subPropertyOf dcterms:isPartOf ;
                    owl:inverseOf :heeftProcedurestap ;
                    rdf:type owl:FunctionalProperty ,
                             owl:AsymmetricProperty ,
@@ -127,7 +155,7 @@ terms:rights rdf:type owl:ObjectProperty ;
 
 ###  https://lod.milieuinfo.be/ns/dossier#behoortTotProcedurestap
 :behoortTotProcedurestap rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf terms:isPartOf ;
+                         rdfs:subPropertyOf dcterms:isPartOf ;
                          owl:inverseOf :heeftDocument ;
                          rdf:type owl:FunctionalProperty ,
                                   owl:AsymmetricProperty ,
@@ -143,7 +171,7 @@ terms:rights rdf:type owl:ObjectProperty ;
 ###  https://lod.milieuinfo.be/ns/dossier#certifiëert
 :certifiëert rdf:type owl:ObjectProperty ;
              owl:equivalentProperty :vergunt ;
-             rdfs:domain terms:RightsStatement ;
+             rdfs:domain dcterms:RightsStatement ;
              rdfs:range [ rdf:type owl:Class ;
                           owl:unionOf ( <http://www.w3.org/ns/prov#Activity>
                                         <http://www.w3.org/ns/prov#Agent>
@@ -188,7 +216,7 @@ terms:rights rdf:type owl:ObjectProperty ;
 
 ###  https://lod.milieuinfo.be/ns/dossier#heeftDocument
 :heeftDocument rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf terms:hasPart ;
+               rdfs:subPropertyOf dcterms:hasPart ;
                rdf:type owl:InverseFunctionalProperty ,
                         owl:AsymmetricProperty ,
                         owl:IrreflexiveProperty ;
@@ -202,7 +230,7 @@ terms:rights rdf:type owl:ObjectProperty ;
 
 ###  https://lod.milieuinfo.be/ns/dossier#heeftOnderdeel
 :heeftOnderdeel rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf terms:hasPart ;
+                rdfs:subPropertyOf dcterms:hasPart ;
                 rdf:type owl:InverseFunctionalProperty ,
                          owl:AsymmetricProperty ,
                          owl:IrreflexiveProperty ;
@@ -216,7 +244,7 @@ terms:rights rdf:type owl:ObjectProperty ;
 
 ###  https://lod.milieuinfo.be/ns/dossier#heeftProcedurestap
 :heeftProcedurestap rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf terms:hasPart ;
+                    rdfs:subPropertyOf dcterms:hasPart ;
                     rdf:type owl:InverseFunctionalProperty ,
                              owl:AsymmetricProperty ,
                              owl:IrreflexiveProperty ;
@@ -230,7 +258,7 @@ terms:rights rdf:type owl:ObjectProperty ;
 
 ###  https://lod.milieuinfo.be/ns/dossier#isVervangenDoor
 :isVervangenDoor rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf terms:isReplacedBy ;
+                 rdfs:subPropertyOf dcterms:isReplacedBy ;
                  owl:inverseOf :vervangt ;
                  rdf:type owl:InverseFunctionalProperty ;
                  rdfs:domain :Document ;
@@ -254,7 +282,7 @@ terms:rights rdf:type owl:ObjectProperty ;
 
 ###  https://lod.milieuinfo.be/ns/dossier#vergunt
 :vergunt rdf:type owl:ObjectProperty ;
-         rdfs:domain terms:RightsStatement ;
+         rdfs:domain dcterms:RightsStatement ;
          rdfs:range [ rdf:type owl:Class ;
                       owl:unionOf ( <http://www.w3.org/ns/prov#Activity>
                                     <http://www.w3.org/ns/prov#Entity>
@@ -268,7 +296,7 @@ terms:rights rdf:type owl:ObjectProperty ;
 
 ###  https://lod.milieuinfo.be/ns/dossier#vervangt
 :vervangt rdf:type owl:ObjectProperty ;
-          rdfs:subPropertyOf terms:replaces ;
+          rdfs:subPropertyOf dcterms:replaces ;
           rdf:type owl:FunctionalProperty ;
           rdfs:domain :Document ;
           rdfs:range :Document ;
@@ -306,7 +334,7 @@ terms:rights rdf:type owl:ObjectProperty ;
 ###  http://data.vlaanderen.be/ns/besluit#Besluit
 <http://data.vlaanderen.be/ns/besluit#Besluit> rdf:type owl:Class ;
                                                owl:equivalentClass :Besluit ;
-                                               rdfs:subClassOf terms:RightsStatement ,
+                                               rdfs:subClassOf dcterms:RightsStatement ,
                                                                :Document ,
                                                                :Dossierstuk ;
                                                owl:disjointWith <http://dbpedia.org/ontology/Case> ,
@@ -340,24 +368,16 @@ terms:rights rdf:type owl:ObjectProperty ;
 
 
 ###  http://purl.org/dc/terms/RightsStatement
-terms:RightsStatement rdf:type owl:Class ;
-                      owl:disjointWith owl:Thing-complement .
+dcterms:RightsStatement rdf:type owl:Class ;
+                        owl:disjointWith owl:Thing-complement .
 
 
 ###  http://www.w3.org/2002/07/owl#Thing-complement
-owl:Thing-complement rdf:type owl:Class ;
-                     owl:disjointWith <http://www.w3.org/ns/prov#Activity> ,
-                                      <http://www.w3.org/ns/prov#Agent> ,
-                                      <http://www.w3.org/ns/prov#Entity> ,
-                                      foaf:Image ,
-                                      :Afbeelding ,
-                                      :Besluit ,
-                                      :Bijlage ,
-                                      :Document ,
-                                      :DocumentOnderdeel ,
-                                      :Dossier ,
-                                      :Dossierstuk ,
-                                      :Procedurestap .
+owl:Thing-complement rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/org#Organization
+org:Organization rdf:type owl:Class .
 
 
 ###  http://www.w3.org/ns/person#Person
@@ -378,6 +398,10 @@ owl:Thing-complement rdf:type owl:Class ;
 
 ###  http://www.w3.org/ns/prov#Entity
 <http://www.w3.org/ns/prov#Entity> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Agent
+foaf:Agent rdf:type owl:Class .
 
 
 ###  http://xmlns.com/foaf/0.1/Document
@@ -402,7 +426,7 @@ foaf:Image rdf:type owl:Class .
 
 ###  https://lod.milieuinfo.be/ns/dossier#Besluit
 :Besluit rdf:type owl:Class ;
-         rdfs:subClassOf terms:RightsStatement ,
+         rdfs:subClassOf dcterms:RightsStatement ,
                          :Document ,
                          :Dossierstuk ;
          owl:disjointWith :Dossier ,
@@ -431,19 +455,19 @@ foaf:Image rdf:type owl:Class .
           rdfs:subClassOf <http://www.w3.org/ns/prov#Bundle> ,
                           foaf:Document ,
                           [ rdf:type owl:Restriction ;
-                            owl:onProperty terms:hasPart ;
+                            owl:onProperty dcterms:hasPart ;
                             owl:allValuesFrom :DocumentOnderdeel
                           ] ,
                           [ rdf:type owl:Restriction ;
-                            owl:onProperty terms:isPartOf ;
+                            owl:onProperty dcterms:isPartOf ;
                             owl:allValuesFrom <http://dbpedia.org/ontology/UnitOfWork>
                           ] ,
                           [ rdf:type owl:Restriction ;
-                            owl:onProperty terms:isReplacedBy ;
+                            owl:onProperty dcterms:isReplacedBy ;
                             owl:allValuesFrom :Document
                           ] ,
                           [ rdf:type owl:Restriction ;
-                            owl:onProperty terms:replaces ;
+                            owl:onProperty dcterms:replaces ;
                             owl:allValuesFrom :Document
                           ] ,
                           [ rdf:type owl:Restriction ;
@@ -452,8 +476,8 @@ foaf:Image rdf:type owl:Class .
                           ] ;
           owl:disjointWith :Dossier ,
                            :Procedurestap ;
-          terms:source <http://dbpedia.org/page/Suzanne_Briet> ,
-                       <http://people.ischool.berkeley.edu/~buckland/thing.html> ;
+          dcterms:source <http://dbpedia.org/page/Suzanne_Briet> ,
+                         <http://people.ischool.berkeley.edu/~buckland/thing.html> ;
           vann:usageNote "Een document documenteert."@nl ;
           rdfs:comment "Any concrete or symbolic indication, preserved or recorded, for reconstructing or for proving a phenomenon, whether physical or mental."@en ,
                        "Om het even welk concreet of symbolisch bewijs dat toelaat om een gebeurtenis te reconstrueren."@nl ;
@@ -465,15 +489,15 @@ foaf:Image rdf:type owl:Class .
 :DocumentOnderdeel rdf:type owl:Class ;
                    rdfs:subClassOf foaf:Document ,
                                    [ rdf:type owl:Restriction ;
-                                     owl:onProperty terms:isPartOf ;
+                                     owl:onProperty dcterms:isPartOf ;
                                      owl:allValuesFrom :Document
                                    ] ,
                                    [ rdf:type owl:Restriction ;
-                                     owl:onProperty terms:isReplacedBy ;
+                                     owl:onProperty dcterms:isReplacedBy ;
                                      owl:allValuesFrom :DocumentOnderdeel
                                    ] ,
                                    [ rdf:type owl:Restriction ;
-                                     owl:onProperty terms:replaces ;
+                                     owl:onProperty dcterms:replaces ;
                                      owl:allValuesFrom :DocumentOnderdeel
                                    ] ,
                                    [ rdf:type owl:Restriction ;
@@ -492,19 +516,19 @@ foaf:Image rdf:type owl:Class .
 :Dossier rdf:type owl:Class ;
          rdfs:subClassOf <http://dbpedia.org/ontology/UnitOfWork> ,
                          [ rdf:type owl:Restriction ;
-                           owl:onProperty terms:hasPart ;
+                           owl:onProperty dcterms:hasPart ;
                            owl:allValuesFrom :Procedurestap
                          ] ,
                          [ rdf:type owl:Restriction ;
-                           owl:onProperty terms:isReplacedBy ;
+                           owl:onProperty dcterms:isReplacedBy ;
                            owl:allValuesFrom :Dossier
                          ] ,
                          [ rdf:type owl:Restriction ;
-                           owl:onProperty terms:replaces ;
+                           owl:onProperty dcterms:replaces ;
                            owl:allValuesFrom :Dossier
                          ] ,
                          [ rdf:type owl:Restriction ;
-                           owl:onProperty terms:replaces ;
+                           owl:onProperty dcterms:replaces ;
                            owl:maxCardinality "1"^^xsd:nonNegativeInteger
                          ] ;
          owl:disjointWith :Dossierstuk ;
@@ -530,19 +554,19 @@ foaf:Image rdf:type owl:Class .
 :Procedurestap rdf:type owl:Class ;
                rdfs:subClassOf <http://dbpedia.org/ontology/UnitOfWork> ,
                                [ rdf:type owl:Restriction ;
-                                 owl:onProperty terms:hasPart ;
+                                 owl:onProperty dcterms:hasPart ;
                                  owl:allValuesFrom :Document
                                ] ,
                                [ rdf:type owl:Restriction ;
-                                 owl:onProperty terms:isPartOf ;
+                                 owl:onProperty dcterms:isPartOf ;
                                  owl:allValuesFrom :Dossier
                                ] ,
                                [ rdf:type owl:Restriction ;
-                                 owl:onProperty terms:isReplacedBy ;
+                                 owl:onProperty dcterms:isReplacedBy ;
                                  owl:allValuesFrom :Procedurestap
                                ] ,
                                [ rdf:type owl:Restriction ;
-                                 owl:onProperty terms:replaces ;
+                                 owl:onProperty dcterms:replaces ;
                                  owl:allValuesFrom :Procedurestap
                                ] ,
                                [ rdf:type owl:Restriction ;
@@ -560,20 +584,30 @@ foaf:Image rdf:type owl:Class .
                rdfs:label "Procedurestap"@nl .
 
 
-[ schema:affiliation [ foaf:homepage <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> ;
-                       foaf:mbox <mailto:didm.omgeving@vlaanderen.be> ;
-                       foaf:name "Vlaamse Overheid, Departement Omgeving, Data-en informatiebeheer & Digitale Maatschappij"
-                     ] ;
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://data.vlaanderen.be/id/organisatie/OVO003751
+<http://data.vlaanderen.be/id/organisatie/OVO003751> rdf:type owl:NamedIndividual ,
+                                                              org:Organization ,
+                                                              foaf:Agent ;
+                                                     dcterms:type <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> ;
+                                                     rdfs:seeAlso <https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66> ;
+                                                     skos:altLabel "DIDM"@nl ;
+                                                     skos:prefLabel "Data- en informatiebeheer & digitale maatschappij"@nl ;
+                                                     org:changedBy <http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting> ;
+                                                     org:classification <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> ;
+                                                     org:identifier "OVO003751"^^xsd:string ;
+                                                     regorg:orgStatus <http://data.vlaanderen.be/id/concept/organisatiestatus/actief> ;
+                                                     foaf:homepage <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> ;
+                                                     foaf:mbox <mailto:didm.omgeving@vlaanderen.be> ;
+                                                     foaf:name "Data- en informatiebeheer & digitale maatschappij"@nl .
+
+
+[ schema:affiliation <http://data.vlaanderen.be/id/organisatie/OVO003751> ;
   foaf:mbox <mailto:geert.vanhaute@vlaanderen.be> ;
   foaf:name "Van Haute, Geert"
 ] .
-
-[ schema:affiliation [ foaf:homepage <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> ;
-                        foaf:mbox <mailto:didm.omgeving@vlaanderen.be> ;
-                        foaf:name "Vlaamse Overheid, Departement Omgeving, Data-en informatiebeheer & Digitale Maatschappij"
-                      ] ;
-   foaf:mbox <mailto:geert.vanhaute@vlaanderen.be> ;
-   foaf:name "Van Haute, Geert"
- ] .
 
 ###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
