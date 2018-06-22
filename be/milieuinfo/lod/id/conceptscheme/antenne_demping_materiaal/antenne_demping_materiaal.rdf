@@ -13,14 +13,13 @@
     xmlns:regorg="http://www.w3.org/ns/regorg#">
 
 
-    
+
     <rdf:Description rdf:about="https://lod.milieuinfo.be/id/conceptscheme/antenne_demping_materiaal">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <skos:prefLabel xml:lang="nl">Lijst van stralingsdempende materialen</skos:prefLabel>
         <skos:altLabel xml:lang="nl">antenne_demping_materiaal</skos:altLabel>
         <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
-        <vann:changes xml:lang="nl"></vann:changes>
-        <dcterms:title xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling</dcterms:title>>
+        <dcterms:title xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling</dcterms:title>
         <owl:versionInfo xml:lang="nl">Eerste versie, zoals in gebruik genomen in het kader van
             archivering van zendantennes</owl:versionInfo>
         <dcterms:temporal>2018</dcterms:temporal>

@@ -25,7 +25,7 @@
         <skos:altLabel xml:lang="nl">antenne_dossier</skos:altLabel>
         <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-01</dcterms:issued>
         <vann:changes xml:lang="nl"></vann:changes>
-        <dcterms:title xml:lang="nl">Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest</dcterms:title>>
+        <dcterms:title xml:lang="nl">Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest</dcterms:title>
         <owl:versionInfo xml:lang="nl">Eerste versie, zoals in gebruik genomen in het kader van
             archivering van zendantennes</owl:versionInfo>
         <foaf:maker>
