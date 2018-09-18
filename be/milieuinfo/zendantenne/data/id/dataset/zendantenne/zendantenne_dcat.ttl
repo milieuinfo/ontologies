@@ -1,0 +1,1062 @@
+@prefix : <#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/description
+dcterms:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/format
+dcterms:format rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/hasFormat
+dcterms:hasFormat rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/issued
+dcterms:issued rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/language
+dcterms:language rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+dcterms:license rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/modified
+dcterms:modified rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+dcterms:publisher rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/rightsHolder
+dcterms:rightsHolder rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/spatial
+dcterms:spatial rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/temporal
+dcterms:temporal rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+dcterms:title rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/type
+dcterms:type rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#altLabel
+skos:altLabel rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+skos:prefLabel rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#accessURL
+dcat:accessURL rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#contactPoint
+dcat:contactPoint rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#dataset
+dcat:dataset rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#distribution
+dcat:distribution rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#landingPage
+dcat:landingPage rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#mediaType
+dcat:mediaType rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#theme
+dcat:theme rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/org#classification
+org:classification rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/org#identifier
+org:identifier rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/homepage
+foaf:homepage rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/name
+foaf:name rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.org/dc/terms/LicenseDocument
+dcterms:LicenseDocument rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/dcat#Catalog
+dcat:Catalog rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/dcat#Dataset
+dcat:Dataset rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/dcat#Distribution
+dcat:Distribution rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/org#Organization
+org:Organization rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Agent
+foaf:Agent rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://data.vlaanderen.be/id/organisatie/OVO003323
+<http://data.vlaanderen.be/id/organisatie/OVO003323> rdf:type owl:NamedIndividual ,
+                                                              org:Organization ,
+                                                              foaf:Agent ;
+                                                     dcterms:type <http://data.vlaanderen.be/id/concept/organisatieclassificatie/1e54c545-6f5d-4942-a509-978ae405f34c> ;
+                                                     rdfs:seeAlso <https://wegwijs.vlaanderen.be/#/organisations/ef10b997-ab90-f07c-a689-0da2d0fef485/info> ;
+                                                     skos:prefLabel "Departement Omgeving"@nl ;
+                                                     org:classification <http://data.vlaanderen.be/id/concept/organisatieclassificatie/1e54c545-6f5d-4942-a509-978ae405f34c> ;
+                                                     org:identifier "OVO003323"^^xsd:string ;
+                                                     foaf:homepage <https://www.omgevingvlaanderen.be> ;
+                                                     foaf:name "Departement Omgeving"@nl .
+
+
+###  http://data.vlaanderen.be/id/organisatie/OVO003751
+<http://data.vlaanderen.be/id/organisatie/OVO003751> rdf:type owl:NamedIndividual ,
+                                                              org:Organization ,
+                                                              foaf:Agent ;
+                                                     dcterms:type <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> ;
+                                                     rdfs:seeAlso <https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66> ;
+                                                     skos:altLabel "DIDM"@nl ;
+                                                     skos:prefLabel "Data- en informatiebeheer & digitale maatschappij"@nl ;
+                                                     org:classification <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> ;
+                                                     org:identifier "OVO003751"^^xsd:string ;
+                                                     foaf:homepage <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> ;
+                                                     foaf:name "Data- en informatiebeheer & digitale maatschappij"@nl .
+
+
+###  https://lod.milieuinfo.be/id/catalog/zendantenne
+<https://lod.milieuinfo.be/id/catalog/zendantenne> rdf:type owl:NamedIndividual ,
+                                                            dcat:Catalog ;
+                                                   dcterms:description "De datasets die in het kader van zendantennes worden gepubliceerd"@nl ;
+                                                   dcterms:issued "2018-06-01"^^xsd:date ;
+                                                   dcterms:language "nl"@nl ;
+                                                   dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                   dcterms:modified "2018-05-23+02:00"^^xsd:date ;
+                                                   dcterms:publisher <http://data.vlaanderen.be/id/organisatie/OVO003323> ;
+                                                   dcterms:title "Catalog Zendantenne"@nl ;
+                                                   dcat:dataset <https://lod.milieuinfo.be/id/dataset/zendantenne> ,
+                                                                <https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_demping_materiaal> ,
+                                                                <https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier> ,
+                                                                <https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier_type> ,
+                                                                <https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_gebouw_dtype> ,
+                                                                <https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status> ,
+                                                                <https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_norm_type> ,
+                                                                <https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_rekenmethode> ,
+                                                                <https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_straling_type> ,
+                                                                <https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/eenheid> ,
+                                                                <https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/antenne> ,
+                                                                <https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/dossier> ,
+                                                                <https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/waarde> ;
+                                                   foaf:homepage <https://lod.milieuinfo.be/doc/catalog/zendantenne> .
+
+
+###  https://lod.milieuinfo.be/id/dataset/zendantenne
+<https://lod.milieuinfo.be/id/dataset/zendantenne> rdf:type owl:NamedIndividual ,
+                                                            dcat:Dataset ;
+                                                   dcterms:description "Dataset zendantenne, serialisatie van de databank van https://zendantennes.milieuinfo.be/zendant"@nl ;
+                                                   dcterms:issued "2018-06-01"^^xsd:date ;
+                                                   dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                   dcterms:publisher <http://data.vlaanderen.be/id/organisatie/OVO003323> ;
+                                                   dcterms:spatial <http://publications.europa.eu/resource/authority/country/BEL> ;
+                                                   dcterms:temporal "2017" ,
+                                                                    "2018" ;
+                                                   dcterms:title "Dataset zendantenne"@nl ;
+                                                   dcat:contactPoint <mailto:geert@milieuinfo.be> ;
+                                                   dcat:distribution <https://lod.milieuinfo.be/id/distribution/zendantenne/html> ,
+                                                                     <https://lod.milieuinfo.be/id/distribution/zendantenne/jsonld> ,
+                                                                     <https://lod.milieuinfo.be/id/distribution/zendantenne/nt> ,
+                                                                     <https://lod.milieuinfo.be/id/distribution/zendantenne/rdf> ,
+                                                                     <https://lod.milieuinfo.be/id/distribution/zendantenne/sparql> ,
+                                                                     <https://lod.milieuinfo.be/id/distribution/zendantenne/ttl> ;
+                                                   dcat:landingPage <https://lod.milieuinfo.be/doc/dataset/zendantenne> ;
+                                                   dcat:theme <http://eurovoc.europa.eu/2176> .
+
+
+###  https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_demping_materiaal
+<https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_demping_materiaal> rdf:type owl:NamedIndividual ,
+                                                                                                    dcat:Dataset ;
+                                                                                           dcterms:description "Lijst van stralingsdempende materialen"@nl ;
+                                                                                           dcterms:issued "2018-06-01"^^xsd:date ;
+                                                                                           dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                           dcterms:publisher <http://data.vlaanderen.be/id/organisatie/OVO003323> ;
+                                                                                           dcterms:spatial <http://publications.europa.eu/resource/authority/country/BEL> ;
+                                                                                           dcterms:temporal "2018" ;
+                                                                                           dcterms:title "Conceptscheme dempend materiaal bij elektromagnetische straling"@nl ;
+                                                                                           dcat:contactPoint <mailto:geert.vanhaute@vlaanderen.be> ;
+                                                                                           dcat:distribution <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/jsonld> ,
+                                                                                                             <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/nt> ,
+                                                                                                             <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/rdf> ,
+                                                                                                             <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/ttl> ;
+                                                                                           dcat:landingPage <https://lod.milieuinfo.be/doc/conceptscheme/antenne_demping_materiaal> ;
+                                                                                           dcat:theme <http://eurovoc.europa.eu/2176> .
+
+
+###  https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier
+<https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier> rdf:type owl:NamedIndividual ,
+                                                                                          dcat:Dataset ;
+                                                                                 dcterms:description "Informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest Onderdelen van een dossier voor de aanvraag van een conformiteitsattest"@nl ;
+                                                                                 dcterms:issued "2018-06-01"^^xsd:date ;
+                                                                                 dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                 dcterms:publisher <http://data.vlaanderen.be/id/organisatie/OVO003323> ;
+                                                                                 dcterms:spatial <http://publications.europa.eu/resource/authority/country/BEL> ;
+                                                                                 dcterms:title "Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest"@nl ;
+                                                                                 dcat:contactPoint <mailto:geert.vanhaute@vlaanderen.be> ;
+                                                                                 dcat:distribution <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/jsonld> ,
+                                                                                                   <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/nt> ,
+                                                                                                   <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/rdf> ,
+                                                                                                   <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/ttl> ;
+                                                                                 dcat:landingPage <https://lod.milieuinfo.be/doc/conceptscheme/antenne_dossier> ;
+                                                                                 dcat:theme <http://eurovoc.europa.eu/2176> .
+
+
+###  https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier_type
+<https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_dossier_type> rdf:type owl:NamedIndividual ,
+                                                                                               dcat:Dataset ;
+                                                                                      dcterms:description "Lijst van dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne"@nl ;
+                                                                                      dcterms:issued "2018-06-01"^^xsd:date ;
+                                                                                      dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                      dcterms:publisher <http://data.vlaanderen.be/id/organisatie/OVO003323> ;
+                                                                                      dcterms:spatial <http://publications.europa.eu/resource/authority/country/BEL> ;
+                                                                                      dcterms:title "Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne"@nl ;
+                                                                                      dcat:contactPoint <mailto:geert.vanhaute@vlaanderen.be> ;
+                                                                                      dcat:distribution <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier_type/jsonld> ,
+                                                                                                        <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier_type/nt> ,
+                                                                                                        <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier_type/rdf> ,
+                                                                                                        <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier_type/ttl> ;
+                                                                                      dcat:landingPage <https://lod.milieuinfo.be/doc/conceptscheme/antenne_dossier_type> ;
+                                                                                      dcat:theme <http://eurovoc.europa.eu/2176> .
+
+
+###  https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_gebouw_dtype
+<https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_gebouw_dtype> rdf:type owl:NamedIndividual ,
+                                                                                               dcat:Dataset ;
+                                                                                      dcterms:description "Lijst van gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne"@nl ;
+                                                                                      dcterms:issued "2018-06-01"^^xsd:date ;
+                                                                                      dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                      dcterms:publisher <http://data.vlaanderen.be/id/organisatie/OVO003323> ;
+                                                                                      dcterms:spatial <http://publications.europa.eu/resource/authority/country/BEL> ;
+                                                                                      dcterms:title "Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne"@nl ;
+                                                                                      dcat:contactPoint <mailto:geert.vanhaute@vlaanderen.be> ;
+                                                                                      dcat:distribution <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gebouw_dtype/jsonld> ,
+                                                                                                        <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gebouw_dtype/nt> ,
+                                                                                                        <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gebouw_dtype/rdf> ,
+                                                                                                        <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gebouw_dtype/ttl> ;
+                                                                                      dcat:landingPage <https://lod.milieuinfo.be/doc/conceptscheme/antenne_gebouw_dtype> ;
+                                                                                      dcat:theme <http://eurovoc.europa.eu/2176> .
+
+
+###  https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status
+<https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status> rdf:type owl:NamedIndividual ,
+                                                                                                               dcat:Dataset ;
+                                                                                                      dcterms:description "Lijst van mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne"@nl ;
+                                                                                                      dcterms:issued "2018-06-01"^^xsd:date ;
+                                                                                                      dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                                      dcterms:publisher <http://data.vlaanderen.be/id/organisatie/OVO003323> ;
+                                                                                                      dcterms:spatial <http://publications.europa.eu/resource/authority/country/BEL> ;
+                                                                                                      dcterms:title "Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne"@nl ;
+                                                                                                      dcat:contactPoint <mailto:geert.vanhaute@vlaanderen.be> ;
+                                                                                                      dcat:distribution <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status/jsonld> ,
+                                                                                                                        <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status/nt> ,
+                                                                                                                        <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status/rdf> ,
+                                                                                                                        <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status/ttl> ;
+                                                                                                      dcat:landingPage <https://lod.milieuinfo.be/doc/conceptscheme/antenne_gecontroleerde_ruimte_status> ;
+                                                                                                      dcat:theme <http://eurovoc.europa.eu/2176> .
+
+
+###  https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_norm_type
+<https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_norm_type> rdf:type owl:NamedIndividual ,
+                                                                                            dcat:Dataset ;
+                                                                                   dcterms:description "Lijst van mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne"@nl ;
+                                                                                   dcterms:issued "2018-06-01"^^xsd:date ;
+                                                                                   dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                   dcterms:publisher <http://data.vlaanderen.be/id/organisatie/OVO003323> ;
+                                                                                   dcterms:spatial <http://publications.europa.eu/resource/authority/country/BEL> ;
+                                                                                   dcterms:title "Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne"@nl ;
+                                                                                   dcat:contactPoint <mailto:geert.vanhaute@vlaanderen.be> ;
+                                                                                   dcat:distribution <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_norm_type/jsonld> ,
+                                                                                                     <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_norm_type/nt> ,
+                                                                                                     <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_norm_type/rdf> ,
+                                                                                                     <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_norm_type/ttl> ;
+                                                                                   dcat:landingPage <https://lod.milieuinfo.be/doc/conceptscheme/antenne_norm_type> ;
+                                                                                   dcat:theme <http://eurovoc.europa.eu/2176> .
+
+
+###  https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_rekenmethode
+<https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_rekenmethode> rdf:type owl:NamedIndividual ,
+                                                                                               dcat:Dataset ;
+                                                                                      dcterms:description "Lijst van mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne"@nl ;
+                                                                                      dcterms:issued "2018-06-01"^^xsd:date ;
+                                                                                      dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                      dcterms:publisher <http://data.vlaanderen.be/id/organisatie/OVO003323> ;
+                                                                                      dcterms:spatial <http://publications.europa.eu/resource/authority/country/BEL> ;
+                                                                                      dcterms:title "Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne"@nl ;
+                                                                                      dcat:contactPoint <mailto:geert.vanhaute@vlaanderen.be> ;
+                                                                                      dcat:distribution <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_rekenmethode/jsonld> ,
+                                                                                                        <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_rekenmethode/nt> ,
+                                                                                                        <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_rekenmethode/rdf> ,
+                                                                                                        <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_rekenmethode/ttl> ;
+                                                                                      dcat:landingPage <https://lod.milieuinfo.be/doc/conceptscheme/antenne_rekenmethode> ;
+                                                                                      dcat:theme <http://eurovoc.europa.eu/2176> .
+
+
+###  https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_straling_type
+<https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/antenne_straling_type> rdf:type owl:NamedIndividual ,
+                                                                                                dcat:Dataset ;
+                                                                                       dcterms:description "Lijst van mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne"@nl ;
+                                                                                       dcterms:issued "2018-06-01"^^xsd:date ;
+                                                                                       dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                       dcterms:publisher <http://data.vlaanderen.be/id/organisatie/OVO003323> ;
+                                                                                       dcterms:spatial <http://publications.europa.eu/resource/authority/country/BEL> ;
+                                                                                       dcterms:title "Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne"@nl ;
+                                                                                       dcat:contactPoint <mailto:geert.vanhaute@vlaanderen.be> ;
+                                                                                       dcat:distribution <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_straling_type/jsonld> ,
+                                                                                                         <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_straling_type/nt> ,
+                                                                                                         <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_straling_type/rdf> ,
+                                                                                                         <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_straling_type/ttl> ;
+                                                                                       dcat:landingPage <https://lod.milieuinfo.be/doc/conceptscheme/antenne_straling_type> ;
+                                                                                       dcat:theme <http://eurovoc.europa.eu/2176> .
+
+
+###  https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/eenheid
+<https://lod.milieuinfo.be/id/dataset/zendantenne/conceptscheme/eenheid> rdf:type owl:NamedIndividual ,
+                                                                                  dcat:Dataset ;
+                                                                         dcterms:description "Lijst van eenheden bij een waarde"@nl ;
+                                                                         dcterms:issued "2018-06-01"^^xsd:date ;
+                                                                         dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                         dcterms:publisher <http://data.vlaanderen.be/id/organisatie/OVO003323> ;
+                                                                         dcterms:spatial <http://publications.europa.eu/resource/authority/country/BEL> ;
+                                                                         dcterms:title "Conceptscheme over eenheden bij een waarde"@nl ;
+                                                                         dcat:contactPoint <mailto:geert.vanhaute@vlaanderen.be> ;
+                                                                         dcat:distribution <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/eenheid/jsonld> ,
+                                                                                           <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/eenheid/nt> ,
+                                                                                           <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/eenheid/rdf> ,
+                                                                                           <https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/eenheid/ttl> ;
+                                                                         dcat:landingPage <https://lod.milieuinfo.be/doc/conceptscheme/eenheid> ;
+                                                                         dcat:theme <http://eurovoc.europa.eu/2176> .
+
+
+###  https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/antenne
+<https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/antenne> rdf:type owl:NamedIndividual ,
+                                                                             dcat:Dataset ;
+                                                                    dcterms:description "Zendantenne ontologie"@nl ;
+                                                                    dcterms:issued "2018-06-01"^^xsd:date ;
+                                                                    dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                    dcterms:publisher <http://data.vlaanderen.be/id/organisatie/OVO003323> ;
+                                                                    dcterms:spatial <http://publications.europa.eu/resource/authority/country/BEL> ;
+                                                                    dcterms:temporal "2018" ;
+                                                                    dcterms:title "Zendantenne ontologie"@nl ;
+                                                                    dcat:contactPoint <mailto:geert.vanhaute@vlaanderen.be> ;
+                                                                    dcat:distribution <https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/antenne/jsonld> ,
+                                                                                      <https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/antenne/nt> ,
+                                                                                      <https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/antenne/rdf> ,
+                                                                                      <https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/antenne/ttl> ;
+                                                                    dcat:landingPage <https://lod.milieuinfo.be/ns/zendantenne#> ;
+                                                                    dcat:theme <http://eurovoc.europa.eu/2176> .
+
+
+###  https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/dossier
+<https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/dossier> rdf:type owl:NamedIndividual ,
+                                                                             dcat:Dataset ;
+                                                                    dcterms:description "Dossier ontologie"@nl ;
+                                                                    dcterms:issued "2018-06-01"^^xsd:date ;
+                                                                    dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                    dcterms:publisher <http://data.vlaanderen.be/id/organisatie/OVO003323> ;
+                                                                    dcterms:spatial <http://publications.europa.eu/resource/authority/country/BEL> ;
+                                                                    dcterms:temporal "2018" ;
+                                                                    dcterms:title "Dossier ontologie"@nl ;
+                                                                    dcat:contactPoint <mailto:geert.vanhaute@vlaanderen.be> ;
+                                                                    dcat:distribution <https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/jsonld> ,
+                                                                                      <https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/nt> ,
+                                                                                      <https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/rdf> ,
+                                                                                      <https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/ttl> ;
+                                                                    dcat:landingPage <https://lod.milieuinfo.be/ns/dossier#> ;
+                                                                    dcat:theme <http://eurovoc.europa.eu/2176> .
+
+
+###  https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/waarde
+<https://lod.milieuinfo.be/id/dataset/zendantenne/ontology/waarde> rdf:type owl:NamedIndividual ,
+                                                                            dcat:Dataset ;
+                                                                   dcterms:description "Waarde ontologie"@nl ;
+                                                                   dcterms:issued "2018-06-01"^^xsd:date ;
+                                                                   dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                   dcterms:publisher <http://data.vlaanderen.be/id/organisatie/OVO003323> ;
+                                                                   dcterms:spatial <http://publications.europa.eu/resource/authority/country/BEL> ;
+                                                                   dcterms:temporal "2018" ;
+                                                                   dcterms:title "Waarde ontologie"@nl ;
+                                                                   dcat:contactPoint <mailto:geert.vanhaute@vlaanderen.be> ;
+                                                                   dcat:distribution <https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/jsonld> ,
+                                                                                     <https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/nt> ,
+                                                                                     <https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/rdf> ,
+                                                                                     <https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/ttl> ;
+                                                                   dcat:landingPage <https://lod.milieuinfo.be/ns/waarde#> ;
+                                                                   dcat:theme <http://eurovoc.europa.eu/2176> .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/html
+<https://lod.milieuinfo.be/id/distribution/zendantenne/html> rdf:type owl:NamedIndividual ,
+                                                                      dcat:Distribution ;
+                                                             dcterms:description "dataset van zendantenne in text/html"@nl ;
+                                                             dcterms:format "text/html" ;
+                                                             dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                             dcterms:title "dataset van zendantenne, html distributie"@nl ;
+                                                             dcat:accessURL <https://lod.milieuinfo.be/doc/distribution/zendantenne> ;
+                                                             dcat:mediaType "text/html" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/jsonld
+<https://lod.milieuinfo.be/id/distribution/zendantenne/jsonld> rdf:type owl:NamedIndividual ,
+                                                                        dcat:Distribution ;
+                                                               dcterms:description "dataset van zendantenne in application/json"@nl ;
+                                                               dcterms:format "application/json" ;
+                                                               dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                               dcterms:title "dataset van zendantenne , json-ld distributie."@nl ;
+                                                               dcat:accessURL <https://lod.milieuinfo.be/doc/distribution/zendantenne.jsonld> ;
+                                                               dcat:mediaType "application/json" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/nt
+<https://lod.milieuinfo.be/id/distribution/zendantenne/nt> rdf:type owl:NamedIndividual ,
+                                                                    dcat:Distribution ;
+                                                           dcterms:description "dataset van zendantenne in application/n-triples"@nl ;
+                                                           dcterms:format "application/n-triples" ;
+                                                           dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                           dcterms:title "dataset van zendantenne , n-triples distributie."@nl ;
+                                                           dcat:accessURL <https://lod.milieuinfo.be/doc/distribution/zendantenne.nt> ;
+                                                           dcat:mediaType "application/n-triples" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/rdf
+<https://lod.milieuinfo.be/id/distribution/zendantenne/rdf> rdf:type owl:NamedIndividual ,
+                                                                     dcat:Distribution ;
+                                                            dcterms:description "dataset van zendantenne in application/rdf+xml"@nl ;
+                                                            dcterms:format "application/rdf+xml" ;
+                                                            dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                            dcterms:title "dataset van zendantenne , rdf+xml distributie."@nl ;
+                                                            dcat:accessURL <https://lod.milieuinfo.be/doc/distribution/zendantenne.rdf> ;
+                                                            dcat:mediaType "application/rdf+xml" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/sparql
+<https://lod.milieuinfo.be/id/distribution/zendantenne/sparql> rdf:type owl:NamedIndividual ,
+                                                                        dcat:Distribution ;
+                                                               dcterms:description "sparql interface op de dataset van zendantenne"@nl ;
+                                                               dcterms:format "application/sparql-query" ;
+                                                               dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                               dcterms:title "dataset van zendantenne, sparql API"@nl ;
+                                                               dcat:accessURL <https://lod.milieuinfo.be/id/zendantenne/sparql?> ;
+                                                               dcat:mediaType "application/sparql-query" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/ttl
+<https://lod.milieuinfo.be/id/distribution/zendantenne/ttl> rdf:type owl:NamedIndividual ,
+                                                                     dcat:Distribution ;
+                                                            dcterms:description "dataset van zendantenne in text/turtle"@nl ;
+                                                            dcterms:format "text/turtle" ;
+                                                            dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                            dcterms:title "dataset van zendantenne , turtle distributie."@nl ;
+                                                            dcat:accessURL <https://lod.milieuinfo.be/doc/distribution/zendantenne.ttl> ;
+                                                            dcat:mediaType "text/turtle" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/jsonld
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/jsonld> rdf:type owl:NamedIndividual ,
+                                                                                                                dcat:Distribution ;
+                                                                                                       dcterms:description "Conceptscheme dempend materiaal bij elektromagnetische straling in application/json"@nl ;
+                                                                                                       dcterms:format "application/json" ;
+                                                                                                       dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                                       dcterms:title "Conceptscheme dempend materiaal bij elektromagnetische straling, json-ld distributie."@nl ;
+                                                                                                       dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_demping_materiaal.jsonld> ;
+                                                                                                       dcat:mediaType "application/json" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/nt
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/nt> rdf:type owl:NamedIndividual ,
+                                                                                                            dcat:Distribution ;
+                                                                                                   dcterms:description "Conceptscheme dempend materiaal bij elektromagnetische straling in application/n-triples"@nl ;
+                                                                                                   dcterms:format "application/n-triples" ;
+                                                                                                   dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                                   dcterms:title "Conceptscheme dempend materiaal bij elektromagnetische straling, n-triples distributie."@nl ;
+                                                                                                   dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_demping_materiaal.nt> ;
+                                                                                                   dcat:mediaType "application/n-triples" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/rdf
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/rdf> rdf:type owl:NamedIndividual ,
+                                                                                                             dcat:Distribution ;
+                                                                                                    dcterms:description "Conceptscheme dempend materiaal bij elektromagnetische straling in application/rdf+xml"@nl ;
+                                                                                                    dcterms:format "application/rdf+xml" ;
+                                                                                                    dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                                    dcterms:title "Conceptscheme dempend materiaal bij elektromagnetische straling, rdf+xml distributie."@nl ;
+                                                                                                    dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_demping_materiaal.rdf> ;
+                                                                                                    dcat:mediaType "application/rdf+xml" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/ttl
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_demping_materiaal/ttl> rdf:type owl:NamedIndividual ,
+                                                                                                             dcat:Distribution ;
+                                                                                                    dcterms:description "Conceptscheme dempend materiaal bij elektromagnetische straling in text/turtle"@nl ;
+                                                                                                    dcterms:format "text/turtle" ;
+                                                                                                    dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                                    dcterms:title "Conceptscheme dempend materiaal bij elektromagnetische straling, turtle distributie."@nl ;
+                                                                                                    dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_demping_materiaal.ttl> ;
+                                                                                                    dcat:mediaType "text/turtle" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/jsonld
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/jsonld> rdf:type owl:NamedIndividual ,
+                                                                                                      dcat:Distribution ;
+                                                                                             dcterms:description "Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest in application/json"@nl ;
+                                                                                             dcterms:format "application/json" ;
+                                                                                             dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                             dcterms:title "Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest, json-ld distributie."@nl ;
+                                                                                             dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_dossier.jsonld> ;
+                                                                                             dcat:mediaType "application/json" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/nt
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/nt> rdf:type owl:NamedIndividual ,
+                                                                                                  dcat:Distribution ;
+                                                                                         dcterms:description "Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest in application/n-triples"@nl ;
+                                                                                         dcterms:format "application/n-triples" ;
+                                                                                         dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                         dcterms:title "Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest, n-triples distributie."@nl ;
+                                                                                         dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_dossier.nt> ;
+                                                                                         dcat:mediaType "application/n-triples" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/rdf
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/rdf> rdf:type owl:NamedIndividual ,
+                                                                                                   dcat:Distribution ;
+                                                                                          dcterms:description "Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest in application/rdf+xml"@nl ;
+                                                                                          dcterms:format "application/rdf+xml" ;
+                                                                                          dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                          dcterms:title "Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest, rdf+xml distributie."@nl ;
+                                                                                          dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_dossier.rdf> ;
+                                                                                          dcat:mediaType "application/rdf+xml" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/ttl
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier/ttl> rdf:type owl:NamedIndividual ,
+                                                                                                   dcat:Distribution ;
+                                                                                          dcterms:description "Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest in text/turtle"@nl ;
+                                                                                          dcterms:format "text/turtle" ;
+                                                                                          dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                          dcterms:title "Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest, turtle distributie."@nl ;
+                                                                                          dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_dossier.ttl> ;
+                                                                                          dcat:mediaType "text/turtle" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier_type/jsonld
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier_type/jsonld> rdf:type owl:NamedIndividual ,
+                                                                                                           dcat:Distribution ;
+                                                                                                  dcterms:description "Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json"@nl ;
+                                                                                                  dcterms:format "application/json" ;
+                                                                                                  dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                                  dcterms:title "Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie."@nl ;
+                                                                                                  dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_dossier_type.jsonld> ;
+                                                                                                  dcat:mediaType "application/json" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier_type/nt
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier_type/nt> rdf:type owl:NamedIndividual ,
+                                                                                                       dcat:Distribution ;
+                                                                                              dcterms:description "Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples"@nl ;
+                                                                                              dcterms:format "application/n-triples" ;
+                                                                                              dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                              dcterms:title "Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie."@nl ;
+                                                                                              dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_dossier_type.nt> ;
+                                                                                              dcat:mediaType "application/n-triples" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier_type/rdf
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier_type/rdf> rdf:type owl:NamedIndividual ,
+                                                                                                        dcat:Distribution ;
+                                                                                               dcterms:description "Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml"@nl ;
+                                                                                               dcterms:format "application/rdf+xml" ;
+                                                                                               dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                               dcterms:title "Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie."@nl ;
+                                                                                               dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_dossier_type.rdf> ;
+                                                                                               dcat:mediaType "application/rdf+xml" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier_type/ttl
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_dossier_type/ttl> rdf:type owl:NamedIndividual ,
+                                                                                                        dcat:Distribution ;
+                                                                                               dcterms:description "Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle"@nl ;
+                                                                                               dcterms:format "text/turtle" ;
+                                                                                               dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                               dcterms:title "Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie."@nl ;
+                                                                                               dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_dossier_type.ttl> ;
+                                                                                               dcat:mediaType "text/turtle" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gebouw_dtype/jsonld
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gebouw_dtype/jsonld> rdf:type owl:NamedIndividual ,
+                                                                                                           dcat:Distribution ;
+                                                                                                  dcterms:description "Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json"@nl ;
+                                                                                                  dcterms:format "application/json" ;
+                                                                                                  dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                                  dcterms:title "Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie."@nl ;
+                                                                                                  dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_gebouw_dtype.jsonld> ;
+                                                                                                  dcat:mediaType "application/json" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gebouw_dtype/nt
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gebouw_dtype/nt> rdf:type owl:NamedIndividual ,
+                                                                                                       dcat:Distribution ;
+                                                                                              dcterms:description "Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples"@nl ;
+                                                                                              dcterms:format "application/n-triples" ;
+                                                                                              dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                              dcterms:title "Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie."@nl ;
+                                                                                              dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_gebouw_dtype.nt> ;
+                                                                                              dcat:mediaType "application/n-triples" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gebouw_dtype/rdf
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gebouw_dtype/rdf> rdf:type owl:NamedIndividual ,
+                                                                                                        dcat:Distribution ;
+                                                                                               dcterms:description "Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml"@nl ;
+                                                                                               dcterms:format "application/rdf+xml" ;
+                                                                                               dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                               dcterms:title "Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie."@nl ;
+                                                                                               dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_gebouw_dtype.rdf> ;
+                                                                                               dcat:mediaType "application/rdf+xml" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gebouw_dtype/ttl
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gebouw_dtype/ttl> rdf:type owl:NamedIndividual ,
+                                                                                                        dcat:Distribution ;
+                                                                                               dcterms:description "Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle"@nl ;
+                                                                                               dcterms:format "text/turtle" ;
+                                                                                               dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                               dcterms:title "Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie."@nl ;
+                                                                                               dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_gebouw_dtype.ttl> ;
+                                                                                               dcat:mediaType "text/turtle" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status/jsonld
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status/jsonld> rdf:type owl:NamedIndividual ,
+                                                                                                                           dcat:Distribution ;
+                                                                                                                  dcterms:description "Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json"@nl ;
+                                                                                                                  dcterms:format "application/json" ;
+                                                                                                                  dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                                                  dcterms:title "Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie."@nl ;
+                                                                                                                  dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_gecontroleerde_ruimte_status.jsonld> ;
+                                                                                                                  dcat:mediaType "application/json" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status/nt
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status/nt> rdf:type owl:NamedIndividual ,
+                                                                                                                       dcat:Distribution ;
+                                                                                                              dcterms:description "Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples"@nl ;
+                                                                                                              dcterms:format "application/n-triples" ;
+                                                                                                              dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                                              dcterms:title "Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie."@nl ;
+                                                                                                              dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_gecontroleerde_ruimte_status.nt> ;
+                                                                                                              dcat:mediaType "application/n-triples" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status/rdf
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status/rdf> rdf:type owl:NamedIndividual ,
+                                                                                                                        dcat:Distribution ;
+                                                                                                               dcterms:description "Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml"@nl ;
+                                                                                                               dcterms:format "application/rdf+xml" ;
+                                                                                                               dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                                               dcterms:title "Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie."@nl ;
+                                                                                                               dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_gecontroleerde_ruimte_status.rdf> ;
+                                                                                                               dcat:mediaType "application/rdf+xml" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status/ttl
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_gecontroleerde_ruimte_status/ttl> rdf:type owl:NamedIndividual ,
+                                                                                                                        dcat:Distribution ;
+                                                                                                               dcterms:description "Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle"@nl ;
+                                                                                                               dcterms:format "text/turtle" ;
+                                                                                                               dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                                               dcterms:title "Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie."@nl ;
+                                                                                                               dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_gecontroleerde_ruimte_status.ttl> ;
+                                                                                                               dcat:mediaType "text/turtle" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_norm_type/jsonld
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_norm_type/jsonld> rdf:type owl:NamedIndividual ,
+                                                                                                        dcat:Distribution ;
+                                                                                               dcterms:description "Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json"@nl ;
+                                                                                               dcterms:format "application/json" ;
+                                                                                               dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                               dcterms:title "Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie."@nl ;
+                                                                                               dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_norm_type.jsonld> ;
+                                                                                               dcat:mediaType "application/json" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_norm_type/nt
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_norm_type/nt> rdf:type owl:NamedIndividual ,
+                                                                                                    dcat:Distribution ;
+                                                                                           dcterms:description "Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples"@nl ;
+                                                                                           dcterms:format "application/n-triples" ;
+                                                                                           dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                           dcterms:title "Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie."@nl ;
+                                                                                           dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_norm_type.nt> ;
+                                                                                           dcat:mediaType "application/n-triples" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_norm_type/rdf
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_norm_type/rdf> rdf:type owl:NamedIndividual ,
+                                                                                                     dcat:Distribution ;
+                                                                                            dcterms:description "Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml"@nl ;
+                                                                                            dcterms:format "application/rdf+xml" ;
+                                                                                            dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                            dcterms:title "Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie."@nl ;
+                                                                                            dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_norm_type.rdf> ;
+                                                                                            dcat:mediaType "application/rdf+xml" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_norm_type/ttl
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_norm_type/ttl> rdf:type owl:NamedIndividual ,
+                                                                                                     dcat:Distribution ;
+                                                                                            dcterms:description "Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle"@nl ;
+                                                                                            dcterms:format "text/turtle" ;
+                                                                                            dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                            dcterms:title "Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie."@nl ;
+                                                                                            dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_norm_type.ttl> ;
+                                                                                            dcat:mediaType "text/turtle" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_rekenmethode/jsonld
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_rekenmethode/jsonld> rdf:type owl:NamedIndividual ,
+                                                                                                           dcat:Distribution ;
+                                                                                                  dcterms:description "Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json"@nl ;
+                                                                                                  dcterms:format "application/json" ;
+                                                                                                  dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                                  dcterms:title "Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie."@nl ;
+                                                                                                  dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_rekenmethode.jsonld> ;
+                                                                                                  dcat:mediaType "application/json" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_rekenmethode/nt
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_rekenmethode/nt> rdf:type owl:NamedIndividual ,
+                                                                                                       dcat:Distribution ;
+                                                                                              dcterms:description "Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples"@nl ;
+                                                                                              dcterms:format "application/n-triples" ;
+                                                                                              dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                              dcterms:title "Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie."@nl ;
+                                                                                              dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_rekenmethode.nt> ;
+                                                                                              dcat:mediaType "application/n-triples" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_rekenmethode/rdf
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_rekenmethode/rdf> rdf:type owl:NamedIndividual ,
+                                                                                                        dcat:Distribution ;
+                                                                                               dcterms:description "Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml"@nl ;
+                                                                                               dcterms:format "application/rdf+xml" ;
+                                                                                               dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                               dcterms:title "Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie."@nl ;
+                                                                                               dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_rekenmethode.rdf> ;
+                                                                                               dcat:mediaType "application/rdf+xml" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_rekenmethode/ttl
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_rekenmethode/ttl> rdf:type owl:NamedIndividual ,
+                                                                                                        dcat:Distribution ;
+                                                                                               dcterms:description "Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle"@nl ;
+                                                                                               dcterms:format "text/turtle" ;
+                                                                                               dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                               dcterms:title "Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie."@nl ;
+                                                                                               dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_rekenmethode.ttl> ;
+                                                                                               dcat:mediaType "text/turtle" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_straling_type/jsonld
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_straling_type/jsonld> rdf:type owl:NamedIndividual ,
+                                                                                                            dcat:Distribution ;
+                                                                                                   dcterms:description "Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json"@nl ;
+                                                                                                   dcterms:format "application/json" ;
+                                                                                                   dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                                   dcterms:title "Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie."@nl ;
+                                                                                                   dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_straling_type.jsonld> ;
+                                                                                                   dcat:mediaType "application/json" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_straling_type/nt
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_straling_type/nt> rdf:type owl:NamedIndividual ,
+                                                                                                        dcat:Distribution ;
+                                                                                               dcterms:description "Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples"@nl ;
+                                                                                               dcterms:format "application/n-triples" ;
+                                                                                               dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                               dcterms:title "Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie."@nl ;
+                                                                                               dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_straling_type.nt> ;
+                                                                                               dcat:mediaType "application/n-triples" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_straling_type/rdf
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_straling_type/rdf> rdf:type owl:NamedIndividual ,
+                                                                                                         dcat:Distribution ;
+                                                                                                dcterms:description "Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml"@nl ;
+                                                                                                dcterms:format "application/rdf+xml" ;
+                                                                                                dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                                dcterms:title "Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie."@nl ;
+                                                                                                dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_straling_type.rdf> ;
+                                                                                                dcat:mediaType "application/rdf+xml" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_straling_type/ttl
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/antenne_straling_type/ttl> rdf:type owl:NamedIndividual ,
+                                                                                                         dcat:Distribution ;
+                                                                                                dcterms:description "Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle"@nl ;
+                                                                                                dcterms:format "text/turtle" ;
+                                                                                                dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                                dcterms:title "Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie."@nl ;
+                                                                                                dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/antenne_straling_type.ttl> ;
+                                                                                                dcat:mediaType "text/turtle" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/eenheid/jsonld
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/eenheid/jsonld> rdf:type owl:NamedIndividual ,
+                                                                                              dcat:Distribution ;
+                                                                                     dcterms:description "Conceptscheme over eenheden bij een waarde in application/json"@nl ;
+                                                                                     dcterms:format "application/json" ;
+                                                                                     dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                     dcterms:title "Conceptscheme over eenheden bij een waarde, json-ld distributie."@nl ;
+                                                                                     dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/eenheid.jsonld> ;
+                                                                                     dcat:mediaType "application/json" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/eenheid/nt
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/eenheid/nt> rdf:type owl:NamedIndividual ,
+                                                                                          dcat:Distribution ;
+                                                                                 dcterms:description "Conceptscheme over eenheden bij een waarde in application/n-triples"@nl ;
+                                                                                 dcterms:format "application/n-triples" ;
+                                                                                 dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                 dcterms:title "Conceptscheme over eenheden bij een waarde, n-triples distributie."@nl ;
+                                                                                 dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/eenheid.nt> ;
+                                                                                 dcat:mediaType "application/n-triples" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/eenheid/rdf
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/eenheid/rdf> rdf:type owl:NamedIndividual ,
+                                                                                           dcat:Distribution ;
+                                                                                  dcterms:description "Conceptscheme over eenheden bij een waarde in application/rdf+xml"@nl ;
+                                                                                  dcterms:format "application/rdf+xml" ;
+                                                                                  dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                  dcterms:title "Conceptscheme over eenheden bij een waarde, rdf+xml distributie."@nl ;
+                                                                                  dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/eenheid.rdf> ;
+                                                                                  dcat:mediaType "application/rdf+xml" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/eenheid/ttl
+<https://lod.milieuinfo.be/id/distribution/zendantenne/conceptscheme/eenheid/ttl> rdf:type owl:NamedIndividual ,
+                                                                                           dcat:Distribution ;
+                                                                                  dcterms:description "Conceptscheme over eenheden bij een waarde in text/turtle"@nl ;
+                                                                                  dcterms:format "text/turtle" ;
+                                                                                  dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                  dcterms:title "Conceptscheme over eenheden bij een waarde, turtle distributie."@nl ;
+                                                                                  dcat:accessURL <https://lod.milieuinfo.be/doc/conceptscheme/eenheid.ttl> ;
+                                                                                  dcat:mediaType "text/turtle" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/antenne/jsonld
+<https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/antenne/jsonld> rdf:type owl:NamedIndividual ,
+                                                                                         dcat:Distribution ;
+                                                                                dcterms:description "Zendantenne ontologie in application/json"@nl ;
+                                                                                dcterms:format "application/json" ;
+                                                                                dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                dcterms:title "Zendantenne ontologie, json-ld distributie."@nl ;
+                                                                                dcat:accessURL <https://lod.milieuinfo.be/ns/zendantenne#.jsonld> ;
+                                                                                dcat:mediaType "application/json" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/antenne/nt
+<https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/antenne/nt> rdf:type owl:NamedIndividual ,
+                                                                                     dcat:Distribution ;
+                                                                            dcterms:description "Zendantenne ontologie in application/n-triples"@nl ;
+                                                                            dcterms:format "application/n-triples" ;
+                                                                            dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                            dcterms:title "Zendantenne ontologie, n-triples distributie."@nl ;
+                                                                            dcat:accessURL <https://lod.milieuinfo.be/ns/zendantenne#.nt> ;
+                                                                            dcat:mediaType "application/n-triples" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/antenne/rdf
+<https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/antenne/rdf> rdf:type owl:NamedIndividual ,
+                                                                                      dcat:Distribution ;
+                                                                             dcterms:description "Zendantenne ontologie in application/rdf+xml"@nl ;
+                                                                             dcterms:format "application/rdf+xml" ;
+                                                                             dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                             dcterms:title "Zendantenne ontologie, rdf+xml distributie."@nl ;
+                                                                             dcat:accessURL <https://lod.milieuinfo.be/ns/zendantenne#.rdf> ;
+                                                                             dcat:mediaType "application/rdf+xml" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/antenne/ttl
+<https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/antenne/ttl> rdf:type owl:NamedIndividual ,
+                                                                                      dcat:Distribution ;
+                                                                             dcterms:description "Zendantenne ontologie in text/turtle"@nl ;
+                                                                             dcterms:format "text/turtle" ;
+                                                                             dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                             dcterms:title "Zendantenne ontologie, turtle distributie."@nl ;
+                                                                             dcat:accessURL <https://lod.milieuinfo.be/ns/zendantenne#.ttl> ;
+                                                                             dcat:mediaType "text/turtle" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/jsonld
+<https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/jsonld> rdf:type owl:NamedIndividual ,
+                                                                                         dcat:Distribution ;
+                                                                                dcterms:description "Dossier ontologie in application/json"@nl ;
+                                                                                dcterms:format "application/json" ;
+                                                                                dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                                dcterms:title "Dossier ontologie, json-ld distributie."@nl ;
+                                                                                dcat:accessURL <https://lod.milieuinfo.be/ns/dossier#.jsonld> ;
+                                                                                dcat:mediaType "application/json" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/nt
+<https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/nt> rdf:type owl:NamedIndividual ,
+                                                                                     dcat:Distribution ;
+                                                                            dcterms:description "Dossier ontologie in application/n-triples"@nl ;
+                                                                            dcterms:format "application/n-triples" ;
+                                                                            dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                            dcterms:title "Dossier ontologie, n-triples distributie."@nl ;
+                                                                            dcat:accessURL <https://lod.milieuinfo.be/ns/dossier#.nt> ;
+                                                                            dcat:mediaType "application/n-triples" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/rdf
+<https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/rdf> rdf:type owl:NamedIndividual ,
+                                                                                      dcat:Distribution ;
+                                                                             dcterms:description "Dossier ontologie in application/rdf+xml"@nl ;
+                                                                             dcterms:format "application/rdf+xml" ;
+                                                                             dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                             dcterms:title "Dossier ontologie, rdf+xml distributie."@nl ;
+                                                                             dcat:accessURL <https://lod.milieuinfo.be/ns/dossier#.rdf> ;
+                                                                             dcat:mediaType "application/rdf+xml" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/ttl
+<https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/dossier/ttl> rdf:type owl:NamedIndividual ,
+                                                                                      dcat:Distribution ;
+                                                                             dcterms:description "Dossier ontologie in text/turtle"@nl ;
+                                                                             dcterms:format "text/turtle" ;
+                                                                             dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                             dcterms:title "Dossier ontologie, turtle distributie."@nl ;
+                                                                             dcat:accessURL <https://lod.milieuinfo.be/ns/dossier#.ttl> ;
+                                                                             dcat:mediaType "text/turtle" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/jsonld
+<https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/jsonld> rdf:type owl:NamedIndividual ,
+                                                                                        dcat:Distribution ;
+                                                                               dcterms:description "Waarde ontologie in application/json"@nl ;
+                                                                               dcterms:format "application/json" ;
+                                                                               dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                               dcterms:title "Waarde ontologie, json-ld distributie."@nl ;
+                                                                               dcat:accessURL <https://lod.milieuinfo.be/ns/waarde#.jsonld> ;
+                                                                               dcat:mediaType "application/json" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/nt
+<https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/nt> rdf:type owl:NamedIndividual ,
+                                                                                    dcat:Distribution ;
+                                                                           dcterms:description "Waarde ontologie in application/n-triples"@nl ;
+                                                                           dcterms:format "application/n-triples" ;
+                                                                           dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                           dcterms:title "Waarde ontologie, n-triples distributie."@nl ;
+                                                                           dcat:accessURL <https://lod.milieuinfo.be/ns/waarde#.nt> ;
+                                                                           dcat:mediaType "application/n-triples" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/rdf
+<https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/rdf> rdf:type owl:NamedIndividual ,
+                                                                                     dcat:Distribution ;
+                                                                            dcterms:description "Waarde ontologie in application/rdf+xml"@nl ;
+                                                                            dcterms:format "application/rdf+xml" ;
+                                                                            dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                            dcterms:title "Waarde ontologie, rdf+xml distributie."@nl ;
+                                                                            dcat:accessURL <https://lod.milieuinfo.be/ns/waarde#.rdf> ;
+                                                                            dcat:mediaType "application/rdf+xml" .
+
+
+###  https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/ttl
+<https://lod.milieuinfo.be/id/distribution/zendantenne/ontology/waarde/ttl> rdf:type owl:NamedIndividual ,
+                                                                                     dcat:Distribution ;
+                                                                            dcterms:description "Waarde ontologie in text/turtle"@nl ;
+                                                                            dcterms:format "text/turtle" ;
+                                                                            dcterms:license <https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> ;
+                                                                            dcterms:title "Waarde ontologie, turtle distributie."@nl ;
+                                                                            dcat:accessURL <https://lod.milieuinfo.be/ns/waarde#.ttl> ;
+                                                                            dcat:mediaType "text/turtle" .
+
+
+###  https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie
+<https://lod.milieuinfo.be/id/licensedocument/didm/gratis_open_data_licentie> rdf:type owl:NamedIndividual ,
+                                                                                       dcterms:LicenseDocument ;
+                                                                              dcterms:hasFormat <https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml> ;
+                                                                              dcterms:rightsHolder <http://data.vlaanderen.be/id/organisatie/OVO003751> ;
+                                                                              dcterms:type <https://overheid.vlaanderen.be/voorwaarden-voor-het-hergebruik-van-overheidsinformatie> .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi

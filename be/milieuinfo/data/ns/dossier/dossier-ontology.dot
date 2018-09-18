@@ -1,0 +1,134 @@
+digraph g {
+   graph [bgcolor="#ffffff"  overlap=scale  ]
+    node [style=rounded]
+    edge [overlap = scale]
+    subgraph cluster_dossier {
+    "https://lod.milieuinfo.be/ns/dossier#"  [fillcolor="#FFF190" shape=box style=filled]
+    ":Afbeelding" [fillcolor="#DECE5E" shape=box style=filled]
+    ":Besluit" [fillcolor="#DECE5E" shape=box style=filled]
+    ":Bijlage" [fillcolor="#DECE5E" shape=box style=filled]
+    ":Document" [fillcolor="#DECE5E" shape=box style=filled]
+    ":DocumentOnderdeel" [fillcolor="#DECE5E" shape=box style=filled]
+    ":Dossier" [fillcolor="#DECE5E" shape=box style=filled]
+    ":Procedurestap" [fillcolor="#DECE5E" shape=box style=filled]
+    ":Dossierstuk" [fillcolor="#DECE5E" shape=box style=filled]
+    }    
+    subgraph cluster_foaf {
+        "http://xmlns.com/foaf/0.1/"  [fillcolor="#FFF190" shape=box style=filled]
+        "foaf:Document"  [fillcolor="#8E2825" style=filled]
+        "foaf:Image" [fillcolor="#8E2825" style=filled]
+    }
+    subgraph cluster_person {
+        "http://www.w3.org/ns/person#"  [fillcolor="#FFF190" shape=box style=filled]
+        "person:Person" [fillcolor="#8E2825" style=filled]
+    }
+    subgraph cluster_besluit {
+        "http://data.vlaanderen.be/ns/besluit#"  [fillcolor="#FFF190" shape=box style=filled]
+        "besluit:Besluit"  [fillcolor="#8E8125" style=filled]
+    }
+    subgraph cluster_dbo {
+        "http://dbpedia.org/ontology/"  [fillcolor="#FFF190" shape=box style=filled]
+        "dbo:Case" [fillcolor="#DE5E5B" style=filled]
+        "dbo:UnitOfWork" [fillcolor="#DE5E5B" style=filled]
+    }
+    subgraph cluster_prov {
+        "http://www.w3.org/ns/prov#"  [fillcolor="#FFF190" shape=box style=filled]
+        "prov:Bundle" [fillcolor="#DECE5B" style=filled]
+        "prov:Activity" [fillcolor="#DECE5B" style=filled]
+        "prov:Entity" [fillcolor="#DECE5B" style=filled]
+        "prov:Agent" [fillcolor="#DECE5B" style=filled]
+    }
+    subgraph cluster_dcterms {
+        "http://purl.org/dc/terms/"  [fillcolor="#FFF190" shape=box style=filled]
+        "dcterms:RightsStatement" [fillcolor="#DEAA5B" style=filled]
+        "dcterms:Agent" [fillcolor="#DEAA5B" style=filled]
+    }
+    subgraph cluster_owl {
+        "http://www.w3.org/2002/07/owl#"  [fillcolor="#FFF190" shape=box style=filled]
+        union1 [label="owl:Class" fillcolor="#DEAA5B" style=filled]
+        union2 [label="owl:Class" fillcolor="#DEAA5B" style=filled]
+    }
+    subgraph cluster_literal {
+        "http://www.w3.org/2000/01/rdf-schema#Literal"  [fillcolor="#FFF190" shape=box style=filled]
+        "procedurenaam" [fillcolor="#DEAA5B" style=filled]
+        "referentie" [fillcolor="#DEAA5B" style=filled]
+    }
+    ":Document" -> ":DocumentOnderdeel" [label=":heeftOnderdeel"]
+    ":Document" -> ":Procedurestap" [label=":behoortTotProcedurestap"]
+    ":DocumentOnderdeel" -> ":Document" [label=":behoortTotDocument"] 
+    ":Procedurestap" -> ":Dossier" [label=":behoortTotDossier"]
+    ":Dossier" -> ":Procedurestap" [label=":heeftProcedurestap"]
+    ":Dossier" -> "person:Person" [label=":dossierbehandelaar"]
+    ":Dossier" -> "person:Person" [label=":dossiereigenaar"]
+    ":Dossier" -> "procedurenaam" [label=":procedure"] 
+    ":Dossier" -> "referentie" [label=":referentie"]
+    ":Dossier" -> "person:Person" [label=":dossiermedewerker"]
+    ":Procedurestap" -> ":Document" [label=":heeftDocument"] 
+    ":Besluit" -> "besluit:Besluit" [label="owl:equivalentClass" color="#8E8125"]
+    ":Dossierstuk" -> ":Document" [label="owl:equivalentClass" color="#8E8125"]
+    ":Dossier"-> "dbo:Case" [label="owl:equivalentClass" color="#8E8125"]    
+    "dbo:Case" -> "dbo:UnitOfWork"   [label="rdfs:subClassOf" color="#DC3800"]
+    ":Procedurestap" ->  "dbo:UnitOfWork"   [label="rdfs:subClassOf" color="#DC3800"]
+    ":Besluit" -> "dcterms:RightsStatement"  [label="rdfs:subClassOf" color="#DC3800"]
+    ":Besluit" ->  ":Document"  [label="rdfs:subClassOf" color="#DC3800"]
+    ":Afbeelding" -> ":DocumentOnderdeel"  [label="rdfs:subClassOf" color="#DC3800"]
+    ":Bijlage" -> ":DocumentOnderdeel"  [label="rdfs:subClassOf" color="#dc0012"]
+    ":Bijlage" -> "foaf:Document"   [label="rdfs:subClassOf" color="#DC3800"]
+    ":Document" -> "foaf:Document"   [label="rdfs:subClassOf" color="#DC3800"]
+    ":Document" -> "dbo:UnitOfWork"   [label="owl:disjointWith" color="#0045dc"]
+    ":DocumentOnderdeel" ->  "foaf:Document"  [label="rdfs:subClassOf" color="#DC3800"]
+    "foaf:Image" -> "foaf:Document"  [label="rdfs:subClassOf" color="#DC3800"]
+    ":Afbeelding" -> "foaf:Image"  [label="rdfs:subClassOf" color="#DC3800"]
+    ":Document" -> "prov:Bundle"  [label="rdfs:subClassOf" color="#DC3800"]
+    ":Besluit" -> union1 [label=":vergunt"]
+    ":Besluit" -> union2 [label=":certifiëert"]
+    ":Besluit" -> "dcterms:Agent" [label="dcterms:rightsHolder"]
+    union1 -> "prov:Activity"  [label="owl:unionOf" color="#452D08" style=dashed]
+    union1 -> "prov:Entity"  [label="owl:unionOf" color="#452D08" style=dashed]
+    union2 -> "prov:Activity"  [label="owl:unionOf" color="#452D08"]
+    union2 -> "prov:Entity"  [label="owl:unionOf" color="#452D08"]
+    union2 -> "prov:Agent"  [label="owl:unionOf" color="#452D08"]
+    subgraph cluster_properties {
+        "owl:ObjectProperty"  [fillcolor="#FFF190" shape=box style=filled]
+        subgraph cluster_dossierproperties {
+            ":heeftOnderdeel" [fillcolor="#DECE5E" shape=box style=filled]
+            ":behoortTotProcedurestap" [fillcolor="#DECE5E" shape=box style=filled]
+            ":behoortTotDocument" [fillcolor="#DECE5E" shape=box style=filled]
+            ":behoortTotDossier" [fillcolor="#DECE5E" shape=box style=filled]
+            ":heeftProcedurestap"  [fillcolor="#DECE5E" shape=box style=filled]
+            ":heeftDocument"  [fillcolor="#DECE5E" shape=box style=filled]
+            ":certifiëert"  [fillcolor="#DECE5E" shape=box style=filled]
+            ":vergunt"  [fillcolor="#DECE5E" shape=box style=filled]
+            ":procedure"  [fillcolor="#DECE5E" shape=box style=filled]
+            ":isVervangenDoor"  [fillcolor="#DECE5E" shape=box style=filled]
+            ":vervangt"  [fillcolor="#DECE5E" shape=box style=filled]}
+        subgraph cluster_dctermsproperties {
+            "dcterms:isPartOf" [fillcolor="#DEAA5B" style=filled]
+            "dcterms:hasPart" [fillcolor="#DEAA5B" style=filled]
+            "dcterms:rights" [fillcolor="#DEAA5B" style=filled]
+            "dcterms:replaces" [fillcolor="#DEAA5B" style=filled]
+            "dcterms:isReplacedBy" [fillcolor="#DEAA5B" style=filled] }
+        subgraph cluster_dboproperties {
+            "dbo:procedure" [fillcolor="#DEAA5B" style=filled]
+        }
+        ":procedure" -> "dbo:procedure"  [label="owl:equivalentProperty" color="#8E8125"]
+        ":heeftOnderdeel" -> "dcterms:hasPart"  [label="rdfs:subPropertyOf" color="#DC3800"]
+        ":heeftProcedurestap" -> "dcterms:hasPart"  [label="rdfs:subPropertyOf" color="#DC3800"]
+        ":heeftDocument" -> "dcterms:hasPart"  [label="rdfs:subPropertyOf" color="#DC3800"]
+        ":behoortTotDocument" -> "dcterms:isPartOf"  [label="rdfs:subPropertyOf" color="#DC3800"]
+        ":behoortTotProcedurestap" -> "dcterms:isPartOf"  [label="rdfs:subPropertyOf" color="#DC3800"]
+        ":behoortTotDossier" -> "dcterms:isPartOf"  [label="rdfs:subPropertyOf" color="#DC3800"]
+        ":heeftOnderdeel" -> ":behoortTotDocument"  [label="owl:inverseOf" color="#DC3801"]
+        ":heeftProcedurestap" -> ":behoortTotDossier"  [label="owl:inverseOf" color="#DC3801"]
+        ":heeftDocument" -> ":behoortTotProcedurestap"  [label="owl:inverseOf" color="#DC3801"]
+        ":behoortTotDocument" -> ":heeftOnderdeel"  [color="#DC3801"]
+        ":behoortTotProcedurestap" -> ":heeftDocument"  [color="#DC3801"]
+        ":isVervangenDoor" -> ":vervangt"  [label="owl:inverseOf" color="#DC3801"]
+        ":vervangt" -> ":isVervangenDoor"  [color="#DC3801"]
+        ":behoortTotDossier" -> ":heeftProcedurestap"  [color="#DC3801"]
+        ":certifiëert" -> "dcterms:rights"  [label="rdfs:inverseOf" color="#DC3801"]
+        ":vergunt" -> "dcterms:rights"  [label="rdfs:inverseOf" color="#DC3801"]
+        ":vervangt" -> "dcterms:replaces"  [label="rdfs:subPropertyOf" color="#DC3800"]
+        ":isVervangenDoor" -> "dcterms:isReplacedBy"  [label="rdfs:subPropertyOf" color="#DC3800"]
+    }
+}
