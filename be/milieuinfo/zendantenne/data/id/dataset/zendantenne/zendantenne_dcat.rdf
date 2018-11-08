@@ -11,7 +11,7 @@
       <dcterms:rightsHolder rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003751"/>
       <dcterms:hasFormat rdf:resource="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licences_gratis-open-data-licentie1.2.xml"/>
    </dcterms:LicenseDocument>
-   <org:Organization rdf:about="http://data.vlaanderen.be/id/organisatie/OVO003323">
+   <foaf:Agent rdf:about="http://data.vlaanderen.be/id/organisatie/OVO003323">
       <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
       <foaf:name xml:lang="nl">Departement Omgeving</foaf:name>
       <rdfs:seeAlso rdf:resource="https://wegwijs.vlaanderen.be/#/organisations/ef10b997-ab90-f07c-a689-0da2d0fef485/info"/>
@@ -20,8 +20,8 @@
       <org:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVO003323</org:identifier>
       <foaf:homepage rdf:resource="https://www.omgevingvlaanderen.be"/>
       <dcterms:type rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/1e54c545-6f5d-4942-a509-978ae405f34c"/>
-   </org:Organization>
-   <org:Organization rdf:about="http://data.vlaanderen.be/id/organisatie/OVO003751">
+   </foaf:Agent>
+   <foaf:Agent rdf:about="http://data.vlaanderen.be/id/organisatie/OVO003751">
       <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
       <foaf:name xml:lang="nl">Data- en informatiebeheer &amp; digitale maatschappij</foaf:name>
       <rdfs:seeAlso rdf:resource="https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66"/>
@@ -31,7 +31,7 @@
       <org:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVO003751</org:identifier>
       <foaf:homepage rdf:resource="https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij"/>
       <dcterms:type rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa"/>
-   </org:Organization>
+   </foaf:Agent>
    <dcat:Catalog rdf:about="https://data.zendantenne.milieuinfo.be/id/catalog">
       <foaf:homepage rdf:resource="https://lod.milieuinfo.be/doc/catalog/zendantenne"/>
       <dcterms:title xml:lang="nl">Catalog Zendantenne</dcterms:title>
