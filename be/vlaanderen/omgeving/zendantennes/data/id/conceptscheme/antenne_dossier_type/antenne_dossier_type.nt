@@ -1,0 +1,101 @@
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lijst van dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> <http://www.w3.org/2004/02/skos/core#altLabel> "antenne_dossier_type"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> <http://purl.org/dc/terms/issued> "2018-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> <http://purl.org/vocab/vann/changes> ""@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> <http://purl.org/dc/terms/title> "Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> <http://www.w3.org/2002/07/owl#versionInfo> "Eerste versie, zoals in gebruik genomen in het kader van\n            archivering van zendantennes"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> <http://xmlns.com/foaf/0.1/maker> _:B5ce12830X2Dbc29X2D4a15X2D92e9X2D3dbb0400c85c .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+_:B5ce12830X2Dbc29X2D4a15X2D92e9X2D3dbb0400c85c <http://schema.org/affiliation> <http://data.vlaanderen.be/id/organisatie/OVO003751> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/name> "Data- en informatiebeheer & digitale maatschappij"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2004/02/skos/core#altLabel> "DIDM"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data- en informatiebeheer & digitale maatschappij"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#changedBy> <http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#classification> <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#identifier> "OVO003751" .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/regorg#orgStatus> <http://data.vlaanderen.be/id/concept/organisatiestatus/actief> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/homepage> <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://purl.org/dc/terms/type> <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/mbox> <mailto:didm.omgeving@vlaanderen.be> .
+_:B5ce12830X2Dbc29X2D4a15X2D92e9X2D3dbb0400c85c <http://xmlns.com/foaf/0.1/mbox> <mailto:geert.vanhaute@vlaanderen.be> .
+_:B5ce12830X2Dbc29X2D4a15X2D92e9X2D3dbb0400c85c <http://xmlns.com/foaf/0.1/name> "Van Haute, Geert" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/1> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/1> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Luchtvaartsector"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/1> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "luchtvaartsector" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/1> <https://data.omgeving.vlaanderen.be/ns/waarde#groot> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/1> <https://data.omgeving.vlaanderen.be/ns/waarde#zichtbaar_op_publieke_kaart> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/2> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/2> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Treinverkeer"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/2> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "treinverkeer" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/2> <https://data.omgeving.vlaanderen.be/ns/waarde#groot> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/2> <https://data.omgeving.vlaanderen.be/ns/waarde#zichtbaar_op_publieke_kaart> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/3> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/3> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scheepvaart"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/3> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "scheepvaart" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/3> <https://data.omgeving.vlaanderen.be/ns/waarde#groot> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/3> <https://data.omgeving.vlaanderen.be/ns/waarde#zichtbaar_op_publieke_kaart> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/4> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/4> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/4> <http://www.w3.org/2004/02/skos/core#prefLabel> "Radar"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/4> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "radar" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/4> <https://data.omgeving.vlaanderen.be/ns/waarde#groot> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/4> <https://data.omgeving.vlaanderen.be/ns/waarde#zichtbaar_op_publieke_kaart> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/5> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/5> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/5> <http://www.w3.org/2004/02/skos/core#prefLabel> "ASTRID-netwerk"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/5> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "ASTRID-netwerk" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/5> <https://data.omgeving.vlaanderen.be/ns/waarde#groot> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/5> <https://data.omgeving.vlaanderen.be/ns/waarde#zichtbaar_op_publieke_kaart> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/6> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/6> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/6> <http://www.w3.org/2004/02/skos/core#prefLabel> "Militaire toepassingen"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/6> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "militaire toepassingen" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/6> <https://data.omgeving.vlaanderen.be/ns/waarde#groot> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/6> <https://data.omgeving.vlaanderen.be/ns/waarde#zichtbaar_op_publieke_kaart> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/7> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/7> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/7> <http://www.w3.org/2004/02/skos/core#prefLabel> "Radio"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/7> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "radio" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/7> <https://data.omgeving.vlaanderen.be/ns/waarde#groot> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/7> <https://data.omgeving.vlaanderen.be/ns/waarde#zichtbaar_op_publieke_kaart> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/8> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/8> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/8> <http://www.w3.org/2004/02/skos/core#prefLabel> "Televisie"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/8> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "televisie" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/8> <https://data.omgeving.vlaanderen.be/ns/waarde#groot> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/8> <https://data.omgeving.vlaanderen.be/ns/waarde#zichtbaar_op_publieke_kaart> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/9> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/9> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/9> <http://www.w3.org/2004/02/skos/core#prefLabel> "gsm-netwerk"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/9> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "gsm-netwerk" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/9> <https://data.omgeving.vlaanderen.be/ns/waarde#groot> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/9> <https://data.omgeving.vlaanderen.be/ns/waarde#zichtbaar_op_publieke_kaart> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/10> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/10> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/10> <http://www.w3.org/2004/02/skos/core#prefLabel> "Draadloos internet"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/10> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "draadloos internet" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/10> <https://data.omgeving.vlaanderen.be/ns/waarde#groot> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/10> <https://data.omgeving.vlaanderen.be/ns/waarde#zichtbaar_op_publieke_kaart> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/11> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/11> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/11> <http://www.w3.org/2004/02/skos/core#prefLabel> "radio/televisie"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/11> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "radio/televisie" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/11> <https://data.omgeving.vlaanderen.be/ns/waarde#groot> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/11> <https://data.omgeving.vlaanderen.be/ns/waarde#zichtbaar_op_publieke_kaart> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .

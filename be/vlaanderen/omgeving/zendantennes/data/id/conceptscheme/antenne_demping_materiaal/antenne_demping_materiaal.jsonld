@@ -1,0 +1,338 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "affiliation" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "mbox" : "mailto:geert.vanhaute@vlaanderen.be",
+    "name" : "Van Haute, Geert"
+  }, {
+    "@id" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "@type" : [ "foaf:Agent", "org:Organization" ],
+    "type" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "seeAlso" : "https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "DIDM"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    },
+    "changedBy" : "http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting",
+    "classification" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "identifier" : "OVO003751",
+    "orgStatus" : "http://data.vlaanderen.be/id/concept/organisatiestatus/actief",
+    "homepage" : "https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij",
+    "mbox" : "mailto:didm.omgeving@vlaanderen.be",
+    "name" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/10",
+    "@type" : "skos:Concept",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Meerdere muren"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "key" : "Meerdere muren"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/11",
+    "@type" : "skos:Concept",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Metalen wand"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "key" : "Metalen wand"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/12",
+    "@type" : "skos:Concept",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Beton + absorber"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "key" : "Beton+absorber"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/13",
+    "@type" : "skos:Concept",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Pannendak (met isolatie)"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "key" : "Pannendak (met isolatie)"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/14",
+    "@type" : "skos:Concept",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Enkel glas"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "key" : "Enkel glas"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/15",
+    "@type" : "skos:Concept",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Dubbel glas"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "key" : "Dubbel glas"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/2",
+    "@type" : "skos:Concept",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "muur met ramen"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "key" : "muur met ramens"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/3",
+    "@type" : "skos:Concept",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Pannendak (zonder isolatie)"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "key" : "Pannendak (zonder isolatie)"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/4",
+    "@type" : "skos:Concept",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Stenen buitenmuur"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "key" : "Stenen buiten muur"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/5",
+    "@type" : "skos:Concept",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Betonnen muur (20 cm)"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "key" : "Betonnen muur (20 cm)"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/6",
+    "@type" : "skos:Concept",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Gewapend beton-verdiep"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "key" : "Gewapend beton-verdiep"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/7",
+    "@type" : "skos:Concept",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Auto"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "key" : "Auto"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/8",
+    "@type" : "skos:Concept",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Hoek van een muur > 40 cm"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "key" : "Hoek van een muur > 40 cm"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/9",
+    "@type" : "skos:Concept",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Hoek van een muur > 20 cm"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "key" : "Hoek van een muur > 20 cm"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal",
+    "@type" : "skos:ConceptScheme",
+    "issued" : "2018-11-19",
+    "temporal" : "2018",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme dempend materiaal bij elektromagnetische straling"
+    },
+    "versionInfo" : {
+      "@language" : "nl",
+      "@value" : "Eerste versie, zoals in gebruik genomen in het kader van\n            archivering van zendantennes"
+    },
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "antenne_demping_materiaal"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Lijst van stralingsdempende materialen"
+    },
+    "maker" : "_:b0"
+  } ],
+  "@context" : {
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "key" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#key"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "topConceptOf" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
+      "@type" : "@id"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "classification" : {
+      "@id" : "http://www.w3.org/ns/org#classification",
+      "@type" : "@id"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "changedBy" : {
+      "@id" : "http://www.w3.org/ns/org#changedBy",
+      "@type" : "@id"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/terms/type",
+      "@type" : "@id"
+    },
+    "homepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/homepage",
+      "@type" : "@id"
+    },
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
+    },
+    "orgStatus" : {
+      "@id" : "http://www.w3.org/ns/regorg#orgStatus",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://www.w3.org/ns/org#identifier"
+    },
+    "mbox" : {
+      "@id" : "http://xmlns.com/foaf/0.1/mbox",
+      "@type" : "@id"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type" : "@id"
+    },
+    "affiliation" : {
+      "@id" : "http://schema.org/affiliation",
+      "@type" : "@id"
+    },
+    "maker" : {
+      "@id" : "http://xmlns.com/foaf/0.1/maker",
+      "@type" : "@id"
+    },
+    "temporal" : {
+      "@id" : "http://purl.org/dc/terms/temporal"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "schema" : "http://schema.org/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "org" : "http://www.w3.org/ns/org#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "regorg" : "http://www.w3.org/ns/regorg#",
+    "waarde" : "https://data.omgeving.vlaanderen.be/ns/waarde#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "vann" : "http://purl.org/vocab/vann/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "xkos" : "http://rdf-vocabulary.ddialliance.org/xkos#"
+  }
+}

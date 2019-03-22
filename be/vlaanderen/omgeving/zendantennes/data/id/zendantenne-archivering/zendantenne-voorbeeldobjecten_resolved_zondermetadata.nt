@@ -1,0 +1,266 @@
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/locn#> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/person#> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering> <http://www.w3.org/2002/07/owl#imports> <http://data.vlaanderen.be/ns/persoon#> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering> <http://www.w3.org/2002/07/owl#imports> <http://data.vlaanderen.be/ns/adres#> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering> <http://www.w3.org/2002/07/owl#imports> <http://dbpedia.org/ontology/> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/prov#> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering> <http://www.w3.org/2002/07/owl#imports> <http://www.opengis.net/ont/geosparql> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering> <http://www.w3.org/2002/07/owl#imports> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering> <http://www.w3.org/2002/07/owl#imports> <https://data.omgeving.vlaanderen.be/ns/dossier#> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering> <http://www.w3.org/2002/07/owl#imports> <https://data.omgeving.vlaanderen.be/ns/waarde#> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/site/111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#Site> .
+_:Baaf2e845X2Dcf77X2D4634X2Dba10X2D88f42361104c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/locn#Address> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/site/111> <http://www.w3.org/ns/locn#address> _:Baaf2e845X2Dcf77X2D4634X2Dba10X2D88f42361104c .
+_:Baaf2e845X2Dcf77X2D4634X2Dba10X2D88f42361104c <http://data.vlaanderen.be/ns/adres#adresvoorstellingVan> <https://data.zendantennes.omgeving.vlaanderen.be/id/site/111> .
+_:Baaf2e845X2Dcf77X2D4634X2Dba10X2D88f42361104c <http://www.w3.org/ns/locn#fullAddress> "Sitestraat 55, 4444 Sitedorp" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/site/111> <http://purl.org/dc/terms/title> "Operator naam van het object"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/site/111> <http://purl.org/vocab/frbr/core#owner> <https://data.zendantennes.omgeving.vlaanderen.be/id/person/site-eigenaar/111> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/site/111> <http://www.w3.org/ns/locn#geometry> "<http://www.opengis.net/def/crs/EPSG/0/31370> POLYGON ((30 10, 40 40, 20 40, 10\n            20, 30 10))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/site/111> <http://www.w3.org/2000/01/rdf-schema#label> "naam van het object"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/person/site-eigenaar/111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/person#Person> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/person/site-eigenaar/111> <http://purl.org/vocab/frbr/core#ownerOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/site/111> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/person/site-eigenaar/111> <http://data.vlaanderen.be/ns/persoon#volledigeNaam> "Jan De\n            Eigenaar" .
+_:B14803339X2Dc367X2D4aecX2D8dedX2D82ef2ebef978 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/locn#Address> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/person/site-eigenaar/111> <http://www.w3.org/ns/locn#address> _:B14803339X2Dc367X2D4aecX2D8dedX2D82ef2ebef978 .
+_:B14803339X2Dc367X2D4aecX2D8dedX2D82ef2ebef978 <http://data.vlaanderen.be/ns/adres#adresvoorstellingVan> <https://data.zendantennes.omgeving.vlaanderen.be/id/person/site-eigenaar/111> .
+_:B14803339X2Dc367X2D4aecX2D8dedX2D82ef2ebef978 <http://www.w3.org/ns/locn#fullAddress> "Eigenaarstraat 22, 8888 Eigenaarsdorp" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/person/site-eigenaar/111> <http://xmlns.com/foaf/0.1/phone> <tel:+3267778899> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/demping/222/333/444> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#Demping> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/demping/222/333/444> <http://www.w3.org/2000/01/rdf-schema#label> "betonnen muur"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/demping/222/333/444> <http://purl.org/dc/terms/title> "Geselecteerde dempende maatregel die gebruik maakt van betonnen\n            muur om de straling van antenne 222 op gecontroleerde ruimte 444 te\n            beïnvloeden."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/demping/222/333/444> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#werdUitgevoerdDoor> <https://data.zendantennes.omgeving.vlaanderen.be/id/dempendemaatregel/333/444> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/demping/222/333/444> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#oorspronkelijkeStraling> <https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222dm> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/demping/222/333/444> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#gedempteStraling> <https://data.zendantennes.omgeving.vlaanderen.be/id/gedemptestraling/222/333/444> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/demping/222/333/444> <http://www.w3.org/ns/prov#used> <https://data.zendantennes.omgeving.vlaanderen.be/id/dempingsfactor/555/10/1000> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dempingsfactor/555/10/1000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#Dempingsfactor> .
+_:B0897d5d9X2D35bcX2D41caX2D9b2aX2D94f63eb2af9a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dempingsfactor/555/10/1000> <https://data.omgeving.vlaanderen.be/ns/waarde#totfrequentie> _:B0897d5d9X2D35bcX2D41caX2D9b2aX2D94f63eb2af9a .
+_:B0897d5d9X2D35bcX2D41caX2D9b2aX2D94f63eb2af9a <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/MegaHertz> .
+_:B0897d5d9X2D35bcX2D41caX2D9b2aX2D94f63eb2af9a <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "1000"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dempingsfactor/555/10/1000> <http://www.w3.org/2000/01/rdf-schema#label> "Dempingsfactor van betonnen muur tussen 10 en 1000\n            MegaHertz."@nl .
+_:B9d2e925aX2D9726X2D4c77X2Da009X2D3c2921d1f611 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dempingsfactor/555/10/1000> <https://data.omgeving.vlaanderen.be/ns/waarde#vanfrequentie> _:B9d2e925aX2D9726X2D4c77X2Da009X2D3c2921d1f611 .
+_:B9d2e925aX2D9726X2D4c77X2Da009X2D3c2921d1f611 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:B9d2e925aX2D9726X2D4c77X2Da009X2D3c2921d1f611 <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/MegaHertz> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dempingsfactor/555/10/1000> <http://purl.org/dc/terms/title> "Dempingsfactor van betonnen muur tussen 10 en 1000\n            MegaHertz."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dempingsfactor/555/10/1000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "100"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dempingsfactor/555/10/1000> <http://www.w3.org/ns/prov#wasAttributedTo> <https://data.zendantennes.omgeving.vlaanderen.be/id/dempendemaatregel/333/444> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dempingsfactor/555/10/1000> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#dempendMateriaal> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/333> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dempendemaatregel/333/444> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#DempendeMaatregel> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dempendemaatregel/333/444> <http://www.w3.org/2000/01/rdf-schema#label> "Het nemen van een dempende maatregel waarbij gebruik gemaakt wordt\n            van betonnen muur met een bepaalde frequentiedempingsfactor"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dempendemaatregel/333/444> <http://purl.org/dc/terms/title> "Het nemen van een dempende maatregel waarbij gebruik gemaakt\n            wordt van betonnen muur met een bepaalde frequentiedempingsfactor"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dempendemaatregel/333/444> <http://www.w3.org/2000/01/rdf-schema#comment> "Dit is één van de mogelijk te nemen maatregelen waarmee de\n            invloed van straling door een zendantenne op een gecontroleerde ruimte kan worden\n            beïnvloed."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dempendemaatregel/333/444> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#dempendMateriaal> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/333> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/aannemer/111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#Aannemer> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/aannemer/111> <http://www.w3.org/2000/01/rdf-schema#label> "naam van het object"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/aannemer/111> <http://purl.org/dc/terms/title> "Aannemer naam van het object"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/aannemer/111> <http://www.w3.org/ns/prov#qualifiedDelegation> <https://data.zendantennes.omgeving.vlaanderen.be/id/delegation/00102457_samenstellen_aanvraag/999/666> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/aannemer/111> <http://www.w3.org/ns/prov#actedOnBehalfOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/operator/666> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/aannemer/111> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://data.kbodata.be/organisation/0416_375_270> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/aannemer/111> <http://purl.org/dc/terms/identifier> "0416.375.270" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/aannemer/111> <http://data.vlaanderen.be/ns/persoon#volledigeNaam> "naam van het\n            object" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/delegation/00102457_samenstellen_aanvraag/999/666> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Delegation> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/delegation/00102457_samenstellen_aanvraag/999/666> <http://www.w3.org/ns/prov#agent> <https://data.zendantennes.omgeving.vlaanderen.be/id/operator/666> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/delegation/00102457_samenstellen_aanvraag/999/666> <http://www.w3.org/ns/prov#hadActivity> <https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/00102457_samenstellen_aanvraag> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/operator/666> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#Operator> .
+_:B26af9356X2Df369X2D4e71X2Da368X2D8b641d58db14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/locn#Address> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/operator/666> <http://www.w3.org/ns/locn#address> _:B26af9356X2Df369X2D4e71X2Da368X2D8b641d58db14 .
+_:B26af9356X2Df369X2D4e71X2Da368X2D8b641d58db14 <http://data.vlaanderen.be/ns/adres#adresvoorstellingVan> <https://data.zendantennes.omgeving.vlaanderen.be/id/operator/666> .
+_:B26af9356X2Df369X2D4e71X2Da368X2D8b641d58db14 <http://www.w3.org/ns/locn#fullAddress> "adres" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/operator/666> <http://purl.org/dc/terms/title> "Operator naam van het object"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/operator/666> <http://www.w3.org/2000/01/rdf-schema#label> "naam van het object"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/operator/666> <http://data.vlaanderen.be/ns/persoon#volledigeNaam> "naam van het\n            object" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/stralen/222> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#Stralen> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/stralen/222> <http://www.w3.org/2000/01/rdf-schema#label> "Het produceren van elektromagnetische straling door zendantenne\n            222"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/stralen/222> <http://www.w3.org/ns/prov#wasAssociatedWith> <https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/stralen/222> <http://www.w3.org/ns/prov#generated> <https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/stralen/222> <http://www.w3.org/ns/prov#generated> <https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222dm> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#Straling> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222> <http://www.w3.org/2000/01/rdf-schema#label> "Straling van zendantenne 222"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#stralingstype> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_straling_type/gerichte_straling> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222> <http://www.w3.org/ns/prov#influenced> <https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/444> .
+_:Bd11fb065X2D91daX2D4224X2D9f97X2Dcb4fc63bac1e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222> <https://data.omgeving.vlaanderen.be/ns/waarde#frequentie> _:Bd11fb065X2D91daX2D4224X2D9f97X2Dcb4fc63bac1e .
+_:Bd11fb065X2D91daX2D4224X2D9f97X2Dcb4fc63bac1e <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/MegaHertz> .
+_:Bd11fb065X2D91daX2D4224X2D9f97X2Dcb4fc63bac1e <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "9000"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222dm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#Straling> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222dm> <http://www.w3.org/2000/01/rdf-schema#label> "Straling van zendantenne 222"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222dm> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#stralingstype> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_straling_type/gerichte_straling> .
+_:Bd11fb065X2D91daX2D4224X2D9f97X2Dcb4fc63bac1e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222dm> <https://data.omgeving.vlaanderen.be/ns/waarde#frequentie> _:Bd11fb065X2D91daX2D4224X2D9f97X2Dcb4fc63bac1e .
+_:Bd11fb065X2D91daX2D4224X2D9f97X2Dcb4fc63bac1e <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/MegaHertz> .
+_:Bd11fb065X2D91daX2D4224X2D9f97X2Dcb4fc63bac1e <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "9000"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/gedemptestraling/222/333/444> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#GedempteStraling> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/gedemptestraling/222/333/444> <http://www.w3.org/2000/01/rdf-schema#label> "Straling van zendantenne 222"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/gedemptestraling/222/333/444> <http://www.w3.org/ns/prov#influenced> <https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/444> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/gedemptestraling/222/333/444> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222dm> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#Zendantenne> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222> <http://www.w3.org/2000/01/rdf-schema#label> "Zendantenne 222"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222> <http://purl.org/dc/terms/title> "Zendantenne 222"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222> <http://www.w3.org/ns/prov#actedOnBehalfOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/operator/666> .
+_:Bbcff42daX2D997dX2D4c54X2D81f6X2Dbec5d9f1ba7f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222> <https://data.omgeving.vlaanderen.be/ns/waarde#mechanischetilt> _:Bbcff42daX2D997dX2D4c54X2D81f6X2Dbec5d9f1ba7f .
+_:Bbcff42daX2D997dX2D4c54X2D81f6X2Dbec5d9f1ba7f <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "5.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:Bbcff42daX2D997dX2D4c54X2D81f6X2Dbec5d9f1ba7f <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden> .
+_:Bc80c1a82X2Deaf6X2D4534X2D94b6X2D7664c1d5b47a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222> <https://data.omgeving.vlaanderen.be/ns/waarde#maximaleinvloedsstraal> _:Bc80c1a82X2Deaf6X2D4534X2D94b6X2D7664c1d5b47a .
+_:Bc80c1a82X2Deaf6X2D4534X2D94b6X2D7664c1d5b47a <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter> .
+_:Bc80c1a82X2Deaf6X2D4534X2D94b6X2D7664c1d5b47a <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "99.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#antennetype> <https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype/777/b> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222> <http://www.w3.org/ns/prov#atLocation> <https://data.zendantennes.omgeving.vlaanderen.be/id/site/111> .
+_:Bd8f6c618X2D0261X2D408dX2D81adX2D2aa31f9ae78c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222> <https://data.omgeving.vlaanderen.be/ns/waarde#ophangingshoogte> _:Bd8f6c618X2D0261X2D408dX2D81adX2D2aa31f9ae78c .
+_:Bd8f6c618X2D0261X2D408dX2D81adX2D2aa31f9ae78c <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "900"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:Bd8f6c618X2D0261X2D408dX2D81adX2D2aa31f9ae78c <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222> <https://data.omgeving.vlaanderen.be/ns/waarde#elektrischetilt> "6"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:B11f6bc55X2Dcef3X2D4dc1X2Da0efX2D36c475702a5c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222> <https://data.omgeving.vlaanderen.be/ns/waarde#azimut> _:B11f6bc55X2Dcef3X2D4dc1X2Da0efX2D36c475702a5c .
+_:B11f6bc55X2Dcef3X2D4dc1X2Da0efX2D36c475702a5c <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "77.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:B11f6bc55X2Dcef3X2D4dc1X2Da0efX2D36c475702a5c <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden> .
+_:Bf27e7892X2D8558X2D4543X2Da001X2D8e775508b41d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222> <https://data.omgeving.vlaanderen.be/ns/waarde#vermogen> _:Bf27e7892X2D8558X2D4543X2Da001X2D8e775508b41d .
+_:Bf27e7892X2D8558X2D4543X2Da001X2D8e775508b41d <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "88.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:Bf27e7892X2D8558X2D4543X2Da001X2D8e775508b41d <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/DecibelReferredToOneMilliwatt> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222> <http://www.w3.org/ns/locn#geometry> "<http://www.opengis.net/def/crs/EPSG/0/31370> POLYGON ((30 10, 40 40, 20 40, 10\n            20, 30 10))>"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222> <http://purl.org/dc/terms/rights> <https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest/00102457_beslissing_conformiteitsattest> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#antennetechnologie> <https://data.zendantennes.omgeving.vlaanderen.be/antennetechnologie/technologie.id> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/444> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#GecontroleerdeRuimte> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/444> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#ligt_binnen_de_maximale_invloedsfeer_van> <https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/444> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#grb_uidn> "88" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/444> <http://purl.org/dc/terms/type> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gebouw_dtype/gebouw> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/444> <http://www.w3.org/ns/locn#geometry> "<http://www.opengis.net/def/crs/EPSG/0/31370> POLYGON ((30 10, 40 40, 20 40, 10\n            20, 30 10))>"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/444> <http://purl.org/dc/terms/title> "Gecontroleerde ruimte 444"@nl .
+_:B422c75a2X2D034dX2D4d47X2Db1d0X2Dcd12e17e4a82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/444> <https://data.omgeving.vlaanderen.be/ns/waarde#basis> _:B422c75a2X2D034dX2D4d47X2Db1d0X2Dcd12e17e4a82 .
+_:B422c75a2X2D034dX2D4d47X2Db1d0X2Dcd12e17e4a82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "33.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:B422c75a2X2D034dX2D4d47X2Db1d0X2Dcd12e17e4a82 <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/444> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#rekenmethode> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_rekenmethode/schil> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/444> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#normtype> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_norm_type/norm_buiten> .
+_:B422c75a2X2D034dX2D4d47X2Db1d0X2Dcd12e17e4a82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/444> <https://data.omgeving.vlaanderen.be/ns/waarde#hoogte> _:B422c75a2X2D034dX2D4d47X2Db1d0X2Dcd12e17e4a82 .
+_:B422c75a2X2D034dX2D4d47X2Db1d0X2Dcd12e17e4a82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "33.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:B422c75a2X2D034dX2D4d47X2Db1d0X2Dcd12e17e4a82 <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/444> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#status> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/actief> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/444> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#grb_oidn> "9" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype/777/b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#Antennetype> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype/777/b> <http://www.w3.org/2000/01/rdf-schema#label> "gsm"@nl .
+_:B362a93eaX2D8f5cX2D4fe0X2Da8dbX2D1ee4774d52ec <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype/777/b> <https://data.omgeving.vlaanderen.be/ns/waarde#hoogte> _:B362a93eaX2D8f5cX2D4fe0X2Da8dbX2D1ee4774d52ec .
+_:B362a93eaX2D8f5cX2D4fe0X2Da8dbX2D1ee4774d52ec <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter> .
+_:B362a93eaX2D8f5cX2D4fe0X2Da8dbX2D1ee4774d52ec <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "9.6"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype/777/b> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#stralingstype> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_straling_type/gerichte_straling> .
+_:Bce9ca2cdX2D1578X2D4573X2Db356X2Dbe0947725bb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype/777/b> <https://data.omgeving.vlaanderen.be/ns/waarde#verticaleopeningshoek> _:Bce9ca2cdX2D1578X2D4573X2Db356X2Dbe0947725bb2 .
+_:Bce9ca2cdX2D1578X2D4573X2Db356X2Dbe0947725bb2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "60"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:Bce9ca2cdX2D1578X2D4573X2Db356X2Dbe0947725bb2 <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden> .
+_:B98cae11bX2D5b32X2D4eaaX2Dba17X2D7db6d46a712d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype/777/b> <https://data.omgeving.vlaanderen.be/ns/waarde#horizontaleopeningshoek> _:B98cae11bX2D5b32X2D4eaaX2Dba17X2D7db6d46a712d .
+_:B98cae11bX2D5b32X2D4eaaX2Dba17X2D7db6d46a712d <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden> .
+_:B98cae11bX2D5b32X2D4eaaX2Dba17X2D7db6d46a712d <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "170"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:B2b8c7bd9X2Ddc1fX2D4df4X2Dabd2X2Db4f56ad0ff4c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype/777/b> <https://data.omgeving.vlaanderen.be/ns/waarde#winst> _:B2b8c7bd9X2Ddc1fX2D4df4X2Dabd2X2Db4f56ad0ff4c .
+_:B2b8c7bd9X2Ddc1fX2D4df4X2Dabd2X2Db4f56ad0ff4c <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Decibels-isotropic> .
+_:B2b8c7bd9X2Ddc1fX2D4df4X2Dabd2X2Db4f56ad0ff4c <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "6"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:B2b8c7bd9X2Ddc1fX2D4df4X2Dabd2X2Db4f56ad0ff4c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype/777/b> <https://data.omgeving.vlaanderen.be/ns/waarde#breedte> _:B2b8c7bd9X2Ddc1fX2D4df4X2Dabd2X2Db4f56ad0ff4c .
+_:B2b8c7bd9X2Ddc1fX2D4df4X2Dabd2X2Db4f56ad0ff4c <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter> .
+_:B2b8c7bd9X2Ddc1fX2D4df4X2Dabd2X2Db4f56ad0ff4c <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "6"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:B73d736bfX2D2122X2D4dbbX2Da646X2Db29c6ca8b12a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#Antennewinstverlies> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype/777/b> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#antennewinstverlies> _:B73d736bfX2D2122X2D4dbbX2Da646X2Db29c6ca8b12a .
+_:B2b8c7bd9X2Ddc1fX2D4df4X2Dabd2X2Db4f56ad0ff4c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+_:B73d736bfX2D2122X2D4dbbX2Da646X2Db29c6ca8b12a <https://data.omgeving.vlaanderen.be/ns/waarde#winst> _:B2b8c7bd9X2Ddc1fX2D4df4X2Dabd2X2Db4f56ad0ff4c .
+_:B2b8c7bd9X2Ddc1fX2D4df4X2Dabd2X2Db4f56ad0ff4c <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Decibels-isotropic> .
+_:B2b8c7bd9X2Ddc1fX2D4df4X2Dabd2X2Db4f56ad0ff4c <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "6"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:Bfd478f50X2D3e1bX2D431fX2D8cc6X2D308d373210e5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+_:B73d736bfX2D2122X2D4dbbX2Da646X2Db29c6ca8b12a <https://data.omgeving.vlaanderen.be/ns/waarde#vanhoek> _:Bfd478f50X2D3e1bX2D431fX2D8cc6X2D308d373210e5 .
+_:Bfd478f50X2D3e1bX2D431fX2D8cc6X2D308d373210e5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "90"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:Bfd478f50X2D3e1bX2D431fX2D8cc6X2D308d373210e5 <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden> .
+_:B73d736bfX2D2122X2D4dbbX2Da646X2Db29c6ca8b12a <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#vlakwinstverlies> "geen" .
+_:B73d736bfX2D2122X2D4dbbX2Da646X2Db29c6ca8b12a <http://www.w3.org/2000/01/rdf-schema#label> "antennewinstverlies"@nl .
+_:B08d1d290X2D8934X2D42eeX2Da1e7X2Df7cd81677e00 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+_:B73d736bfX2D2122X2D4dbbX2Da646X2Db29c6ca8b12a <https://data.omgeving.vlaanderen.be/ns/waarde#tothoek> _:B08d1d290X2D8934X2D42eeX2Da1e7X2Df7cd81677e00 .
+_:B08d1d290X2D8934X2D42eeX2Da1e7X2Df7cd81677e00 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "60"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:B08d1d290X2D8934X2D42eeX2Da1e7X2Df7cd81677e00 <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype/777/b> <http://purl.org/dc/terms/title> "Antennetype gsm"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest/00102457_beslissing_conformiteitsattest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#Conformiteitsattest> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest/00102457_beslissing_conformiteitsattest> <http://purl.org/dc/terms/title> "dc.title"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest/00102457_beslissing_conformiteitsattest> <http://www.w3.org/2000/01/rdf-schema#label> "vlaanderen.identifier"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest/00102457_beslissing_conformiteitsattest> <http://purl.org/dc/terms/rightsHolder> <https://data.zendantennes.omgeving.vlaanderen.be/id/operator/666> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest/00102457_beslissing_conformiteitsattest> <https://data.omgeving.vlaanderen.be/ns/dossier#certifiëert> <https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest/00102457_beslissing_conformiteitsattest> <https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotProcedurestap> <https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/00102457_beslissing> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest/00102457_beslissing_conformiteitsattest> <http://purl.org/dc/terms/type> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/conformiteitsattest> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest/00102457_beslissing_conformiteitsattest> <http://www.w3.org/ns/dcat#downloadURL> <https://data.zendantennes.omgeving.vlaanderen.be/id/dspacedownloadURL-rest> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/bijlage/00102457_beslissing_conformiteitsattest_signedsubmission_923837346> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/dossier#Bijlage> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/bijlage/00102457_beslissing_conformiteitsattest_signedsubmission_923837346> <http://purl.org/dc/terms/title> "dc.title"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/bijlage/00102457_beslissing_conformiteitsattest_signedsubmission_923837346> <http://www.w3.org/2000/01/rdf-schema#label> "bijlage.filenaam"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/bijlage/00102457_beslissing_conformiteitsattest_signedsubmission_923837346> <https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDocument> <https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest/00102457_beslissing_conformiteitsattest> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/bijlage/00102457_beslissing_conformiteitsattest_signedsubmission_923837346> <http://purl.org/dc/terms/type> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/signedsubmission> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/bijlage/00102457_beslissing_conformiteitsattest_signedsubmission_923837346> <http://www.w3.org/ns/dcat#downloadURL> <https://data.zendantennes.omgeving.vlaanderen.be/id/dspacedownloadURL-rest> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/bijlage/00102457_beslissing_conformiteitsattest_signedsubmission_923837346> <http://purl.org/dc/elements/1.1/format> "signed submission" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/00102457_samenstellen_aanvraag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/00102457_samenstellen_aanvraag> <http://purl.org/dc/terms/title> "dc.title"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/00102457_samenstellen_aanvraag> <http://www.w3.org/2000/01/rdf-schema#label> "vlaanderen.identifier"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/00102457_samenstellen_aanvraag> <https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDossier> <https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/00102457_samenstellen_aanvraag> <http://purl.org/dc/terms/type> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/samenstellen_aanvraag> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/00102457_samenstellen_aanvraag> <http://www.w3.org/ns/prov#generated> <https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest/00102457_beslissing_conformiteitsattest> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/00102457_samenstellen_aanvraag> <http://www.w3.org/ns/prov#wasAssociatedWith> <https://data.zendantennes.omgeving.vlaanderen.be/id/operator/666> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/00102457_beslissing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/00102457_beslissing> <http://purl.org/dc/terms/title> "dc.title"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/00102457_beslissing> <http://www.w3.org/2000/01/rdf-schema#label> "vlaanderen.identifier"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/00102457_beslissing> <http://purl.org/dc/terms/type> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/beslissing> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/00102457_beslissing> <https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDossier> <https://data.zendantennes.omgeving.vlaanderen.be/id/data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/document/00102457_samenstellen_aanvraag_afbeeldingen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/dossier#Document> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/document/00102457_samenstellen_aanvraag_afbeeldingen> <http://purl.org/dc/terms/title> "dc.title"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/document/00102457_samenstellen_aanvraag_afbeeldingen> <http://www.w3.org/2000/01/rdf-schema#label> "vlaanderen.identifier"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/document/00102457_samenstellen_aanvraag_afbeeldingen> <http://purl.org/dc/terms/type> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeeldingen> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/document/00102457_samenstellen_aanvraag_afbeeldingen> <https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotProcedurestap> <https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/00102457_samenstellen_aanvraag> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/afbeelding/00102457_samenstellen_aanvraag_afbeeldingen_afbeelding_2104325215> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/dossier#Afbeelding> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/afbeelding/00102457_samenstellen_aanvraag_afbeeldingen_afbeelding_2104325215> <http://purl.org/dc/terms/title> "dc.title"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/afbeelding/00102457_samenstellen_aanvraag_afbeeldingen_afbeelding_2104325215> <http://www.w3.org/2000/01/rdf-schema#label> "afbeelding.filenaam"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/afbeelding/00102457_samenstellen_aanvraag_afbeeldingen_afbeelding_2104325215> <https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDocument> <https://data.zendantennes.omgeving.vlaanderen.be/id/document/00102457_samenstellen_aanvraag_afbeeldingen> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/afbeelding/00102457_samenstellen_aanvraag_afbeeldingen_afbeelding_2104325215> <http://purl.org/dc/terms/type> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeelding> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/afbeelding/00102457_samenstellen_aanvraag_afbeeldingen_afbeelding_2104325215> <http://purl.org/dc/terms/coverage> "<http://www.opengis.net/def/crs/EPSG/0/31370> POLYGON ((30 10, 40 40, 20 40, 10\n            20, 30 10))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/afbeelding/00102457_samenstellen_aanvraag_afbeeldingen_afbeelding_2104325215> <http://xmlns.com/foaf/0.1/depicts> <https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/444> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/afbeelding/00102457_samenstellen_aanvraag_afbeeldingen_afbeelding_2104325215> <http://www.w3.org/ns/dcat#downloadURL> <https://data.zendantennes.omgeving.vlaanderen.be/id/dspacedownloadURL-rest> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/antennetechnologie/technologie.id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#Antennetechnologie> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <http://purl.org/dc/terms/title> "dc.title"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <http://www.w3.org/2000/01/rdf-schema#label> "vlaanderen.identifier"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <http://purl.org/dc/terms/subject> <https://data.zendantennes.omgeving.vlaanderen.be/id/site/111> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <http://purl.org/dc/terms/subject> <https://data.zendantennes.omgeving.vlaanderen.be/id/dempendemaatregel/333> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <http://purl.org/dc/terms/subject> <https://data.zendantennes.omgeving.vlaanderen.be/id/demping/222/333/444> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <http://purl.org/dc/terms/subject> <https://data.zendantennes.omgeving.vlaanderen.be/id/aannemer/111> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <http://purl.org/dc/terms/subject> <https://data.zendantennes.omgeving.vlaanderen.be/id/operator/666> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <http://purl.org/dc/terms/subject> <https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/444> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <http://purl.org/dc/terms/subject> <https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <http://purl.org/dc/terms/subject> <https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype/777> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <https://data.omgeving.vlaanderen.be/ns/dossier#referentie> "dossier.referentie" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <https://data.omgeving.vlaanderen.be/ns/dossier#evaluatie> "dossier.evaluatie" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <https://data.omgeving.vlaanderen.be/ns/dossier#dossierbehandelaar> <https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/ik> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <https://data.omgeving.vlaanderen.be/ns/dossier#dossiereigenaar> <https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/jij> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <https://data.omgeving.vlaanderen.be/ns/dossier#dossiermedewerker> <https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/hij> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <http://purl.org/dc/elements/1.1/creator> "operator.naam" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <http://purl.org/dc/elements/1.1/publisher> "Ministerie van de Vlaamse Gemeenschap" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <http://purl.org/dc/elements/1.1/source> "Aanvraag van een conformiteitsattest voor een zendantenne" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <http://purl.org/dc/terms/identifier> "vlaanderen.identifier" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <http://purl.org/dc/terms/publisher> <http://data.kbodata.be/organisation/0316_380_841> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <http://purl.org/dc/terms/type> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/2> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <http://purl.org/dc/terms/type> <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/dossier> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <http://dbpedia.org/ontology/procedure> "Procedure voor de aanvraag van een conformiteitsattest voor een\n            zendantenne"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457> <http://schema.org/about> <https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id//person/zendantenne/zendantennesgebruiker/ik> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/person#Person> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id//person/zendantenne/zendantennesgebruiker/ik> <http://purl.org/dc/terms/title> "Gebruiker van zendantenne-toepassing: ikzelf"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id//person/zendantenne/zendantennesgebruiker/ik> <http://www.w3.org/2000/01/rdf-schema#label> "ikzelf"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id//person/zendantenne/zendantennesgebruiker/ik> <http://data.vlaanderen.be/ns/persoon#volledigeNaam> "ikzelf" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id//person/zendantenne/zendantennesgebruiker/ik> <http://xmlns.com/foaf/0.1/mbox> <mailto:gebruiker.email> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/jij> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/person#Person> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/jij> <http://purl.org/dc/terms/title> "Gebruiker van zendantenne-toepassing: jij daar"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/jij> <http://www.w3.org/2000/01/rdf-schema#label> "jij daar"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/jij> <http://data.vlaanderen.be/ns/persoon#volledigeNaam> "jij daar" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/jij> <http://xmlns.com/foaf/0.1/mbox> <mailto:gebruiker.email> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/hij> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/person#Person> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/hij> <http://purl.org/dc/terms/title> "Gebruiker van zendantenne-toepassing: hij\n            ginder"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/hij> <http://www.w3.org/2000/01/rdf-schema#label> "hij ginder"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/hij> <http://data.vlaanderen.be/ns/persoon#volledigeNaam> "hij ginder" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/hij> <http://xmlns.com/foaf/0.1/mbox> <mailto:gebruiker.email> .

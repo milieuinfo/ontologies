@@ -1,0 +1,2005 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "affiliation" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "mbox" : "mailto:geert.vanhaute@vlaanderen.be",
+    "name" : "Van Haute, Geert"
+  }, {
+    "@id" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "@type" : [ "foaf:Agent", "org:Organization" ],
+    "type" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "seeAlso" : "https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "DIDM"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    },
+    "changedBy" : "http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting",
+    "classification" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "identifier" : "OVO003751",
+    "orgStatus" : "http://data.vlaanderen.be/id/concept/organisatiestatus/actief",
+    "homepage" : "https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij",
+    "mbox" : "mailto:didm.omgeving@vlaanderen.be",
+    "name" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie",
+    "@type" : "owl:Ontology",
+    "imports" : [ "http://purl.org/dc/elements/1.1/", "http://purl.org/dc/terms/", "http://www.w3.org/2004/02/skos/core" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID10066",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/10066", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID10066" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Isodrin"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "isodrin"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID104730",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/104730", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID104730" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kobalt"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "kobalt"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID1061",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/1061", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1061" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Fosfaat"
+    }, {
+      "@language" : "en",
+      "@value" : "Phosphate"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "PO4"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID11",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/11", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID11" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "1,2-Dichloorethaan"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "1,2-dichloorethaan"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID1117",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/1117", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1117" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Sulfaat"
+    }, {
+      "@language" : "en",
+      "@value" : "Sulfate"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "SO4"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID1140",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/1140", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1140" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Tolueen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "tolueen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID11855",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/11855", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID11855" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Pentachloorbenzeen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "pentachloorbenzeen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID12310947",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/12310947", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID12310947" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aldrin"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "aldrin"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID13",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/13", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID13" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "1,2,4-Trichloorbenzeen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "1,2,4-trichloorbenzeen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID16945",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/16945", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID16945" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Mirex"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "mirex"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID1732",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/1732", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1732" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "4-Chloor-3-methylfenol"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "4-chloor-3-methylfenol"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID19660",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/19660", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID19660" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Carbonaat"
+    }, {
+      "@language" : "en",
+      "@value" : "Carbonate"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "CO3"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID2078",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/2078", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID2078" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Alachloor"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "alachloor"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID222",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/222", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID222" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Ammoniak"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "nh3"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID223",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/223", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID223" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Ammonium"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : [ "H4N+", "NH4" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID2256",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/2256", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID2256" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Atrazine"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "atrazine"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID2336",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/2336", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID2336" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Benzo(a)pyreen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "benzo(a)pyreen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23930",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/23930", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23930" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Mangaan"
+    }, {
+      "@language" : "en",
+      "@value" : "Manganese"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : [ "mangaan", "Mn" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23931",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/23931", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23931" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kwik"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "kwik"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23932",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/23932", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23932" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Molybdeen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "molybdeen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23954",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/23954", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23954" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zilver"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "zilver"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23963",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/23963", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23963" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Titanium"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "titaan"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23973",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/23973", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23973" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Cadmium"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "cadmium"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23976",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/23976", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23976" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Chroom"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "chroom"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23978",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/23978", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23978" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Koper"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "koper"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23989",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/23989", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23989" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Uranium"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "uranium"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23990",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/23990", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23990" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Vanadium"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "vanadium"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23994",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/23994", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23994" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zink"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "zink"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID241",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/241", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID241" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Benzeen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "benzeen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID24526",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/24526", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID24526" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Chloor"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : [ "CL", "chloor" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID271",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/271", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID271" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Calcium ion"
+    }, {
+      "@language" : "en",
+      "@value" : "Calcium ion"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "Ca"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID27284",
+    "@type" : "skos:Concept",
+    "seeAlso" : "https://pubchem.ncbi.nlm.nih.gov/compound/27284",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Ferrous ion"
+    }, {
+      "@language" : "nl",
+      "@value" : "Ijzer divalent ion"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "Fe3+"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID2730",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/2730", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID2730" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Chloorpyrifos"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "chloorpyrifos"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID280",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/280", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID280" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kooldioxide"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "co2"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID281",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/281", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID281" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Koolmonoxide"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "co"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID297",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/297", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID297" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Methaan"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "ch4"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID299",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/299", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID299" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Chloordecon"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "chloordecon"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID29936",
+    "@type" : "skos:Concept",
+    "seeAlso" : "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID29936",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Ferric ion"
+    }, {
+      "@language" : "nl",
+      "@value" : "Ijzer trivalent ion"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "Fe2+"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID3032552",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/3032552", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID3032552" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Stikstofdioxide"
+    }, {
+      "@language" : "en",
+      "@value" : "Nitrogen dioxide"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "NO2"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID3036",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/3036", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID3036" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "DDT"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "ddt"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID3120",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/3120", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID3120" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Diuron"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "diuron"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID31373",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/31373", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID31373" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Tetrachloorethyleen (PER)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "tetrachlooretheen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID3224",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/3224", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID3224" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Endosulfaan"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "endosulfan"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID3589",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/3589", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID3589" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Heptachloor"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "heptachloor"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID36679",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/36679", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID36679" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Isoproturon"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "isoproturon"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID402",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/402", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID402" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "H2S"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "h2s"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID42948",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/42948", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID42948" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Hexabroombifenyl"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "hexabroombifenyl"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID4684",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/4684", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID4684" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "4-Chloorfenol"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "4-chloorfenol"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5216",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/5216", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5216" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Simazine"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "simazine"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5284469",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/5284469", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5284469" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Toxafeen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "toxafeen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5352425",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/5352425", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5352425" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Lood"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "lood"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5352426",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/5352426", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5352426" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Tin"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "tin"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5354495",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/5354495", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5354495" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Antimoon"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "antimoon"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5355457",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/5355457", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5355457" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Barium"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "barium"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5359464",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/5359464", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5359464" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Thallium"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "thallium"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5359596",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/5359596", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5359596" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Arsenicum"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "arseen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5360545",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/5360545", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5360545" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Natrium"
+    }, {
+      "@language" : "en",
+      "@value" : "Sodium"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "Na"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5377784",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/5377784", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5377784" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Chloorfenvinfos"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "chloorfenvinfos"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5460467",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/5460467", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5460467" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Beryllium"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : [ "beryllium", "berylium" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5460653",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/5460653", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5460653" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Proton"
+    }, {
+      "@language" : "en",
+      "@value" : "Proton"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "H(tot)"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5462224",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/5462224", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5462224" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Magnesium"
+    }, {
+      "@language" : "en",
+      "@value" : "Magnesium"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "Mg"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5462311",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/5462311", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5462311" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Zuurstof"
+    }, {
+      "@language" : "en",
+      "@value" : "Oxygen"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "O2"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5569",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/5569", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5569" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Trifluralin"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "trifluralin"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5889",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/5889", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5889" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Dibenzo(a,h)anthraceen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "dibenzo(a,h)anthraceen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5943",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/5943", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5943" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Tetrachloormethaan (TCM)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "tetrachloormethaan"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5954",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/5954", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5954" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Benzo(a)anthraceen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "benzo(a)anthraceen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5993",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/5993", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5993" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Chloordaan"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "chloordaan"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6212",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/6212", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6212" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Trichloormethaan"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "trichloormethaan"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6278",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/6278", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6278" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Trichloorethaan"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "trichloorethaan"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6326970",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/6326970", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6326970" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Seleen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "seleen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6327182",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/6327182", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6327182" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Tellurium"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "tellurium"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6338",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/6338", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6338" ],
+    "altLabel" : "Mono-vinylchloride",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Chlooretheen (vinylchloride)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : [ "mono-vinylchloride", "chlooretheen (vinylchloride)" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6344",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/6344", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6344" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Dichloormethaan (DCM)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "dichloormethaan"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6348",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/6348", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6348" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zwavelkoolstof"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "zwavelkoolstof"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6354",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/6354", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6354" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Ethyleenoxide"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "ethyleenoxide"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6574",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/6574", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6574" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "1,1,2-Trichloorethaan"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "1,1,2-trichloorethaan"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6575",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/6575", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6575" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Trichlooretheen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "trichlooretheen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6591",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/6591", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6591" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "1,1,2,2-Tetrachloroethaan"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "1,1,2,2-tetrachloroethaan"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6901",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/6901", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6901" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Hexachloorbutadieen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "hexachloorbutadieen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID712",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/712", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID712" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Formaldehyde"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "formaldehyde"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID71312306",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/71312306", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID71312306" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Endrin"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "endrin"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID7238",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/7238", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7238" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "2-Chloortolueen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "2-chloortolueen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID7239",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/7239", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7239" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "1,2-Dichloorbenzeen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "1,2-dichloorbenzeen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID7245",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/7245", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7245" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "2-Chloorfenol"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "2-chloorfenol"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID727",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/727", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID727" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Lindaan"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "lindaan"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID7406",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/7406", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7406" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Isopropylbenzeen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "isopropylbenzeen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID7500",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/7500", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7500" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Ethylbenzeen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "ethylbenzeen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID7501",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/7501", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7501" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Styreen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "styreen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID7503",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/7503", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7503" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "a-Chloortolueen (benzylchloride)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "a-chloortolueen (benzylchloride)"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID768",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/768", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID768" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Waterstofcyanide (HCN)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "hcn"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID769",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/769", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID769" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Bicarbonaat"
+    }, {
+      "@language" : "en",
+      "@value" : "Bicarbonate"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "HCO3"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID7810",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/7810", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7810" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "4-Chloortolueen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "4-chloortolueen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID7855",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/7855", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7855" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Acrylonitrile"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "acrylonitrile"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID7933",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/7933", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7933" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "3-Chloorfenol"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "3-chloorfenol"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID7964",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/7964", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7964" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Chloorbenzeen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "chloorbenzeen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID813",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/813", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID813" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Kalium Ion"
+    }, {
+      "@language" : "en",
+      "@value" : "Potassium Ion"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "K"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID8343",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/8343", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID8343" ],
+    "altLabel" : "Di(2-ethylhexyl)ftalaat (DEHP)",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Di-(2-ethyl hexyl) phthalaat (DEHP)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : [ "di(2-ethylhexyl)ftalaat (dehp)", "di-(2-ethyl hexyl) phthalaat (dehp)" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID8370",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/8370", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID8370" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Hexachloorbenzeen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "hexachloorbenzeen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID8418",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/8418", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID8418" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Anthraceen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "anthraceen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID8449",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/8449", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID8449" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "2,4-Dichloorfenol"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "2,4-dichloorfenol"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID9117",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/9117", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID9117" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Benzo(g,h,i)peryleen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "benzo(g,h,i)peryleen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID9131",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/9131", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID9131" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Indeno(1,2,3-cd)pyreen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "indeno(1,2,3-cd)pyreen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID9153",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/9153", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID9153" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "benzo(b)fluorantheen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "benzo(b)fluorantheen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID9154",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/9154", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID9154" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Fluorantheen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "fluorantheen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID9158",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/9158", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID9158" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Benzo(k)fluorantheen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "benzo(k)fluorantheen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID9171",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/9171", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID9171" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Chryseen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "chryseen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID931",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/931", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID931" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Nafthaleen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "naftaleen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID935",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/935", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID935" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Nikkel"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "nikkel"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID943",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/943", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID943" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Nitraat"
+    }, {
+      "@language" : "en",
+      "@value" : "Nitrate"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "NO3"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID948",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/948", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID948" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Distikstofoxide"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "n2o"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID961",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/961", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID961" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Hydroxide"
+    }, {
+      "@language" : "en",
+      "@value" : "Hydroxide"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "OH"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID969491",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/969491", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID969491" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Dieldrin"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "dieldrin"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID977",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/977", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID977" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Boor"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "boor"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID992",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/992", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID992" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Pentachloorfenol (PCF)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "pentachloorfenol"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID995",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/995", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID995" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Phenanthreen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "phenanthreen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID996",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://pubchem.ncbi.nlm.nih.gov/compound/996", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID996" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Fenol"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "fenol"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/aox",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Gehalogeneerde organische verbindingen (als AOX)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "aox"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/biochemisch_zuurstofverbruik",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Biochemisch zuurstofverbruik"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "biochemisch zuurstofverbruik"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/cfk",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Chloorfluorkoolstoffen (CFK’s)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "cfk's (chloorfluorkoolstoffen)"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/chemisch_zuurstofverbruik",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Chemisch zuurstofverbruik"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "chemisch zuurstofverbruik"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/chlooralkanen",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Chlooralkanen, C10-C13"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "chlooralkanen (c10 -c13)"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/chloorverbindingen",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Chloor en anorganische verbindingen (als Cl-)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "cl-verbindingen (als cl- )"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/chloriden",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Chloriden (als totaal Cl)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "chlorides (als cl)"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/cyaniden",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Cyaniden (als totaal CN)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "cyaniden totaal"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/dichlooranilines",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Dichlooraniline-isomeren"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "dichlooranilines"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/fluoriden",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Fluoriden (als totaal F)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "fluorides (als f)"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/fluorverbindingen",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Fluor en anorganische verbindingen (als F-)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : [ "F", "f-verbindingen (als f- )" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/fosfor_totaal",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Fosfor totaal (P)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "fosfor totaal (p)"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/halonen",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Halonen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "halonen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/hcfk",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Chloorfluorkoolwaterstoffen (HCFK’s)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "hcfk's (chloorfluorkoolwaterstoffen)"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/hexachloorcyclohexaan_isomeren",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Hexachloorcyclohexaan-isomeren"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "hexachloorcyclohexaan-isomeren"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/hfk",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Fluorkoolwaterstoffen(HFK's)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "hfk's (fluorkoolwaterstoffen)"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/niet_elders_genoemde_aromatische_nmvos",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Niet elders genoemde aromatische NMVOS"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "niet eerder genoemde aromatische nmvos"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/niet_elders_genoemde_gehalogeneerde_nmvos",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Niet elders genoemde gehalogeneerde NMVOS"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "niet eerder genoemde gehalogeneerde nmvos"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/niet_elders_genoemde_nmvos",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Niet elders genoemde NMVOS"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "niet eerder genoemde nmvos"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/niet_elders_genoemde_ozonafbrekende_stoffen",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Niet eerder genoemde ozonafbrekende stoffen en F-gassen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "niet eerder genoemde ozonafbrekende stoffen en f-gassen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/nonylfenolethoxylaten",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Nonylfenolethoxylaten (NP/NPE’s) en verwante stoffen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "nonylfenol en nonylfenolethoxylaten (np/npe's)"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/octylfenolethoxylaten",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Octylfenolen en octylfenolethoxylaten"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "octylfenolen en octylfenolethoxylaten"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/pak",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Polycyclische aromatische koolwaterstoffen (PAK’s)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "pak's (polyaromatische koolwaterstoffen)"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/pak_16",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "PAK 16"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "pak 16"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/pbde",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Gebromeerde difenylethers (PBDE)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "broomdifenylethers"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/pcb",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Polychloorbifenylen (PCB's)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "polychloorbifenylen (pcb's)"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/pcdd_pcdf",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "PCDD + PCDF (dioxinen + furanen) (als Teq)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : [ "pcdd+pcdf (dioxinen+furanen) (als teq)", "pcdd/f" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/pfk",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Perfluorkoolwaterstoffen (PFK's)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "pfk's (perfluorkoolwaterstoffen)"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/pm10",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zwevende deeltjes (PM10)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "pm10"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/pm2.5",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zwevende deeltjes (PM2.5)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "pm2.5"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/stikstofoxiden",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Stikstofoxiden (NOx/NO2)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "nox (als no2)"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/sulfiden",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Sulfiden"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "sulfiden"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/toc",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Totaal organische koolstof (TOC, als C)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "totaal organische koolstof (toc, als c)"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/totaal_aromatische_nmvos",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Totaal aromatische NMVOS"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "totaal aromatische nmvos"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/totaal_gehalogeneerde_nmvos",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Totaal gehalogeneerde NMVOS"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "totaal gehalogeneerde nmvos"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/totaal_nmvos",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Totaal NMVOS"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "totaal nmvos"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/totaal_organochloorpesticiden_drempel_100g_per_jaar",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Totaal organochloorpesticiden waarvan indiv. drempelwaarde = 0,1 kg/j"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "totaal organochloorpesticiden waarvan indiv. drempelwaarde = 0,1 kg/j"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/totaal_organofosforpesticiden",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Totaal organofosforpesticiden"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "totaal organofosforpesticiden"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/totaal_organostikstofpesticiden",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Totaal organostikstofpesticiden"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "totaal organostikstofpesticiden"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/totaal_organotinverbindingen",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Totaal organotinverbindingen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "totaal organotinverbindingen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/totaal_stikstof",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Stikstof totaal (N)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "stikstof totaal (n)"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/totaal_stof",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Totaal stof"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "totaal stof"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/totale_fenolen",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Totale fenolen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "totale fenolen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/tributyltin_en_verbindingen",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Tributyltin en zijn verbindingen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "tributyltin en zijn verbindingen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/trichloorbenzeen",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Trichloorbenzeen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "trichloorbenzeen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/trichloorbenzeen_technisch",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Trichloorbenzeen (technisch)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "trichloorbenzeen (technisch)"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/trichloorfenolen",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Trichloorfenolen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "trichloorfenolen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/trifenyltin_en_verbindingen",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Trifenyltin en zijn verbindingen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "trifenyltin en zijn verbindingen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/vox",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "VOX"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "vox"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/xyleen_isomeren",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Xyleen-isomeren"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "xyleen-isomeren"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/zwalvelhexafluoride",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zwalvelhexafluoride"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "sf6"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/zwalveloxiden",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zwalveloxiden (SOX/SO2)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "sox (als so2)"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/zwevende_stof",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zwevende stof"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "key" : "zwevende stof"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie",
+    "@type" : "skos:ConceptScheme",
+    "issued" : "2019-01-03",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over substanties binnen het IMJV"
+    },
+    "belongsTo" : "https://data.imjv.omgeving.vlaanderen.be/id/dataset",
+    "versionInfo" : {
+      "@language" : "nl",
+      "@value" : "Tweede versie, zoals in gebruik genomen in het kader van de herwerking volgens de uri-standaard"
+    },
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "substanties"
+    },
+    "prefLabel" : [ "substanties (IMJV)", {
+      "@language" : "nl",
+      "@value" : "Lijst van substanties"
+    } ],
+    "maker" : "_:b0"
+  } ],
+  "@context" : {
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "topConceptOf" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
+      "@type" : "@id"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type" : "@id"
+    },
+    "key" : {
+      "@id" : "https://data.imjv.omgeving.vlaanderen.be/ns/imjv#key"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
+    },
+    "mbox" : {
+      "@id" : "http://xmlns.com/foaf/0.1/mbox",
+      "@type" : "@id"
+    },
+    "affiliation" : {
+      "@id" : "http://schema.org/affiliation",
+      "@type" : "@id"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "maker" : {
+      "@id" : "http://xmlns.com/foaf/0.1/maker",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "belongsTo" : {
+      "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
+      "@type" : "@id"
+    },
+    "classification" : {
+      "@id" : "http://www.w3.org/ns/org#classification",
+      "@type" : "@id"
+    },
+    "changedBy" : {
+      "@id" : "http://www.w3.org/ns/org#changedBy",
+      "@type" : "@id"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/terms/type",
+      "@type" : "@id"
+    },
+    "homepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/homepage",
+      "@type" : "@id"
+    },
+    "orgStatus" : {
+      "@id" : "http://www.w3.org/ns/regorg#orgStatus",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://www.w3.org/ns/org#identifier"
+    },
+    "imports" : {
+      "@id" : "http://www.w3.org/2002/07/owl#imports",
+      "@type" : "@id"
+    },
+    "schema" : "http://schema.org/",
+    "imjv" : "https://data.imjv.omgeving.vlaanderen.be/ns/imjv#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "org" : "http://www.w3.org/ns/org#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xkos" : "http://rdf-vocabulary.ddialliance.org/xkos#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "regorg" : "http://www.w3.org/ns/regorg#",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "vann" : "http://purl.org/vocab/vann/",
+    "foaf" : "http://xmlns.com/foaf/0.1/"
+  }
+}

@@ -1,0 +1,155 @@
+<https://data.omgeving.vlaanderen.be/ns/waarde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://data.omgeving.vlaanderen.be/ns/waarde> <http://www.w3.org/2000/01/rdf-schema#label> "Waarde"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde> <http://www.w3.org/2000/01/rdf-schema#label> "Value"@en .
+<https://data.omgeving.vlaanderen.be/ns/waarde> <http://purl.org/vocommons/voaf#reliesOn> <http://xmlns.com/foaf/0.1/> .
+<https://data.omgeving.vlaanderen.be/ns/waarde> <http://purl.org/dc/terms/issued> "2018-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.omgeving.vlaanderen.be/ns/waarde> <http://purl.org/vocab/vann/changes> ""@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde> <http://purl.org/vocab/vann/preferredNamespacePrefix> "waarde" .
+<https://data.omgeving.vlaanderen.be/ns/waarde> <http://purl.org/vocommons/voaf#reliesOn> <http://data.vlaanderen.be/ns/besluit#> .
+<https://data.omgeving.vlaanderen.be/ns/waarde> <http://purl.org/dc/terms/title> "Waarde"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde> <http://purl.org/dc/terms/title> "Value"@en .
+<https://data.omgeving.vlaanderen.be/ns/waarde> <http://purl.org/vocommons/voaf#reliesOn> <http://dbpedia.org/ontology/> .
+<https://data.omgeving.vlaanderen.be/ns/waarde> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://data.omgeving.vlaanderen.be/ns/waarde#" .
+<https://data.omgeving.vlaanderen.be/ns/waarde> <http://www.w3.org/2002/07/owl#versionInfo> "Tweede versie, zoals in gebruik genomen in het kader van archivering van zendantennes, na afstemming tussen de Vlaams uri-stategie en proxy-afhankelijkheden bij DIDM"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde> <http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/ns/prov#> .
+<https://data.omgeving.vlaanderen.be/ns/waarde> <http://purl.org/dc/terms/temporal> "2018" .
+<https://data.omgeving.vlaanderen.be/ns/waarde> <http://xmlns.com/foaf/0.1/maker> _:B36f0fdc2X2D45deX2D4b4bX2D9147X2D93497ee80d21 .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+_:B36f0fdc2X2D45deX2D4b4bX2D9147X2D93497ee80d21 <http://schema.org/affiliation> <http://data.vlaanderen.be/id/organisatie/OVO003751> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/name> "Data- en informatiebeheer & digitale maatschappij"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2004/02/skos/core#altLabel> "DIDM"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data- en informatiebeheer & digitale maatschappij"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#changedBy> <http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#classification> <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#identifier> "OVO003751" .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/regorg#orgStatus> <http://data.vlaanderen.be/id/concept/organisatiestatus/actief> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/homepage> <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://purl.org/dc/terms/type> <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/mbox> <mailto:didm.omgeving@vlaanderen.be> .
+_:B36f0fdc2X2D45deX2D4b4bX2D9147X2D93497ee80d21 <http://xmlns.com/foaf/0.1/mbox> <mailto:geert.vanhaute@vlaanderen.be> .
+_:B36f0fdc2X2D45deX2D4b4bX2D9147X2D93497ee80d21 <http://xmlns.com/foaf/0.1/name> "Van Haute, Geert" .
+<http://purl.org/vocab/vann/usageNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://schema.org/affiliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://xmlns.com/foaf/0.1/mbox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#azimut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#azimut> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#azimut> <http://www.w3.org/2000/01/rdf-schema#comment> "Het azimut is een van de coördinaten uit het\n            horizon-coördinatenstelsel. In dit stelsel wordt de positie van een object aan de hemel\n            aangegeven door de twee coördinaten: azimut en elevatie. Het azimut is daarin de\n            horizontale component, de kompasrichting, dus de hoek met het noorden gemeten over het\n            oosten. Gewoonlijk wordt het azimut uitgedrukt in graden. De positie van een ster aan de\n            hemel wordt dus aangegeven door het azimut (de kompasrichting) en de hoogte (de hoek\n            tussen de ster en de horizon). De gehele cirkel is 360°, noord=0°, oost=90°, zuid=180°,\n            west=270°\""@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#azimut> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#azimut> <http://www.w3.org/2000/01/rdf-schema#label> "Azimut"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#azimut> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Azimuth> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#breedte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#breedte> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#breedte> <http://www.w3.org/2000/01/rdf-schema#comment> "De breedte is een van de afmetingen van een (meerdimensionaal)\n            object. Van een min of meer rechthoekig tweedimensionaal object wordt de kleinste van de\n            twee afmetingen de breedte genoemd. Van een driedimensionaal object wordt de kleinste\n            afmeting in het horizontale vlak de breedte genoemd."@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#breedte> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#breedte> <http://www.w3.org/2000/01/rdf-schema#label> "Breedte"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#breedte> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/property/width> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#gebaseerdOp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#gebaseerdOp> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO" .
+<https://data.omgeving.vlaanderen.be/ns/waarde#gebaseerdOp> <http://www.w3.org/2000/01/rdf-schema#label> "gebaseerd op"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#gebaseerdOp> <http://purl.org/vocab/vann/usageNote> "TO DO" .
+<https://data.omgeving.vlaanderen.be/ns/waarde#gebaseerdOp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#frequentie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#frequentie> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#frequentie> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#frequentie> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#frequentie> <http://www.w3.org/2000/01/rdf-schema#label> "TO DO"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#frequentie> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Azimuth> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#hoogte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#hoogte> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#hoogte> <http://www.w3.org/2000/01/rdf-schema#comment> "De hoogte van een voorwerp is de verticale afstand van een\n            referentiepunt (zoals een oppervlak) tot het punt waar een voorwerp zich\n            bevindt."@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#hoogte> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#hoogte> <http://www.w3.org/2000/01/rdf-schema#label> "Hoogte"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#hoogte> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/property/height> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#horizontaleopeningshoek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#horizontaleopeningshoek> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#horizontaleopeningshoek> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#horizontaleopeningshoek> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#horizontaleopeningshoek> <http://www.w3.org/2000/01/rdf-schema#label> "horizontale openingshoek"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#maximaleinvloedsstraal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#maximaleinvloedsstraal> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#maximaleinvloedsstraal> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#maximaleinvloedsstraal> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#maximaleinvloedsstraal> <http://www.w3.org/2000/01/rdf-schema#label> "TO DO"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#maximaleinvloedsstraal> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Azimuth> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#mechanischetilt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#mechanischetilt> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#mechanischetilt> <http://www.w3.org/2000/01/rdf-schema#comment> "mechanische tilt"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#mechanischetilt> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#mechanischetilt> <http://www.w3.org/2000/01/rdf-schema#label> "TO DO"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#mechanischetilt> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Azimuth> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#ophangingshoogte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#ophangingshoogte> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#ophangingshoogte> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#ophangingshoogte> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#ophangingshoogte> <http://www.w3.org/2000/01/rdf-schema#label> "ophangingshoogte"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#totfrequentie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#totfrequentie> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#totfrequentie> <http://www.w3.org/2000/01/rdf-schema#comment> "De hoogste frequentie waarbij een dempend materiaal een bepaalde\n            frequentiedempingsfactor heeft."@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#totfrequentie> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#totfrequentie> <http://www.w3.org/2000/01/rdf-schema#label> "tot frequentie"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#tothoek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#tothoek> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#tothoek> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#tothoek> <http://www.w3.org/2000/01/rdf-schema#label> "tothoek"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#vanfrequentie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#vanfrequentie> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#vanfrequentie> <http://www.w3.org/2000/01/rdf-schema#comment> "De laagste frequentie waarbij een dempend materiaal een bepaalde\n            frequentiedempingsfactor heeft."@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#vanfrequentie> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#vanfrequentie> <http://www.w3.org/2000/01/rdf-schema#label> "van frequentie"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#vanhoek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#vanhoek> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#vanhoek> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#vanhoek> <http://www.w3.org/2000/01/rdf-schema#label> "vanhoek"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#vermogen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#vermogen> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#vermogen> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#vermogen> <http://www.w3.org/2000/01/rdf-schema#label> "vermogen"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#verticaleopeningshoek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#verticaleopeningshoek> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#verticaleopeningshoek> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#verticaleopeningshoek> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#verticaleopeningshoek> <http://www.w3.org/2000/01/rdf-schema#label> "verticale openingshoek"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#winst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#winst> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#winst> <http://www.w3.org/2000/01/rdf-schema#comment> "De antenneversterking of winst vat de gerichtheid en\n            efficiëntie van een antenne samen. Hij is de verhouding van de afgeleverde in de\n            hoofdrichting resp. geabsorbeerde stralingsvermogensdichtheid in vergelijking met een\n            verliesvrije referentie-antenne van dezelfde antennevoermacht, die per definitie een\n            antenneversterking van 0 dB heeft. De gebruikte referentie-antenne is meestal een\n            dipoolantenne of een hypothetische isotrope radiator met dezelfde bundelsterkte in alle\n            richtingen."@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#winst> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#winst> <http://www.w3.org/2000/01/rdf-schema#label> "Winst"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#winst> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/page/Antenna_gain> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#winst> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://en.wikipedia.org/wiki/Antenna_gain> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#key> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+_:B0c4a6803X2D86aaX2D4587X2Dbdf0X2D8594d9171c42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B0c4a6803X2D86aaX2D4587X2Dbdf0X2D8594d9171c42 .
+_:B0c4a6803X2D86aaX2D4587X2Dbdf0X2D8594d9171c42 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> .
+_:B0c4a6803X2D86aaX2D4587X2Dbdf0X2D8594d9171c42 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:Ba2152b84X2D599fX2D4e69X2Dbb38X2De19b599fb46a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Ba2152b84X2D599fX2D4e69X2Dbb38X2De19b599fb46a .
+_:Ba2152b84X2D599fX2D4e69X2Dbb38X2De19b599fb46a <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> .
+_:Ba2152b84X2D599fX2D4e69X2Dbb38X2De19b599fb46a <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:Baca35139X2D8444X2D48f9X2D8ea4X2D3ac9309b314d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Baca35139X2D8444X2D48f9X2D8ea4X2D3ac9309b314d .
+_:Baca35139X2D8444X2D48f9X2D8ea4X2D3ac9309b314d <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> .
+_:Baca35139X2D8444X2D48f9X2D8ea4X2D3ac9309b314d <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:B04725779X2D4c71X2D413dX2Db163X2Dbafb321377dc <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B04725779X2D4c71X2D413dX2Db163X2Dbafb321377dc .
+_:B04725779X2D4c71X2D413dX2Db163X2Dbafb321377dc <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> .
+_:B04725779X2D4c71X2D413dX2Db163X2Dbafb321377dc <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> <http://purl.org/vocab/vann/usageNote> "Te gebruiken bij het vastleggen van een meetwaarde en de\n            gebruikte maateenheid buiten observaties die het RDF data cube formaat\n            volgen."@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> <http://www.w3.org/2000/01/rdf-schema#comment> "Klasse om meetwaarden vast te leggen gecombineerd met de\n            gebruikte maateenheid"@nl .
+<https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/waarde> .
+<https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> <http://www.w3.org/2000/01/rdf-schema#label> "Meetwaarde"@nl .
+_:B2e4773afX2Dfae5X2D45e9X2D860fX2D520691ce799b <http://schema.org/affiliation> _:B4dd2eb68X2D7b3eX2D43feX2D8804X2Dc626ca84bcb7 .
+_:B4dd2eb68X2D7b3eX2D43feX2D8804X2Dc626ca84bcb7 <http://xmlns.com/foaf/0.1/homepage> <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> .
+_:B4dd2eb68X2D7b3eX2D43feX2D8804X2Dc626ca84bcb7 <http://xmlns.com/foaf/0.1/mbox> <mailto:didm.omgeving@vlaanderen.be> .
+_:B4dd2eb68X2D7b3eX2D43feX2D8804X2Dc626ca84bcb7 <http://xmlns.com/foaf/0.1/name> "Vlaamse Overheid, Departement Omgeving, Data-en informatiebeheer\n                            & Digitale Maatschappij" .
+_:B2e4773afX2Dfae5X2D45e9X2D860fX2D520691ce799b <http://xmlns.com/foaf/0.1/mbox> <mailto:geert.vanhaute@vlaanderen.be> .
+_:B2e4773afX2Dfae5X2D45e9X2D860fX2D520691ce799b <http://xmlns.com/foaf/0.1/name> "Van Haute, Geert" .

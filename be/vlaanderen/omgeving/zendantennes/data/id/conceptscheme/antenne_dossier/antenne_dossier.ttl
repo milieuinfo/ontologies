@@ -1,0 +1,179 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix qudt:  <http://qudt.org/schema/qudt#> .
+@prefix xkos:  <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix vann:  <http://purl.org/vocab/vann/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix schema:  <http://schema.org/> .
+@prefix org:  <http://www.w3.org/ns/org#> .
+@prefix regorg:  <http://www.w3.org/ns/regorg#> .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier>
+        rdf:type             skos:ConceptScheme ;
+        rdfs:comment         "TO DO"@nl ;
+        xkos:belongsTo       <https://data.zendantennes.omgeving.vlaanderen.be/id/dataset> ;
+        xkos:numberOfLevels  "4"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> ;
+        xkos:levels          _:b0 ;
+        skos:prefLabel       "Informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest"@nl ;
+        skos:altLabel        "antenne_dossier"@nl ;
+        dcterms:issued       "2018-11-19"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        vann:changes         ""@nl ;
+        dcterms:title        "Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest"@nl ;
+        owl:versionInfo      "Eerste versie, zoals in gebruik genomen in het kader van\n            archivering van zendantennes"@nl ;
+        foaf:maker           _:b1 .
+
+<http://data.vlaanderen.be/id/organisatie/OVO003751>
+        rdf:type  org:Organization .
+
+_:b1    schema:affiliation  <http://data.vlaanderen.be/id/organisatie/OVO003751> .
+
+<http://data.vlaanderen.be/id/organisatie/OVO003751>
+        rdf:type            foaf:Agent ;
+        foaf:name           "Data- en informatiebeheer & digitale maatschappij"@nl ;
+        rdfs:seeAlso        <https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66> ;
+        skos:altLabel       "DIDM"@nl ;
+        skos:prefLabel      "Data- en informatiebeheer & digitale maatschappij"@nl ;
+        org:changedBy       <http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting> ;
+        org:classification  <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> ;
+        org:identifier      "OVO003751" ;
+        regorg:orgStatus    <http://data.vlaanderen.be/id/concept/organisatiestatus/actief> ;
+        foaf:homepage       <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> ;
+        dcterms:type        <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> ;
+        foaf:mbox           <mailto:didm.omgeving@vlaanderen.be> .
+
+_:b1    foaf:mbox  <mailto:geert.vanhaute@vlaanderen.be> ;
+        foaf:name  "Van Haute, Geert" .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier>
+        skos:prefLabel  "Onderdelen van een dossier voor de aanvraag van een conformiteitsattest" .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/dossier>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Onderdelen van een dossier voor de aanvraag van een conformiteitsattest" .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/procedurestap>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "procedurestap"@nl ;
+        skos:narrower      <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/aanvraag> ;
+        skos:narrower      <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/beslissing> .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/aanvraag>
+        skos:inScheme   <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier> ;
+        rdf:type        skos:Concept ;
+        skos:prefLabel  "aanvraag"@nl ;
+        skos:broader    <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/procedurestap> .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/beslissing>
+        skos:inScheme   <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier> ;
+        rdf:type        skos:Concept ;
+        skos:prefLabel  "beslissing"@nl ;
+        skos:broader    <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/procedurestap> .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "document"@nl ;
+        skos:narrower      <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/conformiteitsattest> ;
+        skos:narrower      <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeeldingen> .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/conformiteitsattest>
+        skos:inScheme   <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier> ;
+        rdf:type        skos:Concept ;
+        skos:prefLabel  "conformiteitsattest"@nl ;
+        skos:broader    <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document> .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeeldingen>
+        skos:inScheme   <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier> ;
+        rdf:type        skos:Concept ;
+        skos:prefLabel  "afbeelding"@nl ;
+        skos:broader    <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document> .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document_onderdeel>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "bestand"@nl ;
+        skos:narrower      <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/bijlage> ;
+        skos:narrower      <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeelding> .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeelding>
+        skos:inScheme   <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier> ;
+        rdf:type        skos:Concept ;
+        skos:prefLabel  "afbeelding"@nl ;
+        skos:broader    <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document_onderdeel> ;
+        skos:inScheme   <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier> ;
+        rdf:type        skos:Concept ;
+        skos:prefLabel  "afbeelding"@nl ;
+        skos:broader    <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document_onderdeel> .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/bijlage>
+        skos:inScheme   <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier> ;
+        rdf:type        skos:Concept ;
+        skos:prefLabel  "afbeelding"@nl ;
+        skos:broader    <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document_onderdeel> ;
+        skos:narrower   <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/dwarsdoorsneeplan> ;
+        skos:narrower   <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/antenneplan> ;
+        skos:narrower   <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/elevatieplan> ;
+        skos:narrower   <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/signedsubmission> .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/dossier>
+        rdf:type  xkos:ClassificationLevel .
+
+_:b2    rdf:first  <https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/dossier> .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/dossier>
+        skos:prefLabel  "document"@nl ;
+        xkos:depth      "1"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> ;
+        skos:member     <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/dossier> .
+
+_:b2    rdf:rest  _:b3 .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/procedurestap>
+        rdf:type  xkos:ClassificationLevel .
+
+_:b3    rdf:first  <https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/procedurestap> .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/procedurestap>
+        skos:prefLabel  "procedurestap"@nl ;
+        xkos:depth      "2"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> ;
+        skos:member     <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/procedurestap> .
+
+_:b3    rdf:rest  _:b4 .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/document>
+        rdf:type  xkos:ClassificationLevel .
+
+_:b4    rdf:first  <https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/document> .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/document>
+        skos:prefLabel  "document"@nl ;
+        xkos:depth      "3"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> ;
+        skos:member     <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document> ;
+        skos:member     <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/conformiteitsattest> ;
+        skos:member     <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeeldingen> .
+
+_:b4    rdf:rest  _:b5 .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/document_onderdeel>
+        rdf:type  xkos:ClassificationLevel .
+
+_:b5    rdf:first  <https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/document_onderdeel> .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/document_onderdeel>
+        skos:prefLabel  "bestand"@nl ;
+        xkos:depth      "4"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> ;
+        skos:member     <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document_onderdeel> ;
+        skos:member     <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/bijlage> ;
+        skos:member     <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeelding> ;
+        skos:member     <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/dwarsdoorsneeplan> ;
+        skos:member     <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/antenneplan> ;
+        skos:member     <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/elevatieplan> ;
+        skos:member     <https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/signedsubmission> .

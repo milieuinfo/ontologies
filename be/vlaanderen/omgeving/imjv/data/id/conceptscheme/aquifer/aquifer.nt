@@ -1,0 +1,952 @@
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020> <http://www.w3.org/2004/02/skos/core#definition> "Landeniaan en Heersiaan Aquitard"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020> <http://www.w3.org/2004/02/skos/core#prefLabel> "Landeniaan en Heersiaan Aquitard"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1021> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1022> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1023> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0921> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0921> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0921> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0921> <http://www.w3.org/2004/02/skos/core#definition> "Klei van Aalbeke"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0921> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klei van Aalbeke"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0800> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0800> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0800> <http://www.w3.org/2004/02/skos/core#definition> "Ieperiaan Aquifer Zand van Egem en/of Mont-Panisel"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0800> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ieperiaan Aquifer Zand van Egem en/of Mont-Panisel"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1032> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1032> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1032> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Orp"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1032> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Orp"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1210> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1210> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1210> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1210> <http://www.w3.org/2004/02/skos/core#definition> "Jura"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1210> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jura"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0501> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0501> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0501> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0501> <http://www.w3.org/2004/02/skos/core#definition> "Klei van Onderdijke"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0501> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klei van Onderdijke"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0214> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0214> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0214> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0214> <http://www.w3.org/2004/02/skos/core#definition> "Brunssum II-klei"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0214> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brunssum II-klei"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1113> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1113> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1113> <http://www.w3.org/2004/02/skos/core#definition> "Krijt van Gulpen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1113> <http://www.w3.org/2004/02/skos/core#prefLabel> "Krijt van Gulpen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0432> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0432> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0432> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0432> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Kerkom"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0432> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Kerkom"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0610> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0610> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0610> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0610> <http://www.w3.org/2004/02/skos/core#definition> "Wemmel-Lede Aquifer"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0610> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wemmel-Lede Aquifer"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0610> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0611> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0610> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0612> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0120> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0120> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0120> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0120> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0120> <http://www.w3.org/2004/02/skos/core#definition> "Duinen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0120> <http://www.w3.org/2004/02/skos/core#prefLabel> "Duinen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0120> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0120> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0132> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0132> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0132> <http://www.w3.org/2004/02/skos/core#definition> "Kleiige polderafzettingen van het\n            Meetjesland"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0132> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kleiige polderafzettingen van het Meetjesland"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0431> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0431> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0431> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0431> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Berg"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0431> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Berg"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0253> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0253> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0253> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0253> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Bolderberg"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0253> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Bolderberg"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0241> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0240> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0241> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0241> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0241> <http://www.w3.org/2004/02/skos/core#definition> "Kleiig deel van Lillo en/of van de overgang Lillo-Kattendijk"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0241> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kleiig deel van Lillo en/of van de overgang Lillo-Kattendijk"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0172> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0172> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0172> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0172> <http://www.w3.org/2004/02/skos/core#definition> "Afzettingen Tussenterrassen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0172> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afzettingen Tussenterrassen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160> <http://www.w3.org/2004/02/skos/core#definition> "Pleistocene afzettingen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pleistocene afzettingen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0161> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0162> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0163> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0925> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0922> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afzettingen van Kortrijk"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0923> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> <http://www.w3.org/2004/02/skos/core#definition> "Afzettingen van Kortrijk"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0900> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0924> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0921> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1021> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1021> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1021> <http://www.w3.org/2004/02/skos/core#definition> "Siltige afzettingen van Halen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1021> <http://www.w3.org/2004/02/skos/core#prefLabel> "Siltige afzettingen van Halen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0702> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0700> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0702> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0702> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0702> <http://www.w3.org/2004/02/skos/core#definition> "Klei van Merelbeke"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0702> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klei van Merelbeke"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1130> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1130> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Aken"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1130> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Aken"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> <http://www.w3.org/2004/02/skos/core#definition> "Bartoon Aquitard systeem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0501> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0503> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0502> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0505> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bartoon Aquitard systeem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0504> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1320> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1320> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1320> <http://www.w3.org/2004/02/skos/core#definition> "Kolenkalk"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1320> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kolenkalk"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0213> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0213> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0213> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0213> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Pey"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0213> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Pey"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1033> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1033> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1033> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Eisden"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1033> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Eisden"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0131> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0131> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0131> <http://www.w3.org/2004/02/skos/core#definition> "Kleiige polderafzettingen van de Kustvlakte"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0131> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kleiige polderafzettingen van de Kustvlakte"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0432> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0435> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0431> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0433> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ruisbroek-Berg Aquifer"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0436> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> <http://www.w3.org/2004/02/skos/core#definition> "Ruisbroek-Berg Aquifer"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0434> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kempens Aquifer systeem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> <http://www.w3.org/2004/02/skos/core#definition> "Kempens Aquifer systeem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0240> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0442> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0440> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0442> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0442> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0442> <http://www.w3.org/2004/02/skos/core#definition> "Klei van Watervliet"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0442> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klei van Watervliet"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0252> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0252> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0252> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0252> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Diest"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0252> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Diest"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0240> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0240> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0240> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0240> <http://www.w3.org/2004/02/skos/core#definition> "Pliocene kleiige laag"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0240> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pliocene kleiige laag"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0240> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0241> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0240> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0242> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0171> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0171> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0171> <http://www.w3.org/2004/02/skos/core#definition> "Afzettingen Hoofdterras"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0171> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afzettingen Hoofdterras"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0701> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0700> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0701> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0701> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0701> <http://www.w3.org/2004/02/skos/core#definition> "Klei van Pittem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0701> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klei van Pittem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> <http://www.w3.org/2004/02/skos/core#definition> "Landeniaan Aquifer systeem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> <http://www.w3.org/2004/02/skos/core#prefLabel> "Landeniaan Aquifer systeem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1012> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1011> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1014> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1015> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1013> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0620> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0620> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0620> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0620> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Brussel"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0620> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Brussel"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1022> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1022> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1022> <http://www.w3.org/2004/02/skos/core#definition> "Klei van Waterschei"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1022> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klei van Waterschei"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200> <http://www.w3.org/2004/02/skos/core#definition> "Jura - Trias - Perm"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jura - Trias - Perm"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1210> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1220> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1230> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1034> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1034> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1034> <http://www.w3.org/2004/02/skos/core#definition> "Klei van Opoeteren"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1034> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klei van Opoeteren"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0632> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0630> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0632> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0632> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0632> <http://www.w3.org/2004/02/skos/core#definition> "Zandige klei van Beernem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0632> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zandige klei van Beernem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0212> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0212> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0212> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0212> <http://www.w3.org/2004/02/skos/core#definition> "Brunssum I-klei"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0212> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brunssum I-klei"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_hoofdeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_hoofdeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_hoofdeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0700> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_hoofdeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_hoofdeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_hoofdeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_hoofdeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0000> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_hoofdeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0900> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_hoofdeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1100> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_hoofdeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0800> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_hoofdeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_hoofdeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_hoofdeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_hoofdeenheden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf-vocabulary.ddialliance.org/xkos#ClassificationLevel> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_hoofdeenheden> <http://www.w3.org/2004/02/skos/core#prefLabel> "hydrogeologische hoofdeenheden"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_hoofdeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_hoofdeenheden> <http://rdf-vocabulary.ddialliance.org/xkos#depth> "1"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170> <http://www.w3.org/2004/02/skos/core#definition> "Maas- en Rijnafzettingen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maas- en Rijnafzettingen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0171> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0172> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0173> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0132> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0131> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> <http://www.w3.org/2004/02/skos/core#prefLabel> "Polder­afzettingen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0135> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0134> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0133> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> <http://www.w3.org/2004/02/skos/core#definition> "Polder­afzettingen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0441> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0440> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0441> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0441> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0441> <http://www.w3.org/2004/02/skos/core#definition> "Klei van Henis"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0441> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klei van Henis"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0211> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0211> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0211> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0211> <http://www.w3.org/2004/02/skos/core#definition> "Zandige eenheid boven de Brunssum I-klei"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0211> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zandige eenheid boven de Brunssum I-klei"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0453> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0453> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0453> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0453> <http://www.w3.org/2004/02/skos/core#definition> "Kleiig zand van Bassevelde"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0453> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kleiig zand van Bassevelde"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0154> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0154> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0154> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0154> <http://www.w3.org/2004/02/skos/core#definition> "Kleiige deklagen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0154> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kleiige deklagen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0251> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0251> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0251> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0251> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Kattendijk en/of onderste zandlaag van Lillo"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0251> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Kattendijk en/of onderste zandlaag van Lillo"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0700> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0700> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0700> <http://www.w3.org/2004/02/skos/core#definition> "Paniseliaan Aquitard systeem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0700> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paniseliaan Aquitard systeem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0700> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0701> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0700> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0702> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1120> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1120> <http://www.w3.org/2004/02/skos/core#definition> "Afzettingen van Vaals Smectiet van Herve"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1120> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afzettingen van Vaals Smectiet van Herve"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0304> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0304> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0304> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0304> <http://www.w3.org/2004/02/skos/core#definition> "Klei van Belsele-Waas"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0304> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klei van Belsele-Waas"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1035> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1035> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1035> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Maasmechelen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1035> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Maasmechelen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0631> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0630> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0631> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0631> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0631> <http://www.w3.org/2004/02/skos/core#definition> "Zanden van Aalter en/of Oedelem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0631> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zanden van Aalter en/of Oedelem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1011> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1011> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1011> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Knokke"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1011> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Knokke"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1310> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1310> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1310> <http://www.w3.org/2004/02/skos/core#definition> "Boven-Carboon (steenkoolterrein en -lagen)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1310> <http://www.w3.org/2004/02/skos/core#prefLabel> "Boven-Carboon (steenkoolterrein en -lagen)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1023> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1023> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1023> <http://www.w3.org/2004/02/skos/core#definition> "Slecht doorlatend deel van de Mergels van\n            Gelinden"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1023> <http://www.w3.org/2004/02/skos/core#prefLabel> "Slecht doorlatend deel van de Mergels van\n            Gelinden"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0223> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0223> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0223> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0223> <http://www.w3.org/2004/02/skos/core#definition> "Klei van Rijkevorsel"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0223> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klei van Rijkevorsel"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0222> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0222> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0222> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0222> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Beerse"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0222> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Beerse"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0452> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0452> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0452> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0452> <http://www.w3.org/2004/02/skos/core#definition> "Zand-klei van Grimmertingen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0452> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand-klei van Grimmertingen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> <http://www.w3.org/2004/02/skos/core#definition> "Afzettingen ten noorden van de Feldbiss-breukzone"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0212> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0211> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0215> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0213> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afzettingen ten noorden van de Feldbiss-breukzone"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0214> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0440> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0440> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0440> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0440> <http://www.w3.org/2004/02/skos/core#definition> "Tongeren Aquitard"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0440> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tongeren Aquitard"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0440> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0441> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0440> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0442> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0153> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0153> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0153> <http://www.w3.org/2004/02/skos/core#definition> "Lemige deklagen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0153> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lemige deklagen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mioceen Aquifersysteem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> <http://www.w3.org/2004/02/skos/core#definition> "Mioceen Aquifersysteem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0251> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0255> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0254> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0253> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0256> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0252> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0505> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0505> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0505> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0505> <http://www.w3.org/2004/02/skos/core#definition> "Kleien van Ursel en/of Asse"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0505> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kleien van Ursel en/of Asse"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0436> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0436> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0436> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0436> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Wintham"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0436> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Wintham"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1230> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1230> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1230> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1230> <http://www.w3.org/2004/02/skos/core#definition> "Perm"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1230> <http://www.w3.org/2004/02/skos/core#prefLabel> "Perm"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0303> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0303> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0303> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0303> <http://www.w3.org/2004/02/skos/core#definition> "Klei van Terhagen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0303> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klei van Terhagen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0630> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0630> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0630> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0630> <http://www.w3.org/2004/02/skos/core#definition> "Afzettingen van het Boven-Paniseliaan"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0630> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afzettingen van het Boven-Paniseliaan"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0630> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0631> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0630> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0632> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000> <http://www.w3.org/2004/02/skos/core#definition> "Paleoceen Aquifer­systeem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paleoceen Aquifer­systeem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> <http://www.w3.org/2004/02/skos/core#definition> "Oligoceen Aquifer systeem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0420> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0440> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0410> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> <http://www.w3.org/2004/02/skos/core#prefLabel> "Oligoceen Aquifer systeem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0234> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0234> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0234> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Poederlee en/of zandige top van Kasterlee"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0234> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Poederlee en/of zandige top van Kasterlee"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1012> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1012> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1012> <http://www.w3.org/2004/02/skos/core#definition> "Zandige afzettingen van Loksbergen en/of\n            Dormaal"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1012> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zandige afzettingen van Loksbergen en/of\n            Dormaal"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0925> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0925> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0925> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0925> <http://www.w3.org/2004/02/skos/core#definition> "Klei van Mont-Héribu"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0925> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klei van Mont-Héribu"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0140> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0140> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0140> <http://www.w3.org/2004/02/skos/core#definition> "Alluviale deklagen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0140> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alluviale deklagen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0140> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0110> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0120> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> <http://www.w3.org/2004/02/skos/core#definition> "Quartaire Aquifer systemen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quartaire Aquifer systemen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0233> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0233> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0233> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0233> <http://www.w3.org/2004/02/skos/core#definition> "Zandige top van Lillo"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0233> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zandige top van Lillo"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0221> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0221> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0221> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0221> <http://www.w3.org/2004/02/skos/core#definition> "Klei van Turnhout"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0221> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klei van Turnhout"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0451> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0451> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0451> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0451> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Neerrepen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0451> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Neerrepen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0152> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0152> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0152> <http://www.w3.org/2004/02/skos/core#definition> "Zand-lemige deklagen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0152> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand-lemige deklagen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0504> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0504> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0504> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0504> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Onderdale"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0504> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Onderdale"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1150> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1150> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1150> <http://www.w3.org/2004/02/skos/core#definition> "Wealdiaan"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1150> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wealdiaan"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0900> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0900> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0900> <http://www.w3.org/2004/02/skos/core#definition> "Ieperiaan Aquitard systeem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0900> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ieperiaan Aquitard systeem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0900> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0910> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0900> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1340> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1340> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1340> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1340> <http://www.w3.org/2004/02/skos/core#definition> "Cambro-Siluur Massief van Brabant"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1340> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cambro-Siluur Massief van Brabant"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1013> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1013> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1013> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Grandglise"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1013> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Grandglise"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1100> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110> <http://www.w3.org/2004/02/skos/core#definition> "Krijt Aquifer"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110> <http://www.w3.org/2004/02/skos/core#prefLabel> "Krijt Aquifer"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1111> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1112> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1113> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0302> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0302> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0302> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0302> <http://www.w3.org/2004/02/skos/core#definition> "Klei van Putte"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0302> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klei van Putte"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0435> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0435> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0435> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0435> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Ruisbroek"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0435> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Ruisbroek"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300> <http://www.w3.org/2004/02/skos/core#definition> "Sokkel"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sokkel"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1310> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1320> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1330> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1340> .
+_:B38c2f7e4X2Dd4b5X2D4e67X2Da2ebX2Ddfc040c6df9a <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0924> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0924> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0924> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0924> <http://www.w3.org/2004/02/skos/core#definition> "Klei van Saint-Maur"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0924> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klei van Saint-Maur"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0232> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0232> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0232> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0232> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Mol"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0232> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Mol"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450> <http://www.w3.org/2004/02/skos/core#definition> "Onder-Oligoceen Aquifersysteem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450> <http://www.w3.org/2004/02/skos/core#prefLabel> "Onder-Oligoceen Aquifersysteem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0451> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0452> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0453> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0640> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0640> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0640> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0640> <http://www.w3.org/2004/02/skos/core#definition> "Zandige afzettingen van het Onder-Paniseliaan, Zand van Vlierzele en/of Aalterbrugge"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0640> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zandige afzettingen van het Onder-Paniseliaan"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220> <http://www.w3.org/2004/02/skos/core#definition> "Klei-zand-complex van de Kempen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klei-zand-complex van de Kempen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0221> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0222> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0223> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0163> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0163> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0163> <http://www.w3.org/2004/02/skos/core#definition> "Pleistoceen van de riviervalleien"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0163> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pleistoceen van de riviervalleien"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0151> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0151> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0151> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0151> <http://www.w3.org/2004/02/skos/core#definition> "Zandige deklagen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0151> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zandige deklagen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0612> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0610> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0612> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0612> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0612> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Lede"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0612> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Lede"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> <http://www.w3.org/2004/02/skos/core#definition> "Heersiaan en Opglabbeek Aquifersysteem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1035> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1034> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1033> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1032> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1031> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> <http://www.w3.org/2004/02/skos/core#prefLabel> "Heersiaan en Opglabbeek Aquifersysteem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0923> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0923> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0923> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0923> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Mons-en-Pévèle"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0923> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Mons-en-Pévèle"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0503> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0503> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0503> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0503> <http://www.w3.org/2004/02/skos/core#definition> "Klei van Zomergem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0503> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klei van Zomergem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0434> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0434> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0434> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0434> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Boutersem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0434> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Boutersem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1111> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1111> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1111> <http://www.w3.org/2004/02/skos/core#definition> "Kalksteen van Houthem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1111> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kalksteen van Houthem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1014> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1014> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1014> <http://www.w3.org/2004/02/skos/core#definition> "Kleiig deel van Lincent"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1014> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kleiig deel van Lincent"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1220> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1220> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1220> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1220> <http://www.w3.org/2004/02/skos/core#definition> "Trias"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1220> <http://www.w3.org/2004/02/skos/core#prefLabel> "Trias"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0410> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0410> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0410> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0410> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Kerniel"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0410> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Kerniel"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0301> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0301> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0301> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0301> <http://www.w3.org/2004/02/skos/core#definition> "Kleiig deel van Eigenbilzen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0301> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kleiig deel van Eigenbilzen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> <http://www.w3.org/2004/02/skos/core#definition> "Ledo Paniseliaan Brusseliaan Aquifer­systeem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ledo Paniseliaan Brusseliaan Aquifer­systeem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0610> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0620> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0630> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0640> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0256> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0256> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0256> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0256> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Eigenbilzen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0256> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Eigenbilzen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0800> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> <http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels> "3"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> <http://www.w3.org/2004/02/skos/core#altLabel> "Watervoerende lagen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0900> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> <http://rdf-vocabulary.ddialliance.org/xkos#levels> _:B1e3b9056X2D5ae4X2D419cX2DaacbX2D90c5aba4944a .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0700> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aquifers"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0000> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1100> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0135> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0135> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0135> <http://www.w3.org/2004/02/skos/core#definition> "Veen-kleiige poelgronden"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0135> <http://www.w3.org/2004/02/skos/core#prefLabel> "Veen-kleiige poelgronden"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0232> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1022> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0502> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1113> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1035> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1034> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0251> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0303> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0221> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0151> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1011> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0925> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0252> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0214> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0163> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0213> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0215> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0304> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#prefLabel> "hydrogeologische basiseenheden"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0131> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0432> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0434> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0431> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0433> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0453> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0701> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0234> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0233> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1023> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0503> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0702> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0504> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0241> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0922> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0152> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0133> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0612> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0253> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0611> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://rdf-vocabulary.ddialliance.org/xkos#depth> "3"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0254> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0132> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0223> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0222> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1013> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0153> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1012> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0501> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0441> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0242> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0171> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0436> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1031> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0435> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1033> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0173> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1032> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0632> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0631> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0301> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0505> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0921> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0923> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0135> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0134> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0212> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0162> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0211> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0161> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0302> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0256> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1112> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0255> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1111> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0154> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0924> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0451> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf-vocabulary.ddialliance.org/xkos#ClassificationLevel> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0231> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1021> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1015> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1014> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0172> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0452> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0442> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0110> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0110> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0110> <http://www.w3.org/2004/02/skos/core#definition> "Ophogingen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0110> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ophogingen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0134> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0134> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0134> <http://www.w3.org/2004/02/skos/core#definition> "Zandige Kreekruggen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0134> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zandige Kreekruggen"@nl .
+_:B4f7ee71fX2D2825X2D457dX2Db969X2D55bdc89d6804 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> .
+_:B4f7ee71fX2D2825X2D457dX2Db969X2D55bdc89d6804 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B38c2f7e4X2Dd4b5X2D4e67X2Da2ebX2Ddfc040c6df9a .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0255> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0255> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0255> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0255> <http://www.w3.org/2004/02/skos/core#definition> "Klei van Veldhoven"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0255> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klei van Veldhoven"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0231> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0231> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0231> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0231> <http://www.w3.org/2004/02/skos/core#definition> "Zanden van Brasschaat en/of Merksplas"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0231> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zanden van Brasschaat en/of Merksplas"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1015> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1015> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1015> <http://www.w3.org/2004/02/skos/core#definition> "Versteend deel van Lincent"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1015> <http://www.w3.org/2004/02/skos/core#prefLabel> "Versteend deel van Lincent"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0162> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0162> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0162> <http://www.w3.org/2004/02/skos/core#definition> "Pleistoceen van de Vlaamse Vallei"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0162> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pleistoceen van de Vlaamse Vallei"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150> <http://www.w3.org/2004/02/skos/core#definition> "Deklagen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deklagen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0151> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0152> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0153> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0154> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1031> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1031> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1031> <http://www.w3.org/2004/02/skos/core#definition> "Doorlatend deel van de Mergels van Gelinden"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1031> <http://www.w3.org/2004/02/skos/core#prefLabel> "Doorlatend deel van de Mergels van Gelinden"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1140> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1140> <http://www.w3.org/2004/02/skos/core#definition> "Turoonmergels op Massief van Brabant"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1140> <http://www.w3.org/2004/02/skos/core#prefLabel> "Turoonmergels op Massief van Brabant"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0910> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0900> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0910> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0910> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0910> <http://www.w3.org/2004/02/skos/core#definition> "Silt van Kortemark"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0910> <http://www.w3.org/2004/02/skos/core#prefLabel> "Silt van Kortemark"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0922> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0922> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0922> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0922> <http://www.w3.org/2004/02/skos/core#definition> "Klei van Moen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0922> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klei van Moen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0502> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0502> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0502> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0502> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Buisputten"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0502> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Buisputten"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0215> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0215> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0215> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0215> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Waubach"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0215> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Waubach"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1100> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1100> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1100> <http://www.w3.org/2004/02/skos/core#definition> "Krijt Aquifer­systeem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1100> <http://www.w3.org/2004/02/skos/core#prefLabel> "Krijt Aquifer­systeem"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1100> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1330> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1330> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1330> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1330> <http://www.w3.org/2004/02/skos/core#definition> "Devoon"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1330> <http://www.w3.org/2004/02/skos/core#prefLabel> "Devoon"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0611> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0610> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0611> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0611> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0611> <http://www.w3.org/2004/02/skos/core#definition> "Zand van Wemmel"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0611> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zand van Wemmel"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300> <http://www.w3.org/2004/02/skos/core#definition> "Boom Aquitard"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300> <http://www.w3.org/2004/02/skos/core#prefLabel> "Boom Aquitard"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0301> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0302> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0303> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0304> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0433> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0433> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0433> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0433> <http://www.w3.org/2004/02/skos/core#definition> "Kleiig zand van Oude Biezen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0433> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kleiig zand van Oude Biezen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1112> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1112> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1112> <http://www.w3.org/2004/02/skos/core#definition> "Tufkrijt van Maastricht"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1112> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tufkrijt van Maastricht"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0000> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0000> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0000> <http://www.w3.org/2004/02/skos/core#definition> "Onbepaald"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0000> <http://www.w3.org/2004/02/skos/core#prefLabel> "Onbepaald"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0133> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0133> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0133> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0133> <http://www.w3.org/2004/02/skos/core#definition> "Kleiige polderafzettingen van\n            Waasland-Antwerpen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0133> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kleiige polderafzettingen van\n            Waasland-Antwerpen"@nl .
+_:B1e3b9056X2D5ae4X2D419cX2DaacbX2D90c5aba4944a <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_hoofdeenheden> .
+_:B1e3b9056X2D5ae4X2D419cX2DaacbX2D90c5aba4944a <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B4f7ee71fX2D2825X2D457dX2Db969X2D55bdc89d6804 .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0420> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0420> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0420> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0420> <http://www.w3.org/2004/02/skos/core#definition> "Klei van Kleine-Spouwen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0420> <http://www.w3.org/2004/02/skos/core#prefLabel> "Klei van Kleine-Spouwen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0254> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0254> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0254> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0254> <http://www.w3.org/2004/02/skos/core#definition> "Zanden van Berchem en/of Voort"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0254> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zanden van Berchem en/of Voort"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0242> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0240> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0242> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0242> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0242> <http://www.w3.org/2004/02/skos/core#definition> "Kleiige overgang tussen de zanden van Kasterlee en Diest"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0242> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kleiige overgang tussen de zanden van Kasterlee en Diest"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230> <http://www.w3.org/2004/02/skos/core#definition> "Pleistoceen en Plioceen Aquifer"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pleistoceen en Plioceen Aquifer"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0231> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0232> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0233> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0234> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0120> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0240> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://rdf-vocabulary.ddialliance.org/xkos#depth> "2"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0440> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0910> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0140> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0620> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0610> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1340> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1330> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1210> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0420> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0640> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1150> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1140> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1230> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1220> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0110> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf-vocabulary.ddialliance.org/xkos#ClassificationLevel> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#prefLabel> "hydrogeologische subeenheden"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1130> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1120> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0410> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1320> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1310> .
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> <http://www.w3.org/2004/02/skos/core#member> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0630> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0173> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0173> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0173> <http://www.w3.org/2004/02/skos/core#definition> "Afzettingen Maasvlakte"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0173> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afzettingen Maasvlakte"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0161> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0161> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0161> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0161> <http://www.w3.org/2004/02/skos/core#definition> "Pleistoceen van de Kustvlakte"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0161> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pleistoceen van de Kustvlakte"@nl .

@@ -1,0 +1,115 @@
+# baseURI: https://id.milieuinfo.be/milieuvocab/v0.95
+# imports: http://purl.org/dc/terms/
+# imports: http://purl.org/linked-data/cube
+# imports: http://www.w3.org/2003/01/geo/wgs84_pos
+# imports: http://www.w3.org/2004/02/skos/core
+# imports: http://www.w3.org/ns/org.ttl
+# imports: http://www.w3.org/ns/prov-o
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix datatypes: <http://www.w3.org/2001/XMLSchema-datatypes#> .
+@prefix dbpedia: <http://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmi: <http://purl.org/dc/dcmitype/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix gr: <http://purl.org/goodrelations/v1#> .
+@prefix kbo: <http://data.kbodata.be/def#> .
+@prefix lcy: <http://purl.org/vocab/lifecycle/schema#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix imjv: <https://data.imjv.omgeving.vlaanderen.be/ns/imjv#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix qudt: <http://qudt.org/schema/qudt#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rec: <http://www.w3.org/2001/02pd/rec54#> .
+@prefix regorg: <http://www.w3.org/ns/regorg#> .
+@prefix schema: <http://schema.org/> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix sdmx: <http://purl.org/linked-data/sdmx#> .
+@prefix sdmx-attr: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix sdmx-code: <http://purl.org/linked-data/sdmx/2009/code#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix spin: <http://spinrdf.org/spin#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+<https://data.imjv.omgeving.vlaanderen.be/id/kubus/afvalproducent>
+  rdf:type qb:DataSet ;
+  qb:structure <https://data.imjv.omgeving.vlaanderen.be/id/dsd/afval> ;
+  rdfs:label "kubus afvalproduktie"@nl ;
+  skos:prefLabel "kubus afvalproductie"@nl ;
+.
+<https://data.imjv.omgeving.vlaanderen.be/id/kubus/afvalverwerker>
+  rdf:type qb:DataSet ;
+  qb:structure <https://data.imjv.omgeving.vlaanderen.be/id/dsd/afval> ;
+  rdfs:label "kubus afvalverwerking"@nl ;
+  skos:prefLabel "kubus afvalverwerking"@nl ;
+.
+<https://data.imjv.omgeving.vlaanderen.be/id/kubus/energieproductie>
+  rdf:type qb:DataSet ;
+  qb:structure <https://data.imjv.omgeving.vlaanderen.be/id/dsd/energie> ;
+  rdfs:label "kubus energieproductie"@nl ;
+.
+<https://data.imjv.omgeving.vlaanderen.be/id/kubus/energieverbruik>
+  rdf:type qb:DataSet ;
+  qb:structure <https://data.imjv.omgeving.vlaanderen.be/id/dsd/energie> ;
+  rdfs:label "kubus energieproductie"@nl ;
+.
+<https://data.imjv.omgeving.vlaanderen.be/id/kubus/grondwater>
+  rdf:type qb:DataSet ;
+  qb:structure <https://data.imjv.omgeving.vlaanderen.be/id/dsd/grondwater> ;
+  rdfs:label "kubus grondwater"@nl ;
+  skos:prefLabel "kubus grondwater"@nl ;
+.
+<https://data.imjv.omgeving.vlaanderen.be/id/kubus/grondwateronttrekking>
+  rdf:type qb:DataSet ;
+  qb:structure <https://data.imjv.omgeving.vlaanderen.be/id/dsd/grondwateronttrekking> ;
+  rdfs:label "kubus grondwateronttrekking"@nl ;
+  skos:prefLabel "kubus grondwateronttrekking"@nl ;
+.
+<https://data.imjv.omgeving.vlaanderen.be/id/kubus/luchtemissies>
+  rdf:type qb:DataSet ;
+  qb:structure <https://data.imjv.omgeving.vlaanderen.be/id/dsd/luchtemissie> ;
+  rdfs:label "kubus luchtemissies"@nl ;
+  skos:prefLabel "kubus luchtemissies"@nl ;
+.
+<https://data.imjv.omgeving.vlaanderen.be/id/kubus/peilmeting-grondwater>
+  rdf:type qb:DataSet ;
+  qb:structure <https://data.imjv.omgeving.vlaanderen.be/id/dsd/peilmeting-grondwater> ;
+  rdfs:label "kubus peilmeting-grondwater"@nl ;
+  skos:prefLabel "kubus peilmeting-grondwater"@nl ;
+.
+<https://data.imjv.omgeving.vlaanderen.be/id/kubus/waterlozingen>
+  rdf:type qb:DataSet ;
+  qb:structure <https://data.imjv.omgeving.vlaanderen.be/id/dsd/waterlozingen> ;
+  rdfs:label "kubus waterlozingen"@nl ;
+  skos:prefLabel "kubus waterlozingen"@nl ;
+.
+<https://id.milieuinfo.be/milieuvocab/v0.95>
+  rdf:type owl:Ontology ;
+  owl:imports dcterms: ;
+  owl:imports <http://purl.org/linked-data/cube> ;
+  owl:imports <http://www.w3.org/2003/01/geo/wgs84_pos> ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+  owl:imports <http://www.w3.org/ns/org.ttl> ;
+  owl:imports <http://www.w3.org/ns/prov-o> ;
+.

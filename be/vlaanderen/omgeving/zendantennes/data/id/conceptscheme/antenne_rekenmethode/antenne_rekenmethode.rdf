@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:waarde="https://data.omgeving.vlaanderen.be/ns/waarde#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:schema="http://schema.org/"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:regorg="http://www.w3.org/ns/regorg#">
+
+<rdf:Description rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_rekenmethode">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <xkos:belongsTo rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset"/>
+    <skos:prefLabel xml:lang="nl">Lijst van mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne</skos:prefLabel>
+    <skos:altLabel xml:lang="nl">antenne_rekenmethode</skos:altLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-19</dcterms:issued>
+    <vann:changes xml:lang="nl"></vann:changes>
+    <dcterms:title xml:lang="nl">Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:title>
+    <owl:versionInfo xml:lang="nl">Eerste versie, zoals in gebruik genomen in het kader van archivering van zendantennes</owl:versionInfo>
+    <foaf:maker>
+        <rdf:Description>
+            <schema:affiliation>
+                <org:Organization rdf:about="http://data.vlaanderen.be/id/organisatie/OVO003751">
+                    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+                    <foaf:name  xml:lang="nl">Data- en informatiebeheer &amp; digitale maatschappij</foaf:name>
+                    <rdfs:seeAlso rdf:resource="https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66"/>
+                    <skos:altLabel  xml:lang="nl">DIDM</skos:altLabel>
+                    <skos:prefLabel  xml:lang="nl">Data- en informatiebeheer &amp; digitale maatschappij</skos:prefLabel>
+                    <org:changedBy rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting"/>
+                    <org:classification rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa"/>
+                    <org:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVO003751</org:identifier>
+                    <regorg:orgStatus rdf:resource="http://data.vlaanderen.be/id/concept/organisatiestatus/actief"/>
+                    <foaf:homepage rdf:resource="https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij"/>    
+                    <dcterms:type rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa"/>   
+                    <foaf:mbox rdf:resource="mailto:didm.omgeving@vlaanderen.be"/>
+                </org:Organization>
+            </schema:affiliation>
+            <foaf:mbox rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
+            <foaf:name>Van Haute, Geert</foaf:name>
+        </rdf:Description>
+    </foaf:maker>
+</rdf:Description>
+<rdf:Description rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_rekenmethode/3d">
+    <skos:inScheme rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_rekenmethode"/>       
+    <skos:topConceptOf rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_rekenmethode"/>      
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="nl">3d</skos:prefLabel>
+    <waarde:key rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3D</waarde:key>
+    <rdfs:comment xml:lang="nl">TO DO</rdfs:comment>
+</rdf:Description>
+<rdf:Description rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_rekenmethode/schil">
+    <skos:inScheme rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_rekenmethode"/>       
+    <skos:topConceptOf rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_rekenmethode"/>      
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="nl">schil</skos:prefLabel>
+    <waarde:key rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCHIL</waarde:key>
+    <rdfs:comment xml:lang="nl">TO DO</rdfs:comment>
+</rdf:Description>
+</rdf:RDF>

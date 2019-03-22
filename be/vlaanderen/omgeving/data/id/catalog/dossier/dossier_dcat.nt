@@ -1,0 +1,82 @@
+<https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/LicenseDocument> .
+<https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0> <http://purl.org/dc/terms/type> <http://purl.org/adms/licencetype/Attribution> .
+<https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0> <http://purl.org/dc/terms/rightsHolder> <http://data.vlaanderen.be/id/organisatie/OVO003751> .
+<https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0> <http://purl.org/dc/terms/source> <https://data.vlaanderen.be/doc/licentie/modellicentie-gratis-hergebruik/v1.0> .
+<http://data.vlaanderen.be/id/organisatie/OVO003323> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://data.vlaanderen.be/id/organisatie/OVO003323> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://data.vlaanderen.be/id/organisatie/OVO003323> <http://xmlns.com/foaf/0.1/name> "Departement Omgeving"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003323> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://wegwijs.vlaanderen.be/#/organisations/ef10b997-ab90-f07c-a689-0da2d0fef485/info> .
+<http://data.vlaanderen.be/id/organisatie/OVO003323> <http://www.w3.org/2004/02/skos/core#prefLabel> "Departement Omgeving"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003323> <http://www.w3.org/ns/org#classification> <http://data.vlaanderen.be/id/concept/organisatieclassificatie/1e54c545-6f5d-4942-a509-978ae405f34c> .
+<http://data.vlaanderen.be/id/organisatie/OVO003323> <http://www.w3.org/ns/org#identifier> "OVO003323" .
+<http://data.vlaanderen.be/id/organisatie/OVO003323> <http://xmlns.com/foaf/0.1/homepage> <https://www.omgevingvlaanderen.be> .
+<http://data.vlaanderen.be/id/organisatie/OVO003323> <http://purl.org/dc/terms/type> <http://data.vlaanderen.be/id/concept/organisatieclassificatie/1e54c545-6f5d-4942-a509-978ae405f34c> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/name> "Data- en informatiebeheer & digitale maatschappij"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2004/02/skos/core#altLabel> "DIDM"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data- en informatiebeheer & digitale maatschappij"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#classification> <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#identifier> "OVO003751" .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/homepage> <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://purl.org/dc/terms/type> <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> .
+<https://data.omgeving.vlaanderen.be/id/catalog/dossier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
+<https://data.omgeving.vlaanderen.be/id/catalog/dossier> <http://xmlns.com/foaf/0.1/homepage> <https://data.omgeving.vlaanderen.be/doc/dossier> .
+<https://data.omgeving.vlaanderen.be/id/catalog/dossier> <http://purl.org/dc/terms/title> "Catalog Dossier"@nl .
+<https://data.omgeving.vlaanderen.be/id/catalog/dossier> <http://purl.org/dc/terms/description> "De datasets die in het kader van dossier worden gepubliceerd"@nl .
+<https://data.omgeving.vlaanderen.be/id/catalog/dossier> <http://purl.org/dc/terms/publisher> <http://data.vlaanderen.be/id/organisatie/OVO003323> .
+<https://data.omgeving.vlaanderen.be/id/catalog/dossier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Catalog> .
+<https://data.omgeving.vlaanderen.be/id/catalog/dossier> <http://purl.org/dc/terms/issued> "2018-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.omgeving.vlaanderen.be/id/catalog/dossier> <http://purl.org/dc/terms/modified> "2018-05-23+02:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.omgeving.vlaanderen.be/id/catalog/dossier> <http://purl.org/dc/terms/language> "nl"@nl .
+<https://data.omgeving.vlaanderen.be/id/catalog/dossier> <http://purl.org/dc/terms/language> "nl"@nl .
+<https://data.omgeving.vlaanderen.be/id/catalog/dossier> <http://purl.org/dc/terms/license> <https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0> .
+<https://data.omgeving.vlaanderen.be/id/catalog/dossier> <http://www.w3.org/ns/dcat#dataset> <https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier> .
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier> <http://purl.org/dc/terms/title> "Dossier ontologie"@nl .
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier> <http://purl.org/dc/terms/description> "Dossier ontologie"@nl .
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier> <http://www.w3.org/ns/dcat#theme> <http://eurovoc.europa.eu/2176> .
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier> <http://purl.org/dc/terms/issued> "2018-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier> <http://purl.org/dc/terms/spatial> <http://publications.europa.eu/resource/authority/country/BEL> .
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier> <http://purl.org/dc/terms/temporal> "2018" .
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier> <http://www.w3.org/ns/dcat#contactPoint> <mailto:geert.vanhaute@vlaanderen.be> .
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier> <http://purl.org/dc/terms/publisher> <http://data.vlaanderen.be/id/organisatie/OVO003323> .
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier> <http://www.w3.org/ns/dcat#landingPage> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier> <http://purl.org/dc/terms/license> <https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0> .
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier> <http://www.w3.org/ns/dcat#distribution> <https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/ttl> .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/ttl> <http://purl.org/dc/terms/title> "Dossier ontologie, turtle distributie."@nl .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/ttl> <http://purl.org/dc/terms/description> "Dossier ontologie in text/turtle"@nl .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/ttl> <http://www.w3.org/ns/dcat#accessURL> <https://data.omgeving.vlaanderen.be/dumps/ontologie/dossier/dossier.ttl> .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/ttl> <http://www.w3.org/ns/dcat#mediaType> "text/turtle" .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/ttl> <http://purl.org/dc/terms/format> "text/turtle" .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/ttl> <http://purl.org/dc/terms/license> <https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0> .
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier> <http://www.w3.org/ns/dcat#distribution> <https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/jsonld> .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/jsonld> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/jsonld> <http://purl.org/dc/terms/title> "Dossier ontologie, json-ld distributie."@nl .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/jsonld> <http://purl.org/dc/terms/description> "Dossier ontologie in application/json"@nl .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/jsonld> <http://www.w3.org/ns/dcat#accessURL> <https://data.omgeving.vlaanderen.be/dumps/ontologie/dossier/dossier.jsonld> .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/jsonld> <http://www.w3.org/ns/dcat#mediaType> "application/json" .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/jsonld> <http://purl.org/dc/terms/format> "application/json" .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/jsonld> <http://purl.org/dc/terms/license> <https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0> .
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier> <http://www.w3.org/ns/dcat#distribution> <https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/rdf> .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/rdf> <http://purl.org/dc/terms/title> "Dossier ontologie, rdf+xml distributie."@nl .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/rdf> <http://purl.org/dc/terms/description> "Dossier ontologie in application/rdf+xml"@nl .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/rdf> <http://www.w3.org/ns/dcat#accessURL> <https://data.omgeving.vlaanderen.be/dumps/ontologie/dossier/dossier.rdf> .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/rdf> <http://www.w3.org/ns/dcat#mediaType> "application/rdf+xml" .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/rdf> <http://purl.org/dc/terms/format> "application/rdf+xml" .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/rdf> <http://purl.org/dc/terms/license> <https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0> .
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier> <http://www.w3.org/ns/dcat#distribution> <https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/nt> .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/nt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/nt> <http://purl.org/dc/terms/title> "Dossier ontologie, n-triples distributie."@nl .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/nt> <http://purl.org/dc/terms/description> "Dossier ontologie in application/n-triples"@nl .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/nt> <http://www.w3.org/ns/dcat#accessURL> <https://data.omgeving.vlaanderen.be/dumps/ontologie/dossier/dossier.nt> .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/nt> <http://www.w3.org/ns/dcat#mediaType> "application/n-triples" .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/nt> <http://purl.org/dc/terms/format> "application/n-triples" .
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/nt> <http://purl.org/dc/terms/license> <https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0> .

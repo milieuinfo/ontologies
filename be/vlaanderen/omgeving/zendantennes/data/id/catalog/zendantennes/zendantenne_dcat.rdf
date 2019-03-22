@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:org="http://www.w3.org/ns/org#">
+   <dcterms:LicenseDocument rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0">
+      <dcterms:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+      <dcterms:rightsHolder rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003751"/>
+      <dcterms:source rdf:resource="https://data.vlaanderen.be/doc/licentie/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcterms:LicenseDocument>
+   <foaf:Agent rdf:about="http://data.vlaanderen.be/id/organisatie/OVO003323">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+      <foaf:name xml:lang="nl">Departement Omgeving</foaf:name>
+      <rdfs:seeAlso rdf:resource="https://wegwijs.vlaanderen.be/#/organisations/ef10b997-ab90-f07c-a689-0da2d0fef485/info"/>
+      <skos:prefLabel xml:lang="nl">Departement Omgeving</skos:prefLabel>
+      <org:classification rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/1e54c545-6f5d-4942-a509-978ae405f34c"/>
+      <org:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVO003323</org:identifier>
+      <foaf:homepage rdf:resource="https://www.omgevingvlaanderen.be"/>
+      <dcterms:type rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/1e54c545-6f5d-4942-a509-978ae405f34c"/>
+   </foaf:Agent>
+   <foaf:Agent rdf:about="http://data.vlaanderen.be/id/organisatie/OVO003751">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+      <foaf:name xml:lang="nl">Data- en informatiebeheer &amp; digitale maatschappij</foaf:name>
+      <rdfs:seeAlso rdf:resource="https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66"/>
+      <skos:altLabel xml:lang="nl">DIDM</skos:altLabel>
+      <skos:prefLabel xml:lang="nl">Data- en informatiebeheer &amp; digitale maatschappij</skos:prefLabel>
+      <org:classification rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa"/>
+      <org:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVO003751</org:identifier>
+      <foaf:homepage rdf:resource="https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij"/>
+      <dcterms:type rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa"/>
+   </foaf:Agent>
+   <dcat:Catalog rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/catalog/zendantennes">
+      <foaf:homepage rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/doc/zendantennes"/>
+      <!--<foaf:homepage rdf:resource="https://data.omgeving.vlaanderen.be"/>-->
+      <dcterms:title xml:lang="nl">Catalog Zendantenne</dcterms:title>
+      <dcterms:description xml:lang="nl">De datasets die in het kader van zendantennes worden gepubliceerd</dcterms:description>
+      <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+      <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-19</dcterms:issued>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-23+02:00</dcterms:modified>
+      <dcterms:language xml:lang="nl">nl</dcterms:language>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Catalog>
+   <dcat:Catalog rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/catalog/zendantennes">
+      <dcat:dataset rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/zendantennes"/>
+   </dcat:Catalog>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/zendantennes">
+      <dcterms:title xml:lang="nl">Dataset zendantenne</dcterms:title>
+      <dcterms:description xml:lang="nl">Dataset zendantenne, serialisatie van de databank van https://zendantennes.vlaanderen.be/zendant</dcterms:description>
+      <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
+      <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-19</dcterms:issued>
+      <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+      <dcterms:temporal>2017</dcterms:temporal>
+      <dcterms:temporal>2018</dcterms:temporal>
+      <dcat:contactPoint rdf:resource="mailto:geert@milieuinfo.be"/>
+      <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/doc/zendantennes"/>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Dataset>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/zendantennes">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/sparql"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/sparql">
+      <dcterms:title xml:lang="nl">dataset van zendantenne, sparql API</dcterms:title>
+      <dcterms:description xml:lang="nl">sparql interface op de dataset van zendantenne</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/sparql?"/>
+      <dcat:mediaType>application/sparql-query</dcat:mediaType>
+      <dcterms:format>application/sparql-query</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/zendantennes">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/html"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/html">
+      <dcterms:title xml:lang="nl">dataset van zendantenne, html distributie</dcterms:title>
+      <dcterms:description xml:lang="nl">dataset van zendantenne in text/html</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/doc/zendantennes"/>
+      <dcat:mediaType>text/html</dcat:mediaType>
+      <dcterms:format>text/html</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/zendantennes">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ttl"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ttl">
+      <dcterms:title xml:lang="nl">dataset van zendantenne , turtle distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">dataset van zendantenne in text/turtle</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/data/zendantennes/zendantennes.ttl"/>
+      <dcat:mediaType>text/turtle</dcat:mediaType>
+      <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/zendantennes">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/jsonld"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/jsonld">
+      <dcterms:title xml:lang="nl">dataset van zendantenne , json-ld distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">dataset van zendantenne in application/json</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/data/zendantennes/zendantennes.jsonld"/>
+      <dcat:mediaType>application/json</dcat:mediaType>
+      <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/zendantennes">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/rdf"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/rdf">
+      <dcterms:title xml:lang="nl">dataset van zendantenne , rdf+xml distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">dataset van zendantenne in application/rdf+xml</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/data/zendantennes/zendantennes.rdf"/>
+      <dcat:mediaType>application/rdf+xml</dcat:mediaType>
+      <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/zendantennes">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/nt"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/nt">
+      <dcterms:title xml:lang="nl">dataset van zendantenne , n-triples distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">dataset van zendantenne in application/n-triples</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/data/zendantennes/zendantennes.nt"/>
+      <dcat:mediaType>application/n-triples</dcat:mediaType>
+      <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Catalog rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/catalog/zendantennes">
+      <dcat:dataset rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_dossier"/>
+   </dcat:Catalog>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_dossier">
+      <dcterms:title xml:lang="nl">Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest</dcterms:title>
+      <dcterms:description xml:lang="nl">Informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest Onderdelen van een dossier voor de aanvraag van een conformiteitsattest</dcterms:description>
+      <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
+      <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-19</dcterms:issued>
+      <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+      <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
+      <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/doc/conceptscheme/antenne_dossier"/>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Dataset>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_dossier">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier/ttl"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier/ttl">
+      <dcterms:title xml:lang="nl">Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest, turtle distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest in text/turtle</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_dossier/antenne_dossier.ttl"/>
+      <dcat:mediaType>text/turtle</dcat:mediaType>
+      <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_dossier">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier/jsonld"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier/jsonld">
+      <dcterms:title xml:lang="nl">Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest, json-ld distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest in application/json</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_dossier/antenne_dossier.jsonld"/>
+      <dcat:mediaType>application/json</dcat:mediaType>
+      <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_dossier">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier/rdf"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier/rdf">
+      <dcterms:title xml:lang="nl">Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest, rdf+xml distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest in application/rdf+xml</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_dossier/antenne_dossier.rdf"/>
+      <dcat:mediaType>application/rdf+xml</dcat:mediaType>
+      <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_dossier">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier/nt"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier/nt">
+      <dcterms:title xml:lang="nl">Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest, n-triples distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest in application/n-triples</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_dossier/antenne_dossier.nt"/>
+      <dcat:mediaType>application/n-triples</dcat:mediaType>
+      <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Catalog rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/catalog/zendantennes">
+      <dcat:dataset rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_gecontroleerde_ruimte_status"/>
+   </dcat:Catalog>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_gecontroleerde_ruimte_status">
+      <dcterms:title xml:lang="nl">Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:title>
+      <dcterms:description xml:lang="nl">Lijst van mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:description>
+      <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
+      <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-19</dcterms:issued>
+      <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+      <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
+      <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/doc/conceptscheme/antenne_gecontroleerde_ruimte_status"/>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Dataset>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_gecontroleerde_ruimte_status">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gecontroleerde_ruimte_status/ttl"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gecontroleerde_ruimte_status/ttl">
+      <dcterms:title xml:lang="nl">Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_gecontroleerde_ruimte_status/antenne_gecontroleerde_ruimte_status.ttl"/>
+      <dcat:mediaType>text/turtle</dcat:mediaType>
+      <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_gecontroleerde_ruimte_status">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gecontroleerde_ruimte_status/jsonld"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gecontroleerde_ruimte_status/jsonld">
+      <dcterms:title xml:lang="nl">Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_gecontroleerde_ruimte_status/antenne_gecontroleerde_ruimte_status.jsonld"/>
+      <dcat:mediaType>application/json</dcat:mediaType>
+      <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_gecontroleerde_ruimte_status">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gecontroleerde_ruimte_status/rdf"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gecontroleerde_ruimte_status/rdf">
+      <dcterms:title xml:lang="nl">Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_gecontroleerde_ruimte_status/antenne_gecontroleerde_ruimte_status.rdf"/>
+      <dcat:mediaType>application/rdf+xml</dcat:mediaType>
+      <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_gecontroleerde_ruimte_status">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gecontroleerde_ruimte_status/nt"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gecontroleerde_ruimte_status/nt">
+      <dcterms:title xml:lang="nl">Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_gecontroleerde_ruimte_status/antenne_gecontroleerde_ruimte_status.nt"/>
+      <dcat:mediaType>application/n-triples</dcat:mediaType>
+      <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Catalog rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/catalog/zendantennes">
+      <dcat:dataset rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_demping_materiaal"/>
+   </dcat:Catalog>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_demping_materiaal">
+      <dcterms:title xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling</dcterms:title>
+      <dcterms:description xml:lang="nl">Lijst van stralingsdempende materialen</dcterms:description>
+      <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
+      <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-19</dcterms:issued>
+      <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+      <dcterms:temporal>2018</dcterms:temporal>
+      <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
+      <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/doc/conceptscheme/antenne_demping_materiaal"/>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Dataset>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_demping_materiaal">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_demping_materiaal/ttl"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_demping_materiaal/ttl">
+      <dcterms:title xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling, turtle distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling in text/turtle</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_demping_materiaal/antenne_demping_materiaal.ttl"/>
+      <dcat:mediaType>text/turtle</dcat:mediaType>
+      <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_demping_materiaal">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_demping_materiaal/jsonld"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_demping_materiaal/jsonld">
+      <dcterms:title xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling, json-ld distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling in application/json</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_demping_materiaal/antenne_demping_materiaal.jsonld"/>
+      <dcat:mediaType>application/json</dcat:mediaType>
+      <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_demping_materiaal">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_demping_materiaal/rdf"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_demping_materiaal/rdf">
+      <dcterms:title xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling, rdf+xml distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling in application/rdf+xml</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_demping_materiaal/antenne_demping_materiaal.rdf"/>
+      <dcat:mediaType>application/rdf+xml</dcat:mediaType>
+      <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_demping_materiaal">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_demping_materiaal/nt"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_demping_materiaal/nt">
+      <dcterms:title xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling, n-triples distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme dempend materiaal bij elektromagnetische straling in application/n-triples</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_demping_materiaal/antenne_demping_materiaal.nt"/>
+      <dcat:mediaType>application/n-triples</dcat:mediaType>
+      <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Catalog rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/catalog/zendantennes">
+      <dcat:dataset rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_norm_type"/>
+   </dcat:Catalog>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_norm_type">
+      <dcterms:title xml:lang="nl">Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:title>
+      <dcterms:description xml:lang="nl">Lijst van mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:description>
+      <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
+      <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-19</dcterms:issued>
+      <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+      <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
+      <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/doc/conceptscheme/antenne_norm_type"/>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Dataset>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_norm_type">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_norm_type/ttl"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_norm_type/ttl">
+      <dcterms:title xml:lang="nl">Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_norm_type/antenne_norm_type.ttl"/>
+      <dcat:mediaType>text/turtle</dcat:mediaType>
+      <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_norm_type">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_norm_type/jsonld"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_norm_type/jsonld">
+      <dcterms:title xml:lang="nl">Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_norm_type/antenne_norm_type.jsonld"/>
+      <dcat:mediaType>application/json</dcat:mediaType>
+      <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_norm_type">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_norm_type/rdf"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_norm_type/rdf">
+      <dcterms:title xml:lang="nl">Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_norm_type/antenne_norm_type.rdf"/>
+      <dcat:mediaType>application/rdf+xml</dcat:mediaType>
+      <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_norm_type">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_norm_type/nt"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_norm_type/nt">
+      <dcterms:title xml:lang="nl">Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_norm_type/antenne_norm_type.nt"/>
+      <dcat:mediaType>application/n-triples</dcat:mediaType>
+      <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Catalog rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/catalog/zendantennes">
+      <dcat:dataset rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_straling_type"/>
+   </dcat:Catalog>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_straling_type">
+      <dcterms:title xml:lang="nl">Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:title>
+      <dcterms:description xml:lang="nl">Lijst van mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:description>
+      <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
+      <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-19</dcterms:issued>
+      <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+      <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
+      <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/doc/conceptscheme/antenne_straling_type"/>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Dataset>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_straling_type">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_straling_type/ttl"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_straling_type/ttl">
+      <dcterms:title xml:lang="nl">Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_straling_type/antenne_straling_type.ttl"/>
+      <dcat:mediaType>text/turtle</dcat:mediaType>
+      <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_straling_type">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_straling_type/jsonld"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_straling_type/jsonld">
+      <dcterms:title xml:lang="nl">Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_straling_type/antenne_straling_type.jsonld"/>
+      <dcat:mediaType>application/json</dcat:mediaType>
+      <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_straling_type">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_straling_type/rdf"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_straling_type/rdf">
+      <dcterms:title xml:lang="nl">Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_straling_type/antenne_straling_type.rdf"/>
+      <dcat:mediaType>application/rdf+xml</dcat:mediaType>
+      <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_straling_type">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_straling_type/nt"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_straling_type/nt">
+      <dcterms:title xml:lang="nl">Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_straling_type/antenne_straling_type.nt"/>
+      <dcat:mediaType>application/n-triples</dcat:mediaType>
+      <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Catalog rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/catalog/zendantennes">
+      <dcat:dataset rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_dossier_type"/>
+   </dcat:Catalog>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_dossier_type">
+      <dcterms:title xml:lang="nl">Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:title>
+      <dcterms:description xml:lang="nl">Lijst van dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:description>
+      <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
+      <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-19</dcterms:issued>
+      <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+      <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
+      <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/doc/conceptscheme/antenne_dossier_type"/>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Dataset>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_dossier_type">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier_type/ttl"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier_type/ttl">
+      <dcterms:title xml:lang="nl">Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_dossier_type/antenne_dossier_type.ttl"/>
+      <dcat:mediaType>text/turtle</dcat:mediaType>
+      <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_dossier_type">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier_type/jsonld"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier_type/jsonld">
+      <dcterms:title xml:lang="nl">Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_dossier_type/antenne_dossier_type.jsonld"/>
+      <dcat:mediaType>application/json</dcat:mediaType>
+      <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_dossier_type">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier_type/rdf"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier_type/rdf">
+      <dcterms:title xml:lang="nl">Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_dossier_type/antenne_dossier_type.rdf"/>
+      <dcat:mediaType>application/rdf+xml</dcat:mediaType>
+      <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_dossier_type">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier_type/nt"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier_type/nt">
+      <dcterms:title xml:lang="nl">Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_dossier_type/antenne_dossier_type.nt"/>
+      <dcat:mediaType>application/n-triples</dcat:mediaType>
+      <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Catalog rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/catalog/zendantennes">
+      <dcat:dataset rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/eenheid"/>
+   </dcat:Catalog>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/eenheid">
+      <dcterms:title xml:lang="nl">Conceptscheme over eenheden bij een waarde</dcterms:title>
+      <dcterms:description xml:lang="nl">Lijst van eenheden bij een waarde</dcterms:description>
+      <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
+      <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-19</dcterms:issued>
+      <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+      <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
+      <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/doc/conceptscheme/eenheid"/>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Dataset>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/eenheid">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/eenheid/ttl"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/eenheid/ttl">
+      <dcterms:title xml:lang="nl">Conceptscheme over eenheden bij een waarde, turtle distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over eenheden bij een waarde in text/turtle</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/eenheid/eenheid.ttl"/>
+      <dcat:mediaType>text/turtle</dcat:mediaType>
+      <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/eenheid">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/eenheid/jsonld"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/eenheid/jsonld">
+      <dcterms:title xml:lang="nl">Conceptscheme over eenheden bij een waarde, json-ld distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over eenheden bij een waarde in application/json</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/eenheid/eenheid.jsonld"/>
+      <dcat:mediaType>application/json</dcat:mediaType>
+      <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/eenheid">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/eenheid/rdf"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/eenheid/rdf">
+      <dcterms:title xml:lang="nl">Conceptscheme over eenheden bij een waarde, rdf+xml distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over eenheden bij een waarde in application/rdf+xml</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/eenheid/eenheid.rdf"/>
+      <dcat:mediaType>application/rdf+xml</dcat:mediaType>
+      <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/eenheid">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/eenheid/nt"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/eenheid/nt">
+      <dcterms:title xml:lang="nl">Conceptscheme over eenheden bij een waarde, n-triples distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over eenheden bij een waarde in application/n-triples</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/eenheid/eenheid.nt"/>
+      <dcat:mediaType>application/n-triples</dcat:mediaType>
+      <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Catalog rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/catalog/zendantennes">
+      <dcat:dataset rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_gebouw_dtype"/>
+   </dcat:Catalog>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_gebouw_dtype">
+      <dcterms:title xml:lang="nl">Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:title>
+      <dcterms:description xml:lang="nl">Lijst van gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:description>
+      <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
+      <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-19</dcterms:issued>
+      <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+      <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
+      <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/doc/conceptscheme/antenne_gebouw_dtype"/>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Dataset>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_gebouw_dtype">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gebouw_dtype/ttl"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gebouw_dtype/ttl">
+      <dcterms:title xml:lang="nl">Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_gebouw_dtype/antenne_gebouw_dtype.ttl"/>
+      <dcat:mediaType>text/turtle</dcat:mediaType>
+      <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_gebouw_dtype">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gebouw_dtype/jsonld"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gebouw_dtype/jsonld">
+      <dcterms:title xml:lang="nl">Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_gebouw_dtype/antenne_gebouw_dtype.jsonld"/>
+      <dcat:mediaType>application/json</dcat:mediaType>
+      <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_gebouw_dtype">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gebouw_dtype/rdf"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gebouw_dtype/rdf">
+      <dcterms:title xml:lang="nl">Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_gebouw_dtype/antenne_gebouw_dtype.rdf"/>
+      <dcat:mediaType>application/rdf+xml</dcat:mediaType>
+      <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_gebouw_dtype">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gebouw_dtype/nt"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gebouw_dtype/nt">
+      <dcterms:title xml:lang="nl">Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_gebouw_dtype/antenne_gebouw_dtype.nt"/>
+      <dcat:mediaType>application/n-triples</dcat:mediaType>
+      <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Catalog rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/catalog/zendantennes">
+      <dcat:dataset rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_rekenmethode"/>
+   </dcat:Catalog>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_rekenmethode">
+      <dcterms:title xml:lang="nl">Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:title>
+      <dcterms:description xml:lang="nl">Lijst van mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne</dcterms:description>
+      <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
+      <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-19</dcterms:issued>
+      <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+      <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
+      <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/doc/conceptscheme/antenne_rekenmethode"/>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Dataset>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_rekenmethode">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_rekenmethode/ttl"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_rekenmethode/ttl">
+      <dcterms:title xml:lang="nl">Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_rekenmethode/antenne_rekenmethode.ttl"/>
+      <dcat:mediaType>text/turtle</dcat:mediaType>
+      <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_rekenmethode">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_rekenmethode/jsonld"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_rekenmethode/jsonld">
+      <dcterms:title xml:lang="nl">Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_rekenmethode/antenne_rekenmethode.jsonld"/>
+      <dcat:mediaType>application/json</dcat:mediaType>
+      <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_rekenmethode">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_rekenmethode/rdf"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_rekenmethode/rdf">
+      <dcterms:title xml:lang="nl">Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_rekenmethode/antenne_rekenmethode.rdf"/>
+      <dcat:mediaType>application/rdf+xml</dcat:mediaType>
+      <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_rekenmethode">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_rekenmethode/nt"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_rekenmethode/nt">
+      <dcterms:title xml:lang="nl">Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_rekenmethode/antenne_rekenmethode.nt"/>
+      <dcat:mediaType>application/n-triples</dcat:mediaType>
+      <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Catalog rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/catalog/zendantennes">
+      <dcat:dataset rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/dossier"/>
+   </dcat:Catalog>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/dossier">
+      <dcterms:title xml:lang="nl">Dossier ontologie</dcterms:title>
+      <dcterms:description xml:lang="nl">Dossier ontologie</dcterms:description>
+      <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
+      <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-19</dcterms:issued>
+      <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+      <dcterms:temporal>2018</dcterms:temporal>
+      <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
+      <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://data.omgeving.vlaanderen.be/ns/dossier"/>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Dataset>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/dossier">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/dossier/ttl"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/dossier/ttl">
+      <dcterms:title xml:lang="nl">Dossier ontologie, turtle distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Dossier ontologie in text/turtle</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/ontologie/dossier/dossier.ttl"/>
+      <dcat:mediaType>text/turtle</dcat:mediaType>
+      <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/dossier">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/dossier/jsonld"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/dossier/jsonld">
+      <dcterms:title xml:lang="nl">Dossier ontologie, json-ld distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Dossier ontologie in application/json</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/ontologie/dossier/dossier.jsonld"/>
+      <dcat:mediaType>application/json</dcat:mediaType>
+      <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/dossier">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/dossier/rdf"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/dossier/rdf">
+      <dcterms:title xml:lang="nl">Dossier ontologie, rdf+xml distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Dossier ontologie in application/rdf+xml</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/ontologie/dossier/dossier.rdf"/>
+      <dcat:mediaType>application/rdf+xml</dcat:mediaType>
+      <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/dossier">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/dossier/nt"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/dossier/nt">
+      <dcterms:title xml:lang="nl">Dossier ontologie, n-triples distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Dossier ontologie in application/n-triples</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/ontologie/dossier/dossier.nt"/>
+      <dcat:mediaType>application/n-triples</dcat:mediaType>
+      <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Catalog rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/catalog/zendantennes">
+      <dcat:dataset rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/waarde"/>
+   </dcat:Catalog>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/waarde">
+      <dcterms:title xml:lang="nl">Waarde ontologie</dcterms:title>
+      <dcterms:description xml:lang="nl">Waarde ontologie</dcterms:description>
+      <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
+      <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-19</dcterms:issued>
+      <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+      <dcterms:temporal>2018</dcterms:temporal>
+      <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
+      <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde"/>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Dataset>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/waarde">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/waarde/ttl"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/waarde/ttl">
+      <dcterms:title xml:lang="nl">Waarde ontologie, turtle distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Waarde ontologie in text/turtle</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/ontologie/waarde/waarde.ttl"/>
+      <dcat:mediaType>text/turtle</dcat:mediaType>
+      <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/waarde">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/waarde/jsonld"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/waarde/jsonld">
+      <dcterms:title xml:lang="nl">Waarde ontologie, json-ld distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Waarde ontologie in application/json</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/ontologie/waarde/waarde.jsonld"/>
+      <dcat:mediaType>application/json</dcat:mediaType>
+      <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/waarde">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/waarde/rdf"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/waarde/rdf">
+      <dcterms:title xml:lang="nl">Waarde ontologie, rdf+xml distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Waarde ontologie in application/rdf+xml</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/ontologie/waarde/waarde.rdf"/>
+      <dcat:mediaType>application/rdf+xml</dcat:mediaType>
+      <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/waarde">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/waarde/nt"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/waarde/nt">
+      <dcterms:title xml:lang="nl">Waarde ontologie, n-triples distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Waarde ontologie in application/n-triples</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/ontologie/waarde/waarde.nt"/>
+      <dcat:mediaType>application/n-triples</dcat:mediaType>
+      <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Catalog rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/catalog/zendantennes">
+      <dcat:dataset rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/antenne"/>
+   </dcat:Catalog>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/antenne">
+      <dcterms:title xml:lang="nl">Zendantenne ontologie</dcterms:title>
+      <dcterms:description xml:lang="nl">Zendantenne ontologie</dcterms:description>
+      <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
+      <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-19</dcterms:issued>
+      <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+      <dcterms:temporal>2018</dcterms:temporal>
+      <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
+      <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne"/>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Dataset>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/antenne">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/antenne/ttl"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/antenne/ttl">
+      <dcterms:title xml:lang="nl">Zendantenne ontologie, turtle distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Zendantenne ontologie in text/turtle</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/ontologie/zendantenne/zendantenne.ttl"/>
+      <dcat:mediaType>text/turtle</dcat:mediaType>
+      <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/antenne">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/antenne/jsonld"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/antenne/jsonld">
+      <dcterms:title xml:lang="nl">Zendantenne ontologie, json-ld distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Zendantenne ontologie in application/json</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/ontologie/zendantenne/zendantenne.jsonld"/>
+      <dcat:mediaType>application/json</dcat:mediaType>
+      <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/antenne">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/antenne/rdf"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/antenne/rdf">
+      <dcterms:title xml:lang="nl">Zendantenne ontologie, rdf+xml distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Zendantenne ontologie in application/rdf+xml</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/ontologie/zendantenne/zendantenne.rdf"/>
+      <dcat:mediaType>application/rdf+xml</dcat:mediaType>
+      <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/antenne">
+      <dcat:distribution rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/antenne/nt"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/antenne/nt">
+      <dcterms:title xml:lang="nl">Zendantenne ontologie, n-triples distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Zendantenne ontologie in application/n-triples</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/ontologie/zendantenne/zendantenne.nt"/>
+      <dcat:mediaType>application/n-triples</dcat:mediaType>
+      <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+</rdf:RDF>

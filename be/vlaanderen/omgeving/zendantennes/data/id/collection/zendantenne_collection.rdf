@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:co="http://purl.org/co/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:schema="http://schema.org/"
+    xml:base="https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne-archivering">
+
+    <owl:Ontology
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering">
+        <owl:imports rdf:resource="http://www.w3.org/ns/locn#"/>
+        <owl:imports rdf:resource="http://www.w3.org/ns/person#"/>
+        <owl:imports rdf:resource="http://data.vlaanderen.be/ns/persoon#"/>
+        <owl:imports rdf:resource="http://data.vlaanderen.be/ns/adres#"/>
+        <owl:imports rdf:resource="http://dbpedia.org/ontology/"/>
+        <owl:imports rdf:resource="http://www.w3.org/ns/prov#"/>
+        <owl:imports rdf:resource="http://www.opengis.net/ont/geosparql"/>
+        <owl:imports rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#"/>
+        <owl:imports rdf:resource="https://data.omgeving.vlaanderen.be/ns/dossier#"/>
+        <owl:imports rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde#"/>
+    </owl:Ontology>
+
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/aannemer">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type aannemer binnen de datasets
+            die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/address">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type address binnen de datasets
+            die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/afbeelding">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type afbeelding binnen de
+            datasets die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/antennetechnologie">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type antennetechnologie binnen
+            de datasets die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/antennetype">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type antennetype binnen de
+            datasets die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/antennewinstverlies">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type antennewinstverlies binnen
+            de datasets die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/bijlage">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type bijlage binnen de datasets
+            die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/conformiteitsattest">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type conformiteitsattest binnen
+            de datasets die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/delegation">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type delegation binnen de
+            datasets die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/dempendemaatregel">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type dempendemaatregel binnen de
+            datasets die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/demping">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type demping binnen de datasets
+            die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/dempingsfactor">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type dempingsfactor binnen de
+            datasets die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/document">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type document binnen de datasets
+            die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/dossier">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type dossier binnen de datasets
+            die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/gecontroleerderuimte">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type gecontroleerderuimte binnen
+            de datasets die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/gedemptestraling">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type gedemptestraling binnen de
+            datasets die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/ontology">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type ontology binnen de datasets
+            die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/operator">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type operator binnen de datasets
+            die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/person">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type person binnen de datasets
+            die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/procedurestap">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type procedurestap binnen de
+            datasets die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/site">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type site binnen de datasets die
+            in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/stralen">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type stralen binnen de datasets
+            die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/straling">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type straling binnen de datasets
+            die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/waarde">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type waarde binnen de datasets
+            die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/zendantenne">
+        <dcterms:title xml:lang="nl">Collectie van objecten van het type zendantenne binnen de
+            datasets die in het kader van zendantennes worden gepubliceerd.</dcterms:title>
+    </co:Collection>
+
+
+
+</rdf:RDF>
+<!-- 
+aannemer
+address
+afbeelding
+antennetechnologie
+antennetype
+antennewinstverlies
+bijlage
+conformiteitsattest
+delegation
+dempendemaatregel
+demping
+dempingsfactor
+document
+dossier
+gecontroleerderuimte
+gedemptestraling
+ontology
+operator
+person
+procedurestap
+site
+stralen
+straling
+waarde
+zendantenne
+
+-->

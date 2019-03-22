@@ -1,0 +1,37 @@
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_norm_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_norm_type> <http://rdf-vocabulary.ddialliance.org/xkos#belongsTo> <https://data.zendantennes.omgeving.vlaanderen.be/id/dataset> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_norm_type> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lijst van mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_norm_type> <http://www.w3.org/2004/02/skos/core#altLabel> "antenne_norm_type"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_norm_type> <http://purl.org/dc/terms/issued> "2018-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_norm_type> <http://purl.org/vocab/vann/changes> ""@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_norm_type> <http://purl.org/dc/terms/title> "Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_norm_type> <http://www.w3.org/2002/07/owl#versionInfo> "Eerste versie, zoals in gebruik genomen in het kader van\n        archivering van zendantennes"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_norm_type> <http://xmlns.com/foaf/0.1/maker> _:B52ddbb85X2D625aX2D404eX2D976eX2Da0ad15b782d0 .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+_:B52ddbb85X2D625aX2D404eX2D976eX2Da0ad15b782d0 <http://schema.org/affiliation> <http://data.vlaanderen.be/id/organisatie/OVO003751> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/name> "Data- en informatiebeheer & digitale maatschappij"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2004/02/skos/core#altLabel> "DIDM"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data- en informatiebeheer & digitale maatschappij"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#changedBy> <http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#classification> <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#identifier> "OVO003751" .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/regorg#orgStatus> <http://data.vlaanderen.be/id/concept/organisatiestatus/actief> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/homepage> <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://purl.org/dc/terms/type> <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/mbox> <mailto:didm.omgeving@vlaanderen.be> .
+_:B52ddbb85X2D625aX2D404eX2D976eX2Da0ad15b782d0 <http://xmlns.com/foaf/0.1/mbox> <mailto:geert.vanhaute@vlaanderen.be> .
+_:B52ddbb85X2D625aX2D404eX2D976eX2Da0ad15b782d0 <http://xmlns.com/foaf/0.1/name> "Van Haute, Geert" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_norm_type/norm_binnen> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/norm_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_norm_type/norm_binnen> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/norm_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_norm_type/norm_binnen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_norm_type/norm_binnen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Norm binnen"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_norm_type/norm_binnen> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "NORM_BINNEN" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_norm_type/norm_binnen> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_norm_type/norm_buiten> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/norm_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_norm_type/norm_buiten> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/norm_type> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_norm_type/norm_buiten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_norm_type/norm_buiten> <http://www.w3.org/2004/02/skos/core#prefLabel> "Norm buiten"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_norm_type/norm_buiten> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "NORM_BUITEN" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_norm_type/norm_buiten> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .

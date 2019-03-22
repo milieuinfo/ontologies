@@ -1,0 +1,1062 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "waarde:Waarde",
+    "unitMeasure" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter",
+    "value" : "99.5"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "antenne:Antennewinstverlies",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "antennewinstverlies"
+    },
+    "tothoek" : "_:b2",
+    "vanhoek" : "_:b3",
+    "winst" : "_:b4",
+    "vlakwinstverlies" : "geen"
+  }, {
+    "@id" : "_:b10",
+    "@type" : "waarde:Waarde",
+    "unitMeasure" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden",
+    "value" : "77.9"
+  }, {
+    "@id" : "_:b11",
+    "@type" : "waarde:Waarde",
+    "unitMeasure" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter",
+    "value" : "900"
+  }, {
+    "@id" : "_:b12",
+    "@type" : "waarde:Waarde",
+    "unitMeasure" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/MegaHertz",
+    "value" : "10"
+  }, {
+    "@id" : "_:b13",
+    "@type" : "waarde:Waarde",
+    "unitMeasure" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/MegaHertz",
+    "value" : "1000"
+  }, {
+    "@id" : "_:b14",
+    "@type" : "locn:Address",
+    "adresvoorstellingVan" : "https://data.zendantennes.omgeving.vlaanderen.be/id/operator/666",
+    "fullAddress" : "adres"
+  }, {
+    "@id" : "_:b15",
+    "@type" : "locn:Address",
+    "adresvoorstellingVan" : "https://data.zendantennes.omgeving.vlaanderen.be/id/person/site-eigenaar/111",
+    "fullAddress" : "Eigenaarstraat 22, 8888 Eigenaarsdorp"
+  }, {
+    "@id" : "_:b16",
+    "@type" : "waarde:Waarde",
+    "unitMeasure" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter",
+    "value" : "33.9"
+  }, {
+    "@id" : "_:b17",
+    "@type" : "waarde:Waarde",
+    "unitMeasure" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden",
+    "value" : "170"
+  }, {
+    "@id" : "_:b18",
+    "@type" : "locn:Address",
+    "adresvoorstellingVan" : "https://data.zendantennes.omgeving.vlaanderen.be/id/site/111",
+    "fullAddress" : "Sitestraat 55, 4444 Sitedorp"
+  }, {
+    "@id" : "_:b2",
+    "@type" : "waarde:Waarde",
+    "unitMeasure" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden",
+    "value" : "60"
+  }, {
+    "@id" : "_:b3",
+    "@type" : "waarde:Waarde",
+    "unitMeasure" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden",
+    "value" : "90"
+  }, {
+    "@id" : "_:b4",
+    "@type" : "waarde:Waarde",
+    "unitMeasure" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter", "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Decibels-isotropic" ],
+    "value" : "6"
+  }, {
+    "@id" : "_:b5",
+    "@type" : "waarde:Waarde",
+    "unitMeasure" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter",
+    "value" : "9.6"
+  }, {
+    "@id" : "_:b6",
+    "@type" : "waarde:Waarde",
+    "unitMeasure" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden",
+    "value" : "5.9"
+  }, {
+    "@id" : "_:b7",
+    "@type" : "waarde:Waarde",
+    "unitMeasure" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/MegaHertz",
+    "value" : "9000"
+  }, {
+    "@id" : "_:b8",
+    "@type" : "waarde:Waarde",
+    "unitMeasure" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden",
+    "value" : "60"
+  }, {
+    "@id" : "_:b9",
+    "@type" : "waarde:Waarde",
+    "unitMeasure" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/DecibelReferredToOneMilliwatt",
+    "value" : "88.9"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id//person/zendantenne/zendantennesgebruiker/ik",
+    "@type" : "person:Person",
+    "volledigeNaam" : "ikzelf",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Gebruiker van zendantenne-toepassing: ikzelf"
+    },
+    "label" : {
+      "@language" : "nl",
+      "@value" : "ikzelf"
+    },
+    "mbox" : "mailto:gebruiker.email"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/aannemer",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/aannemer/111",
+    "@type" : "antenne:Aannemer",
+    "volledigeNaam" : "naam van het\n            object",
+    "identifier" : "0416.375.270",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Aannemer naam van het object"
+    },
+    "label" : {
+      "@language" : "nl",
+      "@value" : "naam van het object"
+    },
+    "seeAlso" : "http://data.kbodata.be/organisation/0416_375_270",
+    "actedOnBehalfOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/operator/666",
+    "qualifiedDelegation" : "https://data.zendantennes.omgeving.vlaanderen.be/id/delegation/00102457_samenstellen_aanvraag/999/666"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/afbeelding",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/afbeelding/00102457_samenstellen_aanvraag_afbeeldingen_afbeelding_2104325215",
+    "@type" : "dossier:Afbeelding",
+    "coverage" : "<http://www.opengis.net/def/crs/EPSG/0/31370> POLYGON ((30 10, 40 40, 20 40, 10\n            20, 30 10))",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "dc.title"
+    },
+    "type" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeelding",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "afbeelding.filenaam"
+    },
+    "downloadURL" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dspacedownloadURL-rest",
+    "depicts" : "https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/444",
+    "behoortTotDocument" : "https://data.zendantennes.omgeving.vlaanderen.be/id/document/00102457_samenstellen_aanvraag_afbeeldingen"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/antennetechnologie",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/antennetechnologie/technologie.id",
+    "@type" : "antenne:Antennetechnologie"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype/777/b",
+    "@type" : "antenne:Antennetype",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Antennetype gsm"
+    },
+    "label" : {
+      "@language" : "nl",
+      "@value" : "gsm"
+    },
+    "breedte" : "_:b4",
+    "hoogte" : "_:b5",
+    "horizontaleopeningshoek" : "_:b17",
+    "verticaleopeningshoek" : "_:b8",
+    "winst" : "_:b4",
+    "antennewinstverlies" : "_:b1",
+    "stralingstype" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_straling_type/gerichte_straling"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/bijlage",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/bijlage/00102457_beslissing_conformiteitsattest_signedsubmission_923837346",
+    "@type" : "dossier:Bijlage",
+    "format" : "signed submission",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "dc.title"
+    },
+    "type" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/signedsubmission",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "bijlage.filenaam"
+    },
+    "downloadURL" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dspacedownloadURL-rest",
+    "behoortTotDocument" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest/00102457_beslissing_conformiteitsattest"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/aannemer",
+    "@type" : "co:Collection",
+    "element" : "https://data.zendantennes.omgeving.vlaanderen.be/id/aannemer/111",
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/aannemer"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/afbeelding",
+    "@type" : "co:Collection",
+    "element" : "https://data.zendantennes.omgeving.vlaanderen.be/id/afbeelding/111",
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/afbeelding"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/antennetechnologie",
+    "@type" : "co:Collection",
+    "element" : "https://data.zendantennes.omgeving.vlaanderen.be/id/antennetechnologie/111",
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/antennetechnologie"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/antennetype",
+    "@type" : "co:Collection",
+    "element" : "https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype/777/b",
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/bijlage",
+    "@type" : "co:Collection",
+    "element" : "https://data.zendantennes.omgeving.vlaanderen.be/id/bijlage/111",
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/bijlage"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/collection",
+    "@type" : "co:Collection",
+    "element" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/111",
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/conformiteitsattest",
+    "@type" : "co:Collection",
+    "element" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest/111",
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/delegation",
+    "@type" : "co:Collection",
+    "element" : "https://data.zendantennes.omgeving.vlaanderen.be/id/delegation/00102457_samenstellen_aanvraag/999/666",
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/delegation"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/dempendemaatregel",
+    "@type" : "co:Collection",
+    "element" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dempendemaatregel/333/444",
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dempendemaatregel"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/demping",
+    "@type" : "co:Collection",
+    "element" : "https://data.zendantennes.omgeving.vlaanderen.be/id/demping/222/333/444",
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/demping"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/dempingsfactor",
+    "@type" : "co:Collection",
+    "element" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dempingsfactor/555/10/1000",
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dempingsfactor"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/document",
+    "@type" : "co:Collection",
+    "element" : "https://data.zendantennes.omgeving.vlaanderen.be/id/document/111",
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/document"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/dossier",
+    "@type" : "co:Collection",
+    "element" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/111",
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dossier"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/gecontroleerderuimte",
+    "@type" : "co:Collection",
+    "element" : "https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/444",
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/gedemptestraling",
+    "@type" : "co:Collection",
+    "element" : "https://data.zendantennes.omgeving.vlaanderen.be/id/gedemptestraling/222/333/444",
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/gedemptestraling"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/ontology",
+    "@type" : "co:Collection",
+    "element" : "https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/111",
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/ontology"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/operator",
+    "@type" : "co:Collection",
+    "element" : "https://data.zendantennes.omgeving.vlaanderen.be/id/operator/666",
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/operator"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/person",
+    "@type" : "co:Collection",
+    "element" : "https://data.zendantennes.omgeving.vlaanderen.be/id/person/site-eigenaar/1111",
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/person"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/procedurestap",
+    "@type" : "co:Collection",
+    "element" : "https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/111",
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/site",
+    "@type" : "co:Collection",
+    "element" : "https://data.zendantennes.omgeving.vlaanderen.be/id/site/111",
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/site"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/stralen",
+    "@type" : "co:Collection",
+    "element" : "https://data.zendantennes.omgeving.vlaanderen.be/id/stralen/222",
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/stralen"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/straling",
+    "@type" : "co:Collection",
+    "element" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222dm", "https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222" ],
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/straling"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/zendantenne",
+    "@type" : "co:Collection",
+    "element" : "https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222",
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/zendantenne/00102457",
+    "@type" : "prov:Collection",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Verzameling documenten van dossier \"dossier identifier\""
+    },
+    "behoortTotDossier" : "https://data.zendantennes.omgeving.vlaanderen.be/id/data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/zendantennes",
+    "@type" : "co:Collection",
+    "element" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/111", "https://data.zendantennes.omgeving.vlaanderen.be/id/bijlage/111", "https://data.zendantennes.omgeving.vlaanderen.be/id/antennetechnologie/111", "https://data.zendantennes.omgeving.vlaanderen.be/id/person/site-eigenaar/111", "https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222dm", "https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222", "https://data.zendantennes.omgeving.vlaanderen.be/id/site/111", "https://data.zendantennes.omgeving.vlaanderen.be/id/delegation/00102457_samenstellen_aanvraag/999/666", "https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype/777/b", "https://data.zendantennes.omgeving.vlaanderen.be/id/afbeelding/111", "https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222", "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/111", "https://data.zendantennes.omgeving.vlaanderen.be/id/stralen/222", "https://data.zendantennes.omgeving.vlaanderen.be/id/document/111", "https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/111", "https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/111", "https://data.zendantennes.omgeving.vlaanderen.be/id/dempendemaatregel/333/444", "https://data.zendantennes.omgeving.vlaanderen.be/id/dempingsfactor/555/10/1000", "https://data.zendantennes.omgeving.vlaanderen.be/id/aannemer/111", "https://data.zendantennes.omgeving.vlaanderen.be/id/demping/222/333/444", "https://data.zendantennes.omgeving.vlaanderen.be/id/gedemptestraling/222/333/444", "https://data.zendantennes.omgeving.vlaanderen.be/id/operator/666" ],
+    "sameAs" : "https://data.zendantennes.omgeving.vlaanderen.be/id/zendantennes"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest/00102457_beslissing_conformiteitsattest",
+    "@type" : "antenne:Conformiteitsattest",
+    "rightsHolder" : "https://data.zendantennes.omgeving.vlaanderen.be/id/operator/666",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "dc.title"
+    },
+    "type" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/conformiteitsattest",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "vlaanderen.identifier"
+    },
+    "downloadURL" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dspacedownloadURL-rest",
+    "wasGeneratedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/id/goedkeuren/zendantenne/00102457",
+    "wasInvalidatedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/id/intrekken/zendantenne/00102457",
+    "behoortTotProcedurestap" : "https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/00102457_beslissing",
+    "certifiëert" : "https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/zendantennes",
+    "@type" : "dcat:Dataset",
+    "hasPart" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/straling", "https://data.zendantennes.omgeving.vlaanderen.be/id/dempingsfactor", "https://data.zendantennes.omgeving.vlaanderen.be/id/person", "https://data.zendantennes.omgeving.vlaanderen.be/id/afbeelding", "https://data.zendantennes.omgeving.vlaanderen.be/id/zendantennes", "https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest", "https://data.zendantennes.omgeving.vlaanderen.be/id/delegation", "https://data.zendantennes.omgeving.vlaanderen.be/id/site", "https://data.zendantennes.omgeving.vlaanderen.be/id/demping", "https://data.zendantennes.omgeving.vlaanderen.be/id/antennetechnologie", "https://data.zendantennes.omgeving.vlaanderen.be/id/bijlage", "https://data.zendantennes.omgeving.vlaanderen.be/id/document", "https://data.zendantennes.omgeving.vlaanderen.be/id/ontology", "https://data.zendantennes.omgeving.vlaanderen.be/id/stralen", "https://data.zendantennes.omgeving.vlaanderen.be/id/gedemptestraling", "https://data.zendantennes.omgeving.vlaanderen.be/id/operator", "https://data.zendantennes.omgeving.vlaanderen.be/id/dossier", "https://data.zendantennes.omgeving.vlaanderen.be/id/aannemer", "https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne", "https://data.zendantennes.omgeving.vlaanderen.be/id/collection", "https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap", "https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte", "https://data.zendantennes.omgeving.vlaanderen.be/id/dempendemaatregel", "https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype" ]
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/delegation",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/delegation/00102457_samenstellen_aanvraag/999/666",
+    "@type" : "prov:Delegation",
+    "agent" : "https://data.zendantennes.omgeving.vlaanderen.be/id/operator/666",
+    "hadActivity" : "https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/00102457_samenstellen_aanvraag"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dempendemaatregel",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dempendemaatregel/333/444",
+    "@type" : "antenne:DempendeMaatregel",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Het nemen van een dempende maatregel waarbij gebruik gemaakt\n            wordt van betonnen muur met een bepaalde frequentiedempingsfactor"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Dit is één van de mogelijk te nemen maatregelen waarmee de\n            invloed van straling door een zendantenne op een gecontroleerde ruimte kan worden\n            beïnvloed."
+    },
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Het nemen van een dempende maatregel waarbij gebruik gemaakt wordt\n            van betonnen muur met een bepaalde frequentiedempingsfactor"
+    },
+    "dempendMateriaal" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/333"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/demping",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/demping/222/333/444",
+    "@type" : "antenne:Demping",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Geselecteerde dempende maatregel die gebruik maakt van betonnen\n            muur om de straling van antenne 222 op gecontroleerde ruimte 444 te\n            beïnvloeden."
+    },
+    "label" : {
+      "@language" : "nl",
+      "@value" : "betonnen muur"
+    },
+    "used" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dempingsfactor/555/10/1000",
+    "gedempteStraling" : "https://data.zendantennes.omgeving.vlaanderen.be/id/gedemptestraling/222/333/444",
+    "oorspronkelijkeStraling" : "https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222dm",
+    "werdUitgevoerdDoor" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dempendemaatregel/333/444"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dempingsfactor",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dempingsfactor/555/10/1000",
+    "@type" : "antenne:Dempingsfactor",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Dempingsfactor van betonnen muur tussen 10 en 1000\n            MegaHertz."
+    },
+    "value" : "100",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Dempingsfactor van betonnen muur tussen 10 en 1000\n            MegaHertz."
+    },
+    "wasAttributedTo" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dempendemaatregel/333/444",
+    "totfrequentie" : "_:b13",
+    "vanfrequentie" : "_:b12",
+    "dempendMateriaal" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/333"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/document",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/document/00102457_samenstellen_aanvraag_afbeeldingen",
+    "@type" : "dossier:Document",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "dc.title"
+    },
+    "type" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeeldingen",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "vlaanderen.identifier"
+    },
+    "behoortTotProcedurestap" : "https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/00102457_samenstellen_aanvraag"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dossier",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457",
+    "@type" : "dossier:Dossier",
+    "procedure" : {
+      "@language" : "nl",
+      "@value" : "Procedure voor de aanvraag van een conformiteitsattest voor een\n            zendantenne"
+    },
+    "creator" : "operator.naam",
+    "publisher" : "Ministerie van de Vlaamse Gemeenschap",
+    "source" : "Aanvraag van een conformiteitsattest voor een zendantenne",
+    "identifier" : "vlaanderen.identifier",
+    "dcterms:publisher" : {
+      "@id" : "http://data.kbodata.be/organisation/0316_380_841"
+    },
+    "subject" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/444", "https://data.zendantennes.omgeving.vlaanderen.be/id/demping/222/333/444", "https://data.zendantennes.omgeving.vlaanderen.be/id/operator/666", "https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222", "https://data.zendantennes.omgeving.vlaanderen.be/id/dempendemaatregel/333", "https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype/777", "https://data.zendantennes.omgeving.vlaanderen.be/id/aannemer/111", "https://data.zendantennes.omgeving.vlaanderen.be/id/site/111" ],
+    "title" : {
+      "@language" : "nl",
+      "@value" : "dc.title"
+    },
+    "type" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/dossier", "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/2" ],
+    "about" : "https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "vlaanderen.identifier"
+    },
+    "dossierbehandelaar" : "https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/ik",
+    "dossiereigenaar" : "https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/jij",
+    "dossiermedewerker" : "https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/hij",
+    "evaluatie" : "dossier.evaluatie",
+    "referentie" : "dossier.referentie"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/444",
+    "@type" : "antenne:GecontroleerdeRuimte",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Gecontroleerde ruimte 444"
+    },
+    "type" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gebouw_dtype/gebouw",
+    "geometry" : "<http://www.opengis.net/def/crs/EPSG/0/31370> POLYGON ((30 10, 40 40, 20 40, 10\n            20, 30 10))>",
+    "basis" : "_:b16",
+    "hoogte" : "_:b16",
+    "grb_oidn" : "9",
+    "grb_uidn" : "88",
+    "ligt_binnen_de_maximale_invloedsfeer_van" : "https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222",
+    "normtype" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_norm_type/norm_buiten",
+    "rekenmethode" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_rekenmethode/schil",
+    "status" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/actief"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/gedemptestraling",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/gedemptestraling/222/333/444",
+    "@type" : "antenne:GedempteStraling",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Straling van zendantenne 222"
+    },
+    "influenced" : "https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/444",
+    "wasDerivedFrom" : "https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222dm"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/goedkeuren/zendantenne/00102457",
+    "@type" : "dossier:Goedkeuren",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "De goedkeuring van een comformiteitsattest \"dossier identifier\""
+    },
+    "endedAtTime" : "2012-04-25T01:31:00Z",
+    "generated" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest/00102457_beslissing_conformiteitsattest",
+    "startedAtTime" : "2012-04-25T01:30:00Z",
+    "used" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/zendantenne/00102457",
+    "wasAssociatedWith" : "https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/hij"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/intrekken/zendantenne/00102457",
+    "@type" : "dossier:Intrekken",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Intrekken van een comformiteitsattest \"dossier identifier\""
+    },
+    "endedAtTime" : "2012-04-25T01:30:00Z",
+    "invalidated" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest/00102457_beslissing_conformiteitsattest",
+    "startedAtTime" : "2012-04-25T01:30:00Z",
+    "wasAssociatedWith" : "https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/hij"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/ontology",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering",
+    "@type" : "owl:Ontology",
+    "imports" : [ "https://data.omgeving.vlaanderen.be/ns/waarde#", "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#", "http://data.vlaanderen.be/ns/persoon#", "http://dbpedia.org/ontology/", "http://www.w3.org/ns/prov#", "http://data.vlaanderen.be/ns/adres#", "http://www.opengis.net/ont/geosparql", "http://www.w3.org/ns/person#", "https://data.omgeving.vlaanderen.be/ns/dossier#", "http://www.w3.org/ns/locn#" ]
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/operator",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/operator/666",
+    "@type" : "antenne:Operator",
+    "volledigeNaam" : "naam van het\n            object",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Operator naam van het object"
+    },
+    "label" : {
+      "@language" : "nl",
+      "@value" : "naam van het object"
+    },
+    "address" : "_:b14"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/person",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/person/site-eigenaar/111",
+    "@type" : "person:Person",
+    "volledigeNaam" : "Jan De\n            Eigenaar",
+    "ownerOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/site/111",
+    "address" : "_:b15",
+    "phone" : "tel:+3267778899"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/hij",
+    "@type" : "person:Person",
+    "volledigeNaam" : "hij ginder",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Gebruiker van zendantenne-toepassing: hij\n            ginder"
+    },
+    "label" : {
+      "@language" : "nl",
+      "@value" : "hij ginder"
+    },
+    "mbox" : "mailto:gebruiker.email"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/jij",
+    "@type" : "person:Person",
+    "volledigeNaam" : "jij daar",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Gebruiker van zendantenne-toepassing: jij daar"
+    },
+    "label" : {
+      "@language" : "nl",
+      "@value" : "jij daar"
+    },
+    "mbox" : "mailto:gebruiker.email"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/00102457_beslissing",
+    "@type" : "dossier:Procedurestap",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "dc.title"
+    },
+    "type" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/beslissing",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "vlaanderen.identifier"
+    },
+    "behoortTotDossier" : "https://data.zendantennes.omgeving.vlaanderen.be/id/data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/00102457_samenstellen_aanvraag",
+    "@type" : "dossier:Procedurestap",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "dc.title"
+    },
+    "type" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/samenstellen_aanvraag",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "vlaanderen.identifier"
+    },
+    "generated" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/zendantenne/00102457",
+    "wasAssociatedWith" : "https://data.zendantennes.omgeving.vlaanderen.be/id/operator/666",
+    "behoortTotDossier" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/00102457"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/site",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/site/111",
+    "@type" : "antenne:Site",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Operator naam van het object"
+    },
+    "owner" : "https://data.zendantennes.omgeving.vlaanderen.be/id/person/site-eigenaar/111",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "naam van het object"
+    },
+    "address" : "_:b18",
+    "geometry" : "<http://www.opengis.net/def/crs/EPSG/0/31370> POLYGON ((30 10, 40 40, 20 40, 10\n            20, 30 10))"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/stralen",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/stralen/222",
+    "@type" : "antenne:Stralen",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Het produceren van elektromagnetische straling door zendantenne\n            222"
+    },
+    "generated" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222dm", "https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222" ],
+    "wasAssociatedWith" : "https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/straling",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222",
+    "@type" : "antenne:Straling",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Straling van zendantenne 222"
+    },
+    "influenced" : "https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/444",
+    "frequentie" : "_:b7",
+    "stralingstype" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_straling_type/gerichte_straling"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/straling/222dm",
+    "@type" : "antenne:Straling",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Straling van zendantenne 222"
+    },
+    "frequentie" : "_:b7",
+    "stralingstype" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_straling_type/gerichte_straling"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne",
+    "@type" : "co:Collection"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/222",
+    "@type" : "antenne:Zendantenne",
+    "rights" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest/00102457_beslissing_conformiteitsattest",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Zendantenne 222"
+    },
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Zendantenne 222"
+    },
+    "geometry" : "<http://www.opengis.net/def/crs/EPSG/0/31370> POLYGON ((30 10, 40 40, 20 40, 10\n            20, 30 10))>",
+    "actedOnBehalfOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/operator/666",
+    "atLocation" : "https://data.zendantennes.omgeving.vlaanderen.be/id/site/111",
+    "azimut" : "_:b10",
+    "elektrischetilt" : "6",
+    "maximaleinvloedsstraal" : "_:b0",
+    "mechanischetilt" : "_:b6",
+    "ophangingshoogte" : "_:b11",
+    "vermogen" : "_:b9",
+    "antennetechnologie" : "https://data.zendantennes.omgeving.vlaanderen.be/antennetechnologie/technologie.id",
+    "antennetype" : "https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype/777/b"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/zendantennes",
+    "@type" : "co:Collection"
+  } ],
+  "@context" : {
+    "value" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "unitMeasure" : {
+      "@id" : "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
+      "@type" : "@id"
+    },
+    "mbox" : {
+      "@id" : "http://xmlns.com/foaf/0.1/mbox",
+      "@type" : "@id"
+    },
+    "volledigeNaam" : {
+      "@id" : "http://data.vlaanderen.be/ns/persoon#volledigeNaam"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "gedempteStraling" : {
+      "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#gedempteStraling",
+      "@type" : "@id"
+    },
+    "oorspronkelijkeStraling" : {
+      "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#oorspronkelijkeStraling",
+      "@type" : "@id"
+    },
+    "werdUitgevoerdDoor" : {
+      "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#werdUitgevoerdDoor",
+      "@type" : "@id"
+    },
+    "used" : {
+      "@id" : "http://www.w3.org/ns/prov#used",
+      "@type" : "@id"
+    },
+    "element" : {
+      "@id" : "http://purl.org/co/element",
+      "@type" : "@id"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2002/07/owl#sameAs",
+      "@type" : "@id"
+    },
+    "hadActivity" : {
+      "@id" : "http://www.w3.org/ns/prov#hadActivity",
+      "@type" : "@id"
+    },
+    "agent" : {
+      "@id" : "http://www.w3.org/ns/prov#agent",
+      "@type" : "@id"
+    },
+    "downloadURL" : {
+      "@id" : "http://www.w3.org/ns/dcat#downloadURL",
+      "@type" : "@id"
+    },
+    "depicts" : {
+      "@id" : "http://xmlns.com/foaf/0.1/depicts",
+      "@type" : "@id"
+    },
+    "coverage" : {
+      "@id" : "http://purl.org/dc/terms/coverage",
+      "@type" : "http://www.opengis.net/ont/geosparql#wktLiteral"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/terms/type",
+      "@type" : "@id"
+    },
+    "behoortTotDocument" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDocument",
+      "@type" : "@id"
+    },
+    "tothoek" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#tothoek",
+      "@type" : "@id"
+    },
+    "vlakwinstverlies" : {
+      "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#vlakwinstverlies"
+    },
+    "vanhoek" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#vanhoek",
+      "@type" : "@id"
+    },
+    "winst" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#winst",
+      "@type" : "@id"
+    },
+    "rightsHolder" : {
+      "@id" : "http://purl.org/dc/terms/rightsHolder",
+      "@type" : "@id"
+    },
+    "wasGeneratedBy" : {
+      "@id" : "http://www.w3.org/ns/prov#wasGeneratedBy",
+      "@type" : "@id"
+    },
+    "wasInvalidatedBy" : {
+      "@id" : "http://www.w3.org/ns/prov#wasInvalidatedBy",
+      "@type" : "@id"
+    },
+    "certifiëert" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#certifiëert",
+      "@type" : "@id"
+    },
+    "behoortTotProcedurestap" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotProcedurestap",
+      "@type" : "@id"
+    },
+    "frequentie" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#frequentie",
+      "@type" : "@id"
+    },
+    "stralingstype" : {
+      "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#stralingstype",
+      "@type" : "@id"
+    },
+    "actedOnBehalfOf" : {
+      "@id" : "http://www.w3.org/ns/prov#actedOnBehalfOf",
+      "@type" : "@id"
+    },
+    "antennetype" : {
+      "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#antennetype",
+      "@type" : "@id"
+    },
+    "geometry" : {
+      "@id" : "http://www.w3.org/ns/locn#geometry",
+      "@type" : "http://www.opengis.net/ont/geosparql#wktLiteral"
+    },
+    "antennetechnologie" : {
+      "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#antennetechnologie",
+      "@type" : "@id"
+    },
+    "vermogen" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#vermogen",
+      "@type" : "@id"
+    },
+    "atLocation" : {
+      "@id" : "http://www.w3.org/ns/prov#atLocation",
+      "@type" : "@id"
+    },
+    "mechanischetilt" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#mechanischetilt",
+      "@type" : "@id"
+    },
+    "azimut" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#azimut",
+      "@type" : "@id"
+    },
+    "maximaleinvloedsstraal" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#maximaleinvloedsstraal",
+      "@type" : "@id"
+    },
+    "rights" : {
+      "@id" : "http://purl.org/dc/terms/rights",
+      "@type" : "@id"
+    },
+    "ophangingshoogte" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#ophangingshoogte",
+      "@type" : "@id"
+    },
+    "elektrischetilt" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#elektrischetilt",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "behoortTotDossier" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDossier",
+      "@type" : "@id"
+    },
+    "dempendMateriaal" : {
+      "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#dempendMateriaal",
+      "@type" : "@id"
+    },
+    "wasAttributedTo" : {
+      "@id" : "http://www.w3.org/ns/prov#wasAttributedTo",
+      "@type" : "@id"
+    },
+    "vanfrequentie" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#vanfrequentie",
+      "@type" : "@id"
+    },
+    "totfrequentie" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#totfrequentie",
+      "@type" : "@id"
+    },
+    "address" : {
+      "@id" : "http://www.w3.org/ns/locn#address",
+      "@type" : "@id"
+    },
+    "imports" : {
+      "@id" : "http://www.w3.org/2002/07/owl#imports",
+      "@type" : "@id"
+    },
+    "endedAtTime" : {
+      "@id" : "http://www.w3.org/ns/prov#endedAtTime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "startedAtTime" : {
+      "@id" : "http://www.w3.org/ns/prov#startedAtTime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "invalidated" : {
+      "@id" : "http://www.w3.org/ns/prov#invalidated",
+      "@type" : "@id"
+    },
+    "wasAssociatedWith" : {
+      "@id" : "http://www.w3.org/ns/prov#wasAssociatedWith",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/terms/identifier"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type" : "@id"
+    },
+    "qualifiedDelegation" : {
+      "@id" : "http://www.w3.org/ns/prov#qualifiedDelegation",
+      "@type" : "@id"
+    },
+    "fullAddress" : {
+      "@id" : "http://www.w3.org/ns/locn#fullAddress"
+    },
+    "adresvoorstellingVan" : {
+      "@id" : "http://data.vlaanderen.be/ns/adres#adresvoorstellingVan",
+      "@type" : "@id"
+    },
+    "hasPart" : {
+      "@id" : "http://purl.org/dc/terms/hasPart",
+      "@type" : "@id"
+    },
+    "generated" : {
+      "@id" : "http://www.w3.org/ns/prov#generated",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "horizontaleopeningshoek" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#horizontaleopeningshoek",
+      "@type" : "@id"
+    },
+    "antennewinstverlies" : {
+      "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#antennewinstverlies",
+      "@type" : "@id"
+    },
+    "hoogte" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#hoogte",
+      "@type" : "@id"
+    },
+    "breedte" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#breedte",
+      "@type" : "@id"
+    },
+    "verticaleopeningshoek" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#verticaleopeningshoek",
+      "@type" : "@id"
+    },
+    "influenced" : {
+      "@id" : "http://www.w3.org/ns/prov#influenced",
+      "@type" : "@id"
+    },
+    "normtype" : {
+      "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#normtype",
+      "@type" : "@id"
+    },
+    "grb_uidn" : {
+      "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#grb_uidn"
+    },
+    "status" : {
+      "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#status",
+      "@type" : "@id"
+    },
+    "ligt_binnen_de_maximale_invloedsfeer_van" : {
+      "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#ligt_binnen_de_maximale_invloedsfeer_van",
+      "@type" : "@id"
+    },
+    "rekenmethode" : {
+      "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#rekenmethode",
+      "@type" : "@id"
+    },
+    "grb_oidn" : {
+      "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#grb_oidn"
+    },
+    "basis" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#basis",
+      "@type" : "@id"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/terms/subject",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "referentie" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#referentie"
+    },
+    "dossiereigenaar" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#dossiereigenaar",
+      "@type" : "@id"
+    },
+    "dossierbehandelaar" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#dossierbehandelaar",
+      "@type" : "@id"
+    },
+    "evaluatie" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#evaluatie"
+    },
+    "about" : {
+      "@id" : "http://schema.org/about",
+      "@type" : "@id"
+    },
+    "procedure" : {
+      "@id" : "http://dbpedia.org/ontology/procedure"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "dossiermedewerker" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#dossiermedewerker",
+      "@type" : "@id"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "wasDerivedFrom" : {
+      "@id" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+      "@type" : "@id"
+    },
+    "owner" : {
+      "@id" : "http://purl.org/vocab/frbr/core#owner",
+      "@type" : "@id"
+    },
+    "format" : {
+      "@id" : "http://purl.org/dc/elements/1.1/format"
+    },
+    "phone" : {
+      "@id" : "http://xmlns.com/foaf/0.1/phone",
+      "@type" : "@id"
+    },
+    "ownerOf" : {
+      "@id" : "http://purl.org/vocab/frbr/core#ownerOf",
+      "@type" : "@id"
+    },
+    "schema" : "http://schema.org/",
+    "antenne" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "sdmxa" : "http://purl.org/linked-data/sdmx/2009/attribute#",
+    "dossier" : "https://data.omgeving.vlaanderen.be/ns/dossier#",
+    "waarde" : "https://data.omgeving.vlaanderen.be/ns/waarde#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "co" : "http://purl.org/co/",
+    "frbr" : "http://purl.org/vocab/frbr/core#",
+    "dbo" : "http://dbpedia.org/ontology/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "person" : "http://www.w3.org/ns/person#",
+    "persoon" : "http://data.vlaanderen.be/ns/persoon#",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "adres" : "http://data.vlaanderen.be/ns/adres#",
+    "locn" : "http://www.w3.org/ns/locn#",
+    "vann" : "http://purl.org/vocab/vann/",
+    "dcat" : "http://www.w3.org/ns/dcat#",
+    "vs" : "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+    "prov" : "http://www.w3.org/ns/prov#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

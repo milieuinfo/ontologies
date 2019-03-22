@@ -1,0 +1,113 @@
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix org:  <http://www.w3.org/ns/org#> .
+
+<https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0>
+        rdf:type              dcterms:LicenseDocument ;
+        dcterms:type          <http://purl.org/adms/licencetype/Attribution> ;
+        dcterms:rightsHolder  <http://data.vlaanderen.be/id/organisatie/OVO003751> ;
+        dcterms:source        <https://data.vlaanderen.be/doc/licentie/modellicentie-gratis-hergebruik/v1.0> .
+
+<http://data.vlaanderen.be/id/organisatie/OVO003323>
+        rdf:type            foaf:Agent ;
+        rdf:type            foaf:Agent ;
+        foaf:name           "Departement Omgeving"@nl ;
+        rdfs:seeAlso        <https://wegwijs.vlaanderen.be/#/organisations/ef10b997-ab90-f07c-a689-0da2d0fef485/info> ;
+        skos:prefLabel      "Departement Omgeving"@nl ;
+        org:classification  <http://data.vlaanderen.be/id/concept/organisatieclassificatie/1e54c545-6f5d-4942-a509-978ae405f34c> ;
+        org:identifier      "OVO003323" ;
+        foaf:homepage       <https://www.omgevingvlaanderen.be> ;
+        dcterms:type        <http://data.vlaanderen.be/id/concept/organisatieclassificatie/1e54c545-6f5d-4942-a509-978ae405f34c> .
+
+<http://data.vlaanderen.be/id/organisatie/OVO003751>
+        rdf:type            foaf:Agent ;
+        rdf:type            foaf:Agent ;
+        foaf:name           "Data- en informatiebeheer & digitale maatschappij"@nl ;
+        rdfs:seeAlso        <https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66> ;
+        skos:altLabel       "DIDM"@nl ;
+        skos:prefLabel      "Data- en informatiebeheer & digitale maatschappij"@nl ;
+        org:classification  <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> ;
+        org:identifier      "OVO003751" ;
+        foaf:homepage       <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> ;
+        dcterms:type        <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> .
+
+<https://data.omgeving.vlaanderen.be/id/catalog/dossier>
+        rdf:type             dcat:Catalog ;
+        foaf:homepage        <https://data.omgeving.vlaanderen.be/doc/dossier> ;
+        dcterms:title        "Catalog Dossier"@nl ;
+        dcterms:description  "De datasets die in het kader van dossier worden gepubliceerd"@nl ;
+        dcterms:publisher    <http://data.vlaanderen.be/id/organisatie/OVO003323> ;
+        rdf:type             dcat:Catalog ;
+        dcterms:issued       "2018-11-19"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        dcterms:modified     "2018-05-23+02:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        dcterms:language     "nl"@nl ;
+        dcterms:language     "nl"@nl ;
+        dcterms:license      <https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0> ;
+        dcat:dataset         <https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier> .
+
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier>
+        rdf:type             dcat:Dataset ;
+        dcterms:title        "Dossier ontologie"@nl ;
+        dcterms:description  "Dossier ontologie"@nl ;
+        dcat:theme           <http://eurovoc.europa.eu/2176> ;
+        dcterms:issued       "2018-11-19"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        dcterms:spatial      <http://publications.europa.eu/resource/authority/country/BEL> ;
+        dcterms:temporal     "2018" ;
+        dcat:contactPoint    <mailto:geert.vanhaute@vlaanderen.be> ;
+        dcterms:publisher    <http://data.vlaanderen.be/id/organisatie/OVO003323> ;
+        dcat:landingPage     <https://data.omgeving.vlaanderen.be/ns/dossier> ;
+        dcterms:license      <https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0> ;
+        rdf:type             dcat:Dataset ;
+        dcat:distribution    <https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/ttl> .
+
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/ttl>
+        rdf:type             dcat:Distribution ;
+        dcterms:title        "Dossier ontologie, turtle distributie."@nl ;
+        dcterms:description  "Dossier ontologie in text/turtle"@nl ;
+        dcat:accessURL       <https://data.omgeving.vlaanderen.be/dumps/ontologie/dossier/dossier.ttl> ;
+        dcat:mediaType       "text/turtle" ;
+        dcterms:format       "text/turtle" ;
+        dcterms:license      <https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0> .
+
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier>
+        rdf:type           dcat:Dataset ;
+        dcat:distribution  <https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/jsonld> .
+
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/jsonld>
+        rdf:type             dcat:Distribution ;
+        dcterms:title        "Dossier ontologie, json-ld distributie."@nl ;
+        dcterms:description  "Dossier ontologie in application/json"@nl ;
+        dcat:accessURL       <https://data.omgeving.vlaanderen.be/dumps/ontologie/dossier/dossier.jsonld> ;
+        dcat:mediaType       "application/json" ;
+        dcterms:format       "application/json" ;
+        dcterms:license      <https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0> .
+
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier>
+        rdf:type           dcat:Dataset ;
+        dcat:distribution  <https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/rdf> .
+
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/rdf>
+        rdf:type             dcat:Distribution ;
+        dcterms:title        "Dossier ontologie, rdf+xml distributie."@nl ;
+        dcterms:description  "Dossier ontologie in application/rdf+xml"@nl ;
+        dcat:accessURL       <https://data.omgeving.vlaanderen.be/dumps/ontologie/dossier/dossier.rdf> ;
+        dcat:mediaType       "application/rdf+xml" ;
+        dcterms:format       "application/rdf+xml" ;
+        dcterms:license      <https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0> .
+
+<https://data.omgeving.vlaanderen.be/id/dataset/ontology/dossier>
+        rdf:type           dcat:Dataset ;
+        dcat:distribution  <https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/nt> .
+
+<https://data.omgeving.vlaanderen.be/id/distribution/ontology/dossier/nt>
+        rdf:type             dcat:Distribution ;
+        dcterms:title        "Dossier ontologie, n-triples distributie."@nl ;
+        dcterms:description  "Dossier ontologie in application/n-triples"@nl ;
+        dcat:accessURL       <https://data.omgeving.vlaanderen.be/dumps/ontologie/dossier/dossier.nt> ;
+        dcat:mediaType       "application/n-triples" ;
+        dcterms:format       "application/n-triples" ;
+        dcterms:license      <https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0> .

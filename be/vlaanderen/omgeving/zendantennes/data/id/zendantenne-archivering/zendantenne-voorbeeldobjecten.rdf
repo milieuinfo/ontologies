@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:co="http://purl.org/co/"
+    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+    xmlns:sdmxa="http://purl.org/linked-data/sdmx/2009/attribute#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:locn="http://www.w3.org/ns/locn#"
+    xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:schema="http://schema.org/" xmlns:dbo="http://dbpedia.org/ontology/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:antenne="https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#"
+    xmlns:dossier="https://data.omgeving.vlaanderen.be/ns/dossier#"
+    xmlns:waarde="https://data.omgeving.vlaanderen.be/ns/waarde#"
+    xmlns:adres="http://data.vlaanderen.be/ns/adres#"
+    xmlns:persoon="http://data.vlaanderen.be/ns/persoon#"
+    xmlns:person="http://www.w3.org/ns/person#"
+    xmlns:frbr="http://purl.org/vocab/frbr/core#"
+    xml:base="https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne-archivering">
+
+    <owl:Ontology rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne-archivering">
+        <owl:imports rdf:resource="http://www.w3.org/ns/locn#"/>
+        <owl:imports rdf:resource="http://dbpedia.org/ontology/"/>
+        <owl:imports rdf:resource="http://www.w3.org/ns/prov#"/>
+        <owl:imports rdf:resource="http://www.opengis.net/ont/geosparql"/>
+        <owl:imports rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#"/>
+        <owl:imports rdf:resource="https://data.omgeving.vlaanderen.be/ns/dossier#"/>
+        <owl:imports rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde#"/>
+    </owl:Ontology>
+    <!-- Dit is de collectie op niveau van alles, merk op: zendantennes, meervoud, de naam van de applicatie -->
+    
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/zendantennes">
+        <owl:sameAs rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/zendantennes"/>
+    </co:Collection>    
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/site">
+        <owl:sameAs rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/site"/>
+    </co:Collection>
+    <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/zendantennes">
+        <schema:about rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/zendantennes"/>
+        <schema:about rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/site"/>
+    </dcat:Dataset>
+
+    
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/site">
+        <co:element rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/site/{site.id}"/>
+    </co:Collection>
+    <co:Collection rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/collection/zendantennes">
+        <co:element rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/site/{site.id}"/>
+    </co:Collection>
+    <dcat:Dataset rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/zendantennes">
+        <schema:about rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/site/{site.id}"/>      
+    </dcat:Dataset>
+    
+    
+    <antenne:Site rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/site/{site.id}">
+        <locn:address>
+            <locn:Address rdf:nodeID="Nf454304a0e844a8ca586502994f6736c">
+                <adres:adresvoorstellingVan rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/site/{site.id}"/>
+                <locn:fullAddress>{site.adresSite}</locn:fullAddress>
+            </locn:Address>
+        </locn:address>
+        <dcterms:title xml:lang="nl">Operator {naam}</dcterms:title>
+        <frbr:owner rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/person/site-eigenaar/{site.id}"/>
+        <locn:geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">&lt;http://www.opengis.net/def/crs/EPSG/0/31370&gt; {geometry}</locn:geometry>
+        <rdfs:label xml:lang="nl">{naam}</rdfs:label>
+    </antenne:Site>
+    
+    <person:Person rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/person/site-eigenaar/{site.id}">
+        <frbr:ownerOf rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/site/{site.id}"/>
+        <persoon:volledigeNaam rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{site.eigenaar}</persoon:volledigeNaam>
+        <locn:address>
+            <locn:Address rdf:nodeID="N32d16feb3a81475784dfd7ca95205a7b">
+                <adres:adresvoorstellingVan rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/person/site-eigenaar/{site.id}"/>
+                <locn:fullAddress>{site.adresEigenaar}</locn:fullAddress>
+            </locn:Address>
+        </locn:address>
+        <foaf:phone rdf:resource="tel:{eigenaar_telefoon}"/>
+    </person:Person>
+
+    <antenne:Demping
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/demping/{antenne.id}/{dempendemaatregel.id}/{gecontroleerderuimtedempendemaatregel.gecontroleerderuimte_id}">
+        <rdfs:label xml:lang="nl">{dempendemaatregel.materiaal}</rdfs:label>
+        <dcterms:title xml:lang="nl">Geselecteerde dempende maatregel die gebruik maakt van
+            {dempendemaatregel.materiaal} om de straling van antenne {antenne.id} op gecontroleerde
+            ruimte {gecontroleerderuimte.id} te beïnvloeden.</dcterms:title>
+
+        <antenne:werdUitgevoerdDoor
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/dempendemaatregel/{dempendemaatregel.id}/{gecontroleerderuimtedempendemaatregel.gecontroleerderuimte_id}"/>
+        <antenne:oorspronkelijkeStraling
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/straling/{antenne.id}dm"/>
+        <antenne:gedempteStraling
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/gedemptestraling/{antenne.id}/{dempendemaatregel.id}/{gecontroleerderuimtedempendemaatregel.gecontroleerderuimte_id}"
+        />
+        <prov:used resource="https://data.zendantennes.omgeving.vlaanderen.be/id/frequentiedempingsfactor/{frequentiedempingsfactor.dempendemaatregel_id}/{frequentiedempingsfactor.van}/{frequentiedempingsfactor.tot}"/>
+    </antenne:Demping>
+
+
+    <antenne:Dempingsfactor
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/frequentiedempingsfactor/{frequentiedempingsfactor.dempendemaatregel_id}/{frequentiedempingsfactor.van}/{frequentiedempingsfactor.tot}">
+        <waarde:totfrequentie>
+            <waarde:Waarde rdf:nodeID="N2f68166cf4a44ddaa58b0cbdf89f6ee3">
+                <sdmxa:unitMeasure
+                    rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/MegaHertz"/>
+                <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                    >{frequentiedempingsfactor.tot}</rdf:value>
+            </waarde:Waarde>
+        </waarde:totfrequentie>
+        <rdfs:label xml:lang="nl">Dempingsfactor van {dempendemaatregel.materiaal} tussen
+            {frequentiedempingsfactor.van} en {frequentiedempingsfactor.tot} MegaHertz.</rdfs:label>
+        <waarde:vanfrequentie>
+            <waarde:Waarde rdf:nodeID="Ndccf336458434993ac624243e43e7059">
+                <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                    >{frequentiedempingsfactor.van}</rdf:value>
+                <sdmxa:unitMeasure
+                    rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/MegaHertz"/>
+            </waarde:Waarde>
+        </waarde:vanfrequentie>
+        <dcterms:title xml:lang="nl">Dempingsfactor van {dempendemaatregel.materiaal} tussen
+            {frequentiedempingsfactor.van} en {frequentiedempingsfactor.tot}
+            MegaHertz.</dcterms:title>
+        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >{frequentiedempingsfactor.frequentiedempingsfactor}</rdf:value>
+        <prov:wasAttributedTo
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/dempendemaatregel/{dempendemaatregel.id}/{gecontroleerderuimtedempendemaatregel.gecontroleerderuimte_id}"/>
+        <antenne:dempendMateriaal
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/{dempendemaatregel.id}"
+        />
+    </antenne:Dempingsfactor>
+
+    <antenne:DempendeMaatregel
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dempendemaatregel/{dempendemaatregel.id}/{gecontroleerderuimtedempendemaatregel.gecontroleerderuimte_id}">
+        <rdfs:label xml:lang="nl">Het nemen van een dempende maatregel waarbij gebruik gemaakt wordt
+            van {dempendemaatregel.materiaal} met een bepaalde frequentiedempingsfactor</rdfs:label>
+        <dcterms:title xml:lang="nl">Het nemen van een dempende maatregel waarbij gebruik gemaakt
+            wordt van {dempendemaatregel.materiaal} met een bepaalde
+            frequentiedempingsfactor</dcterms:title>
+        <rdfs:comment xml:lang="nl">Dit is één van de mogelijk te nemen maatregelen waarmee de
+            invloed van straling door een zendantenne op een gecontroleerde ruimte kan worden
+            beïnvloed.</rdfs:comment>
+        <antenne:dempendMateriaal
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/{dempendemaatregel.id}"
+        />
+    </antenne:DempendeMaatregel>
+
+    <antenne:Aannemer rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/aannemer/{id}">
+        <rdfs:label xml:lang="nl">{naam}</rdfs:label>
+        <dcterms:title xml:lang="nl">Aannemer {naam}</dcterms:title>
+        <prov:qualifiedDelegation
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/delegation/{vlaanderen.identifier}vb:00102457_samenstellen_aanvraag/{aannemer.id}/{operator.id}"/>
+        <prov:actedOnBehalfOf
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/operator/{operator.id}"/>
+        <rdfs:seeAlso
+            rdf:resource="http://data.kbodata.be/organisation/{aannemer.kbonummer}vb:0416_375_270"/>
+        <dcterms:identifier>{aannemer.kbonummer}</dcterms:identifier>
+        <!-- indien de aannemer een persoon is  -->
+        <persoon:volledigeNaam rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{naam}</persoon:volledigeNaam>
+    </antenne:Aannemer>
+
+    <prov:Delegation
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/delegation/{vlaanderen.identifier}vb:00102457_samenstellen_aanvraag/{aannemer.id}/{operator.id}">
+        <prov:agent rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/operator/{operator.id}"/>
+        <prov:hadActivity
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/{vlaanderen.identifier}vb:00102457_samenstellen_aanvraag"
+        />
+    </prov:Delegation>
+
+    <antenne:Operator rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/operator/{operator.id}">
+        <locn:address>
+            <locn:Address rdf:nodeID="N6247ee48e26841818c22f3914784e802">
+                <adres:adresvoorstellingVan rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/operator/{operator.id}"/>
+                <locn:fullAddress>{adres}</locn:fullAddress>
+            </locn:Address>
+        </locn:address>
+        <dcterms:title xml:lang="nl">Operator {naam}</dcterms:title>
+        <rdfs:label xml:lang="nl">{naam}</rdfs:label>
+        <!-- indien de operator een persoon is  -->
+        <persoon:volledigeNaam rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{naam}</persoon:volledigeNaam>
+     
+    </antenne:Operator>
+
+
+
+    <!-- Er zijn binnen 1 dataset twee mogelijkheden. 
+       Enerzijds het geval waar dempende maatregelen toegepast moeten worden
+       Anderzijd geen dempende maatregelen nodig
+       -->
+    <antenne:Stralen rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/stralen/{antenne.id}">
+        <rdfs:label xml:lang="nl">Het produceren van elektromagnetische straling door zendantenne
+            {antenne.id}</rdfs:label>
+        <prov:wasAssociatedWith
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/{antenne.id}"/>
+        <!-- Geval zonder dempende maatregel -->
+        <prov:generated
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/straling/{antenne.id}"/>
+        <!-- Geval met dempende maatregel -->
+        <prov:generated
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/straling/{antenne.id}dm"/>
+    </antenne:Stralen>
+    <!-- Geval zonder dempende maatregel -->
+    <antenne:Straling rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/straling/{antenne.id}">
+        <rdfs:label xml:lang="nl">Straling van zendantenne {antenne.id}</rdfs:label>
+        <antenne:stralingstype
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_straling_type/gerichte_straling"/>
+        <prov:influenced
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/{gecontroleerderuimte.id}"/>
+        <waarde:frequentie>
+            <waarde:Waarde rdf:nodeID="N2eddbc697b1141df93e03b7dcc430161">
+                <sdmxa:unitMeasure
+                    rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/MegaHertz"/>
+                <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                    >{frequentie}</rdf:value>
+            </waarde:Waarde>
+        </waarde:frequentie>
+    </antenne:Straling>
+
+
+
+    <!-- Geval met dempende maatregel -->
+
+    <antenne:Straling rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/straling/{antenne.id}dm">
+        <rdfs:label xml:lang="nl">Straling van zendantenne {antenne.id}</rdfs:label>
+        <antenne:stralingstype
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_straling_type/gerichte_straling"/>
+        <waarde:frequentie>
+            <waarde:Waarde rdf:nodeID="N2eddbc697b1141df93e03b7dcc430161">
+                <sdmxa:unitMeasure
+                    rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/MegaHertz"/>
+                <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                    >{frequentie}</rdf:value>
+            </waarde:Waarde>
+        </waarde:frequentie>
+    </antenne:Straling>
+
+    <antenne:GedempteStraling
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/gedemptestraling/{antenne.id}/{dempendemaatregel.id}/{gecontroleerderuimtedempendemaatregel.gecontroleerderuimte_id}">
+        <rdfs:label xml:lang="nl">Straling van zendantenne {antenne.id}</rdfs:label>
+        <prov:influenced
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/{gecontroleerderuimte.id}"/>
+        <prov:wasDerivedFrom
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/straling/{antenne.id}dm"/>
+    </antenne:GedempteStraling>
+
+
+
+    <antenne:Zendantenne
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/{antenne.id}">
+        <rdfs:label xml:lang="nl">Zendantenne {antenne.id}</rdfs:label>
+        <dcterms:title xml:lang="nl">Zendantenne {antenne.id}</dcterms:title>
+        <prov:actedOnBehalfOf
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/operator/{operator.id}"/>
+        <waarde:mechanischetilt>
+            <waarde:Waarde rdf:nodeID="Nc6738232d9974a35843293261bb3b60f">
+                <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                    >{mechanischetilt}</rdf:value>
+                <sdmxa:unitMeasure
+                    rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden"/>
+            </waarde:Waarde>
+        </waarde:mechanischetilt>
+        <waarde:maximaleinvloedsstraal>
+            <waarde:Waarde rdf:nodeID="N0843277b25c84251a60e572a302556ef">
+                <sdmxa:unitMeasure rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter"/>
+                <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                    >{maximaleinvloedsstraal}</rdf:value>
+            </waarde:Waarde>
+        </waarde:maximaleinvloedsstraal>
+        <antenne:antennetype
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype/{antennetype.id}/{antennetype.version"/>
+        <prov:atLocation rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/site/{site.id}"/>
+
+        <waarde:ophangingshoogte>
+            <waarde:Waarde rdf:nodeID="N4dfa1f4e6aa74dfe9b3fac6ca02a2a06">
+                <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                    >{ophangingshoogte}</rdf:value>
+                <sdmxa:unitMeasure rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter"
+                />
+            </waarde:Waarde>
+        </waarde:ophangingshoogte>
+
+        <waarde:elektrischetilt rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >{elektrischetilt}</waarde:elektrischetilt>
+        <waarde:azimut>
+            <waarde:Waarde rdf:nodeID="N6b8bb1f15a784f32b1c0df0073046601">
+                <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                    >{azimut}</rdf:value>
+                <sdmxa:unitMeasure
+                    rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden"/>
+            </waarde:Waarde>
+        </waarde:azimut>
+        <waarde:vermogen>
+            <waarde:Waarde rdf:nodeID="Ndfd9249ff33347a3949d21403a0491b0">
+                <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                    >{vermogen}</rdf:value>
+                <sdmxa:unitMeasure
+                    rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/DecibelReferredToOneMilliwatt"
+                />
+            </waarde:Waarde>
+        </waarde:vermogen>
+
+        <locn:geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral"
+            >&lt;http://www.opengis.net/def/crs/EPSG/0/31370&gt; {geometry}></locn:geometry>
+        <dcterms:rights
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest/{vlaanderen.identifier}vb:00102457_beslissing_conformiteitsattest"/>
+        <antenne:antennetechnologie
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/antennetechnologie/{technologie.id}"
+        />
+    </antenne:Zendantenne>
+
+
+    <antenne:GecontroleerdeRuimte
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/{gecontroleerderuimte.id}">
+        <antenne:ligt_binnen_de_maximale_invloedsfeer_van
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/{antenne.id}"/>
+
+        <antenne:grb_uidn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >{gecontroleerderuimte.grbuidn}</antenne:grb_uidn>
+        <dcterms:type
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gebouw_dtype/{lowercase(gecontroleerderuimte.dtype)}"/>
+        <locn:geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral"
+            >&lt;http://www.opengis.net/def/crs/EPSG/0/31370&gt; {gecontroleerderuimte.geometry}></locn:geometry>
+        <dcterms:title xml:lang="nl">Gecontroleerde ruimte {gecontroleerderuimte.id}</dcterms:title>
+        <antenne:basishoogte >
+            <waarde:Waarde rdf:nodeID="N8b893551f349413e94092dffcd9217e0">
+                <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                    >{gecontroleerderuimte.basis}</rdf:value>
+                <sdmxa:unitMeasure rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter"
+                />
+            </waarde:Waarde>
+       
+        </antenne:basishoogte>
+        <antenne:rekenmethode
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_rekenmethode/{lowercase(gecontroleerderuimte.rekenmethode)}"/>
+        <antenne:normtype
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_norm_type/{lowercase(gecontroleerderuimte.normtype)}"/>
+        <waarde:hoogte>
+            <waarde:Waarde rdf:nodeID="N8b893551f349413e94092dffcd9217e0">
+                <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                    >{gecontroleerderuimte.hoogte}</rdf:value>
+                <sdmxa:unitMeasure rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter"
+                />
+            </waarde:Waarde>
+        </waarde:hoogte>
+        <antenne:status
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/{lowercase(gecontroleerderuimte.status)}"/>
+        <antenne:grb_oidn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >{gecontroleerderuimte.grboidn}</antenne:grb_oidn>
+    </antenne:GecontroleerdeRuimte>
+
+
+    <antenne:Antennetype
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype/{antennetype.id}/{antennetype.version}">
+        <rdfs:label xml:lang="nl">{antennetype.naam}</rdfs:label>
+        <waarde:hoogte>
+            <waarde:Waarde rdf:nodeID="Nd6031759540046d3b2789f70b06e755e">
+                <sdmxa:unitMeasure rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter"/>
+                <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                    >{type.hoogte}</rdf:value>
+            </waarde:Waarde>
+        </waarde:hoogte>
+        <antenne:stralingstype
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_straling_type/gerichte_straling"/>
+        <waarde:verticaleopeningshoek>
+            <waarde:Waarde rdf:nodeID="Ndd0384ccac7444559065b68e36a0f0a8">
+                <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                    >{type.verticaleopeningshoek}</rdf:value>
+                <sdmxa:unitMeasure
+                    rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden"/>
+            </waarde:Waarde>
+        </waarde:verticaleopeningshoek>
+        <waarde:horizontaleopeningshoek>
+            <waarde:Waarde rdf:nodeID="N9db21da1b3a94c9997e91d2a931a448e">
+                <sdmxa:unitMeasure
+                    rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden"/>
+                <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                    >{type.horizontaleopeningshoek}</rdf:value>
+            </waarde:Waarde>
+        </waarde:horizontaleopeningshoek>
+        <waarde:winst>
+            <waarde:Waarde rdf:nodeID="N253873fb88ac403b905643c7e6e6f989">
+                <sdmxa:unitMeasure rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Decibels-isotropic"/>
+                <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">{type.winst}</rdf:value>
+            </waarde:Waarde>
+        </waarde:winst>
+        <waarde:breedte>
+            <waarde:Waarde rdf:nodeID="N253873fb88ac403b905643c7e6e6f989">
+                <sdmxa:unitMeasure rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter"/>
+                <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                    >{type.breedte}</rdf:value>
+            </waarde:Waarde>
+        </waarde:breedte>
+        <antenne:antennewinstverlies>
+            <antenne:Antennewinstverlies rdf:nodeID="Nf66ddcdc7b6949599a6719180cde032e">
+                <antenne:isAntennewinstverliesVan  rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype/{antennetype.id}/{antennetype.version}"/>
+                <waarde:winst>
+                    <waarde:Waarde rdf:nodeID="N253873fb88ac403b905643c7e6e6f989">
+                        <sdmxa:unitMeasure rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Decibels-isotropic"/>
+                        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">{antennewinstverlies.winst</rdf:value>
+                    </waarde:Waarde>
+                </waarde:winst>
+                <waarde:vanhoek>
+                    <waarde:Waarde rdf:nodeID="Nbadb58d477ee483fbbd4b06101259251">
+                        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                            >{antennewinstverlies.vanhoek}</rdf:value>
+                        <sdmxa:unitMeasure
+                            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden"
+                        />
+                    </waarde:Waarde>
+                </waarde:vanhoek>
+                <antenne:vlakwinstverlies rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >{antennewinstverlies.vlakwinstverlies}</antenne:vlakwinstverlies>
+                <rdfs:label xml:lang="nl">antennewinstverlies</rdfs:label>
+                <waarde:tothoek>
+                    <waarde:Waarde rdf:nodeID="N4cff7d1d19114476ab504079610febf4">
+                        <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                            >{antennewinstverlies.tothoek}</rdf:value>
+                        <sdmxa:unitMeasure
+                            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden"
+                        />
+                    </waarde:Waarde>
+                </waarde:tothoek>
+            </antenne:Antennewinstverlies>
+        </antenne:antennewinstverlies>
+        <dcterms:title xml:lang="nl">Antennetype {antennetype.naam}</dcterms:title>
+    </antenne:Antennetype>
+
+
+    <antenne:Conformiteitsattest
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest/{vlaanderen.identifier}vb:00102457_beslissing_conformiteitsattest">
+        <dcterms:title xml:lang="nl">{dc.title}</dcterms:title>
+        <rdfs:label xml:lang="nl">{vlaanderen.identifier}</rdfs:label>
+        <dcterms:rightsHolder
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/operator/{operator.id}"/>
+        <dossier:certifiëert
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/{antenne.id}"/>
+        <dossier:behoortTotProcedurestap
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/{vlaanderen.identifier}vb:00102457_beslissing"/>
+        <dcterms:type
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/conformiteitsattest"/>
+        <dcat:downloadURL rdf:resource="{dspacedownloadURL-rest}"/>
+    </antenne:Conformiteitsattest>
+
+    <dossier:Bijlage
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/bijlage/{vlaanderen.identifier}vb:00102457_beslissing_conformiteitsattest_signedsubmission_923837346">
+        <dcterms:title xml:lang="nl">{dc.title}</dcterms:title>
+        <rdfs:label xml:lang="nl">{bijlage.filenaam}</rdfs:label>
+        <dossier:behoortTotDocument
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest/{vlaanderen.identifier}vb:00102457_beslissing_conformiteitsattest"/>
+        <dcterms:type
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/lowercase({bijlage.bijlagetype})"/>
+        <dcat:downloadURL rdf:resource="{dspacedownloadURL-rest}"/>
+        <dc:format>{bijlage.type}</dc:format>
+    </dossier:Bijlage>
+
+    <dossier:Procedurestap
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/{vlaanderen.identifier}vb:00102457_samenstellen_aanvraag">
+        <dcterms:title xml:lang="nl">{dc.title}</dcterms:title>
+        <rdfs:label xml:lang="nl">{vlaanderen.identifier}</rdfs:label>
+        <dossier:behoortTotDossier
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/{vlaanderen.identifier}vb:00102457"/>
+        <dcterms:type
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/samenstellen_aanvraag"/>
+        <prov:generated
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/conformiteitsattest/{vlaanderen.identifier}vb:00102457_beslissing_conformiteitsattest"
+        />
+        <prov:wasAssociatedWith rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/operator/{operator.id}" />
+    </dossier:Procedurestap>
+
+    <dossier:Procedurestap
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/{vlaanderen.identifier}vb:00102457_beslissing">
+        <dcterms:title xml:lang="nl">{dc.title}</dcterms:title>
+        <rdfs:label xml:lang="nl">{vlaanderen.identifier}</rdfs:label>
+        <dcterms:type rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/beslissing"/>
+        <dossier:behoortTotDossier
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/{vlaanderen.identifier}vb:00102457"
+        />
+    </dossier:Procedurestap>
+
+    <dossier:Document
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/document/{vlaanderen.identifier}vb:00102457_samenstellen_aanvraag_afbeeldingen">
+        <dcterms:title xml:lang="nl">{dc.title}</dcterms:title>
+        <rdfs:label xml:lang="nl">{vlaanderen.identifier}</rdfs:label>
+        <dcterms:type
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeeldingen"/>
+        <dossier:behoortTotProcedurestap
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/procedurestap/{vlaanderen.identifier}vb:00102457_samenstellen_aanvraag"
+        />
+    </dossier:Document>
+
+    <dossier:Afbeelding
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/afbeelding/{vlaanderen.identifier}vb:00102457_samenstellen_aanvraag_afbeeldingen_afbeelding_2104325215">
+        <dcterms:title xml:lang="nl">{dc.title}</dcterms:title>
+        <rdfs:label xml:lang="nl">{afbeelding.filenaam}</rdfs:label>
+        <dossier:behoortTotDocument
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/document/{vlaanderen.identifier}vb:00102457_samenstellen_aanvraag_afbeeldingen"/>
+        <dcterms:type rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeelding"/>
+        <dcterms:coverage rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral"
+            >&lt;http://www.opengis.net/def/crs/EPSG/0/31370&gt; {afbeelding.geometry}</dcterms:coverage>
+        <foaf:depicts
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/{gecontroleerderuimte.id}"/>
+        <dcat:downloadURL rdf:resource="{dspacedownloadURL-rest}"/>
+    </dossier:Afbeelding>
+
+    <antenne:Antennetechnologie
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/antennetechnologie/{technologie.id}">
+        
+    </antenne:Antennetechnologie>
+
+
+
+    <dossier:Dossier
+        rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/dossier/zendantenne/{vlaanderen.identifier}vb:00102457">
+        <dcterms:title xml:lang="nl">{dc.title}</dcterms:title>
+        <rdfs:label xml:lang="nl">{vlaanderen.identifier}</rdfs:label>
+        <dcterms:subject rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/site/{site.id}"/>
+        <dcterms:subject
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/dempendemaatregel/{dempendemaatregel.id}"/>
+        <dcterms:subject
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/demping/{antenne.id}/{dempendemaatregel.id}/{gecontroleerderuimtedempendemaatregel.gecontroleerderuimte_id}"/>
+        <dcterms:subject rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/aannemer/{id}"/>
+        <dcterms:subject
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/operator/{operator.id}"/>
+        <dcterms:subject
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/gecontroleerderuimte/{gecontroleerderuimte.id}"/>
+        <dcterms:subject
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/{antenne.id}"/>
+        <dcterms:subject
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/antennetype/{antennetype.id}"/>
+        <dossier:referentie rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >{dossier.referentie}</dossier:referentie>
+        <dossier:evaluatie rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >{dossier.evaluatie}</dossier:evaluatie>
+        <dossier:dossierbehandelaar
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/{gebruiker.id}"/>
+        <dossier:dossiereigenaar
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/{gebruiker.id}"/>
+        <dossier:dossiermedewerker
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/{gebruiker.id}"/>
+        <dc:creator>{operator.naam}</dc:creator>
+        <dc:publisher>Ministerie van de Vlaamse Gemeenschap</dc:publisher>
+        <dc:source>Aanvraag van een conformiteitsattest voor een zendantenne</dc:source>
+        <dcterms:identifier>{vlaanderen.identifier}</dcterms:identifier>
+        <dcterms:publisher rdf:resource="http://data.kbodata.be/organisation/0316_380_841"/>
+        <dcterms:type
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/{dossier.type_id}"/>
+        <dcterms:type rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/dossier"/>
+        <dbo:procedure xml:lang="nl">Procedure voor de aanvraag van een conformiteitsattest voor een
+            zendantenne</dbo:procedure>
+        <schema:about
+            rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/{antenne.id}"/>
+    </dossier:Dossier>
+
+
+    <person:Person rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/person/zendantenne/zendantennesgebruiker/{gebruiker.id}">
+        <dcterms:title xml:lang="nl">Gebruiker van zendantenne-toepassing:
+            {gebruiker.naam}</dcterms:title>
+        <rdfs:label xml:lang="nl">{gebruiker.naam}</rdfs:label>
+        <persoon:volledigeNaam>{gebruiker.naam}</persoon:volledigeNaam>
+        <foaf:mbox rdf:resource="mailto:{gebruiker.email}"/>
+    </person:Person>
+
+
+
+
+</rdf:RDF>

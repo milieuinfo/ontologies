@@ -1,0 +1,240 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "affiliation" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "mbox" : "mailto:geert.vanhaute@vlaanderen.be",
+    "name" : "Van Haute, Geert"
+  }, {
+    "@id" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "@type" : [ "foaf:Agent", "org:Organization" ],
+    "type" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "seeAlso" : "https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "DIDM"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    },
+    "changedBy" : "http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting",
+    "classification" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "identifier" : "OVO003751",
+    "orgStatus" : "http://data.vlaanderen.be/id/concept/organisatiestatus/actief",
+    "homepage" : "https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij",
+    "mbox" : "mailto:didm.omgeving@vlaanderen.be",
+    "name" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/DecibelReferredToOneMilliwatt",
+    "@type" : "skos:Concept",
+    "symbol" : "dBm",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "dBm (sometimes dBmW or decibel-milliwatts) is an abbreviation for the power ratio in decibels (dB) of the measured power referenced to one milliwatt (mW) "
+    },
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Decibel Referred to 1mw"
+    }, {
+      "@language" : "nl",
+      "@value" : "Decibel Verwijzend naar 1mw"
+    } ],
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "gebaseerdOp" : "http://qudt.org/vocab/unit#DecibelReferredToOneMilliwatt",
+    "key" : [ "decibel-milliwatts", "dBmW", "dBm" ]
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Decibels-isotropic",
+    "@type" : "skos:Concept",
+    "symbol" : "dBi",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "De antenneversterking of winst vat de gerichtheid en\n            efficiëntie van een antenne samen. Hij is de verhouding van de afgeleverde in de\n            hoofdrichting resp. geabsorbeerde stralingsvermogensdichtheid in vergelijking met een\n            verliesvrije referentie-antenne van dezelfde antennevoermacht, die per definitie een\n            antenneversterking van 0 dB heeft. De gebruikte referentie-antenne is meestal een\n            dipoolantenne of een hypothetische isotrope radiator met dezelfde bundelsterkte in alle\n            richtingen."
+    },
+    "seeAlso" : "http://dbpedia.org/resource/Antenna_gain",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Decibel Referred to 1mw"
+    }, {
+      "@language" : "nl",
+      "@value" : "Decibel Verwijzend naar 1mw"
+    } ],
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "dBi"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden",
+    "@type" : "skos:Concept",
+    "symbol" : "°",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "graden (als grootte van een hoek)"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "gebaseerdOp" : "http://qudt.org/vocab/unit#DecibelReferredToOneMilliwatt",
+    "key" : "°"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/MegaHertz",
+    "@type" : "skos:Concept",
+    "symbol" : "MHz",
+    "seeAlso" : "http://qudt.org/vocab/unit#MegaHertz",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "MHz"
+    },
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Megahertz"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "MHz"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter",
+    "@type" : "skos:Concept",
+    "symbol" : "m",
+    "seeAlso" : "http://qudt.org/vocab/unit#Meter",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "m"
+    },
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "meter"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : [ "meters", "meter" ]
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "@type" : "skos:ConceptScheme",
+    "issued" : "2018-11-19",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over eenheden bij een waarde"
+    },
+    "changes" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "belongsTo" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset",
+    "versionInfo" : {
+      "@language" : "nl",
+      "@value" : "Eerste versie, zoals in gebruik genomen in het kader van archivering van zendantennes"
+    },
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "eenheid"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Lijst van eenheden bij een waarde"
+    },
+    "maker" : "_:b0"
+  } ],
+  "@context" : {
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
+    },
+    "mbox" : {
+      "@id" : "http://xmlns.com/foaf/0.1/mbox",
+      "@type" : "@id"
+    },
+    "affiliation" : {
+      "@id" : "http://schema.org/affiliation",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "key" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#key"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "symbol" : {
+      "@id" : "http://qudt.org/schema/qudt#symbol"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type" : "@id"
+    },
+    "topConceptOf" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
+      "@type" : "@id"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "classification" : {
+      "@id" : "http://www.w3.org/ns/org#classification",
+      "@type" : "@id"
+    },
+    "changedBy" : {
+      "@id" : "http://www.w3.org/ns/org#changedBy",
+      "@type" : "@id"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/terms/type",
+      "@type" : "@id"
+    },
+    "homepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/homepage",
+      "@type" : "@id"
+    },
+    "orgStatus" : {
+      "@id" : "http://www.w3.org/ns/regorg#orgStatus",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://www.w3.org/ns/org#identifier"
+    },
+    "gebaseerdOp" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#gebaseerdOp",
+      "@type" : "@id"
+    },
+    "maker" : {
+      "@id" : "http://xmlns.com/foaf/0.1/maker",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "changes" : {
+      "@id" : "http://purl.org/vocab/vann/changes"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "belongsTo" : {
+      "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
+      "@type" : "@id"
+    },
+    "schema" : "http://schema.org/",
+    "qudt" : "http://qudt.org/schema/qudt#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "org" : "http://www.w3.org/ns/org#",
+    "waarde" : "https://data.omgeving.vlaanderen.be/ns/waarde#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xkos" : "http://rdf-vocabulary.ddialliance.org/xkos#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "regorg" : "http://www.w3.org/ns/regorg#",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "vann" : "http://purl.org/vocab/vann/",
+    "foaf" : "http://xmlns.com/foaf/0.1/"
+  }
+}

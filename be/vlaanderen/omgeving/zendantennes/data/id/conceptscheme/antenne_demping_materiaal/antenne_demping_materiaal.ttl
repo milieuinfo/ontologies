@@ -1,0 +1,156 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix waarde:  <https://data.omgeving.vlaanderen.be/ns/waarde#> .
+@prefix xkos:  <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix vann:  <http://purl.org/vocab/vann/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix schema:  <http://schema.org/> .
+@prefix org:  <http://www.w3.org/ns/org#> .
+@prefix regorg:  <http://www.w3.org/ns/regorg#> .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal>
+        rdf:type          skos:ConceptScheme ;
+        skos:prefLabel    "Lijst van stralingsdempende materialen"@nl ;
+        skos:altLabel     "antenne_demping_materiaal"@nl ;
+        dcterms:issued    "2018-11-19"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        dcterms:title     "Conceptscheme dempend materiaal bij elektromagnetische straling"@nl ;
+        owl:versionInfo   "Eerste versie, zoals in gebruik genomen in het kader van\n            archivering van zendantennes"@nl ;
+        dcterms:temporal  "2018" ;
+        foaf:maker        _:b0 .
+
+<http://data.vlaanderen.be/id/organisatie/OVO003751>
+        rdf:type  org:Organization .
+
+_:b0    schema:affiliation  <http://data.vlaanderen.be/id/organisatie/OVO003751> .
+
+<http://data.vlaanderen.be/id/organisatie/OVO003751>
+        rdf:type            foaf:Agent ;
+        foaf:name           "Data- en informatiebeheer & digitale maatschappij"@nl ;
+        rdfs:seeAlso        <https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66> ;
+        skos:altLabel       "DIDM"@nl ;
+        skos:prefLabel      "Data- en informatiebeheer & digitale maatschappij"@nl ;
+        org:changedBy       <http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting> ;
+        org:classification  <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> ;
+        org:identifier      "OVO003751" ;
+        regorg:orgStatus    <http://data.vlaanderen.be/id/concept/organisatiestatus/actief> ;
+        foaf:homepage       <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> ;
+        dcterms:type        <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> ;
+        foaf:mbox           <mailto:didm.omgeving@vlaanderen.be> .
+
+_:b0    foaf:mbox  <mailto:geert.vanhaute@vlaanderen.be> ;
+        foaf:name  "Van Haute, Geert" .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/4>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Stenen buitenmuur"@nl ;
+        waarde:key         "Stenen buiten muur" ;
+        rdfs:comment       "TO DO"@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/12>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Beton + absorber"@nl ;
+        waarde:key         "Beton+absorber" ;
+        rdfs:comment       "TO DO"@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/15>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Dubbel glas"@nl ;
+        waarde:key         "Dubbel glas" ;
+        rdfs:comment       "TO DO"@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/13>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Pannendak (met isolatie)"@nl ;
+        waarde:key         "Pannendak (met isolatie)" ;
+        rdfs:comment       "TO DO"@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/3>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Pannendak (zonder isolatie)"@nl ;
+        waarde:key         "Pannendak (zonder isolatie)" ;
+        rdfs:comment       "TO DO"@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/11>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Metalen wand"@nl ;
+        waarde:key         "Metalen wand" ;
+        rdfs:comment       "TO DO"@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/6>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Gewapend beton-verdiep"@nl ;
+        waarde:key         "Gewapend beton-verdiep" ;
+        rdfs:comment       "TO DO"@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/14>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Enkel glas"@nl ;
+        waarde:key         "Enkel glas" ;
+        rdfs:comment       "TO DO"@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/9>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Hoek van een muur > 20 cm"@nl ;
+        waarde:key         "Hoek van een muur > 20 cm" ;
+        rdfs:comment       "TO DO"@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/7>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Auto"@nl ;
+        waarde:key         "Auto" ;
+        rdfs:comment       "TO DO"@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/10>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Meerdere muren"@nl ;
+        waarde:key         "Meerdere muren" ;
+        rdfs:comment       "TO DO"@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/5>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Betonnen muur (20 cm)"@nl ;
+        waarde:key         "Betonnen muur (20 cm)" ;
+        rdfs:comment       "TO DO"@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/8>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Hoek van een muur > 40 cm"@nl ;
+        waarde:key         "Hoek van een muur > 40 cm" ;
+        rdfs:comment       "TO DO"@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/2>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "muur met ramen"@nl ;
+        waarde:key         "muur met ramens" ;
+        rdfs:comment       "TO DO"@nl .

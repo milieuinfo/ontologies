@@ -1,0 +1,155 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "affiliation" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "mbox" : "mailto:geert.vanhaute@vlaanderen.be",
+    "name" : "Van Haute, Geert"
+  }, {
+    "@id" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "@type" : [ "foaf:Agent", "org:Organization" ],
+    "type" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "seeAlso" : "https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "DIDM"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    },
+    "changedBy" : "http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting",
+    "classification" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "identifier" : "OVO003751",
+    "orgStatus" : "http://data.vlaanderen.be/id/concept/organisatiestatus/actief",
+    "homepage" : "https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij",
+    "mbox" : "mailto:didm.omgeving@vlaanderen.be",
+    "name" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_straling_type/gerichte_straling",
+    "@type" : "skos:Concept",
+    "comment" : {
+      "@language" : "en",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_straling_type",
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_straling_type"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_straling_type",
+    "@type" : "skos:ConceptScheme",
+    "issued" : "2018-11-19",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne"
+    },
+    "changes" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "belongsTo" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset",
+    "versionInfo" : {
+      "@language" : "nl",
+      "@value" : "Eerste versie, zoals in gebruik genomen in het kader van archivering van zendantennes"
+    },
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "antenne_straling_type"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Lijst van mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne"
+    },
+    "maker" : "_:b0"
+  } ],
+  "@context" : {
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
+    },
+    "mbox" : {
+      "@id" : "http://xmlns.com/foaf/0.1/mbox",
+      "@type" : "@id"
+    },
+    "affiliation" : {
+      "@id" : "http://schema.org/affiliation",
+      "@type" : "@id"
+    },
+    "classification" : {
+      "@id" : "http://www.w3.org/ns/org#classification",
+      "@type" : "@id"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "changedBy" : {
+      "@id" : "http://www.w3.org/ns/org#changedBy",
+      "@type" : "@id"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/terms/type",
+      "@type" : "@id"
+    },
+    "homepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/homepage",
+      "@type" : "@id"
+    },
+    "orgStatus" : {
+      "@id" : "http://www.w3.org/ns/regorg#orgStatus",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://www.w3.org/ns/org#identifier"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "topConceptOf" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
+      "@type" : "@id"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "maker" : {
+      "@id" : "http://xmlns.com/foaf/0.1/maker",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "changes" : {
+      "@id" : "http://purl.org/vocab/vann/changes"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "belongsTo" : {
+      "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
+      "@type" : "@id"
+    },
+    "schema" : "http://schema.org/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "org" : "http://www.w3.org/ns/org#",
+    "regorg" : "http://www.w3.org/ns/regorg#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "vann" : "http://purl.org/vocab/vann/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "xkos" : "http://rdf-vocabulary.ddialliance.org/xkos#"
+  }
+}

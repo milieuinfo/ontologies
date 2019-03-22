@@ -1,0 +1,233 @@
+@prefix :  <https://data.omgeving.vlaanderen.be/ns/waarde#> .
+@prefix schema:  <http://schema.org/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix sdmxa:  <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix waarde:  <https://data.omgeving.vlaanderen.be/ns/waarde#> .
+@prefix voaf:  <http://purl.org/vocommons/voaf#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix frbr:  <http://purl.org/vocab/frbr/core#> .
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix qb:  <http://purl.org/linked-data/cube#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix locn:  <http://www.w3.org/ns/locn#> .
+@prefix vann:  <http://purl.org/vocab/vann/> .
+@prefix vs:  <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix org:  <http://www.w3.org/ns/org#> .
+@prefix regorg:  <http://www.w3.org/ns/regorg#> .
+
+<https://data.omgeving.vlaanderen.be/ns/waarde>
+        rdf:type                       owl:Ontology ;
+        rdfs:label                     "Waarde"@nl ;
+        rdfs:label                     "Value"@en ;
+        voaf:reliesOn                  foaf: ;
+        dcterms:issued                 "2018-11-19"^^xsd:date ;
+        vann:changes                   ""@nl ;
+        vann:preferredNamespacePrefix  "waarde" ;
+        voaf:reliesOn                  <http://data.vlaanderen.be/ns/besluit#> ;
+        dcterms:title                  "Waarde"@nl ;
+        dcterms:title                  "Value"@en ;
+        voaf:reliesOn                  dbo: ;
+        vann:preferredNamespaceUri     "https://data.omgeving.vlaanderen.be/ns/waarde#" ;
+        owl:versionInfo                "Tweede versie, zoals in gebruik genomen in het kader van archivering van zendantennes, na afstemming tussen de Vlaams uri-stategie en proxy-afhankelijkheden bij DIDM"@nl ;
+        voaf:reliesOn                  prov: ;
+        dcterms:temporal               "2018" ;
+        foaf:maker                     _:b0 .
+
+<http://data.vlaanderen.be/id/organisatie/OVO003751>
+        rdf:type  org:Organization .
+
+_:b0    schema:affiliation  <http://data.vlaanderen.be/id/organisatie/OVO003751> .
+
+<http://data.vlaanderen.be/id/organisatie/OVO003751>
+        rdf:type            foaf:Agent ;
+        foaf:name           "Data- en informatiebeheer & digitale maatschappij"@nl ;
+        rdfs:seeAlso        <https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66> ;
+        skos:altLabel       "DIDM"@nl ;
+        skos:prefLabel      "Data- en informatiebeheer & digitale maatschappij"@nl ;
+        org:changedBy       <http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting> ;
+        org:classification  <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> ;
+        org:identifier      "OVO003751" ;
+        regorg:orgStatus    <http://data.vlaanderen.be/id/concept/organisatiestatus/actief> ;
+        foaf:homepage       <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> ;
+        dcterms:type        <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> ;
+        foaf:mbox           <mailto:didm.omgeving@vlaanderen.be> .
+
+_:b0    foaf:mbox  <mailto:geert.vanhaute@vlaanderen.be> ;
+        foaf:name  "Van Haute, Geert" .
+
+vann:usageNote  rdf:type  owl:AnnotationProperty .
+
+schema:affiliation  rdf:type  owl:AnnotationProperty .
+
+foaf:homepage  rdf:type  owl:AnnotationProperty .
+
+foaf:isPrimaryTopicOf
+        rdf:type  owl:AnnotationProperty .
+
+foaf:mbox  rdf:type  owl:AnnotationProperty .
+
+foaf:name  rdf:type  owl:AnnotationProperty .
+
+sdmxa:unitMeasure  rdf:type  owl:ObjectProperty .
+
+waarde:azimut  rdf:type   owl:ObjectProperty ;
+        rdfs:range        waarde:Waarde ;
+        rdfs:comment      "Het azimut is een van de coördinaten uit het\n            horizon-coördinatenstelsel. In dit stelsel wordt de positie van een object aan de hemel\n            aangegeven door de twee coördinaten: azimut en elevatie. Het azimut is daarin de\n            horizontale component, de kompasrichting, dus de hoek met het noorden gemeten over het\n            oosten. Gewoonlijk wordt het azimut uitgedrukt in graden. De positie van een ster aan de\n            hemel wordt dus aangegeven door het azimut (de kompasrichting) en de hoogte (de hoek\n            tussen de ster en de horizon). De gehele cirkel is 360°, noord=0°, oost=90°, zuid=180°,\n            west=270°\""@nl ;
+        rdfs:isDefinedBy  <https://data.omgeving.vlaanderen.be/ns/waarde> ;
+        rdfs:label        "Azimut"@nl ;
+        rdfs:seeAlso      <http://dbpedia.org/resource/Azimuth> .
+
+waarde:breedte  rdf:type  owl:ObjectProperty ;
+        rdfs:range        waarde:Waarde ;
+        rdfs:comment      "De breedte is een van de afmetingen van een (meerdimensionaal)\n            object. Van een min of meer rechthoekig tweedimensionaal object wordt de kleinste van de\n            twee afmetingen de breedte genoemd. Van een driedimensionaal object wordt de kleinste\n            afmeting in het horizontale vlak de breedte genoemd."@nl ;
+        rdfs:isDefinedBy  <https://data.omgeving.vlaanderen.be/ns/waarde> ;
+        rdfs:label        "Breedte"@nl ;
+        rdfs:seeAlso      <http://dbpedia.org/property/width> .
+
+waarde:gebaseerdOp  rdf:type  owl:ObjectProperty ;
+        rdfs:comment    "TO DO" ;
+        rdfs:label      "gebaseerd op"@nl ;
+        vann:usageNote  "TO DO" ;
+        rdf:type        owl:ObjectProperty .
+
+waarde:frequentie  rdf:type  owl:ObjectProperty ;
+        rdfs:range        waarde:Waarde ;
+        rdfs:comment      "TO DO"@nl ;
+        rdfs:isDefinedBy  <https://data.omgeving.vlaanderen.be/ns/waarde> ;
+        rdfs:label        "TO DO"@nl ;
+        rdfs:seeAlso      <http://dbpedia.org/resource/Azimuth> .
+
+waarde:hoogte  rdf:type   owl:ObjectProperty ;
+        rdfs:range        waarde:Waarde ;
+        rdfs:comment      "De hoogte van een voorwerp is de verticale afstand van een\n            referentiepunt (zoals een oppervlak) tot het punt waar een voorwerp zich\n            bevindt."@nl ;
+        rdfs:isDefinedBy  <https://data.omgeving.vlaanderen.be/ns/waarde> ;
+        rdfs:label        "Hoogte"@nl ;
+        rdfs:seeAlso      <http://dbpedia.org/property/height> .
+
+waarde:horizontaleopeningshoek
+        rdf:type          owl:ObjectProperty ;
+        rdfs:range        waarde:Waarde ;
+        rdfs:comment      "TO DO"@nl ;
+        rdfs:isDefinedBy  <https://data.omgeving.vlaanderen.be/ns/waarde> ;
+        rdfs:label        "horizontale openingshoek"@nl .
+
+waarde:maximaleinvloedsstraal
+        rdf:type          owl:ObjectProperty ;
+        rdfs:range        waarde:Waarde ;
+        rdfs:comment      "TO DO"@nl ;
+        rdfs:isDefinedBy  <https://data.omgeving.vlaanderen.be/ns/waarde> ;
+        rdfs:label        "TO DO"@nl ;
+        rdfs:seeAlso      <http://dbpedia.org/resource/Azimuth> .
+
+waarde:mechanischetilt
+        rdf:type          owl:ObjectProperty ;
+        rdfs:range        waarde:Waarde ;
+        rdfs:comment      "mechanische tilt"@nl ;
+        rdfs:isDefinedBy  <https://data.omgeving.vlaanderen.be/ns/waarde> ;
+        rdfs:label        "TO DO"@nl ;
+        rdfs:seeAlso      <http://dbpedia.org/resource/Azimuth> .
+
+waarde:ophangingshoogte
+        rdf:type          owl:ObjectProperty ;
+        rdfs:range        waarde:Waarde ;
+        rdfs:comment      "TO DO"@nl ;
+        rdfs:isDefinedBy  <https://data.omgeving.vlaanderen.be/ns/waarde> ;
+        rdfs:label        "ophangingshoogte"@nl .
+
+waarde:totfrequentie  rdf:type  owl:ObjectProperty ;
+        rdfs:range        waarde:Waarde ;
+        rdfs:comment      "De hoogste frequentie waarbij een dempend materiaal een bepaalde\n            frequentiedempingsfactor heeft."@nl ;
+        rdfs:isDefinedBy  <https://data.omgeving.vlaanderen.be/ns/waarde> ;
+        rdfs:label        "tot frequentie"@nl .
+
+waarde:tothoek  rdf:type  owl:ObjectProperty ;
+        rdfs:range        waarde:Waarde ;
+        rdfs:isDefinedBy  <https://data.omgeving.vlaanderen.be/ns/waarde> ;
+        rdfs:label        "tothoek"@nl .
+
+waarde:vanfrequentie  rdf:type  owl:ObjectProperty ;
+        rdfs:range        waarde:Waarde ;
+        rdfs:comment      "De laagste frequentie waarbij een dempend materiaal een bepaalde\n            frequentiedempingsfactor heeft."@nl ;
+        rdfs:isDefinedBy  <https://data.omgeving.vlaanderen.be/ns/waarde> ;
+        rdfs:label        "van frequentie"@nl .
+
+waarde:vanhoek  rdf:type  owl:ObjectProperty ;
+        rdfs:range        waarde:Waarde ;
+        rdfs:isDefinedBy  <https://data.omgeving.vlaanderen.be/ns/waarde> ;
+        rdfs:label        "vanhoek"@nl .
+
+waarde:vermogen  rdf:type  owl:ObjectProperty ;
+        rdfs:range        waarde:Waarde ;
+        rdfs:isDefinedBy  <https://data.omgeving.vlaanderen.be/ns/waarde> ;
+        rdfs:label        "vermogen"@nl .
+
+waarde:verticaleopeningshoek
+        rdf:type          owl:ObjectProperty ;
+        rdfs:range        waarde:Waarde ;
+        rdfs:comment      "TO DO"@nl ;
+        rdfs:isDefinedBy  <https://data.omgeving.vlaanderen.be/ns/waarde> ;
+        rdfs:label        "verticale openingshoek"@nl .
+
+waarde:winst  rdf:type         owl:ObjectProperty ;
+        rdfs:range             waarde:Waarde ;
+        rdfs:comment           "De antenneversterking of winst vat de gerichtheid en\n            efficiëntie van een antenne samen. Hij is de verhouding van de afgeleverde in de\n            hoofdrichting resp. geabsorbeerde stralingsvermogensdichtheid in vergelijking met een\n            verliesvrije referentie-antenne van dezelfde antennevoermacht, die per definitie een\n            antenneversterking van 0 dB heeft. De gebruikte referentie-antenne is meestal een\n            dipoolantenne of een hypothetische isotrope radiator met dezelfde bundelsterkte in alle\n            richtingen."@nl ;
+        rdfs:isDefinedBy       <https://data.omgeving.vlaanderen.be/ns/waarde> ;
+        rdfs:label             "Winst"@nl ;
+        rdfs:seeAlso           <http://dbpedia.org/page/Antenna_gain> ;
+        foaf:isPrimaryTopicOf  <http://en.wikipedia.org/wiki/Antenna_gain> .
+
+rdf:value  rdf:type  owl:DatatypeProperty .
+
+waarde:key  rdf:type  owl:DatatypeProperty .
+
+skos:Concept  rdf:type  owl:Class .
+
+waarde:Waarde  rdf:type  owl:Class ;
+        rdfs:subClassOf  owl:Thing .
+
+_:b1    rdf:type  owl:Restriction .
+
+waarde:Waarde  rdfs:subClassOf  _:b1 .
+
+_:b1    owl:onProperty     sdmxa:unitMeasure ;
+        owl:allValuesFrom  skos:Concept .
+
+_:b2    rdf:type  owl:Restriction .
+
+waarde:Waarde  rdfs:subClassOf  _:b2 .
+
+_:b2    owl:onProperty   sdmxa:unitMeasure ;
+        owl:cardinality  "1"^^xsd:nonNegativeInteger .
+
+_:b3    rdf:type  owl:Restriction .
+
+waarde:Waarde  rdfs:subClassOf  _:b3 .
+
+_:b3    owl:onProperty     rdf:value ;
+        owl:allValuesFrom  rdfs:Literal .
+
+_:b4    rdf:type  owl:Restriction .
+
+waarde:Waarde  rdfs:subClassOf  _:b4 .
+
+_:b4    owl:onProperty   rdf:value ;
+        owl:cardinality  "1"^^xsd:nonNegativeInteger .
+
+waarde:Waarde  vann:usageNote  "Te gebruiken bij het vastleggen van een meetwaarde en de\n            gebruikte maateenheid buiten observaties die het RDF data cube formaat\n            volgen."@nl ;
+        rdfs:comment      "Klasse om meetwaarden vast te leggen gecombineerd met de\n            gebruikte maateenheid"@nl ;
+        rdfs:isDefinedBy  <https://data.omgeving.vlaanderen.be/ns/waarde> ;
+        rdfs:label        "Meetwaarde"@nl .
+
+_:b5    schema:affiliation  _:b6 .
+
+_:b6    foaf:homepage  <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> ;
+        foaf:mbox      <mailto:didm.omgeving@vlaanderen.be> ;
+        foaf:name      "Vlaamse Overheid, Departement Omgeving, Data-en informatiebeheer\n                            & Digitale Maatschappij" .
+
+_:b5    foaf:mbox  <mailto:geert.vanhaute@vlaanderen.be> ;
+        foaf:name  "Van Haute, Geert" .

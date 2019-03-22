@@ -1,0 +1,198 @@
+{
+  "@graph" : [ {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/aannemer",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type aannemer binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/address",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type address binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/afbeelding",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type afbeelding binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/antennetechnologie",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type antennetechnologie binnen\n            de datasets die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/antennetype",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type antennetype binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/antennewinstverlies",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type antennewinstverlies binnen\n            de datasets die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/bijlage",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type bijlage binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/conformiteitsattest",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type conformiteitsattest binnen\n            de datasets die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/delegation",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type delegation binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/dempendemaatregel",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type dempendemaatregel binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/demping",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type demping binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/dempingsfactor",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type dempingsfactor binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/document",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type document binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/dossier",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type dossier binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/gecontroleerderuimte",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type gecontroleerderuimte binnen\n            de datasets die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/gedemptestraling",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type gedemptestraling binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/ontology",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type ontology binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/operator",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type operator binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/person",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type person binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/procedurestap",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type procedurestap binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/site",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type site binnen de datasets die\n            in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/stralen",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type stralen binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/straling",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type straling binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/waarde",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type waarde binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/collection/zendantenne",
+    "@type" : "co:Collection",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Collectie van objecten van het type zendantenne binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering",
+    "@type" : "owl:Ontology",
+    "imports" : [ "https://data.omgeving.vlaanderen.be/ns/waarde#", "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#", "http://data.vlaanderen.be/ns/persoon#", "http://dbpedia.org/ontology/", "http://www.w3.org/ns/prov#", "http://data.vlaanderen.be/ns/adres#", "http://www.opengis.net/ont/geosparql", "http://www.w3.org/ns/person#", "https://data.omgeving.vlaanderen.be/ns/dossier#", "http://www.w3.org/ns/locn#" ]
+  } ],
+  "@context" : {
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "imports" : {
+      "@id" : "http://www.w3.org/2002/07/owl#imports",
+      "@type" : "@id"
+    },
+    "schema" : "http://schema.org/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "co" : "http://purl.org/co/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

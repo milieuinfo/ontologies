@@ -1,0 +1,1432 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix dc:  <http://purl.org/dc/elements/1.1/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix imjv:  <https://data.imjv.omgeving.vlaanderen.be/ns/imjv#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix xkos:  <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix vann:  <http://purl.org/vocab/vann/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix schema:  <http://schema.org/> .
+@prefix org:  <http://www.w3.org/ns/org#> .
+@prefix regorg:  <http://www.w3.org/ns/regorg#> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief>
+        rdf:type            owl:Ontology ;
+        owl:imports         dc: ;
+        owl:imports         dct: ;
+        owl:imports         <http://www.w3.org/2004/02/skos/core> ;
+        rdf:type            skos:ConceptScheme ;
+        skos:prefLabel      "archiefconcepten (IMJV)"@nl ;
+        skos:hasTopConcept  <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> ;
+        xkos:belongsTo      <https://data.imjv.omgeving.vlaanderen.be/id/dataset> ;
+        skos:prefLabel      "Lijst van onderdelen van het IMJV"@nl ;
+        skos:altLabel       "eenheid"@nl ;
+        dct:issued          "2019-01-03"^^xsd:date ;
+        vann:changes        ""@nl ;
+        dct:title           "Conceptscheme over onderdelen van het IMJV"@nl ;
+        owl:versionInfo     "Tweede versie, zoals in gebruik genomen in het kader van de herwerking volgens de uri-standaard"@nl ;
+        foaf:maker          _:b0 .
+
+<http://data.vlaanderen.be/id/organisatie/OVO003751>
+        rdf:type  org:Organization .
+
+_:b0    schema:affiliation  <http://data.vlaanderen.be/id/organisatie/OVO003751> .
+
+<http://data.vlaanderen.be/id/organisatie/OVO003751>
+        rdf:type            foaf:Agent ;
+        foaf:name           "Data- en informatiebeheer & digitale maatschappij"@nl ;
+        rdfs:seeAlso        <https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66> ;
+        skos:altLabel       "DIDM"@nl ;
+        skos:prefLabel      "Data- en informatiebeheer & digitale maatschappij"@nl ;
+        org:changedBy       <http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting> ;
+        org:classification  <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> ;
+        org:identifier      "OVO003751" ;
+        regorg:orgStatus    <http://data.vlaanderen.be/id/concept/organisatiestatus/actief> ;
+        foaf:homepage       <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> ;
+        dct:type            <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> ;
+        foaf:mbox           <mailto:didm.omgeving@vlaanderen.be> .
+
+_:b0    foaf:mbox  <mailto:geert.vanhaute@vlaanderen.be> ;
+        foaf:name  "Van Haute, Geert" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier>
+        rdf:type           skos:Concept ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:prefLabel     "dossier"@nl ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/metadata> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalproducent> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_identificatie> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_energie> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalverwerker> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvaloverbrenger> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondstoffenproducent> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/metadata>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:definition  "Metadata over een jaarverslag"@nl ;
+        skos:prefLabel   "metadata"@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/brief>
+        rdf:type           skos:Concept ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:definition    "Brief bij een jaarverslag"@nl ;
+        skos:prefLabel     "brief"@nl ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/uitnodiging> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aanmaning> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/handhavingovam> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/uitnodiging>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:definition  "Uitnodiging bij een jaarverslag"@nl ;
+        skos:prefLabel   "Uitnodiging"@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/brief> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanmaning>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:definition  "Aanmaning bij een jaarverslag"@nl ;
+        skos:prefLabel   "Aanmaning"@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/brief> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/handhavingovam>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:definition  "Handhaving OVAM bij een jaarverslag"@nl ;
+        skos:prefLabel   "Handhaving OVAM"@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/brief> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalproducent>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:prefLabel   "aangifte afvalproducent"@nl ;
+        skos:definition  "Een bedrijf, organisatie moet het deel Afval invullen indien:           \n            het in de OVAM-steekproef voor deel Afval zit. OF het een 'PRTR'-bedrijf betreft. Dit zijn bedrijven die een milieuvergunning hebben waarbij in kolom 7 van een of meerdere vergunde rubrieken een 'R' staat. Bedrijven die hier een 'J' hebben staan en geen 'R', moeten deel Afval niet invullen, behalve als ze opgenomen zijn in de OVAM-steekproef voor deel Afval. Meer informatie over de vergunde rubrieken vindt u op de Vlaamse Milieunavigator.\n        "@nl ;
+        dc:source        <https://imjv.milieuinfo.be/delen-van-het-imjv/afval> ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_afvalproducent> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvalproducent> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_identificatie>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:prefLabel   "aangifte identificatie"@nl ;
+        skos:definition  "Elk IMJV bevat het deel Identificatie"@nl ;
+        dc:source        <https://imjv.milieuinfo.be/delen-van-het-imjv/identificatie> ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_identificatie> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_identificatie> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:definition  "Een exploitatie moet het deel Lucht invullen indien het:         \n            ofwel conform Vlarem I over een J-type vergunning beschikt;\n            ofwel milieuvergunningsplichtig is als klasse 1 of 2;\n            en als bovendien de totale emissie van de gehele milieutechnische eenheid voor ten minste één verontreinigende stof in het beschouwde jaar groter is dan de drempelwaarden vermeld in de overzichtstabel van verontreinigende stoffen van het deelformulier luchtemissies.          \n            Indien in het verleden deze drempelwaarden voor de exploitatie werden overschreden, dient u het deel Lucht in te vullen gedurende de 3 daaropvolgende jaren, ook al blijft de emissie onder de drempelwaarden.           \n            Bijvoorbeeld, indien de exploitatie in 2011 nog boven de drempel emitteerde, maar dit de daaropvolgende jaren niet meer deed, dient u in 2015 (rapporteringsjaar 2014) voor de laatste keer het deel Lucht in te vullen."@nl ;
+        skos:prefLabel   "aangifte luchtemissie"@nl ;
+        dc:source        <https://imjv.milieuinfo.be/delen-van-het-imjv/lucht> ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_luchtemissie> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/processchema_luchtemissie> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_luchtemissie> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_energie>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:prefLabel   "aangifte energie"@nl ;
+        skos:definition  "en bedrijf, organisatie dient het deel Energie in te vullen wanneer:            \n            de exploitatie een primair energieverbruik heeft van meer dan 0,1 petajoule\n            u voor de exploitatie ook het deelformulier luchtemissie moet invullen\n            de exploitatie een GPBV/IPPC bedrijf betreft            \n            Een IMJV-plichtige die aangeeft alleen te moeten melden omwille van het energieverbruik, vult alleen de speciaal daarvoor ontworpen tabel 3 in het deel Energiegegevens in; elektriciteitsverbruik/jaar; brandstoffenverbruik/jaar per brandstof.\n            Deze bedrijven moeten niet het deel Lucht invullen (tenzij ze één of meerdere drempels overschrijden).         \n        "@nl ;
+        dc:source        <https://imjv.milieuinfo.be/delen-van-het-imjv/energie> ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_energie> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_energie> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalverwerker>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:prefLabel   "aangifte afvalverwerker"@nl ;
+        skos:definition  ""@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_afvalverwerker> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvalverwerker> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        dc:source        <https://imjv.milieuinfo.be/delen-van-het-imjv/water> ;
+        skos:prefLabel   "aangifte wateremissie"@nl ;
+        skos:definition  "Een bedrijf, organisatie moet het deel Water invullen indien het:           \n            ofwel conform Vlarem I over een J-type vergunning beschikt\n            ofwel milieuvergunningsplichtig is als klasse 1 of 2           \n            en bovendien bepaalde stoffen in afvalwater afvoert van zijn bedrijfsterrein boven een bepaalde drempel. Het maakt geen verschil of het afvalwater geloosd wordt in oppervlaktewater, riolering of afgevoerd wordt naar een private waterzuiveringsinstallatie. De lijst met verontreinigende stoffen en drempelwaarden is aangepast door de wetswijziging van december 2006.           \n            Indien in het verleden deze drempelwaarden voor de exploitatie werden overschreden, dient het deel wateremissie te worden ingevuld gedurende de 3 daaropvolgende jaren, ook al blijft de emissie onder de drempelwaarden.         \n            Bijvoorbeeld, indien de exploitatie in 2012 nog boven de drempel emitteerde, maar dit de daaropvolgende jaren niet meer deed, dient u in 2016 (rapporteringsjaar 2015) dus voor de laatste keer het deel wateremissie in te vullen."@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_wateremissie> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/processchema_wateremissie> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_wateremissie> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        dc:source        <https://imjv.milieuinfo.be/delen-van-het-imjv/grondwater> ;
+        skos:definition  "Bedrijven, organisaties dienen het deel Grondwater in te vullen wanneer zij:    \n            een Vlaremvergunning met een totaal vergund debiet van meer dan 30 000 m³/jaar hebben.\n            een oude klasse B grondwatervergunning hebben.\n            indien dit in de bijzondere voorwaarden van de vergunning staat gemeld. Hieronder vallen bijvoorbeeld sommige vergunde installaties met aquifercodes 1300, 1310, 1320, 1330 en 1340.\n            In de voorwaarden staat vermeld welk deel (onttrekkingen, peilgegevens en/of kwaliteitsgegevens) moet ingevuld worden en hoeveel keer per jaar de metingen moeten uitgevoerd worden."@nl ;
+        skos:prefLabel   "aangifte grondwaterstatistiek"@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondwaterstatistiek> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondwaterstatistiek> ;
+        skos:related     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        dc:source        <https://imjv.milieuinfo.be/delen-van-het-imjv/grondwater> ;
+        skos:definition  "Bedrijven, organisaties dienen het deel Grondwater in te vullen wanneer zij:    \n            een Vlaremvergunning met een totaal vergund debiet van meer dan 30 000 m³/jaar hebben.\n            een oude klasse B grondwatervergunning hebben.\n            indien dit in de bijzondere voorwaarden van de vergunning staat gemeld. Hieronder vallen bijvoorbeeld sommige vergunde installaties met aquifercodes 1300, 1310, 1320, 1330 en 1340.\n            In de voorwaarden staat vermeld welk deel (onttrekkingen, peilgegevens en/of kwaliteitsgegevens) moet ingevuld worden en hoeveel keer per jaar de metingen moeten uitgevoerd worden.\n        Vanaf 2016 is de aangifte grondwaterstatistiek vervangen door aangifte grondwater"@nl ;
+        skos:prefLabel   "aangifte grondwater"@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondwater> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondwater> ;
+        skos:related     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvaloverbrenger>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:prefLabel   "aangifte afvaloverbrenger"@nl ;
+        skos:definition  ""@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvaloverbrenger> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondstoffenproducent>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:prefLabel   "aangifte grondstoffenproducent"@nl ;
+        skos:definition  ""@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondstoffenproducent> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondstoffenproducent> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_afvalproducent>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:prefLabel   "aanvulling afvalproducent"@nl ;
+        skos:definition  ""@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalproducent> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvalproducent>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:prefLabel   "bijlage afvalproducent"@nl ;
+        skos:definition  ""@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalproducent> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_identificatie>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:prefLabel   "bijlage identificatie"@nl ;
+        skos:definition  ""@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_identificatie> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_identificatie>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:definition  ""@nl ;
+        skos:prefLabel   "aanvulling identificatie"@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_identificatie> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_luchtemissie>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:definition  ""@nl ;
+        skos:prefLabel   "aanvulling luchtemissie"@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/processchema_luchtemissie>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:prefLabel   "processchema luchtemissie"@nl ;
+        skos:definition  ""@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_luchtemissie>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:prefLabel   "bijlage luchtemissie"@nl ;
+        skos:definition  ""@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_energie>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:prefLabel   "aanvulling energie"@nl ;
+        skos:definition  ""@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_energie> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_energie>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:prefLabel   "bijlage energie"@nl ;
+        skos:definition  ""@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_energie> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_afvalverwerker>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:prefLabel   "aanvulling afvalverwerker"@nl ;
+        skos:definition  ""@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalverwerker> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvalverwerker>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:definition  ""@nl ;
+        skos:prefLabel   "bijlage afvalverwerker"@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalverwerker> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_wateremissie>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:definition  ""@nl ;
+        skos:prefLabel   "bijlage wateremissie"@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/processchema_wateremissie>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:definition  ""@nl ;
+        skos:prefLabel   "processchema wateremissie"@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_wateremissie>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:definition  ""@nl ;
+        skos:prefLabel   "aanvulling wateremissie"@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondwaterstatistiek>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:definition  ""@nl ;
+        skos:prefLabel   "bijlage grondwaterstatistiek"@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondwater>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:definition  ""@nl ;
+        skos:prefLabel   "bijlage grondwater"@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondwaterstatistiek>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:definition  ""@nl ;
+        skos:prefLabel   "aanvulling grondwaterstatistiek"@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondwater>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:definition  ""@nl ;
+        skos:prefLabel   "aanvulling grondwater"@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvaloverbrenger>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:definition  ""@nl ;
+        skos:prefLabel   "bijlage afvaloverbrenger"@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvaloverbrenger> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondstoffenproducent>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:definition  ""@nl ;
+        skos:prefLabel   "bijlage grondstoffenproducent"@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondstoffenproducent> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondstoffenproducent>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> ;
+        skos:prefLabel   "aanvulling grondstoffenproducent"@nl ;
+        skos:definition  ""@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondstoffenproducent> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/administratie>
+        skos:prefLabel  "concepten m.b.t. identificatie en administratie (IMJV)"@nl ;
+        rdf:type        skos:ConceptScheme .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/exploitatie>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/administratie> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/administratie> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "de IMJV-plichtige exploitatie, zoals dit binnen de werking van het imjv wordt geïnterpreteerd"@nl ;
+        skos:prefLabel     "exploitatie"@nl ;
+        skos:notation      "exploitatie" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort>
+        skos:prefLabel  "emissiepunt soorten (IMJV)"@nl ;
+        rdf:type        skos:ConceptScheme .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/gebouw>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "gebouw, zoals gebruikt binnen het IMJV"@nl ;
+        skos:prefLabel     "gebouw"@nl ;
+        skos:notation      "GEBOUW" ;
+        skos:broadMatch    <http://www.eionet.europa.eu/gemet/concept/6357> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/installatie_of_apparaat>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "installatie of apparaat"@nl ;
+        skos:prefLabel     "installatie of apparaat"@nl ;
+        skos:notation      "INSTALLATIE OF APPARAAT" ;
+        skos:broadMatch    <http://www.eionet.europa.eu/gemet/concept/6357> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/ongekend>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "ongekend"@nl ;
+        skos:prefLabel     "ongekend"@nl ;
+        skos:notation      "ONGEKEND" ;
+        skos:exactMatch    <http://www.eionet.europa.eu/gemet/concept/2674> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schoorsteen_of_pijp_met_vertikale_uitstroming>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "schoorsteen of pijp met vertikale uitstroming"@nl ;
+        skos:prefLabel     "schoorsteen of pijp met vertikale uitstroming"@nl ;
+        skos:notation      "SCHOORSTEEN OF PIJP MET VERTIKALE UITSTROMING" ;
+        skos:broadMatch    <http://www.eionet.europa.eu/gemet/concept/6357> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schoorsteen_of_pijp_zonder_vertikale_uitstroming>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "schoorsteen of pijp zonder vertikale uitstroming"@nl ;
+        skos:prefLabel     "schoorsteen of pijp zonder vertikale uitstroming"@nl ;
+        skos:notation      "SCHOORSTEEN OF PIJP ZONDER VERTIKALE UITSTROMING" ;
+        skos:broadMatch    <http://www.eionet.europa.eu/gemet/concept/6357> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type>
+        skos:prefLabel  "emissietypes (IMJV)"@nl ;
+        rdf:type        skos:ConceptScheme .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/abnormaleemissies>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "abnormale emissies"@nl ;
+        skos:prefLabel     "abnormale emissies"@nl ;
+        skos:notation      "AbnormaleEmissies" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/anderenietgeleideemissies>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "andere niet-geleide emissies"@nl ;
+        skos:prefLabel     "andere niet-geleide emissies"@nl ;
+        skos:notation      "AndereNietGeleideEmissies" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/doorzetemissie>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "doorzetemissie"@nl ;
+        skos:prefLabel     "doorzetemissie"@nl ;
+        skos:notation      "DoorzetEmissie" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/fakkelemissie>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "fakkelemissie"@nl ;
+        skos:prefLabel     "fakkelemissie"@nl ;
+        skos:notation      "FakkelEmissie" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/lekverliezen>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "lekverliezen"@nl ;
+        skos:prefLabel     "lekverliezen"@nl ;
+        skos:notation      "Lekverliezen" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nietgeleideemissies>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "nietgeleideemissies"@nl ;
+        skos:prefLabel     "nietgeleideemissies"@nl ;
+        skos:notation      "NietGeleideEmissies" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geleideemissies>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "geleideemissies"@nl ;
+        skos:prefLabel     "geleideemissies"@nl ;
+        skos:notation      "GeleideEmissies" ;
+        skos:exactMatch    <https://id.milieuinfo.be/vocab/vlaremII/concept/imjv_geleide_emissie> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context>
+        skos:prefLabel  "emissie contexten (IMJV)"@nl ;
+        rdf:type        skos:ConceptScheme .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/energieproductie>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "energieproductie"@nl ;
+        skos:prefLabel     "energieproductie"@nl ;
+        skos:notation      "EnergieProductie" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/fakkel>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "fakkel"@nl ;
+        skos:prefLabel     "fakkel"@nl ;
+        skos:notation      "Fakkel" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opslagverliezen>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "opslagverliezen"@nl ;
+        skos:prefLabel     "opslagverliezen"@nl ;
+        skos:notation      "Opslagverliezen" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overslagverliezen>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "overslagverliezen"@nl ;
+        skos:prefLabel     "overslagverliezen"@nl ;
+        skos:notation      "Overslagverliezen" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/productieeenheid>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "productieeenheid"@nl ;
+        skos:prefLabel     "productieeenheid"@nl ;
+        skos:notation      "ProductieEenheid" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/waterzuivering>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "waterzuivering"@nl ;
+        skos:prefLabel     "waterzuivering"@nl ;
+        skos:notation      "Waterzuivering" ;
+        skos:exactMatch    <http://www.eionet.europa.eu/gemet/concept/9143> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht>
+        skos:prefLabel  "bepalingsmethodes lucht (IMJV)"@nl ;
+        rdf:type        skos:ConceptScheme .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/concentratie_kleiner_dan_de_detectielimiet>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "concentratie kleiner dan de detectielimiet"@nl ;
+        skos:prefLabel     "concentratie kleiner dan de detectielimiet"@nl ;
+        skos:notation      "Concentratie kleiner dan de detectielimiet" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_meetnorm>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "internationaal aanvaarde meetnorm"@nl ;
+        skos:prefLabel     "internationaal aanvaarde meetnorm"@nl ;
+        skos:notation      "Internationaal aanvaarde meetnorm" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/meetmethode_opgelegd_in_de_exploitatievergunning>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "meetmethode opgelegd in de exploitatievergunning"@nl ;
+        skos:prefLabel     "meetmethode opgelegd in de exploitatievergunning"@nl ;
+        skos:notation      "Meetmethode opgelegd in de exploitatievergunning" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nationaal_of_regionaal_wettelijk_verplichte_meetmethode>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "nationaal of regionaal wettelijk verplichte meetmethode"@nl ;
+        skos:prefLabel     "nationaal of regionaal wettelijk verplichte meetmethode"@nl ;
+        skos:notation      "Nationaal of regionaal wettelijk verplichte meetmethode" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/alternatieve_meetmethode_overeenkomstig_bestaande_cen/iso-meetnormen>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "alternatieve meetmethode overeenkomstig bestaande cen/iso-meetnormen"@nl ;
+        skos:prefLabel     "alternatieve meetmethode overeenkomstig bestaande cen/iso-meetnormen"@nl ;
+        skos:notation      "Alternatieve meetmethode overeenkomstig bestaande CEN/ISO-meetnormen" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/gecertificeerde_meetmethode_goedgekeurd_door_de_bevoegde_instantie>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "gecertificeerde meetmethode goedgekeurd door de bevoegde instantie"@nl ;
+        skos:prefLabel     "gecertificeerde meetmethode goedgekeurd door de bevoegde instantie"@nl ;
+        skos:notation      "Gecertificeerde meetmethode goedgekeurd door de bevoegde instantie" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overige_meetmethode>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "overige meetmethode"@nl ;
+        skos:prefLabel     "overige meetmethode"@nl ;
+        skos:notation      "Overige meetmethode" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schatting>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "schatting"@nl ;
+        skos:prefLabel     "schatting"@nl ;
+        skos:notation      "Schatting" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_voor_verhandelbare_emissierechten>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "internationaal aanvaarde berekeningsmethode voor verhandelbare emissierechten"@nl ;
+        skos:prefLabel     "internationaal aanvaarde berekeningsmethode voor verhandelbare emissierechten"@nl ;
+        skos:notation      "Internationaal aanvaarde berekeningsmethode voor verhandelbare emissierechten" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_volgens_ipcc>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "internationaal aanvaarde berekeningsmethode volgens ipcc"@nl ;
+        skos:prefLabel     "internationaal aanvaarde berekeningsmethode volgens ipcc"@nl ;
+        skos:notation      "Internationaal aanvaarde berekeningsmethode volgens IPCC" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_volgens_unece/emep>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "internationaal aanvaarde berekeningsmethode volgens unece/emep"@nl ;
+        skos:prefLabel     "internationaal aanvaarde berekeningsmethode volgens unece/emep"@nl ;
+        skos:notation      "Internationaal aanvaarde berekeningsmethode volgens UNECE/EMEP" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/berekeningsmethode_opgelegd_in_de_exploitatievergunning>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "berekeningsmethode opgelegd in de exploitatievergunning"@nl ;
+        skos:prefLabel     "berekeningsmethode opgelegd in de exploitatievergunning"@nl ;
+        skos:notation      "Berekeningsmethode opgelegd in de exploitatievergunning" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nationaal_of_regionaal_wettelijk_verplichte_berekeningsmethode>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "nationaal of regionaal wettelijk verplichte berekeningsmethode"@nl ;
+        skos:prefLabel     "nationaal of regionaal wettelijk verplichte berekeningsmethode"@nl ;
+        skos:notation      "Nationaal of regionaal wettelijk verplichte berekeningsmethode" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/massabalansmethode_goedgekeurd_door_de_bevoegde_instantie>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "massabalansmethode goedgekeurd door de bevoegde instantie"@nl ;
+        skos:prefLabel     "massabalansmethode goedgekeurd door de bevoegde instantie"@nl ;
+        skos:notation      "Massabalansmethode goedgekeurd door de bevoegde instantie" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/europese_sectorspecifieke_berekeningsmethode>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "europese sectorspecifieke berekeningsmethode"@nl ;
+        skos:prefLabel     "europese sectorspecifieke berekeningsmethode"@nl ;
+        skos:notation      "Europese sectorspecifieke berekeningsmethode" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overige_berekeningsmethode>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "overige berekeningsmethode"@nl ;
+        skos:prefLabel     "overige berekeningsmethode"@nl ;
+        skos:notation      "overige berekeningsmethode" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats>
+        skos:prefLabel  "lozingsplaatsen (IMJV)"@nl ;
+        rdf:type        skos:ConceptScheme .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvoer_naar_andere_exploitatie-industriele_wzi>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "afvoer naar andere exploitatie/industriële wzi"@nl ;
+        skos:prefLabel     "afvoer naar andere exploitatie/industriële wzi"@nl ;
+        skos:notation      "Afvoer naar andere exploitatie/industriële WZI" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/collector>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "collector"@nl ;
+        skos:prefLabel     "collector"@nl ;
+        skos:notation      "Collector" ;
+        skos:closeMatch    <https://id.milieuinfo.be/vocab/vlaremII/concept/collectoren> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwater>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "grondwater"@nl ;
+        skos:prefLabel     "grondwater"@nl ;
+        skos:notation      "Grondwater" ;
+        skos:closeMatch    <https://id.milieuinfo.be/vocab/vlaremII/conceptscheme/oppervlaktewater_en_grondwaterbescherming/grondwater> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/influent_rwzi>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "influent rwzi"@nl ;
+        skos:prefLabel     "influent rwzi"@nl ;
+        skos:notation      "Influent RWZI" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/interne_stroom>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "interne stroom"@nl ;
+        skos:prefLabel     "interne stroom"@nl ;
+        skos:notation      "Interne stroom" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kunstmatige_afvoer_hemelwater>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "kunstmatige afvoer hemelwater"@nl ;
+        skos:prefLabel     "kunstmatige afvoer hemelwater"@nl ;
+        skos:notation      "Kunstmatige afvoer hemelwater" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opgenomen_in_oppervlaktewater>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "opgenomen in oppervlaktewater"@nl ;
+        skos:prefLabel     "opgenomen in oppervlaktewater"@nl ;
+        skos:notation      "Opgenomen in oppervlaktewater" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opgenomen_oppervlaktewater>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "opgenomen oppervlaktewater"@nl ;
+        skos:prefLabel     "opgenomen oppervlaktewater"@nl ;
+        skos:notation      "Opgenomen oppervlaktewater" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/riool>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "riool"@nl ;
+        skos:prefLabel     "riool"@nl ;
+        skos:notation      "Riool" ;
+        skos:closeMatch    <https://id.milieuinfo.be/vocab/vlaremII/concept/openbare_riolering> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/oppervlaktewater>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "oppervlaktewater als lozingsplaats"@nl ;
+        skos:prefLabel     "oppervlaktewater"@nl ;
+        skos:notation      "Oppervlaktewater" ;
+        skos:closeMatch    <https://id.milieuinfo.be/vocab/vlaremII/concept/oppervlaktewater> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/riolering>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "riolering"@nl ;
+        skos:prefLabel     "riolering"@nl ;
+        skos:notation      "Riolering" ;
+        skos:closeMatch    <https://id.milieuinfo.be/vocab/vlaremII/concept/openbare_riolering> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/meetput-type>
+        skos:prefLabel  "meetputtypes (IMJV)"@nl ;
+        rdf:type        skos:ConceptScheme .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/lozend>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/meetput-type> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/meetput-type> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "lozend"@nl ;
+        skos:prefLabel     "lozend"@nl ;
+        skos:notation      "Lozend" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/oppompend>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/meetput-type> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/meetput-type> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "oppompend"@nl ;
+        skos:prefLabel     "oppompend"@nl ;
+        skos:notation      "Oppompend" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/transfer>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/meetput-type> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/meetput-type> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "transfer"@nl ;
+        skos:prefLabel     "transfer"@nl ;
+        skos:notation      "Transfer" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozing-type>
+        skos:prefLabel  "lozingstypes (IMJV)"@nl ;
+        rdf:type        skos:ConceptScheme .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geleidelozing>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozing-type> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozing-type> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "geleidelozing"@nl ;
+        skos:prefLabel     "geleidelozing"@nl ;
+        skos:notation      "GeleideLozing" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/bepalings-methode-water>
+        skos:prefLabel  "bepalingsmethodes water (IMJV)"@nl ;
+        rdf:type        skos:ConceptScheme .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/meetgegevens>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/bepalings-methode-water> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/bepalings-methode-water> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "meetgegevens"@nl ;
+        skos:prefLabel     "meetgegevens"@nl ;
+        skos:notation      "meetgegevens" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/rekengegevens>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/bepalings-methode-water> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/bepalings-methode-water> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "rekengegevens"@nl ;
+        skos:prefLabel     "rekengegevens"@nl ;
+        skos:notation      "rekengegevens" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geschatte_gegevens>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/bepalings-methode-water> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/bepalings-methode-water> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "geschatte gegevens"@nl ;
+        skos:prefLabel     "geschatte gegevens"@nl ;
+        skos:notation      "geschatte gegevens" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten>
+        skos:prefLabel  "Grondwaterputten (IMJV)"@nl ;
+        rdf:type        skos:ConceptScheme .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterput>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "grondwaterput"@nl ;
+        skos:prefLabel     "grondwaterput"@nl ;
+        skos:notation      "grondwaterput" ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/pompput> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/peilput> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/pompput>
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> ;
+        rdf:type         skos:Concept ;
+        dct:creator      <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition  "pompput"@nl ;
+        skos:prefLabel   "pompput"@nl ;
+        skos:notation    "pompput" ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterput> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilput>
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> ;
+        rdf:type         skos:Concept ;
+        dct:creator      <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition  "peilput"@nl ;
+        skos:prefLabel   "peilput"@nl ;
+        skos:notation    "peilput" ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterput> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterfilter>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "filter"@nl ;
+        skos:prefLabel     "filter"@nl ;
+        skos:notation      "filter" ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/pompfilter> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/peilfilter> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/pompfilter>
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> ;
+        rdf:type         skos:Concept ;
+        dct:creator      <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition  "pompfilter"@nl ;
+        skos:prefLabel   "pompfilter"@nl ;
+        skos:notation    "pompfilter" ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterfilter> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilfilter>
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> ;
+        rdf:type         skos:Concept ;
+        dct:creator      <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition  "peilfilter"@nl ;
+        skos:prefLabel   "peilfilter"@nl ;
+        skos:notation    "peilfilter" ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterfilter> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilmeting>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "peilmeting"@nl ;
+        skos:prefLabel     "peilmeting"@nl ;
+        skos:notation      "peilmeting" ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginrust> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginwerking> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginrust>
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> ;
+        rdf:type         skos:Concept ;
+        dct:creator      <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition  "metinginrust"@nl ;
+        skos:prefLabel   "metinginrust"@nl ;
+        skos:notation    "metinginrust" ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/peilmeting> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginwerking>
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> ;
+        rdf:type         skos:Concept ;
+        dct:creator      <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition  "metinginwerking"@nl ;
+        skos:prefLabel   "metinginwerking"@nl ;
+        skos:notation    "metinginwerking" ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/peilmeting> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst>
+        skos:prefLabel  "Herkomst van het water in de jaarlijkse waterbalans van een exploitatie (IMJV)"@nl ;
+        rdf:type        skos:ConceptScheme ;
+        dct:creator     <http://data.kbodata.be/organisation/2_199_335_339#id> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_grondwater>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Grondwater"@nl ;
+        skos:prefLabel     "Grondwater"@nl ;
+        skos:notation      "Grondwater" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_hemelwater>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Hemelwater"@nl ;
+        skos:prefLabel     "Hemelwater"@nl ;
+        skos:notation      "Hemelwater" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_oppervlaktewaterwaterwegen>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "OppervlaktewaterWaterwegen"@nl ;
+        skos:prefLabel     "OppervlaktewaterWaterwegen"@nl ;
+        skos:notation      "OppervlaktewaterWaterwegen" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_oppervlaktewatervijvers>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "OppervlaktewaterVijvers"@nl ;
+        skos:prefLabel     "OppervlaktewaterVijvers"@nl ;
+        skos:notation      "OppervlaktewaterVijvers" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_drinkwater>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Drinkwater"@nl ;
+        skos:prefLabel     "Drinkwater"@nl ;
+        skos:notation      "Drinkwater" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_grijswater>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Grijswater"@nl ;
+        skos:prefLabel     "Grijswater"@nl ;
+        skos:notation      "Grijswater" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_ander>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Andere herkomst"@nl ;
+        skos:prefLabel     "Andere herkomst"@nl ;
+        skos:notation      "Ander" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming>
+        skos:prefLabel  "Bestemming van het water in de jaarlijkse waterbalans van een exploitatie (IMJV)"@nl ;
+        rdf:type        skos:ConceptScheme ;
+        dct:creator     <http://data.kbodata.be/organisation/2_199_335_339#id> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_drinkwater>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Drinkwater"@nl ;
+        skos:prefLabel     "Drinkwater"@nl ;
+        skos:notation      "Drinkwater" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_koelwater>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Koelwater"@nl ;
+        skos:prefLabel     "Koelwater"@nl ;
+        skos:notation      "Koelwater" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_sanitair>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Sanitair"@nl ;
+        skos:prefLabel     "Sanitair"@nl ;
+        skos:notation      "Sanitair" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_beregeningopenlucht>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "BeregeningOpenLucht"@nl ;
+        skos:prefLabel     "BeregeningOpenLucht"@nl ;
+        skos:notation      "BeregeningOpenLucht" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_beregeningglasteelt>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "BeregeningGlasteelt"@nl ;
+        skos:prefLabel     "BeregeningGlasteelt"@nl ;
+        skos:notation      "BeregeningGlasteelt" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_drinkwatervee>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "DrinkwaterVee"@nl ;
+        skos:prefLabel     "DrinkwaterVee"@nl ;
+        skos:notation      "DrinkwaterVee" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_bodemsanering>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Bodemsanering"@nl ;
+        skos:prefLabel     "Bodemsanering"@nl ;
+        skos:notation      "Bodemsanering" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_proceswater>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Proceswater"@nl ;
+        skos:prefLabel     "Proceswater"@nl ;
+        skos:notation      "Proceswater" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_spoelwater>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Spoelwater"@nl ;
+        skos:prefLabel     "Spoelwater"@nl ;
+        skos:notation      "Spoelwater" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_stoomproductie>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Stoomproductie"@nl ;
+        skos:prefLabel     "Stoomproductie"@nl ;
+        skos:notation      "Stoomproductie" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_andere>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Andere"@nl ;
+        skos:prefLabel     "Andere"@nl ;
+        skos:notation      "Andere" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek>
+        skos:prefLabel  "Monstenametechnieken ivm. grondwater (IMJV)"@nl ;
+        rdf:type        skos:ConceptScheme .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_1>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Staalname door aftap via monsternamekraantje"@nl ;
+        skos:prefLabel     "Staalname door aftap via monsternamekraantje"@nl ;
+        skos:notation      "Staalname door aftap via monsternamekraantje" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_2>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Staalname via pomp"@nl ;
+        skos:prefLabel     "Staalname via pomp"@nl ;
+        skos:notation      "Staalname via pomp" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_3>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Staalname via schepmonster"@nl ;
+        skos:prefLabel     "Staalname via schepmonster"@nl ;
+        skos:notation      "Staalname via schepmonster" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_4>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Staalmethode onbekend"@nl ;
+        skos:prefLabel     "Staalmethode onbekend"@nl ;
+        skos:notation      "Staalmethode onbekend" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_5>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Opvang aan bron"@nl ;
+        skos:prefLabel     "Opvang aan bron"@nl ;
+        skos:notation      "Opvang aan bron" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting>
+        skos:prefLabel  "Referentiepunten bij metingen ivm. grondwater (IMJV)"@nl ;
+        rdf:type        skos:ConceptScheme .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_1>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Het maaiveld (oppervlakte van de natuurlijke omgeving)"@nl ;
+        skos:prefLabel     "Het maaiveld (oppervlakte van de natuurlijke omgeving)"@nl ;
+        skos:notation      "Het maaiveld (oppervlakte van de natuurlijke omgeving)" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_2>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "De bovenkant van de peilbuis (buis, vaak in PVC, van enkele cm diameter waarin het peil gemeten wordt)"@nl ;
+        skos:prefLabel     "De bovenkant van de peilbuis (buis, vaak in PVC, van enkele cm diameter waarin het peil gemeten wordt)"@nl ;
+        skos:notation      "De bovenkant van de peilbuis (buis, vaak in PVC, van enkele cm diameter waarin het peil gemeten wordt)" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_3>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "De bovenkant van de beschermbuis (grote buis waarin o.a. de peilbuis is opgehangen)"@nl ;
+        skos:prefLabel     "De bovenkant van de beschermbuis (grote buis waarin o.a. de peilbuis is opgehangen)"@nl ;
+        skos:notation      "De bovenkant van de beschermbuis (grote buis waarin o.a. de peilbuis is opgehangen)" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_4>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Het peil wordt opgemeten in mTAW"@nl ;
+        skos:prefLabel     "Het peil wordt opgemeten in mTAW"@nl ;
+        skos:notation      "Het peil wordt opgemeten in mTAW" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/instrument_meting>
+        skos:prefLabel  "Instrumenten voor Peilmetingen ivm. grondwater (IMJV)"@nl ;
+        rdf:type        skos:ConceptScheme .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/instrument_peilmeting_type_1>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/instrument_meting> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/instrument_meting> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Peillint"@nl ;
+        skos:prefLabel     "Peillint"@nl ;
+        skos:notation      "Peillint" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/instrument_peilmeting_type_2>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/instrument_meting> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/instrument_meting> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Elektronische meting (sonde)"@nl ;
+        skos:prefLabel     "Elektronische meting (sonde)"@nl ;
+        skos:notation      "Elektronische meting (sonde)" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monstername_analysetype>
+        skos:prefLabel  "Analysetypen voor Kwaliteitsmetingen ivm. grondwater (IMJV)"@nl ;
+        rdf:type        skos:ConceptScheme .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_onbekend>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monstername_analysetype> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monstername_analysetype> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Onbekend"@nl ;
+        skos:prefLabel     "Onbekend"@nl ;
+        skos:notation      "Onbekend" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_laboanalyse>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monstername_analysetype> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monstername_analysetype> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Laboanalyse"@nl ;
+        skos:prefLabel     "Laboanalyse"@nl ;
+        skos:notation      "Laboanalyse" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_veldanalyse>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monstername_analysetype> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monstername_analysetype> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Veldanalyse"@nl ;
+        skos:prefLabel     "Veldanalyse"@nl ;
+        skos:notation      "Veldanalyse" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afvalstof/aard>
+        skos:prefLabel  "Grondwaterputten (IMJV)"@nl ;
+        rdf:type        skos:ConceptScheme .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvalstof_aard_producent>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afvalstof/aard> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afvalstof/aard> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Producent van afvalstoffen"@nl ;
+        skos:prefLabel     "Producent van afvalstoffen"@nl ;
+        skos:notation      "producent" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvalstof_aard_verwerker>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afvalstof/aard> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afvalstof/aard> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Verwerker van afvalstoffen"@nl ;
+        skos:prefLabel     "Verwerker van afvalstoffen"@nl ;
+        skos:notation      "verwerker" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze>
+        skos:prefLabel  "Verwerkingswijze Afval (IMJV)"@nl ;
+        rdf:type        skos:ConceptScheme .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/andere_voorbehandeling>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Afval Verwerkingswijze Andere voorbehandeling"@nl ;
+        skos:prefLabel     "Afval Verwerkingswijze Andere voorbehandeling"@nl ;
+        skos:notation      "Andere voorbehandeling" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/composteren>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Afval Verwerkingswijze Composteren"@nl ;
+        skos:prefLabel     "Afval Verwerkingswijze Composteren"@nl ;
+        skos:notation      "Composteren" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/hergebruik>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Afval Verwerkingswijze Hergebruik"@nl ;
+        skos:prefLabel     "Afval Verwerkingswijze Hergebruik"@nl ;
+        skos:notation      "Hergebruik" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/recyclage>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Afval Verwerkingswijze Recyclage"@nl ;
+        skos:prefLabel     "Afval Verwerkingswijze Recyclage"@nl ;
+        skos:notation      "Recyclage" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/sorteren>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Afval Verwerkingswijze Sorteren"@nl ;
+        skos:prefLabel     "Afval Verwerkingswijze Sorteren"@nl ;
+        skos:notation      "Sorteren" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/storten>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Afval Verwerkingswijze Storten"@nl ;
+        skos:prefLabel     "Afval Verwerkingswijze Storten"@nl ;
+        skos:notation      "Storten" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Afval Verwerkingswijze Verbranden"@nl ;
+        skos:prefLabel     "Afval Verwerkingswijze Verbranden"@nl ;
+        skos:notation      "Verbranden" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden_verwijdering>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Afval Verwerkingswijze Verbranden (verwijdering)"@nl ;
+        skos:prefLabel     "Afval Verwerkingswijze Verbranden (verwijdering)"@nl ;
+        skos:notation      "Verbranden (verwijdering)" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden_nuttige_toepassing>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Afval Verwerkingswijze Verbranden (nuttige toepassing)"@nl ;
+        skos:prefLabel     "Afval Verwerkingswijze Verbranden (nuttige toepassing)"@nl ;
+        skos:notation      "Verbranden (nuttige toepassing)" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze>
+        skos:prefLabel  "Vervoerswijze Afval (IMJV)"@nl ;
+        rdf:type        skos:ConceptScheme .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/andere>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Afval Vervoerswijze Andere"@nl ;
+        skos:prefLabel     "Afval Vervoerswijze Andere"@nl ;
+        skos:notation      "Andere" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/spoorweg>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Afval Vervoerswijze Spoorweg"@nl ;
+        skos:prefLabel     "Afval Vervoerswijze Spoorweg"@nl ;
+        skos:notation      "Spoorweg" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/waterweg>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Afval Vervoerswijze Waterweg"@nl ;
+        skos:prefLabel     "Afval Vervoerswijze Waterweg"@nl ;
+        skos:notation      "Waterweg" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/wegvervoer>
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze> ;
+        rdf:type           skos:Concept ;
+        dct:creator        <http://data.kbodata.be/organisation/2_199_335_339#id> ;
+        skos:definition    "Afval Vervoerswijze Wegvervoer"@nl ;
+        skos:prefLabel     "Afval Vervoerswijze Wegvervoer"@nl ;
+        skos:notation      "Wegvervoer" .

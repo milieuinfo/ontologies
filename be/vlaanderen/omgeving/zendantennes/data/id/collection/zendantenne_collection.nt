@@ -1,0 +1,61 @@
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/locn#> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/person#> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering> <http://www.w3.org/2002/07/owl#imports> <http://data.vlaanderen.be/ns/persoon#> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering> <http://www.w3.org/2002/07/owl#imports> <http://data.vlaanderen.be/ns/adres#> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering> <http://www.w3.org/2002/07/owl#imports> <http://dbpedia.org/ontology/> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/prov#> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering> <http://www.w3.org/2002/07/owl#imports> <http://www.opengis.net/ont/geosparql> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering> <http://www.w3.org/2002/07/owl#imports> <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering> <http://www.w3.org/2002/07/owl#imports> <https://data.omgeving.vlaanderen.be/ns/dossier#> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering> <http://www.w3.org/2002/07/owl#imports> <https://data.omgeving.vlaanderen.be/ns/waarde#> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/aannemer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/aannemer> <http://purl.org/dc/terms/title> "Collectie van objecten van het type aannemer binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/address> <http://purl.org/dc/terms/title> "Collectie van objecten van het type address binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/afbeelding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/afbeelding> <http://purl.org/dc/terms/title> "Collectie van objecten van het type afbeelding binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/antennetechnologie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/antennetechnologie> <http://purl.org/dc/terms/title> "Collectie van objecten van het type antennetechnologie binnen\n            de datasets die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/antennetype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/antennetype> <http://purl.org/dc/terms/title> "Collectie van objecten van het type antennetype binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/antennewinstverlies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/antennewinstverlies> <http://purl.org/dc/terms/title> "Collectie van objecten van het type antennewinstverlies binnen\n            de datasets die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/bijlage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/bijlage> <http://purl.org/dc/terms/title> "Collectie van objecten van het type bijlage binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/conformiteitsattest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/conformiteitsattest> <http://purl.org/dc/terms/title> "Collectie van objecten van het type conformiteitsattest binnen\n            de datasets die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/delegation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/delegation> <http://purl.org/dc/terms/title> "Collectie van objecten van het type delegation binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/dempendemaatregel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/dempendemaatregel> <http://purl.org/dc/terms/title> "Collectie van objecten van het type dempendemaatregel binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/demping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/demping> <http://purl.org/dc/terms/title> "Collectie van objecten van het type demping binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/dempingsfactor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/dempingsfactor> <http://purl.org/dc/terms/title> "Collectie van objecten van het type dempingsfactor binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/document> <http://purl.org/dc/terms/title> "Collectie van objecten van het type document binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/dossier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/dossier> <http://purl.org/dc/terms/title> "Collectie van objecten van het type dossier binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/gecontroleerderuimte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/gecontroleerderuimte> <http://purl.org/dc/terms/title> "Collectie van objecten van het type gecontroleerderuimte binnen\n            de datasets die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/gedemptestraling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/gedemptestraling> <http://purl.org/dc/terms/title> "Collectie van objecten van het type gedemptestraling binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/ontology> <http://purl.org/dc/terms/title> "Collectie van objecten van het type ontology binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/operator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/operator> <http://purl.org/dc/terms/title> "Collectie van objecten van het type operator binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/person> <http://purl.org/dc/terms/title> "Collectie van objecten van het type person binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/procedurestap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/procedurestap> <http://purl.org/dc/terms/title> "Collectie van objecten van het type procedurestap binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/site> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/site> <http://purl.org/dc/terms/title> "Collectie van objecten van het type site binnen de datasets die\n            in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/stralen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/stralen> <http://purl.org/dc/terms/title> "Collectie van objecten van het type stralen binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/straling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/straling> <http://purl.org/dc/terms/title> "Collectie van objecten van het type straling binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/waarde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/waarde> <http://purl.org/dc/terms/title> "Collectie van objecten van het type waarde binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/zendantenne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/co/Collection> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/zendantenne> <http://purl.org/dc/terms/title> "Collectie van objecten van het type zendantenne binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."@nl .

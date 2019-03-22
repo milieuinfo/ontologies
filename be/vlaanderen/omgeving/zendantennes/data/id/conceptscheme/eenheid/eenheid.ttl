@@ -1,0 +1,100 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix waarde:  <https://data.omgeving.vlaanderen.be/ns/waarde#> .
+@prefix xkos:  <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix vann:  <http://purl.org/vocab/vann/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix schema:  <http://schema.org/> .
+@prefix org:  <http://www.w3.org/ns/org#> .
+@prefix regorg:  <http://www.w3.org/ns/regorg#> .
+@prefix qudt:  <http://qudt.org/schema/qudt#> .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid>
+        rdf:type         skos:ConceptScheme ;
+        xkos:belongsTo   <https://data.zendantennes.omgeving.vlaanderen.be/id/dataset> ;
+        skos:prefLabel   "Lijst van eenheden bij een waarde"@nl ;
+        skos:altLabel    "eenheid"@nl ;
+        dcterms:issued   "2018-11-19"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        vann:changes     ""@nl ;
+        dcterms:title    "Conceptscheme over eenheden bij een waarde"@nl ;
+        owl:versionInfo  "Eerste versie, zoals in gebruik genomen in het kader van archivering van zendantennes"@nl ;
+        foaf:maker       _:b0 .
+
+<http://data.vlaanderen.be/id/organisatie/OVO003751>
+        rdf:type  org:Organization .
+
+_:b0    schema:affiliation  <http://data.vlaanderen.be/id/organisatie/OVO003751> .
+
+<http://data.vlaanderen.be/id/organisatie/OVO003751>
+        rdf:type            foaf:Agent ;
+        foaf:name           "Data- en informatiebeheer & digitale maatschappij"@nl ;
+        rdfs:seeAlso        <https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66> ;
+        skos:altLabel       "DIDM"@nl ;
+        skos:prefLabel      "Data- en informatiebeheer & digitale maatschappij"@nl ;
+        org:changedBy       <http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting> ;
+        org:classification  <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> ;
+        org:identifier      "OVO003751" ;
+        regorg:orgStatus    <http://data.vlaanderen.be/id/concept/organisatiestatus/actief> ;
+        foaf:homepage       <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> ;
+        dcterms:type        <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> ;
+        foaf:mbox           <mailto:didm.omgeving@vlaanderen.be> .
+
+_:b0    foaf:mbox  <mailto:geert.vanhaute@vlaanderen.be> ;
+        foaf:name  "Van Haute, Geert" .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/DecibelReferredToOneMilliwatt>
+        skos:inScheme       <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> ;
+        skos:topConceptOf   <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> ;
+        rdf:type            skos:Concept ;
+        waarde:gebaseerdOp  <http://qudt.org/vocab/unit#DecibelReferredToOneMilliwatt> ;
+        qudt:symbol         "dBm" ;
+        skos:prefLabel      "Decibel Verwijzend naar 1mw"@nl ;
+        skos:prefLabel      "Decibel Referred to 1mw"@en ;
+        waarde:key          "dBm" ;
+        waarde:key          "dBmW" ;
+        waarde:key          "decibel-milliwatts" ;
+        rdfs:comment        "dBm (sometimes dBmW or decibel-milliwatts) is an abbreviation for the power ratio in decibels (dB) of the measured power referenced to one milliwatt (mW) "@en .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Decibels-isotropic>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> ;
+        rdf:type           skos:Concept ;
+        rdfs:seeAlso       <http://dbpedia.org/resource/Antenna_gain> ;
+        qudt:symbol        "dBi" ;
+        skos:prefLabel     "Decibel Verwijzend naar 1mw"@nl ;
+        skos:prefLabel     "Decibel Referred to 1mw"@en ;
+        waarde:key         "dBi" ;
+        rdfs:comment       "De antenneversterking of winst vat de gerichtheid en\n            efficiëntie van een antenne samen. Hij is de verhouding van de afgeleverde in de\n            hoofdrichting resp. geabsorbeerde stralingsvermogensdichtheid in vergelijking met een\n            verliesvrije referentie-antenne van dezelfde antennevoermacht, die per definitie een\n            antenneversterking van 0 dB heeft. De gebruikte referentie-antenne is meestal een\n            dipoolantenne of een hypothetische isotrope radiator met dezelfde bundelsterkte in alle\n            richtingen."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden>
+        skos:inScheme       <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> ;
+        skos:topConceptOf   <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> ;
+        rdf:type            skos:Concept ;
+        waarde:gebaseerdOp  <http://qudt.org/vocab/unit#DecibelReferredToOneMilliwatt> ;
+        qudt:symbol         "°" ;
+        skos:prefLabel      "graden (als grootte van een hoek)"@nl ;
+        waarde:key          "°" .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> ;
+        rdf:type           skos:Concept ;
+        rdfs:seeAlso       <http://qudt.org/vocab/unit#Meter> ;
+        skos:prefLabel     "meter"@nl ;
+        waarde:key         "meter" ;
+        skos:altLabel      "m"@nl ;
+        waarde:key         "meters" ;
+        qudt:symbol        "m" .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/MegaHertz>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> ;
+        rdf:type           skos:Concept ;
+        rdfs:seeAlso       <http://qudt.org/vocab/unit#MegaHertz> ;
+        skos:prefLabel     "Megahertz"@nl ;
+        waarde:key         "MHz" ;
+        skos:altLabel      "MHz"@nl ;
+        qudt:symbol        "MHz" .

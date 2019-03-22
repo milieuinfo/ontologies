@@ -1,0 +1,1188 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "owl:Restriction",
+    "allValuesFrom" : "http://dbpedia.org/ontology/UnitOfWork",
+    "onProperty" : "dcterms:isPartOf"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "owl:Restriction",
+    "allValuesFrom" : "https://data.omgeving.vlaanderen.be/ns/dossier#Document",
+    "onProperty" : "dcterms:replaces"
+  }, {
+    "@id" : "_:b10",
+    "@type" : "owl:Restriction",
+    "allValuesFrom" : "https://data.omgeving.vlaanderen.be/ns/dossier#Dossier",
+    "onProperty" : "dcterms:isPartOf"
+  }, {
+    "@id" : "_:b11",
+    "affiliation" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "mbox" : "mailto:geert.vanhaute@vlaanderen.be",
+    "name" : "Van Haute, Geert"
+  }, {
+    "@id" : "_:b12",
+    "@type" : "owl:Restriction",
+    "maxCardinality" : "1",
+    "onProperty" : "dcterms:replaces"
+  }, {
+    "@id" : "_:b13",
+    "@type" : "owl:Restriction",
+    "allValuesFrom" : "https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel",
+    "onProperty" : "dcterms:isReplacedBy"
+  }, {
+    "@id" : "_:b14",
+    "@type" : "owl:Restriction",
+    "allValuesFrom" : "https://data.omgeving.vlaanderen.be/ns/dossier#Dossier",
+    "onProperty" : "dcterms:isReplacedBy"
+  }, {
+    "@id" : "_:b15",
+    "@type" : "owl:Restriction",
+    "allValuesFrom" : "https://data.omgeving.vlaanderen.be/ns/dossier#Dossier",
+    "onProperty" : "dcterms:replaces"
+  }, {
+    "@id" : "_:b16",
+    "@type" : "owl:Restriction",
+    "allValuesFrom" : "https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap",
+    "onProperty" : "dcterms:hasPart"
+  }, {
+    "@id" : "_:b19",
+    "@type" : "owl:Restriction",
+    "allValuesFrom" : "https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel",
+    "onProperty" : "dcterms:replaces"
+  }, {
+    "@id" : "_:b2",
+    "@type" : "owl:Restriction",
+    "allValuesFrom" : "https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel",
+    "onProperty" : "dcterms:hasPart"
+  }, {
+    "@id" : "_:b20",
+    "@type" : "owl:Restriction",
+    "maxCardinality" : "1",
+    "onProperty" : "https://data.omgeving.vlaanderen.be/ns/dossier#vervangtOfisOnderdeelVan"
+  }, {
+    "@id" : "_:b23",
+    "affiliation" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "mbox" : "mailto:geert.vanhaute@vlaanderen.be",
+    "name" : "Van Haute, Geert"
+  }, {
+    "@id" : "_:b24",
+    "@type" : "owl:Class",
+    "unionOf" : {
+      "@list" : [ "http://www.w3.org/ns/prov#Activity", "http://www.w3.org/ns/prov#Agent", "http://www.w3.org/ns/prov#Entity" ]
+    }
+  }, {
+    "@id" : "_:b26",
+    "@type" : "owl:Restriction",
+    "allValuesFrom" : "https://data.omgeving.vlaanderen.be/ns/dossier#Document",
+    "onProperty" : "dcterms:isPartOf"
+  }, {
+    "@id" : "_:b27",
+    "@type" : "owl:Class",
+    "unionOf" : {
+      "@list" : [ "http://www.w3.org/ns/prov#Activity", "http://www.w3.org/ns/prov#Entity" ]
+    }
+  }, {
+    "@id" : "_:b3",
+    "@type" : "owl:Restriction",
+    "maxCardinality" : "1",
+    "onProperty" : "https://data.omgeving.vlaanderen.be/ns/dossier#vervangtOfisOnderdeelVan"
+  }, {
+    "@id" : "_:b4",
+    "@type" : "owl:Restriction",
+    "allValuesFrom" : "https://data.omgeving.vlaanderen.be/ns/dossier#Document",
+    "onProperty" : "dcterms:isReplacedBy"
+  }, {
+    "@id" : "_:b5",
+    "affiliation" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "mbox" : "mailto:geert.vanhaute@vlaanderen.be",
+    "name" : "Van Haute, Geert"
+  }, {
+    "@id" : "_:b6",
+    "@type" : "owl:Restriction",
+    "allValuesFrom" : "https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap",
+    "onProperty" : "dcterms:replaces"
+  }, {
+    "@id" : "_:b7",
+    "@type" : "owl:Restriction",
+    "allValuesFrom" : "https://data.omgeving.vlaanderen.be/ns/dossier#Document",
+    "onProperty" : "dcterms:hasPart"
+  }, {
+    "@id" : "_:b8",
+    "@type" : "owl:Restriction",
+    "maxCardinality" : "1",
+    "onProperty" : "https://data.omgeving.vlaanderen.be/ns/dossier#vervangtOfisOnderdeelVan"
+  }, {
+    "@id" : "_:b9",
+    "@type" : "owl:Restriction",
+    "allValuesFrom" : "https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap",
+    "onProperty" : "dcterms:isReplacedBy"
+  }, {
+    "@id" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "@type" : [ "foaf:Agent", "org:Organization", "owl:NamedIndividual" ],
+    "type" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "seeAlso" : "https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "DIDM"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    },
+    "changedBy" : "http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting",
+    "classification" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "identifier" : "OVO003751",
+    "orgStatus" : "http://data.vlaanderen.be/id/concept/organisatiestatus/actief",
+    "homepage" : "https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij",
+    "mbox" : "mailto:didm.omgeving@vlaanderen.be",
+    "name" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    }
+  }, {
+    "@id" : "http://data.vlaanderen.be/ns/besluit#Besluit",
+    "@type" : "owl:Class",
+    "subClassOf" : [ "https://data.omgeving.vlaanderen.be/ns/dossier#Document", "https://data.omgeving.vlaanderen.be/ns/dossier#Dossierstuk", "dcterms:RightsStatement" ],
+    "disjointWith" : [ "https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap", "http://dbpedia.org/ontology/UnitOfWork", "owl:Thing-complement", "https://data.omgeving.vlaanderen.be/ns/dossier#Dossier", "http://dbpedia.org/ontology/Case" ],
+    "equivalentClass" : "https://data.omgeving.vlaanderen.be/ns/dossier#Besluit"
+  }, {
+    "@id" : "http://dbpedia.org/ontology/Case",
+    "@type" : "owl:Class",
+    "subClassOf" : "http://dbpedia.org/ontology/UnitOfWork",
+    "disjointWith" : [ "https://data.omgeving.vlaanderen.be/ns/dossier#Dossierstuk", "https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel", "https://data.omgeving.vlaanderen.be/ns/dossier#Document", "https://data.omgeving.vlaanderen.be/ns/dossier#Bijlage", "https://data.omgeving.vlaanderen.be/ns/dossier#Besluit", "https://data.omgeving.vlaanderen.be/ns/dossier#Afbeelding" ],
+    "equivalentClass" : "https://data.omgeving.vlaanderen.be/ns/dossier#Dossier"
+  }, {
+    "@id" : "http://dbpedia.org/ontology/UnitOfWork",
+    "@type" : "owl:Class",
+    "disjointWith" : [ "https://data.omgeving.vlaanderen.be/ns/dossier#Dossierstuk", "https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel", "https://data.omgeving.vlaanderen.be/ns/dossier#Document", "https://data.omgeving.vlaanderen.be/ns/dossier#Bijlage", "https://data.omgeving.vlaanderen.be/ns/dossier#Besluit", "https://data.omgeving.vlaanderen.be/ns/dossier#Afbeelding", "owl:Thing-complement" ]
+  }, {
+    "@id" : "dcam:memberOf",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "dcmitype:Collection",
+    "@type" : "owl:Class",
+    "memberOf" : "dcterms:DCMIType",
+    "description" : {
+      "@language" : "en",
+      "@value" : "A collection is described as a group; its parts may also be separately described."
+    },
+    "hasVersion" : "http://dublincore.org/usage/terms/history/#Collection-003",
+    "issued" : "2000-07-11",
+    "modified" : "2008-01-14",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "An aggregation of resources."
+    },
+    "isDefinedBy" : "http://purl.org/dc/dcmitype/",
+    "label" : {
+      "@language" : "en",
+      "@value" : "Collection"
+    }
+  }, {
+    "@id" : "dcmitype:Dataset",
+    "@type" : "owl:Class",
+    "memberOf" : "dcterms:DCMIType",
+    "description" : {
+      "@language" : "en",
+      "@value" : "Examples include lists, tables, and databases.  A dataset may be useful for direct machine processing."
+    },
+    "hasVersion" : "http://dublincore.org/usage/terms/history/#Dataset-003",
+    "issued" : "2000-07-11",
+    "modified" : "2008-01-14",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "Data encoded in a defined structure."
+    },
+    "isDefinedBy" : "http://purl.org/dc/dcmitype/",
+    "label" : {
+      "@language" : "en",
+      "@value" : "Dataset"
+    }
+  }, {
+    "@id" : "dcmitype:Event",
+    "@type" : "owl:Class",
+    "memberOf" : "dcterms:DCMIType",
+    "description" : {
+      "@language" : "en",
+      "@value" : "Metadata for an event provides descriptive information that is the basis for discovery of the purpose, location, duration, and responsible agents associated with an event. Examples include an exhibition, webcast, conference, workshop, open day, performance, battle, trial, wedding, tea party, conflagration."
+    },
+    "hasVersion" : "http://dublincore.org/usage/terms/history/#Event-003",
+    "issued" : "2000-07-11",
+    "modified" : "2008-01-14",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "A non-persistent, time-based occurrence."
+    },
+    "isDefinedBy" : "http://purl.org/dc/dcmitype/",
+    "label" : {
+      "@language" : "en",
+      "@value" : "Event"
+    }
+  }, {
+    "@id" : "dcmitype:Image",
+    "@type" : "owl:Class",
+    "memberOf" : "dcterms:DCMIType",
+    "description" : {
+      "@language" : "en",
+      "@value" : "Examples include images and photographs of physical objects, paintings, prints, drawings, other images and graphics, animations and moving pictures, film, diagrams, maps, musical notation.  Note that Image may include both electronic and physical representations."
+    },
+    "hasVersion" : "http://dublincore.org/usage/terms/history/#Image-004",
+    "issued" : "2000-07-11",
+    "modified" : "2008-01-14",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "A visual representation other than text."
+    },
+    "isDefinedBy" : "http://purl.org/dc/dcmitype/",
+    "label" : {
+      "@language" : "en",
+      "@value" : "Image"
+    },
+    "equivalentClass" : "https://data.omgeving.vlaanderen.be/ns/dossier#Afbeelding"
+  }, {
+    "@id" : "dcmitype:InteractiveResource",
+    "@type" : "owl:Class",
+    "memberOf" : "dcterms:DCMIType",
+    "description" : {
+      "@language" : "en",
+      "@value" : "Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments."
+    },
+    "hasVersion" : "http://dublincore.org/usage/terms/history/#InteractiveResource-003",
+    "issued" : "2000-07-11",
+    "modified" : "2008-01-14",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "A resource requiring interaction from the user to be understood, executed, or experienced."
+    },
+    "isDefinedBy" : "http://purl.org/dc/dcmitype/",
+    "label" : {
+      "@language" : "en",
+      "@value" : "Interactive Resource"
+    }
+  }, {
+    "@id" : "dcmitype:MovingImage",
+    "@type" : "owl:Class",
+    "memberOf" : "dcterms:DCMIType",
+    "description" : {
+      "@language" : "en",
+      "@value" : "Examples include animations, movies, television programs, videos, zoetropes, or visual output from a simulation.  Instances of the type Moving Image must also be describable as instances of the broader type Image."
+    },
+    "hasVersion" : "http://dublincore.org/usage/terms/history/#MovingImage-003",
+    "issued" : "2003-11-18",
+    "modified" : "2008-01-14",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "A series of visual representations imparting an impression of motion when shown in succession."
+    },
+    "isDefinedBy" : "http://purl.org/dc/dcmitype/",
+    "label" : {
+      "@language" : "en",
+      "@value" : "Moving Image"
+    },
+    "subClassOf" : "dcmitype:Image"
+  }, {
+    "@id" : "dcmitype:PhysicalObject",
+    "@type" : "owl:Class",
+    "memberOf" : "dcterms:DCMIType",
+    "description" : {
+      "@language" : "en",
+      "@value" : "Note that digital representations of, or surrogates for, these objects should use Image, Text or one of the other types."
+    },
+    "hasVersion" : "http://dublincore.org/usage/terms/history/#PhysicalObject-003",
+    "issued" : "2002-07-13",
+    "modified" : "2008-01-14",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "An inanimate, three-dimensional object or substance."
+    },
+    "isDefinedBy" : "http://purl.org/dc/dcmitype/",
+    "label" : {
+      "@language" : "en",
+      "@value" : "Physical Object"
+    }
+  }, {
+    "@id" : "dcmitype:Service",
+    "@type" : "owl:Class",
+    "memberOf" : "dcterms:DCMIType",
+    "description" : {
+      "@language" : "en",
+      "@value" : "Examples include a photocopying service, a banking service, an authentication service, interlibrary loans, a Z39.50 or Web server."
+    },
+    "hasVersion" : "http://dublincore.org/usage/terms/history/#Service-003",
+    "issued" : "2000-07-11",
+    "modified" : "2008-01-14",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "A system that provides one or more functions."
+    },
+    "isDefinedBy" : "http://purl.org/dc/dcmitype/",
+    "label" : {
+      "@language" : "en",
+      "@value" : "Service"
+    }
+  }, {
+    "@id" : "dcmitype:Software",
+    "@type" : "owl:Class",
+    "memberOf" : "dcterms:DCMIType",
+    "description" : {
+      "@language" : "en",
+      "@value" : "Examples include a C source file, MS-Windows .exe executable, or Perl script."
+    },
+    "hasVersion" : "http://dublincore.org/usage/terms/history/#Software-003",
+    "issued" : "2000-07-11",
+    "modified" : "2008-01-14",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "A computer program in source or compiled form."
+    },
+    "isDefinedBy" : "http://purl.org/dc/dcmitype/",
+    "label" : {
+      "@language" : "en",
+      "@value" : "Software"
+    }
+  }, {
+    "@id" : "dcmitype:Sound",
+    "@type" : "owl:Class",
+    "memberOf" : "dcterms:DCMIType",
+    "description" : {
+      "@language" : "en",
+      "@value" : "Examples include a music playback file format, an audio compact disc, and recorded speech or sounds."
+    },
+    "hasVersion" : "http://dublincore.org/usage/terms/history/#Sound-003",
+    "issued" : "2000-07-11",
+    "modified" : "2008-01-14",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "A resource primarily intended to be heard."
+    },
+    "isDefinedBy" : "http://purl.org/dc/dcmitype/",
+    "label" : {
+      "@language" : "en",
+      "@value" : "Sound"
+    }
+  }, {
+    "@id" : "dcmitype:StillImage",
+    "@type" : "owl:Class",
+    "memberOf" : "dcterms:DCMIType",
+    "description" : {
+      "@language" : "en",
+      "@value" : "Examples include paintings, drawings, graphic designs, plans and maps. Recommended best practice is to assign the type Text to images of textual materials. Instances of the type Still Image must also be describable as instances of the broader type Image."
+    },
+    "hasVersion" : "http://dublincore.org/usage/terms/history/#StillImage-003",
+    "issued" : "2003-11-18",
+    "modified" : "2008-01-14",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "A static visual representation."
+    },
+    "isDefinedBy" : "http://purl.org/dc/dcmitype/",
+    "label" : {
+      "@language" : "en",
+      "@value" : "Still Image"
+    },
+    "subClassOf" : "dcmitype:Image"
+  }, {
+    "@id" : "dcmitype:Text",
+    "@type" : "owl:Class",
+    "memberOf" : "dcterms:DCMIType",
+    "description" : {
+      "@language" : "en",
+      "@value" : "Examples include books, letters, dissertations, poems, newspapers, articles, archives of mailing lists. Note that facsimiles or images of texts are still of the genre Text."
+    },
+    "hasVersion" : "http://dublincore.org/usage/terms/history/#Text-003",
+    "issued" : "2000-07-11",
+    "modified" : "2008-01-14",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "A resource consisting primarily of words for reading."
+    },
+    "isDefinedBy" : "http://purl.org/dc/dcmitype/",
+    "label" : {
+      "@language" : "en",
+      "@value" : "Text"
+    }
+  }, {
+    "@id" : "dcterms:RightsStatement",
+    "@type" : "owl:Class",
+    "disjointWith" : "owl:Thing-complement"
+  }, {
+    "@id" : "dcterms:description",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "dcterms:hasPart",
+    "@type" : "owl:ObjectProperty"
+  }, {
+    "@id" : "dcterms:hasVersion",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "dcterms:isPartOf",
+    "@type" : "owl:ObjectProperty",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "is onderdeel van"
+    },
+    "subPropertyOf" : "https://data.omgeving.vlaanderen.be/ns/dossier#vervangtOfisOnderdeelVan"
+  }, {
+    "@id" : "dcterms:isReplacedBy",
+    "@type" : "owl:ObjectProperty"
+  }, {
+    "@id" : "dcterms:issued",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "dcterms:modified",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "dcterms:replaces",
+    "@type" : "owl:ObjectProperty",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "vervangt"
+    },
+    "subPropertyOf" : "https://data.omgeving.vlaanderen.be/ns/dossier#vervangtOfisOnderdeelVan"
+  }, {
+    "@id" : "dcterms:rights",
+    "@type" : "owl:ObjectProperty",
+    "inverseOf" : [ "https://data.omgeving.vlaanderen.be/ns/dossier#vergunt", "https://data.omgeving.vlaanderen.be/ns/dossier#certifiëert" ]
+  }, {
+    "@id" : "dcterms:source",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "dcterms:type",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "vann:usageNote",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "schema:affiliation",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "xsd:date",
+    "@type" : "rdfs:Datatype"
+  }, {
+    "@id" : "owl:Thing-complement",
+    "@type" : "owl:Class"
+  }, {
+    "@id" : "skos:altLabel",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "skos:prefLabel",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "org:Organization",
+    "@type" : "owl:Class"
+  }, {
+    "@id" : "org:changedBy",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "org:classification",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "org:identifier",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "http://www.w3.org/ns/person#Person",
+    "@type" : "owl:Class"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Activity",
+    "@type" : "owl:Class"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Agent",
+    "@type" : "owl:Class"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Bundle",
+    "@type" : "owl:Class"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity",
+    "@type" : "owl:Class"
+  }, {
+    "@id" : "regorg:orgStatus",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "foaf:Agent",
+    "@type" : "owl:Class"
+  }, {
+    "@id" : "foaf:homepage",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "foaf:mbox",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "foaf:name",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "@type" : "owl:Ontology",
+    "issued" : "2018-11-19",
+    "temporal" : "2018",
+    "title" : [ {
+      "@language" : "nl",
+      "@value" : "Dossier"
+    }, {
+      "@language" : "en",
+      "@value" : "Case"
+    } ],
+    "changes" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "preferredNamespacePrefix" : "dossier",
+    "preferredNamespaceUri" : "https://data.omgeving.vlaanderen.be/ns/dossier#",
+    "reliesOn" : [ "http://www.w3.org/ns/prov#", "http://www.w3.org/ns/person#", "http://dbpedia.org/ontology/", "http://data.vlaanderen.be/ns/besluit#", "http://xmlns.com/foaf/0.1/" ],
+    "label" : [ {
+      "@language" : "en",
+      "@value" : "Case"
+    }, {
+      "@language" : "nl",
+      "@value" : "Dossier"
+    } ],
+    "versionInfo" : {
+      "@language" : "nl",
+      "@value" : "Tweede versie, zoals in gebruik genomen in het kader van archivering van zendantennes, na afstemming tussen de Vlaams uri-stategie en proxy-afhankelijkheden bij DIDM"
+    },
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Zaak"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Dossier"
+    },
+    "maker" : "_:b5"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#Afbeelding",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Afbeelding"
+    },
+    "subClassOf" : "https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel",
+    "disjointWith" : [ "https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap", "https://data.omgeving.vlaanderen.be/ns/dossier#Dossier" ]
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#Besluit",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Een procedure, en het dossier als bundeling van documenten en neerslag van deze doorlopen procedure, wordt afgesloten tijdens een finale, beslissende stap of fase. Eventueel beroep tegen deze beslissing is voorwerp van ander dossier, binnen een andere procedure. In dit beroepsdossier wordt verwezen naar het dossier uit eerste aanleg."
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "De beslissing van een bestuursorgaan. Deze beslissing houdt een rechtshandeling in waarbij sprake is van een beoogd rechtsgevolg. Deze beslissing sluit een dossier af, documenteert een (onderdeel van een) belissende stap van de procedure."
+    },
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Besluit"
+    },
+    "subClassOf" : [ "dcterms:RightsStatement", "https://data.omgeving.vlaanderen.be/ns/dossier#Dossierstuk", "https://data.omgeving.vlaanderen.be/ns/dossier#Document" ],
+    "disjointWith" : [ "https://data.omgeving.vlaanderen.be/ns/dossier#Dossier", "https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap" ]
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#Bijlage",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Bijlage"
+    },
+    "subClassOf" : "https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel",
+    "disjointWith" : [ "https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap", "https://data.omgeving.vlaanderen.be/ns/dossier#Dossier" ]
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#Document",
+    "@type" : "owl:Class",
+    "source" : [ "http://people.ischool.berkeley.edu/~buckland/thing.html", "http://dbpedia.org/page/Suzanne_Briet" ],
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Een document documenteert."
+    },
+    "comment" : [ {
+      "@language" : "en",
+      "@value" : "Any concrete or symbolic indication, preserved or recorded, for reconstructing or for proving a phenomenon, whether physical or mental."
+    }, {
+      "@language" : "nl",
+      "@value" : "Om het even welk concreet of symbolisch bewijs dat toelaat om een gebeurtenis te reconstrueren."
+    } ],
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Document"
+    },
+    "subClassOf" : [ "_:b1", "http://www.w3.org/ns/prov#Bundle", "_:b0", "_:b2", "_:b3", "_:b4" ],
+    "disjointWith" : [ "https://data.omgeving.vlaanderen.be/ns/dossier#Dossier", "https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap" ],
+    "equivalentClass" : "https://data.omgeving.vlaanderen.be/ns/dossier#Dossierstuk"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Een document kan uit verschillende onderdelen bestaan. Deze klasse wordt gebruik om deze onderdelen uniek te kunnen identificeren of te metadateren. In een digitaal archief kunnen samengestelde documenten tot op het meest granulaire niveau van individuele bitstreams worden opgesplitst om het aantal mogelijke gebruiken in de toekomst niet te hypothekeren."
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "de onderdelen die tot een document behoren of waaruit een document is samengesteld  (foto's, bijlagen, etc.)"
+    },
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "documentonderdeel"
+    },
+    "subClassOf" : [ "_:b13", "_:b19", "_:b26", "_:b20" ],
+    "disjointWith" : [ "https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap", "https://data.omgeving.vlaanderen.be/ns/dossier#Dossier" ]
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#Dossier",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Te gebruiken als logische bundeling van documenten binnen een bepaalde zaak."
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Een dossier is het geheel aan werk gedaan om tot een bestuurlijke of zakelijke beslissing te komen. Een dossier slaat doorgaans neer in een verzameling documenten."
+    },
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : [ {
+      "@language" : "nl",
+      "@value" : "Dossier"
+    }, {
+      "@language" : "en",
+      "@value" : "Case"
+    } ],
+    "subClassOf" : [ "_:b14", "_:b15", "_:b16", "http://dbpedia.org/ontology/UnitOfWork", "_:b12" ],
+    "disjointWith" : "https://data.omgeving.vlaanderen.be/ns/dossier#Dossierstuk"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#Dossierstuk",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Het gebruik van de term Document of Dossierstuk is een kwestie van smaak en/of herkenbaarheid."
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Een logisch, organisatorisch of wettelijk bepaald, noodzakelijk document binnen een procedure."
+    },
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Dossierstuk"
+    },
+    "subClassOf" : "http://www.w3.org/ns/prov#Bundle",
+    "disjointWith" : "https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "\n            De formeel gedefiniëerde stappen die in de juiste volgorde leiden tot de afronding van het dossier. Deze volgorde kan zowel (deels) sequentiëel als parallel gedefiniëerd zijn.\n            Afhankelijk van het perspectief kan een bepaalde procedurestap op zich ook een dossier zijn, en getypeerd worden door dossier:procedure. \n            Bijvoorbeeld: Vanuit het perspectief van het verlenen van een vergunning kan de stap \"Adviezen op het verlenen van een vergunning\" een procedurestap zijn. \n            Vanuit het perspectief van de adviesverlener kan het advies op zich een \"een bestuurlijke of zakelijke beslissing\" zijn, die de procedure \"Advies van VMM in het kader van vergunningsverlening\" afsluit.\n        "
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Een procedurestap is het geheel aan werk gedaan binnen een specifiek chronologisch, logisch, organisatorisch of wettelijk bepaald onderdeel van een procedure."
+    },
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Procedurestap"
+    },
+    "subClassOf" : [ "http://dbpedia.org/ontology/UnitOfWork", "_:b6", "_:b7", "_:b8", "_:b9", "_:b10" ]
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDocument",
+    "@type" : [ "owl:ObjectProperty", "owl:FunctionalProperty", "owl:IrreflexiveProperty", "owl:AsymmetricProperty" ],
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Legt de relatie tussen een bepaald onderdeel (een foto, bijlage, etc.) en het document waartoe het behoort."
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Geeft aan tot welk document een bepaalde foto, bijlage enz. behoort."
+    },
+    "domain" : "https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel",
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "behoort tot document"
+    },
+    "range" : "https://data.omgeving.vlaanderen.be/ns/dossier#Document",
+    "subPropertyOf" : "dcterms:isPartOf",
+    "inverseOf" : "https://data.omgeving.vlaanderen.be/ns/dossier#heeftOnderdeel"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDossier",
+    "@type" : [ "owl:IrreflexiveProperty", "owl:FunctionalProperty", "owl:AsymmetricProperty", "owl:ObjectProperty" ],
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Legt de relatie tussen een formeel gedefiniëerde stap binnen een specifieke procedure en het dossier waartoe dit onderdeel behoort."
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Een onderdeel van een bepaald dossier geeft aan tot welk dossier het behoort."
+    },
+    "domain" : "https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap",
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "behoort tot dossier"
+    },
+    "range" : "https://data.omgeving.vlaanderen.be/ns/dossier#Dossier",
+    "subPropertyOf" : "dcterms:isPartOf",
+    "inverseOf" : "https://data.omgeving.vlaanderen.be/ns/dossier#heeftProcedurestap"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotProcedurestap",
+    "@type" : [ "owl:IrreflexiveProperty", "owl:AsymmetricProperty", "owl:FunctionalProperty", "owl:ObjectProperty" ],
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Legt de relatie tussen een document en de procedurestap of de fase waarbinnen het document is toegevoegd aan het dossier."
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Een document is toegevoegd aan het dossier binnen een formeel gedefiniëerde stap."
+    },
+    "domain" : "https://data.omgeving.vlaanderen.be/ns/dossier#Document",
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "behoort tot procedurestap"
+    },
+    "range" : "https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap",
+    "subPropertyOf" : "dcterms:isPartOf",
+    "inverseOf" : "https://data.omgeving.vlaanderen.be/ns/dossier#heeftDocument"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#certifiëert",
+    "@type" : "owl:ObjectProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Legt de relatie tussen het certificaat en hetgeen hierdoor gecertificeerd is."
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Als voorbeeld uit de context van de procedure voor aanvraag van een conformiteitsattest voor een zendantenne.: \"Het Vlaams planbureau voor omgeving certificeert dat, als de elementen in het technische dossier (bijlage) de werkelijke situatie weergeven, de vermelde vast opgestelde zendantennes voldoen aan de bepalingen van deel 2 (milieukwaliteitsnorm voor elektromagnetische golven) en, indien van toepassing, deel 6 (norm per vast opgestelde zendantenne) van titel II van het VLAREM.\""
+    },
+    "domain" : "dcterms:RightsStatement",
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "certifiëert"
+    },
+    "range" : "_:b24",
+    "equivalentProperty" : "https://data.omgeving.vlaanderen.be/ns/dossier#vergunt"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#dossierbehandelaar",
+    "@type" : "owl:ObjectProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Wijst naar een ambtenaar die het dossier behandelt"
+    },
+    "domain" : "https://data.omgeving.vlaanderen.be/ns/dossier#Dossier",
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "dossierbehandelaar"
+    },
+    "range" : "http://www.w3.org/ns/person#Person"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#dossiereigenaar",
+    "@type" : "owl:ObjectProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Eigenaar van het dossier"
+    },
+    "domain" : "https://data.omgeving.vlaanderen.be/ns/dossier#Dossier",
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "dossiereigenaar"
+    },
+    "range" : "http://www.w3.org/ns/person#Person"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#dossiermedewerker",
+    "@type" : "owl:ObjectProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Medewerker"
+    },
+    "domain" : "https://data.omgeving.vlaanderen.be/ns/dossier#Dossier",
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "dossiermedewerker"
+    },
+    "range" : "http://www.w3.org/ns/person#Person"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#evaluatie",
+    "@type" : "owl:DatatypeProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "evaluatie"
+    },
+    "range" : "rdfs:Literal"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#heeftDocument",
+    "@type" : [ "owl:InverseFunctionalProperty", "owl:ObjectProperty", "owl:AsymmetricProperty", "owl:IrreflexiveProperty" ],
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Legt de relatie tussen een bepaalde stap of fase van een dossier en de documenten die ertoe behoren of de documenten die binnen deze stap aan het dossier zijn toegevoegd"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Onderdelen van een bepaalde procedurestap"
+    },
+    "domain" : "https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap",
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "heeft document"
+    },
+    "range" : "https://data.omgeving.vlaanderen.be/ns/dossier#Document",
+    "subPropertyOf" : "dcterms:hasPart"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#heeftOnderdeel",
+    "@type" : [ "owl:IrreflexiveProperty", "owl:InverseFunctionalProperty", "owl:AsymmetricProperty", "owl:ObjectProperty" ],
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Legt de relatie tussen een bepaald document en de onderdelen, (foto's, bijlagen, etc.)  die tot dat document behoren"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Onderdelen van een bepaald document"
+    },
+    "domain" : "https://data.omgeving.vlaanderen.be/ns/dossier#Document",
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "heeft documentonderdeel"
+    },
+    "range" : "https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel",
+    "subPropertyOf" : "dcterms:hasPart"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#heeftProcedurestap",
+    "@type" : [ "owl:IrreflexiveProperty", "owl:InverseFunctionalProperty", "owl:AsymmetricProperty", "owl:ObjectProperty" ],
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Legt de relatie tussen een dossier binnen een specifieke procedure en een bepaalde stap of fase binnen die procedure"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Onderdelen van een bepaald dossier"
+    },
+    "domain" : "https://data.omgeving.vlaanderen.be/ns/dossier#Dossier",
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "heeft procedurestap"
+    },
+    "range" : "https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap",
+    "subPropertyOf" : "dcterms:hasPart"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#isVervangenDoor",
+    "@type" : [ "owl:InverseFunctionalProperty", "owl:ObjectProperty" ],
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Opvangen van rechtzettingen, versies, lussen, ... . Het opvangen van fouten, correcties, het feit dat zich een administratieve lus heeft voorgedaan en dergelijke zijn gebeurtenissen die gedocumenteerd worden. \n            Om die reden is het in de eerste plaats het document dat geversioneerd, vervangen wordt.\n            Wijzigingen op bitstreamrepresentaties van stappen of dossiers (bv. serialisaties van relavante onderdelen van databanken) worden afgehandeld met dcterms:isReplacedBy"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Een verwant document dat door een ander document wordt vervangen."
+    },
+    "domain" : "https://data.omgeving.vlaanderen.be/ns/dossier#Document",
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "vervangen door"
+    },
+    "range" : "https://data.omgeving.vlaanderen.be/ns/dossier#Document",
+    "subPropertyOf" : "dcterms:isReplacedBy",
+    "inverseOf" : "https://data.omgeving.vlaanderen.be/ns/dossier#vervangt"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#procedure",
+    "@type" : "owl:ObjectProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Het type van procedure typeert een dossier, determineert de discrete procedurestappen en bepaalt welke documenten binnen welke procedurestappen worden verwacht."
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "De naam die verwijst naar de formele definitie van een verzameling stappen die in de juiste volgorde leiden tot de afronding van het dossier."
+    },
+    "domain" : "https://data.omgeving.vlaanderen.be/ns/dossier#Dossier",
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "procedure"
+    }
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#referentie",
+    "@type" : "owl:DatatypeProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "De referentie van iemand naar een dossier."
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "domain" : "https://data.omgeving.vlaanderen.be/ns/dossier#Dossier",
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "referentie"
+    },
+    "range" : "rdfs:Literal"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#vergunt",
+    "@type" : "owl:ObjectProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Legt de relatie tussen een vergunning en hetgeen vergund is."
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Een vergunning is een besluit dat het recht, goedkeuring of toestemming verleent om een activiteit uit te voeren of een inrichting, gebouw, etc. te construeren of uit te baten."
+    },
+    "domain" : "dcterms:RightsStatement",
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "vergund"
+    },
+    "range" : "_:b27"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#vervangt",
+    "@type" : [ "owl:FunctionalProperty", "owl:ObjectProperty" ],
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Opvangen van rechtzettingen, versies, lussen, ... . Het opvangen van fouten, correcties, het feit dat zich een administratieve lus heeft voorgedaan en dergelijke zijn gebeurtenissen die gedocumenteerd worden. \n            Om die reden is het in de eerste plaats het document dat geversioneerd, vervangen wordt.\n            Wijzigingen op bitstreamrepresentaties van stappen of dossiers (bv. serialisaties van relavante onderdelen van databanken) worden afgehandeld met dcterms:replaces"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Een verwant document een ander document vervangt of verdringt."
+    },
+    "domain" : "https://data.omgeving.vlaanderen.be/ns/dossier#Document",
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "vervangt"
+    },
+    "range" : "https://data.omgeving.vlaanderen.be/ns/dossier#Document",
+    "subPropertyOf" : "dcterms:replaces"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/dossier#vervangtOfisOnderdeelVan",
+    "@type" : "owl:ObjectProperty",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "vervangt of is onderdeel van"
+    }
+  } ],
+  "@context" : {
+    "disjointWith" : {
+      "@id" : "http://www.w3.org/2002/07/owl#disjointWith",
+      "@type" : "@id"
+    },
+    "subClassOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "@type" : "@id"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "usageNote" : {
+      "@id" : "http://purl.org/vocab/vann/usageNote"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "hasVersion" : {
+      "@id" : "http://purl.org/dc/terms/hasVersion",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "memberOf" : {
+      "@id" : "http://purl.org/dc/dcam/memberOf",
+      "@type" : "@id"
+    },
+    "allValuesFrom" : {
+      "@id" : "http://www.w3.org/2002/07/owl#allValuesFrom",
+      "@type" : "@id"
+    },
+    "onProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#onProperty",
+      "@type" : "@id"
+    },
+    "equivalentClass" : {
+      "@id" : "http://www.w3.org/2002/07/owl#equivalentClass",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/terms/source",
+      "@type" : "@id"
+    },
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
+    },
+    "affiliation" : {
+      "@id" : "http://schema.org/affiliation",
+      "@type" : "@id"
+    },
+    "mbox" : {
+      "@id" : "http://xmlns.com/foaf/0.1/mbox",
+      "@type" : "@id"
+    },
+    "domain" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#domain",
+      "@type" : "@id"
+    },
+    "range" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#range",
+      "@type" : "@id"
+    },
+    "subPropertyOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+      "@type" : "@id"
+    },
+    "inverseOf" : {
+      "@id" : "http://www.w3.org/2002/07/owl#inverseOf",
+      "@type" : "@id"
+    },
+    "maxCardinality" : {
+      "@id" : "http://www.w3.org/2002/07/owl#maxCardinality",
+      "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    },
+    "rest" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+      "@type" : "@id"
+    },
+    "first" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+      "@type" : "@id"
+    },
+    "classification" : {
+      "@id" : "http://www.w3.org/ns/org#classification",
+      "@type" : "@id"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "changedBy" : {
+      "@id" : "http://www.w3.org/ns/org#changedBy",
+      "@type" : "@id"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/terms/type",
+      "@type" : "@id"
+    },
+    "homepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/homepage",
+      "@type" : "@id"
+    },
+    "orgStatus" : {
+      "@id" : "http://www.w3.org/ns/regorg#orgStatus",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://www.w3.org/ns/org#identifier"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type" : "@id"
+    },
+    "equivalentProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#equivalentProperty",
+      "@type" : "@id"
+    },
+    "unionOf" : {
+      "@id" : "http://www.w3.org/2002/07/owl#unionOf",
+      "@type" : "@id"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "reliesOn" : {
+      "@id" : "http://purl.org/vocommons/voaf#reliesOn",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "changes" : {
+      "@id" : "http://purl.org/vocab/vann/changes"
+    },
+    "maker" : {
+      "@id" : "http://xmlns.com/foaf/0.1/maker",
+      "@type" : "@id"
+    },
+    "temporal" : {
+      "@id" : "http://purl.org/dc/terms/temporal"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "@vocab" : "https://data.omgeving.vlaanderen.be/ns/dossier#",
+    "schema" : "http://schema.org/",
+    "org" : "http://www.w3.org/ns/org#",
+    "dcam" : "http://purl.org/dc/dcam/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "voaf" : "http://purl.org/vocommons/voaf#",
+    "dcmitype" : "http://purl.org/dc/dcmitype/",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "regorg" : "http://www.w3.org/ns/regorg#",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "vann" : "http://purl.org/vocab/vann/",
+    "foaf" : "http://xmlns.com/foaf/0.1/"
+  }
+}

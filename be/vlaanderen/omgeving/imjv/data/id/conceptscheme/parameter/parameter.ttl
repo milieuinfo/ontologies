@@ -1,0 +1,292 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix imjv:  <https://data.imjv.omgeving.vlaanderen.be/ns/imjv#> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter>
+        rdf:type     owl:Ontology ;
+        owl:imports  <http://purl.org/dc/elements/1.1/> ;
+        owl:imports  <http://purl.org/dc/terms/> ;
+        owl:imports  <http://www.w3.org/2004/02/skos/core> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter>
+        rdf:type        skos:ConceptScheme ;
+        skos:prefLabel  "parameters (IMJV)" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/ec>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "elektrisch geleidingsvermogen"@nl ;
+        skos:prefLabel     "electrical conductivity"@en ;
+        skos:definition    "De mate waarin elektrisch ladingtransport plaatsvindt in een materiaal"@nl ;
+        imjv:key           "EC" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/t>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Temperatuur"@nl ;
+        skos:prefLabel     "Temperature"@en ;
+        rdfs:seeAlso       <http://dbpedia.org/resource/Temperature> ;
+        skos:definition    "Temperatuur is een maat voor hoe warm of koud iets is. Natuurkundig gezien is het een maat voor de gemiddelde chaotische bewegingsenergie per molecuul, plus de beweging van atomen in moleculen. Het woord wordt ook specifiek gebruikt in de betekenissen koorts en buitenluchttemperatuur."@nl ;
+        imjv:key           "T" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/tam>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "TAM"@nl ;
+        imjv:key           "TAM" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/tap>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "TAP"@nl ;
+        imjv:key           "TAP" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/ph>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Carbonaat"@nl ;
+        skos:prefLabel     "Carbonate"@en ;
+        skos:definition    "De pH is een maat voor de zuurgraad (ook wel zuurtegraad) van een waterige oplossing. De pH van een neutrale waterige oplossing ligt bij kamertemperatuur rond de 7. Zure oplossingen hebben een pH lager dan 7, en dus een hoge zuurgraad. Basische oplossingen hebben een pH hoger dan 7 en dus een lage zuurgraad."@nl ;
+        rdfs:seeAlso       <http://dbpedia.org/resource/PH> ;
+        imjv:key           "pH" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID5462311>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        rdfs:seeAlso       <https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5462311> ;
+        rdfs:seeAlso       <https://pubchem.ncbi.nlm.nih.gov/compound/5462311> ;
+        rdfs:seeAlso       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5462311> ;
+        skos:prefLabel     "Zuurstof"@nl ;
+        skos:prefLabel     "Oxygen"@en ;
+        imjv:key           "O2" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID961>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        rdfs:seeAlso       <https://pubchem.ncbi.nlm.nih.gov/compound/961> ;
+        rdfs:seeAlso       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID961> ;
+        rdfs:seeAlso       <https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID961> ;
+        skos:prefLabel     "Hydroxide"@nl ;
+        skos:prefLabel     "Hydroxide"@en ;
+        imjv:key           "OH" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID1061>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        rdfs:seeAlso       <https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID1061> ;
+        rdfs:seeAlso       <https://pubchem.ncbi.nlm.nih.gov/compound/1061> ;
+        rdfs:seeAlso       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1061> ;
+        skos:prefLabel     "Fosfaat"@nl ;
+        skos:prefLabel     "Phosphate"@en ;
+        imjv:key           "PO4" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID1117>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        rdfs:seeAlso       <https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID1117> ;
+        rdfs:seeAlso       <https://pubchem.ncbi.nlm.nih.gov/compound/1117> ;
+        rdfs:seeAlso       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1117> ;
+        skos:prefLabel     "Sulfaat"@nl ;
+        skos:prefLabel     "Sulfate"@en ;
+        imjv:key           "SO4" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID19660>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        rdfs:seeAlso       <https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID19660> ;
+        rdfs:seeAlso       <https://pubchem.ncbi.nlm.nih.gov/compound/19660> ;
+        rdfs:seeAlso       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID19660> ;
+        skos:prefLabel     "Carbonaat"@nl ;
+        skos:prefLabel     "Carbonate"@en ;
+        imjv:key           "CO3" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID271>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        rdfs:seeAlso       <https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID271> ;
+        rdfs:seeAlso       <https://pubchem.ncbi.nlm.nih.gov/compound/271> ;
+        rdfs:seeAlso       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID271> ;
+        skos:prefLabel     "Calcium ion"@nl ;
+        skos:prefLabel     "Calcium ion"@en ;
+        imjv:key           "Ca" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID769>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        rdfs:seeAlso       <https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID769> ;
+        rdfs:seeAlso       <https://pubchem.ncbi.nlm.nih.gov/compound/769> ;
+        rdfs:seeAlso       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID769> ;
+        skos:prefLabel     "Bicarbonaat"@nl ;
+        skos:prefLabel     "Bicarbonate"@en ;
+        imjv:key           "HCO3" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID27284>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        rdfs:seeAlso       <https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID27284> ;
+        rdfs:seeAlso       <https://pubchem.ncbi.nlm.nih.gov/compound/27284> ;
+        rdfs:seeAlso       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID27284> ;
+        skos:prefLabel     "Ijzer divalent ion"@nl ;
+        skos:prefLabel     "Ferrous ion"@en ;
+        imjv:key           "Fe2+" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID29936>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        rdfs:seeAlso       <https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID29936> ;
+        rdfs:seeAlso       <https://pubchem.ncbi.nlm.nih.gov/compound/29936> ;
+        rdfs:seeAlso       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID29936> ;
+        skos:prefLabel     "Ijzer trivalent ion"@nl ;
+        skos:prefLabel     "Ferric ion"@en ;
+        imjv:key           "Fe3+" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/waterhardheid>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Waterhardheid"@nl ;
+        imjv:key           "H(tot)" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID3032552>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        rdfs:seeAlso       <https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID3032552> ;
+        rdfs:seeAlso       <https://pubchem.ncbi.nlm.nih.gov/compound/3032552> ;
+        rdfs:seeAlso       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID3032552> ;
+        skos:prefLabel     "Stikstofdioxide"@nl ;
+        skos:prefLabel     "Nitrogen dioxide"@en ;
+        imjv:key           "NO2" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID943>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        rdfs:seeAlso       <https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID943> ;
+        rdfs:seeAlso       <https://pubchem.ncbi.nlm.nih.gov/compound/943> ;
+        rdfs:seeAlso       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID943> ;
+        skos:prefLabel     "Nitraat"@nl ;
+        skos:prefLabel     "Nitrate"@en ;
+        imjv:key           "NO3" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID813>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        rdfs:seeAlso       <https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID813> ;
+        rdfs:seeAlso       <https://pubchem.ncbi.nlm.nih.gov/compound/813> ;
+        rdfs:seeAlso       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID813> ;
+        skos:prefLabel     "Kalium Ion"@nl ;
+        skos:prefLabel     "Potassium Ion"@en ;
+        imjv:key           "K" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID5462224>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        rdfs:seeAlso       <https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5462224> ;
+        rdfs:seeAlso       <https://pubchem.ncbi.nlm.nih.gov/compound/5462224> ;
+        rdfs:seeAlso       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5462224> ;
+        skos:prefLabel     "Magnesium"@nl ;
+        skos:prefLabel     "Magnesium"@en ;
+        imjv:key           "Mg" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID23930>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        rdfs:seeAlso       <https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23930> ;
+        rdfs:seeAlso       <https://pubchem.ncbi.nlm.nih.gov/compound/23930> ;
+        rdfs:seeAlso       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23930> ;
+        skos:prefLabel     "Mangaan"@nl ;
+        skos:prefLabel     "Manganese"@en ;
+        imjv:key           "Mn" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID5360545>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        rdfs:seeAlso       <https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5360545> ;
+        rdfs:seeAlso       <https://pubchem.ncbi.nlm.nih.gov/compound/5360545> ;
+        rdfs:seeAlso       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5360545> ;
+        skos:prefLabel     "Natrium"@nl ;
+        skos:prefLabel     "Sodium"@en ;
+        imjv:key           "Na" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID28179>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        rdfs:seeAlso       <https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID28179> ;
+        rdfs:seeAlso       <https://pubchem.ncbi.nlm.nih.gov/compound/28179> ;
+        rdfs:seeAlso       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID28179> ;
+        skos:prefLabel     "Fluoride"@nl ;
+        imjv:key           "F" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID24526>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        rdfs:seeAlso       <https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID24526> ;
+        rdfs:seeAlso       <https://pubchem.ncbi.nlm.nih.gov/compound/24526> ;
+        rdfs:seeAlso       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID24526> ;
+        skos:prefLabel     "Chloor"@nl ;
+        imjv:key           "CL" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID223>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter> ;
+        rdf:type           skos:Concept ;
+        rdfs:seeAlso       <https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID223> ;
+        rdfs:seeAlso       <https://pubchem.ncbi.nlm.nih.gov/compound/223> ;
+        rdfs:seeAlso       <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID223> ;
+        skos:prefLabel     "Ammonium" ;
+        imjv:key           "NH4" ;
+        imjv:key           "H4N+" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/analysetypes_grondwater>
+        rdf:type        skos:ConceptScheme ;
+        skos:prefLabel  "analysetypes voor grondwater(IMJV)" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/laboanalyse>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/analysetypes_grondwater> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/analysetypes_grondwater> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Laboanalyse"@nl ;
+        skos:prefLabel     "Lab analysis"@en ;
+        skos:definition    "De analyse werd uitgevoerd in een labo"@nl ;
+        imjv:key           "Laboanalyse" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/onbekend>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/analysetypes_grondwater> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/analysetypes_grondwater> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Onbekend"@nl ;
+        skos:prefLabel     "Unknown"@en ;
+        skos:definition    "Onbekend analysetype"@nl ;
+        imjv:key           "Onbekend" .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/veldanalyse>
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/analysetypes_grondwater> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/analysetypes_grondwater> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Veldanalyse"@nl ;
+        skos:prefLabel     "Field analysis"@en ;
+        skos:definition    "De analyse werd uitgevoerd in op het veld"@nl ;
+        imjv:key           "Veldanalyse" .

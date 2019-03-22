@@ -1,0 +1,69 @@
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> <http://rdf-vocabulary.ddialliance.org/xkos#belongsTo> <https://data.zendantennes.omgeving.vlaanderen.be/id/dataset> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lijst van eenheden bij een waarde"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> <http://www.w3.org/2004/02/skos/core#altLabel> "eenheid"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> <http://purl.org/dc/terms/issued> "2018-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> <http://purl.org/vocab/vann/changes> ""@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> <http://purl.org/dc/terms/title> "Conceptscheme over eenheden bij een waarde"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> <http://www.w3.org/2002/07/owl#versionInfo> "Eerste versie, zoals in gebruik genomen in het kader van archivering van zendantennes"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> <http://xmlns.com/foaf/0.1/maker> _:Bdd6f155cX2D1752X2D46c0X2D8155X2Db47294d73c15 .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+_:Bdd6f155cX2D1752X2D46c0X2D8155X2Db47294d73c15 <http://schema.org/affiliation> <http://data.vlaanderen.be/id/organisatie/OVO003751> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/name> "Data- en informatiebeheer & digitale maatschappij"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2004/02/skos/core#altLabel> "DIDM"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data- en informatiebeheer & digitale maatschappij"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#changedBy> <http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#classification> <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#identifier> "OVO003751" .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/regorg#orgStatus> <http://data.vlaanderen.be/id/concept/organisatiestatus/actief> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/homepage> <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://purl.org/dc/terms/type> <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/mbox> <mailto:didm.omgeving@vlaanderen.be> .
+_:Bdd6f155cX2D1752X2D46c0X2D8155X2Db47294d73c15 <http://xmlns.com/foaf/0.1/mbox> <mailto:geert.vanhaute@vlaanderen.be> .
+_:Bdd6f155cX2D1752X2D46c0X2D8155X2Db47294d73c15 <http://xmlns.com/foaf/0.1/name> "Van Haute, Geert" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/DecibelReferredToOneMilliwatt> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/DecibelReferredToOneMilliwatt> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/DecibelReferredToOneMilliwatt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/DecibelReferredToOneMilliwatt> <https://data.omgeving.vlaanderen.be/ns/waarde#gebaseerdOp> <http://qudt.org/vocab/unit#DecibelReferredToOneMilliwatt> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/DecibelReferredToOneMilliwatt> <http://qudt.org/schema/qudt#symbol> "dBm" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/DecibelReferredToOneMilliwatt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Decibel Verwijzend naar 1mw"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/DecibelReferredToOneMilliwatt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Decibel Referred to 1mw"@en .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/DecibelReferredToOneMilliwatt> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "dBm" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/DecibelReferredToOneMilliwatt> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "dBmW" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/DecibelReferredToOneMilliwatt> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "decibel-milliwatts" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/DecibelReferredToOneMilliwatt> <http://www.w3.org/2000/01/rdf-schema#comment> "dBm (sometimes dBmW or decibel-milliwatts) is an abbreviation for the power ratio in decibels (dB) of the measured power referenced to one milliwatt (mW) "@en .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Decibels-isotropic> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Decibels-isotropic> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Decibels-isotropic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Decibels-isotropic> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Antenna_gain> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Decibels-isotropic> <http://qudt.org/schema/qudt#symbol> "dBi" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Decibels-isotropic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Decibel Verwijzend naar 1mw"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Decibels-isotropic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Decibel Referred to 1mw"@en .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Decibels-isotropic> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "dBi" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Decibels-isotropic> <http://www.w3.org/2000/01/rdf-schema#comment> "De antenneversterking of winst vat de gerichtheid en\n            efficiëntie van een antenne samen. Hij is de verhouding van de afgeleverde in de\n            hoofdrichting resp. geabsorbeerde stralingsvermogensdichtheid in vergelijking met een\n            verliesvrije referentie-antenne van dezelfde antennevoermacht, die per definitie een\n            antenneversterking van 0 dB heeft. De gebruikte referentie-antenne is meestal een\n            dipoolantenne of een hypothetische isotrope radiator met dezelfde bundelsterkte in alle\n            richtingen."@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden> <https://data.omgeving.vlaanderen.be/ns/waarde#gebaseerdOp> <http://qudt.org/vocab/unit#DecibelReferredToOneMilliwatt> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden> <http://qudt.org/schema/qudt#symbol> "°" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden> <http://www.w3.org/2004/02/skos/core#prefLabel> "graden (als grootte van een hoek)"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/HoekInGraden> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "°" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://qudt.org/vocab/unit#Meter> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter> <http://www.w3.org/2004/02/skos/core#prefLabel> "meter"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "meter" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter> <http://www.w3.org/2004/02/skos/core#altLabel> "m"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "meters" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/Meter> <http://qudt.org/schema/qudt#symbol> "m" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/MegaHertz> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/MegaHertz> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/eenheid> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/MegaHertz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/MegaHertz> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://qudt.org/vocab/unit#MegaHertz> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/MegaHertz> <http://www.w3.org/2004/02/skos/core#prefLabel> "Megahertz"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/MegaHertz> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "MHz" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/MegaHertz> <http://www.w3.org/2004/02/skos/core#altLabel> "MHz"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/eenheid/MegaHertz> <http://qudt.org/schema/qudt#symbol> "MHz" .

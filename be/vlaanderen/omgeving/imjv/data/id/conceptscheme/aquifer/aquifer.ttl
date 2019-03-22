@@ -1,0 +1,1239 @@
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc:  <http://purl.org/dc/elements/1.1/> .
+@prefix xkos:  <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Landeniaan en Heersiaan Aquitard"@nl ;
+        skos:prefLabel   "Landeniaan en Heersiaan Aquitard"@nl ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1021> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1022> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1023> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0921>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Klei van Aalbeke"@nl ;
+        skos:prefLabel   "Klei van Aalbeke"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0800>
+        rdf:type           skos:Concept ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition    "Ieperiaan Aquifer Zand van Egem en/of Mont-Panisel"@nl ;
+        skos:prefLabel     "Ieperiaan Aquifer Zand van Egem en/of Mont-Panisel"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1032>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Orp"@nl ;
+        skos:prefLabel   "Zand van Orp"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1210>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Jura"@nl ;
+        skos:prefLabel   "Jura"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0501>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Klei van Onderdijke"@nl ;
+        skos:prefLabel   "Klei van Onderdijke"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0214>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Brunssum II-klei"@nl ;
+        skos:prefLabel   "Brunssum II-klei"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1113>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Krijt van Gulpen"@nl ;
+        skos:prefLabel   "Krijt van Gulpen"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0432>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Kerkom"@nl ;
+        skos:prefLabel   "Zand van Kerkom"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0610>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Wemmel-Lede Aquifer"@nl ;
+        skos:prefLabel   "Wemmel-Lede Aquifer"@nl ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0611> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0612> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0120>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0120> ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Duinen"@nl ;
+        skos:prefLabel   "Duinen"@nl ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0120> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0132>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Kleiige polderafzettingen van het\n            Meetjesland"@nl ;
+        skos:prefLabel   "Kleiige polderafzettingen van het Meetjesland"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0431>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Berg"@nl ;
+        skos:prefLabel   "Zand van Berg"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0253>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Bolderberg"@nl ;
+        skos:prefLabel   "Zand van Bolderberg"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0241>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0240> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Kleiig deel van Lillo en/of van de overgang Lillo-Kattendijk"@nl ;
+        skos:prefLabel   "Kleiig deel van Lillo en/of van de overgang Lillo-Kattendijk"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0172>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Afzettingen Tussenterrassen"@nl ;
+        skos:prefLabel   "Afzettingen Tussenterrassen"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Pleistocene afzettingen"@nl ;
+        skos:prefLabel   "Pleistocene afzettingen"@nl ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0161> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0162> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0163> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920>
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0925> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0922> ;
+        skos:prefLabel   "Afzettingen van Kortrijk"@nl ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0923> ;
+        skos:definition  "Afzettingen van Kortrijk"@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0900> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0924> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0921> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1021>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Siltige afzettingen van Halen"@nl ;
+        skos:prefLabel   "Siltige afzettingen van Halen"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0702>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0700> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Klei van Merelbeke"@nl ;
+        skos:prefLabel   "Klei van Merelbeke"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1130>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Aken"@nl ;
+        skos:prefLabel   "Zand van Aken"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500>
+        skos:definition    "Bartoon Aquitard systeem"@nl ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        rdf:type           skos:Concept ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0501> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0503> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0502> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0505> ;
+        skos:prefLabel     "Bartoon Aquitard systeem"@nl ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0504> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1320>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Kolenkalk"@nl ;
+        skos:prefLabel   "Kolenkalk"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0213>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Pey"@nl ;
+        skos:prefLabel   "Zand van Pey"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1033>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Eisden"@nl ;
+        skos:prefLabel   "Zand van Eisden"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0131>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Kleiige polderafzettingen van de Kustvlakte"@nl ;
+        skos:prefLabel   "Kleiige polderafzettingen van de Kustvlakte"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430>
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0432> ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0435> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0431> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0433> ;
+        rdf:type         skos:Concept ;
+        skos:prefLabel   "Ruisbroek-Berg Aquifer"@nl ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0436> ;
+        skos:definition  "Ruisbroek-Berg Aquifer"@nl ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0434> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200>
+        skos:prefLabel     "Kempens Aquifer systeem"@nl ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230> ;
+        skos:definition    "Kempens Aquifer systeem"@nl ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0240> ;
+        rdf:type           skos:Concept ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0442>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0440> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Klei van Watervliet"@nl ;
+        skos:prefLabel   "Klei van Watervliet"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0252>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Diest"@nl ;
+        skos:prefLabel   "Zand van Diest"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0240>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Pliocene kleiige laag"@nl ;
+        skos:prefLabel   "Pliocene kleiige laag"@nl ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0241> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0242> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0171>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Afzettingen Hoofdterras"@nl ;
+        skos:prefLabel   "Afzettingen Hoofdterras"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0701>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0700> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Klei van Pittem"@nl ;
+        skos:prefLabel   "Klei van Pittem"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010>
+        rdf:type         skos:Concept ;
+        skos:definition  "Landeniaan Aquifer systeem"@nl ;
+        skos:prefLabel   "Landeniaan Aquifer systeem"@nl ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1012> ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000> ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1011> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1014> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1015> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1013> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0620>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Brussel"@nl ;
+        skos:prefLabel   "Zand van Brussel"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1022>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Klei van Waterschei"@nl ;
+        skos:prefLabel   "Klei van Waterschei"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200>
+        rdf:type           skos:Concept ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition    "Jura - Trias - Perm"@nl ;
+        skos:prefLabel     "Jura - Trias - Perm"@nl ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1210> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1220> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1230> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1034>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Klei van Opoeteren"@nl ;
+        skos:prefLabel   "Klei van Opoeteren"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0632>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0630> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zandige klei van Beernem"@nl ;
+        skos:prefLabel   "Zandige klei van Beernem"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0212>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Brunssum I-klei"@nl ;
+        skos:prefLabel   "Brunssum I-klei"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_hoofdeenheden>
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0700> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0000> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0900> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1100> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0800> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000> ;
+        rdf:type        xkos:ClassificationLevel ;
+        skos:prefLabel  "hydrogeologische hoofdeenheden"@nl ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300> ;
+        xkos:depth      "1"^^xsd:positiveInteger .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Maas- en Rijnafzettingen"@nl ;
+        skos:prefLabel   "Maas- en Rijnafzettingen"@nl ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0171> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0172> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0173> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130>
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0132> ;
+        rdf:type         skos:Concept ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0131> ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> ;
+        skos:prefLabel   "Polder­afzettingen"@nl ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0135> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0134> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0133> ;
+        skos:definition  "Polder­afzettingen"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0441>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0440> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Klei van Henis"@nl ;
+        skos:prefLabel   "Klei van Henis"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0211>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zandige eenheid boven de Brunssum I-klei"@nl ;
+        skos:prefLabel   "Zandige eenheid boven de Brunssum I-klei"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0453>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Kleiig zand van Bassevelde"@nl ;
+        skos:prefLabel   "Kleiig zand van Bassevelde"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0154>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Kleiige deklagen"@nl ;
+        skos:prefLabel   "Kleiige deklagen"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0251>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Kattendijk en/of onderste zandlaag van Lillo"@nl ;
+        skos:prefLabel   "Zand van Kattendijk en/of onderste zandlaag van Lillo"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0700>
+        rdf:type           skos:Concept ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition    "Paniseliaan Aquitard systeem"@nl ;
+        skos:prefLabel     "Paniseliaan Aquitard systeem"@nl ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0701> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0702> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1120>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Afzettingen van Vaals Smectiet van Herve"@nl ;
+        skos:prefLabel   "Afzettingen van Vaals Smectiet van Herve"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0304>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Klei van Belsele-Waas"@nl ;
+        skos:prefLabel   "Klei van Belsele-Waas"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1035>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Maasmechelen"@nl ;
+        skos:prefLabel   "Zand van Maasmechelen"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0631>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0630> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zanden van Aalter en/of Oedelem"@nl ;
+        skos:prefLabel   "Zanden van Aalter en/of Oedelem"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1011>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Knokke"@nl ;
+        skos:prefLabel   "Zand van Knokke"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1310>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Boven-Carboon (steenkoolterrein en -lagen)"@nl ;
+        skos:prefLabel   "Boven-Carboon (steenkoolterrein en -lagen)"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1023>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Slecht doorlatend deel van de Mergels van\n            Gelinden"@nl ;
+        skos:prefLabel   "Slecht doorlatend deel van de Mergels van\n            Gelinden"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0223>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Klei van Rijkevorsel"@nl ;
+        skos:prefLabel   "Klei van Rijkevorsel"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0222>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Beerse"@nl ;
+        skos:prefLabel   "Zand van Beerse"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0452>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand-klei van Grimmertingen"@nl ;
+        skos:prefLabel   "Zand-klei van Grimmertingen"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210>
+        skos:definition  "Afzettingen ten noorden van de Feldbiss-breukzone"@nl ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0212> ;
+        rdf:type         skos:Concept ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0211> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0215> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0213> ;
+        skos:prefLabel   "Afzettingen ten noorden van de Feldbiss-breukzone"@nl ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0214> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0440>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Tongeren Aquitard"@nl ;
+        skos:prefLabel   "Tongeren Aquitard"@nl ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0441> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0442> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0153>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Lemige deklagen"@nl ;
+        skos:prefLabel   "Lemige deklagen"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250>
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        rdf:type         skos:Concept ;
+        skos:prefLabel   "Mioceen Aquifersysteem"@nl ;
+        skos:definition  "Mioceen Aquifersysteem"@nl ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0251> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0255> ;
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0254> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0253> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0256> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0252> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0505>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Kleien van Ursel en/of Asse"@nl ;
+        skos:prefLabel   "Kleien van Ursel en/of Asse"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0436>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Wintham"@nl ;
+        skos:prefLabel   "Zand van Wintham"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1230>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Perm"@nl ;
+        skos:prefLabel   "Perm"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0303>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Klei van Terhagen"@nl ;
+        skos:prefLabel   "Klei van Terhagen"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0630>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Afzettingen van het Boven-Paniseliaan"@nl ;
+        skos:prefLabel   "Afzettingen van het Boven-Paniseliaan"@nl ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0631> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0632> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000>
+        rdf:type           skos:Concept ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition    "Paleoceen Aquifer­systeem"@nl ;
+        skos:prefLabel     "Paleoceen Aquifer­systeem"@nl ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400>
+        skos:definition    "Oligoceen Aquifer systeem"@nl ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0420> ;
+        rdf:type           skos:Concept ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0440> ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0410> ;
+        skos:prefLabel     "Oligoceen Aquifer systeem"@nl ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0234>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Poederlee en/of zandige top van Kasterlee"@nl ;
+        skos:prefLabel   "Zand van Poederlee en/of zandige top van Kasterlee"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1012>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zandige afzettingen van Loksbergen en/of\n            Dormaal"@nl ;
+        skos:prefLabel   "Zandige afzettingen van Loksbergen en/of\n            Dormaal"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0925>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Klei van Mont-Héribu"@nl ;
+        skos:prefLabel   "Klei van Mont-Héribu"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0140>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Alluviale deklagen"@nl ;
+        skos:prefLabel   "Alluviale deklagen"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100>
+        rdf:type           skos:Concept ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0140> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0110> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0120> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150> ;
+        skos:definition    "Quartaire Aquifer systemen"@nl ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:prefLabel     "Quartaire Aquifer systemen"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0233>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zandige top van Lillo"@nl ;
+        skos:prefLabel   "Zandige top van Lillo"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0221>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Klei van Turnhout"@nl ;
+        skos:prefLabel   "Klei van Turnhout"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0451>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Neerrepen"@nl ;
+        skos:prefLabel   "Zand van Neerrepen"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0152>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand-lemige deklagen"@nl ;
+        skos:prefLabel   "Zand-lemige deklagen"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0504>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Onderdale"@nl ;
+        skos:prefLabel   "Zand van Onderdale"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1150>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Wealdiaan"@nl ;
+        skos:prefLabel   "Wealdiaan"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0900>
+        rdf:type           skos:Concept ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition    "Ieperiaan Aquitard systeem"@nl ;
+        skos:prefLabel     "Ieperiaan Aquitard systeem"@nl ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0910> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1340>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Cambro-Siluur Massief van Brabant"@nl ;
+        skos:prefLabel   "Cambro-Siluur Massief van Brabant"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1013>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Grandglise"@nl ;
+        skos:prefLabel   "Zand van Grandglise"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1100> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Krijt Aquifer"@nl ;
+        skos:prefLabel   "Krijt Aquifer"@nl ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1111> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1112> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1113> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0302>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Klei van Putte"@nl ;
+        skos:prefLabel   "Klei van Putte"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0435>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Ruisbroek"@nl ;
+        skos:prefLabel   "Zand van Ruisbroek"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300>
+        rdf:type           skos:Concept ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition    "Sokkel"@nl ;
+        skos:prefLabel     "Sokkel"@nl ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1310> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1320> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1330> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1340> .
+
+_:b0    rdf:first  <https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0924>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Klei van Saint-Maur"@nl ;
+        skos:prefLabel   "Klei van Saint-Maur"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0232>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Mol"@nl ;
+        skos:prefLabel   "Zand van Mol"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Onder-Oligoceen Aquifersysteem"@nl ;
+        skos:prefLabel   "Onder-Oligoceen Aquifersysteem"@nl ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0451> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0452> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0453> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0640>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zandige afzettingen van het Onder-Paniseliaan, Zand van Vlierzele en/of Aalterbrugge"@nl ;
+        skos:prefLabel   "Zandige afzettingen van het Onder-Paniseliaan"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Klei-zand-complex van de Kempen"@nl ;
+        skos:prefLabel   "Klei-zand-complex van de Kempen"@nl ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0221> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0222> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0223> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0163>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Pleistoceen van de riviervalleien"@nl ;
+        skos:prefLabel   "Pleistoceen van de riviervalleien"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0151>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zandige deklagen"@nl ;
+        skos:prefLabel   "Zandige deklagen"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0612>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0610> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Lede"@nl ;
+        skos:prefLabel   "Zand van Lede"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000> ;
+        skos:definition  "Heersiaan en Opglabbeek Aquifersysteem"@nl ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1035> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1034> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1033> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1032> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1031> ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:prefLabel   "Heersiaan en Opglabbeek Aquifersysteem"@nl ;
+        rdf:type         skos:Concept .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0923>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Mons-en-Pévèle"@nl ;
+        skos:prefLabel   "Zand van Mons-en-Pévèle"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0503>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Klei van Zomergem"@nl ;
+        skos:prefLabel   "Klei van Zomergem"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0434>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Boutersem"@nl ;
+        skos:prefLabel   "Zand van Boutersem"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1111>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Kalksteen van Houthem"@nl ;
+        skos:prefLabel   "Kalksteen van Houthem"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1014>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Kleiig deel van Lincent"@nl ;
+        skos:prefLabel   "Kleiig deel van Lincent"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1220>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Trias"@nl ;
+        skos:prefLabel   "Trias"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0410>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Kerniel"@nl ;
+        skos:prefLabel   "Zand van Kerniel"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0301>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Kleiig deel van Eigenbilzen"@nl ;
+        skos:prefLabel   "Kleiig deel van Eigenbilzen"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600>
+        rdf:type           skos:Concept ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition    "Ledo Paniseliaan Brusseliaan Aquifer­systeem"@nl ;
+        skos:prefLabel     "Ledo Paniseliaan Brusseliaan Aquifer­systeem"@nl ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0610> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0620> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0630> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0640> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0256>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Eigenbilzen"@nl ;
+        skos:prefLabel   "Zand van Eigenbilzen"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer>
+        skos:hasTopConcept   <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> ;
+        skos:hasTopConcept   <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0800> ;
+        skos:hasTopConcept   <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> ;
+        xkos:numberOfLevels  "3"^^xsd:positiveInteger ;
+        skos:altLabel        "Watervoerende lagen"@nl ;
+        skos:hasTopConcept   <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0900> ;
+        xkos:levels          _:b1 ;
+        skos:hasTopConcept   <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300> ;
+        skos:hasTopConcept   <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> ;
+        skos:hasTopConcept   <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000> ;
+        skos:hasTopConcept   <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> ;
+        skos:hasTopConcept   <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> ;
+        skos:hasTopConcept   <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0700> ;
+        skos:prefLabel       "Aquifers"@nl ;
+        skos:hasTopConcept   <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0000> ;
+        rdf:type             skos:ConceptScheme ;
+        skos:hasTopConcept   <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200> ;
+        skos:hasTopConcept   <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1100> ;
+        skos:hasTopConcept   <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0135>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Veen-kleiige poelgronden"@nl ;
+        skos:prefLabel   "Veen-kleiige poelgronden"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden>
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0232> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1022> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0502> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1113> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1035> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1034> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0251> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0303> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0221> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0151> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1011> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0925> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0252> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0214> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0163> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0213> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0215> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0304> ;
+        skos:prefLabel  "hydrogeologische basiseenheden"@nl ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0131> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0432> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0434> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0431> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0433> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0453> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0701> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0234> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0233> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1023> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0503> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0702> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0504> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0241> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0922> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0152> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0133> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0612> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0253> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0611> ;
+        xkos:depth      "3"^^xsd:positiveInteger ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0254> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0132> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0223> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0222> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1013> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0153> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1012> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0501> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0441> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0242> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0171> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0436> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1031> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0435> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1033> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0173> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1032> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0632> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0631> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0301> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0505> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0921> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0923> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0135> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0134> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0212> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0162> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0211> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0161> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0302> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0256> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1112> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0255> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1111> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0154> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0924> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0451> ;
+        rdf:type        xkos:ClassificationLevel ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0231> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1021> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1015> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1014> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0172> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0452> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0442> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0110>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Ophogingen"@nl ;
+        skos:prefLabel   "Ophogingen"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0134>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zandige Kreekruggen"@nl ;
+        skos:prefLabel   "Zandige Kreekruggen"@nl .
+
+_:b2    rdf:first  <https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden> ;
+        rdf:rest   _:b0 .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0255>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Klei van Veldhoven"@nl ;
+        skos:prefLabel   "Klei van Veldhoven"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0231>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zanden van Brasschaat en/of Merksplas"@nl ;
+        skos:prefLabel   "Zanden van Brasschaat en/of Merksplas"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1015>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Versteend deel van Lincent"@nl ;
+        skos:prefLabel   "Versteend deel van Lincent"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0162>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Pleistoceen van de Vlaamse Vallei"@nl ;
+        skos:prefLabel   "Pleistoceen van de Vlaamse Vallei"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Deklagen"@nl ;
+        skos:prefLabel   "Deklagen"@nl ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0151> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0152> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0153> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0154> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1031>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Doorlatend deel van de Mergels van Gelinden"@nl ;
+        skos:prefLabel   "Doorlatend deel van de Mergels van Gelinden"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1140>
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Turoonmergels op Massief van Brabant"@nl ;
+        skos:prefLabel   "Turoonmergels op Massief van Brabant"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0910>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0900> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Silt van Kortemark"@nl ;
+        skos:prefLabel   "Silt van Kortemark"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0922>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Klei van Moen"@nl ;
+        skos:prefLabel   "Klei van Moen"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0502>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Buisputten"@nl ;
+        skos:prefLabel   "Zand van Buisputten"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0215>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Waubach"@nl ;
+        skos:prefLabel   "Zand van Waubach"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1100>
+        rdf:type           skos:Concept ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition    "Krijt Aquifer­systeem"@nl ;
+        skos:prefLabel     "Krijt Aquifer­systeem"@nl ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1330>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Devoon"@nl ;
+        skos:prefLabel   "Devoon"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0611>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0610> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zand van Wemmel"@nl ;
+        skos:prefLabel   "Zand van Wemmel"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300>
+        rdf:type           skos:Concept ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition    "Boom Aquitard"@nl ;
+        skos:prefLabel     "Boom Aquitard"@nl ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0301> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0302> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0303> ;
+        skos:narrower      <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0304> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0433>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Kleiig zand van Oude Biezen"@nl ;
+        skos:prefLabel   "Kleiig zand van Oude Biezen"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1112>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Tufkrijt van Maastricht"@nl ;
+        skos:prefLabel   "Tufkrijt van Maastricht"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0000>
+        rdf:type           skos:Concept ;
+        skos:topConceptOf  <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:inScheme      <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition    "Onbepaald"@nl ;
+        skos:prefLabel     "Onbepaald"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0133>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Kleiige polderafzettingen van\n            Waasland-Antwerpen"@nl ;
+        skos:prefLabel   "Kleiige polderafzettingen van\n            Waasland-Antwerpen"@nl .
+
+_:b1    rdf:first  <https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_hoofdeenheden> ;
+        rdf:rest   _:b2 .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0420>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Klei van Kleine-Spouwen"@nl ;
+        skos:prefLabel   "Klei van Kleine-Spouwen"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0254>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Zanden van Berchem en/of Voort"@nl ;
+        skos:prefLabel   "Zanden van Berchem en/of Voort"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0242>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0240> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Kleiige overgang tussen de zanden van Kasterlee en Diest"@nl ;
+        skos:prefLabel   "Kleiige overgang tussen de zanden van Kasterlee en Diest"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Pleistoceen en Plioceen Aquifer"@nl ;
+        skos:prefLabel   "Pleistoceen en Plioceen Aquifer"@nl ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0231> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0232> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0233> ;
+        skos:narrower    <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0234> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden>
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0120> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0240> ;
+        xkos:depth      "2"^^xsd:positiveInteger ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0440> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0910> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0140> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0620> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0610> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1340> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1330> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1210> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0420> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0640> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1150> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1140> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1230> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1220> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0110> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220> ;
+        rdf:type        xkos:ClassificationLevel ;
+        skos:prefLabel  "hydrogeologische subeenheden"@nl ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1130> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1120> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0410> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1320> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1310> ;
+        skos:member     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0630> .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0173>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Afzettingen Maasvlakte"@nl ;
+        skos:prefLabel   "Afzettingen Maasvlakte"@nl .
+
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0161>
+        skos:broader     <https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160> ;
+        rdf:type         skos:Concept ;
+        skos:inScheme    <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer> ;
+        skos:definition  "Pleistoceen van de Kustvlakte"@nl ;
+        skos:prefLabel   "Pleistoceen van de Kustvlakte"@nl .

@@ -1,0 +1,941 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "affiliation" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "mbox" : "mailto:geert.vanhaute@vlaanderen.be",
+    "name" : "Van Haute, Geert"
+  }, {
+    "@id" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "@type" : [ "foaf:Agent", "org:Organization" ],
+    "type" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "seeAlso" : "https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "DIDM"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    },
+    "changedBy" : "http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting",
+    "classification" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "org:identifier" : "OVO003751",
+    "orgStatus" : "http://data.vlaanderen.be/id/concept/organisatiestatus/actief",
+    "homepage" : "https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij",
+    "mbox" : "mailto:didm.omgeving@vlaanderen.be",
+    "name" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    }
+  }, {
+    "@id" : "adres:adresvoorstellingVan",
+    "@type" : "owl:ObjectProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Deze property is tegengesteld aan locn:address. Kan gebruikt worden om te refereren vanuit blank nodes."
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Legt de link tussen een adresvoorstelling en de resource waaraan deze adresvoorstelling is toegekend."
+    },
+    "domain" : "locn:Address",
+    "isDefinedBy" : "http://data.vlaanderen.be/ns/adres",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Adresvoorstelling van"
+    },
+    "range" : "owl:Thing",
+    "inverseOf" : "locn:address"
+  }, {
+    "@id" : "dcterms:type",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "rdf:value",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "locn:address",
+    "@type" : "owl:ObjectProperty",
+    "isDefinedBy" : "http://www.w3.org/ns/locn#",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "adres"
+    },
+    "range" : "locn:Address"
+  }, {
+    "@id" : "locn:fullAddress",
+    "@type" : "owl:DatatypeProperty",
+    "identifier" : "locn:fullAddress",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "The complete address written as a string, with or without\n            formatting. The domain of locn:fullAddress is locn:Address."
+    },
+    "domain" : "locn:Address",
+    "isDefinedBy" : "http://www.w3.org/ns/locn",
+    "label" : {
+      "@language" : "en",
+      "@value" : "full address"
+    },
+    "range" : "rdfs:Literal",
+    "term_status" : {
+      "@language" : "en",
+      "@value" : "testing"
+    }
+  }, {
+    "@id" : "locn:geometry",
+    "@type" : "owl:DatatypeProperty"
+  }, {
+    "@id" : "foaf:phone",
+    "@type" : "owl:ObjectProperty"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "@type" : "owl:Ontology",
+    "issued" : "2018-11-19",
+    "temporal" : "2018",
+    "title" : [ {
+      "@language" : "nl",
+      "@value" : "Zendantenne"
+    }, {
+      "@language" : "en",
+      "@value" : "Antenna"
+    } ],
+    "changes" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "preferredNamespacePrefix" : "antenne",
+    "preferredNamespaceUri" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#",
+    "reliesOn" : [ "http://dbpedia.org/ontology/", "http://data.vlaanderen.be/ns/besluit#", "http://www.w3.org/ns/prov#", "http://xmlns.com/foaf/0.1/" ],
+    "label" : [ {
+      "@language" : "en",
+      "@value" : "Antenna"
+    }, {
+      "@language" : "nl",
+      "@value" : "Zendantenne"
+    } ],
+    "versionInfo" : {
+      "@language" : "nl",
+      "@value" : "Tweede versie, zoals in gebruik genomen in het kader van archivering van zendantennes, na afstemming met subdomeinen binnen vlaanderen.be"
+    },
+    "maker" : "_:b0"
+  }, {
+    "@id" : "antenne:Aannemer",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Aannemer"
+    },
+    "subClassOf" : "prov:Organization"
+  }, {
+    "@id" : "antenne:Antenneaanpassing",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Antenneaanpassing"
+    },
+    "subClassOf" : "prov:Activity"
+  }, {
+    "@id" : "antenne:Antennetechnologie",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Antennetechnologie"
+    }
+  }, {
+    "@id" : "antenne:Antennetype",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Antennetype"
+    },
+    "subClassOf" : "prov:Entity"
+  }, {
+    "@id" : "antenne:Antennewinstverlies",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Antennewinstverlies"
+    }
+  }, {
+    "@id" : "antenne:Conformiteitsattest",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "en",
+      "@value" : "Vooraleer een antenne-eigenaar zendantennes in gebruik mag\n      nemen, moet hij een conformiteitsattest krijgen van de Vlaamse overheid. Om dat aan te\n      vragen moet de antenne-eigenaar een technisch dossier opmaken. Dat bevat de technische\n      eigenschappen van de antennes zoals zendvermogen en de kenmerken van de omgeving zoals\n      de hoogte van de gebouwen in de buurt van de antennes. Daarmee toont de antenne-eigenaar\n      aan dat de antennes de norm respecteren. De Vlaamse overheid controleert vervolgens het\n      technisch dossier. Als het dossier in orde is, bezorgt de Vlaamse overheid het\n      conformiteitsattest aan de antenne-eigenaar en tegelijk ook aan de gemeente waar de\n      antenne gelegen is."
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Conformiteitsattest"
+    },
+    "subClassOf" : "https://data.omgeving.vlaanderen.be/ns/dossier#Besluit"
+  }, {
+    "@id" : "antenne:DempendeMaatregel",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Dit is één van de mogelijk te nemen acties waarmee de invloed van straling door een zendantenne op een gecontroleerde ruimte kan worden beïnvloed."
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Het nemen van een dempende maatregel waarbij gebruik gemaakt wordt van een dempend materiaal met een bepaalde frequentie-afhankelijke dempingsfactor"
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Dempende maatregel"
+    },
+    "subClassOf" : "prov:Agent"
+  }, {
+    "@id" : "antenne:Demping",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Demping"
+    },
+    "subClassOf" : "prov:Activity"
+  }, {
+    "@id" : "antenne:Dempingsfactor",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Dempingsfactor"
+    },
+    "subClassOf" : "prov:Entity"
+  }, {
+    "@id" : "antenne:GecontroleerdeRuimte",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Gecontroleerde Ruimte"
+    },
+    "subClassOf" : "prov:Entity"
+  }, {
+    "@id" : "antenne:GedempteStraling",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Straling die het resultaat is van ongedempte straling van de antenne, gemodifieerd door de dempende maatregel"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Gedempte Straling"
+    },
+    "subClassOf" : [ "prov:Entity", "antenne:Straling" ]
+  }, {
+    "@id" : "antenne:Goedkeuren",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Het verlenen van een conformiteitsattest op een bepaald tijdstip. Vanaf dan is het conformiteitsattest geldig."
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Goedkeuren van een conformiteitsattest"
+    },
+    "subClassOf" : "prov:Activity"
+  }, {
+    "@id" : "antenne:Intrekken",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Het intrekken van een conformiteitsattest op een bepaald tijdstip. Vanaf dan is het conformiteitsattest niet meer geldig."
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Intrekken van een conformiteitsattest"
+    },
+    "subClassOf" : "prov:Activity"
+  }, {
+    "@id" : "antenne:Operator",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Operator"
+    },
+    "subClassOf" : "prov:Agent"
+  }, {
+    "@id" : "antenne:Site",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Site"
+    },
+    "subClassOf" : "prov:Location"
+  }, {
+    "@id" : "antenne:Stralen",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Stralen"
+    },
+    "subClassOf" : "prov:Activity"
+  }, {
+    "@id" : "antenne:Straling",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Straling"
+    },
+    "subClassOf" : "prov:Entity"
+  }, {
+    "@id" : "antenne:Zendantenne",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Zendantenne"
+    },
+    "subClassOf" : [ "dbo:Device", "prov:Agent" ]
+  }, {
+    "@id" : "antenne:antennetechnologie",
+    "@type" : "owl:ObjectProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "domain" : "antenne:Zendantenne",
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "antennetechnologie"
+    },
+    "range" : "antenne:Antennetechnologie"
+  }, {
+    "@id" : "antenne:antennetype",
+    "@type" : "owl:ObjectProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Een antenne verwijst naar haar eigenschappen"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "domain" : "antenne:Zendantenne",
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "antennetype"
+    },
+    "range" : "antenne:Antennetype",
+    "subPropertyOf" : "prov:wasInfluencedBy"
+  }, {
+    "@id" : "antenne:antennewinstverlies",
+    "@type" : "owl:ObjectProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "domain" : "antenne:Antennetype",
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "antennewinstverlies"
+    },
+    "range" : "antenne:Antennewinstverlies"
+  }, {
+    "@id" : "antenne:basis",
+    "@type" : "owl:DatatypeProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "basis"
+    },
+    "range" : "rdfs:Literal"
+  }, {
+    "@id" : "antenne:basishoogte",
+    "@type" : "owl:ObjectProperty",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "is de hoogte van het grondvlak\n      bvb een gebouw heeft als basis 0 en als hoogte 8\n      maar daar bovenop is een dakterras\n      dat wordt dan een vrije 3D ruimte met als basis 8 en als hoogte bvb 2,40 m\n      en in die 3D ruimte moet dan ook de binnennorm afgechecked worden omdat daar een terras is "
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Basis"
+    },
+    "range" : "https://data.omgeving.vlaanderen.be/ns/waarde#Waarde",
+    "subPropertyOf" : "https://data.omgeving.vlaanderen.be/ns/waarde#hoogte"
+  }, {
+    "@id" : "antenne:contactpersoon",
+    "@type" : "owl:ObjectProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "contactpersoon"
+    },
+    "range" : "http://www.w3.org/ns/person#Person"
+  }, {
+    "@id" : "antenne:dempendMateriaal",
+    "@type" : "owl:ObjectProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "dempend materiaal"
+    },
+    "range" : "skos:Concept"
+  }, {
+    "@id" : "antenne:elektrischetilt",
+    "@type" : "owl:DatatypeProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "elektrische tilt"
+    },
+    "range" : "rdfs:Literal",
+    "seeAlso" : "http://dbpedia.org/resource/Azimuth"
+  }, {
+    "@id" : "antenne:gedempteStraling",
+    "@type" : "owl:ObjectProperty",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "domain" : "antenne:Demping",
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "gedempte straling"
+    },
+    "range" : "antenne:GedempteStraling",
+    "subPropertyOf" : "prov:generated"
+  }, {
+    "@id" : "antenne:grb_oidn",
+    "@type" : "owl:DatatypeProperty",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "grb oidn"
+    },
+    "range" : "rdfs:Literal"
+  }, {
+    "@id" : "antenne:grb_uidn",
+    "@type" : "owl:DatatypeProperty",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "grb uidn"
+    },
+    "range" : "rdfs:Literal"
+  }, {
+    "@id" : "antenne:grootAntennetype",
+    "@type" : "owl:DatatypeProperty",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "De kostprijs van het dossier is "
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "groot Antennetype"
+    },
+    "range" : "rdfs:Literal"
+  }, {
+    "@id" : "antenne:isAntennewinstverliesVan",
+    "@type" : "owl:ObjectProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "domain" : "antenne:Antennewinstverlies",
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "is antennewinstverlies van"
+    },
+    "range" : "antenne:Antennetype"
+  }, {
+    "@id" : "antenne:ligt_binnen_de_maximale_invloedsfeer_van",
+    "@type" : "owl:ObjectProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "domain" : "antenne:GecontroleerdeRuimte",
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "range" : "antenne:Zendantenne",
+    "subPropertyOf" : "prov:wasInfluencedBy"
+  }, {
+    "@id" : "antenne:niscode",
+    "@type" : "owl:ObjectProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "label" : {
+      "@language" : "nl",
+      "@value" : "niscode"
+    },
+    "range" : "skos:Concept"
+  }, {
+    "@id" : "antenne:normtype",
+    "@type" : "owl:ObjectProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "label" : {
+      "@language" : "nl",
+      "@value" : "normtype"
+    },
+    "range" : "skos:Concept"
+  }, {
+    "@id" : "antenne:oorspronkelijkeStraling",
+    "@type" : "owl:ObjectProperty",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "domain" : "antenne:Demping",
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "oorspronkelijke straling"
+    },
+    "range" : "antenne:Straling",
+    "subPropertyOf" : "prov:used"
+  }, {
+    "@id" : "antenne:publiekzichtbaar",
+    "@type" : "owl:DatatypeProperty",
+    "comment" : {
+      "@language" : "en",
+      "@value" : ""
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "publiek zichtbaar"
+    },
+    "range" : "rdfs:Literal"
+  }, {
+    "@id" : "antenne:rekenmethode",
+    "@type" : "owl:ObjectProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "label" : {
+      "@language" : "nl",
+      "@value" : "rekenmethode"
+    },
+    "range" : "skos:Concept"
+  }, {
+    "@id" : "antenne:status",
+    "@type" : "owl:ObjectProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "label" : {
+      "@language" : "nl",
+      "@value" : "status"
+    },
+    "range" : "skos:Concept"
+  }, {
+    "@id" : "antenne:stralingstype",
+    "@type" : "owl:ObjectProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "range" : "skos:Concept"
+  }, {
+    "@id" : "antenne:vlakwinstverlies",
+    "@type" : "owl:DatatypeProperty",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "vlakwinstverlies"
+    },
+    "range" : "rdfs:Literal"
+  }, {
+    "@id" : "antenne:werdUitgevoerdDoor",
+    "@type" : "owl:ObjectProperty",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "legt een relatie tussen de activiteit Demping en de maatregel die de demping van de straling verwezenlijkt"
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "legt een relatie tussen de activiteit Demping en de maatregel die de demping van de straling verwezenlijkt"
+    },
+    "domain" : "antenne:Demping",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "werd uitgevoerd door"
+    },
+    "range" : "antenne:DempendeMaatregel",
+    "subPropertyOf" : "prov:wasAssociatedWith"
+  }, {
+    "@id" : "antenne:winst",
+    "@type" : "owl:DatatypeProperty",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "In electromagnetics, an antenna's power gain or simply gain is a\n            key performance number which combines the antenna's directivity and electrical\n            efficiency. As a transmitting antenna, the gain describes how well the antenna converts\n            input power into radio waves headed in a specified direction. As a receiving antenna,\n            the gain describes how well the antenna converts radio waves arriving from a specified\n            direction into electrical power. When no direction is specified, \"gain\" is understood to\n            refer to the peak value of the gain. A plot of the gain as a function of direction is\n            called the radiation pattern. Antenna gain is usually defined as the ratio of the power\n            produced by the antenna from a far-field source on the antenna's beam axis to the power\n            produced by a hypothetical lossless isotropic antenna, which is equally sensitive to\n            signals from all directions. Usually this ratio is expressed in decibels, and these\n            units are referred to as \"decibels-isotropic\" (dBi). An alternative definition compares\n            the antenna to the power received by a lossless half-wave dipole antenna, in which case\n            the units are written as dBd. Since a lossless dipole antenna has a gain of 2.15 dBi,\n            the relation between these units is: gain in dBd = gain in dBi − 2.15. For a given\n            frequency, the antenna's effective area is proportional to the power gain. An antenna's\n            effective length is proportional to the square root of the antenna's gain for a\n            particular frequency and radiation resistance. Due to reciprocity, the gain of any\n            antenna when receiving is equal to its gain when transmitting. Directive gain or\n            directivity is a different measure which does not take an antenna's electrical\n            efficiency into account. This term is sometimes more relevant in the case of a receiving\n            antenna where one is concerned mainly with the ability of an antenna to receive signals\n            from one direction while rejecting interfering signals coming from a different\n            direction."
+    },
+    "isDefinedBy" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "label" : [ {
+      "@language" : "en",
+      "@value" : "Antenna gain"
+    }, {
+      "@language" : "nl",
+      "@value" : "Antenne winst"
+    } ],
+    "range" : "rdfs:Literal",
+    "seeAlso" : "http://dbpedia.org/page/Antenna_gain"
+  } ],
+  "@context" : {
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "usageNote" : {
+      "@id" : "http://purl.org/vocab/vann/usageNote"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "subClassOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "@type" : "@id"
+    },
+    "term_status" : {
+      "@id" : "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"
+    },
+    "domain" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#domain",
+      "@type" : "@id"
+    },
+    "range" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#range",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/terms/identifier"
+    },
+    "subPropertyOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+      "@type" : "@id"
+    },
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
+    },
+    "mbox" : {
+      "@id" : "http://xmlns.com/foaf/0.1/mbox",
+      "@type" : "@id"
+    },
+    "affiliation" : {
+      "@id" : "http://schema.org/affiliation",
+      "@type" : "@id"
+    },
+    "inverseOf" : {
+      "@id" : "http://www.w3.org/2002/07/owl#inverseOf",
+      "@type" : "@id"
+    },
+    "classification" : {
+      "@id" : "http://www.w3.org/ns/org#classification",
+      "@type" : "@id"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "changedBy" : {
+      "@id" : "http://www.w3.org/ns/org#changedBy",
+      "@type" : "@id"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/terms/type",
+      "@type" : "@id"
+    },
+    "homepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/homepage",
+      "@type" : "@id"
+    },
+    "orgStatus" : {
+      "@id" : "http://www.w3.org/ns/regorg#orgStatus",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type" : "@id"
+    },
+    "reliesOn" : {
+      "@id" : "http://purl.org/vocommons/voaf#reliesOn",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "changes" : {
+      "@id" : "http://purl.org/vocab/vann/changes"
+    },
+    "maker" : {
+      "@id" : "http://xmlns.com/foaf/0.1/maker",
+      "@type" : "@id"
+    },
+    "temporal" : {
+      "@id" : "http://purl.org/dc/terms/temporal"
+    },
+    "schema" : "http://schema.org/",
+    "antenne" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "org" : "http://www.w3.org/ns/org#",
+    "voaf" : "http://purl.org/vocommons/voaf#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "dbo" : "http://dbpedia.org/ontology/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "regorg" : "http://www.w3.org/ns/regorg#",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "adres" : "http://data.vlaanderen.be/ns/adres#",
+    "locn" : "http://www.w3.org/ns/locn#",
+    "vann" : "http://purl.org/vocab/vann/",
+    "vs" : "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+    "prov" : "http://www.w3.org/ns/prov#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

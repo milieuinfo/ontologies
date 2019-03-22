@@ -1,0 +1,415 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://data.omgeving.vlaanderen.be/ns/waarde#"
+     xml:base="https://data.omgeving.vlaanderen.be/ns/waarde"
+     xmlns:schema="http://schema.org/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:sdmxa="http://purl.org/linked-data/sdmx/2009/attribute#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:waarde="https://data.omgeving.vlaanderen.be/ns/waarde#"
+     xmlns:voaf="http://purl.org/vocommons/voaf#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:frbr="http://purl.org/vocab/frbr/core#"
+     xmlns:dbo="http://dbpedia.org/ontology/"
+     xmlns:qb="http://purl.org/linked-data/cube#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:locn="http://www.w3.org/ns/locn#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"    
+     xmlns:org="http://www.w3.org/ns/org#"
+     xmlns:regorg="http://www.w3.org/ns/regorg#">
+    <owl:Ontology rdf:about="https://data.omgeving.vlaanderen.be/ns/waarde">
+        <rdfs:label xml:lang="nl">Waarde</rdfs:label>
+        <rdfs:label xml:lang="en">Value</rdfs:label>
+        <voaf:reliesOn rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-19</dcterms:issued>
+        <vann:changes xml:lang="nl"></vann:changes>
+        <vann:preferredNamespacePrefix>waarde</vann:preferredNamespacePrefix>
+        <voaf:reliesOn rdf:resource="http://data.vlaanderen.be/ns/besluit#"/>
+        <dcterms:title xml:lang="nl">Waarde</dcterms:title>
+        <dcterms:title xml:lang="en">Value</dcterms:title>
+        <voaf:reliesOn rdf:resource="http://dbpedia.org/ontology/"/>
+        <vann:preferredNamespaceUri>https://data.omgeving.vlaanderen.be/ns/waarde#</vann:preferredNamespaceUri>
+        <owl:versionInfo xml:lang="nl">Tweede versie, zoals in gebruik genomen in het kader van archivering van zendantennes, na afstemming tussen de Vlaams uri-stategie en proxy-afhankelijkheden bij DIDM</owl:versionInfo>
+        <voaf:reliesOn rdf:resource="http://www.w3.org/ns/prov#"/>
+        <dcterms:temporal>2018</dcterms:temporal>
+        <foaf:maker>
+            <rdf:Description>
+                <schema:affiliation>
+                    <org:Organization rdf:about="http://data.vlaanderen.be/id/organisatie/OVO003751">
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+                        <foaf:name  xml:lang="nl">Data- en informatiebeheer &amp; digitale maatschappij</foaf:name>
+                        <rdfs:seeAlso rdf:resource="https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66"/>
+                        <skos:altLabel  xml:lang="nl">DIDM</skos:altLabel>
+                        <skos:prefLabel  xml:lang="nl">Data- en informatiebeheer &amp; digitale maatschappij</skos:prefLabel>
+                        <org:changedBy rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting"/>
+                        <org:classification rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa"/>
+                        <org:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVO003751</org:identifier>
+                        <regorg:orgStatus rdf:resource="http://data.vlaanderen.be/id/concept/organisatiestatus/actief"/>
+                        <foaf:homepage rdf:resource="https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij"/>    
+                        <dcterms:type rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa"/>   
+                        <foaf:mbox rdf:resource="mailto:didm.omgeving@vlaanderen.be"/>
+                    </org:Organization>
+                </schema:affiliation>
+                <foaf:mbox rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
+                <foaf:name>Van Haute, Geert</foaf:name>
+            </rdf:Description>
+        </foaf:maker>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/vocab/vann/usageNote -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/usageNote"/>
+    
+
+
+    <!-- http://schema.org/affiliation -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/affiliation"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/isPrimaryTopicOf -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/mbox -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/mbox"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"/>
+    
+
+
+    <!-- https://data.omgeving.vlaanderen.be/ns/waarde#azimut -->
+
+    <owl:ObjectProperty rdf:about="https://data.omgeving.vlaanderen.be/ns/waarde#azimut">
+        <rdfs:range rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde#Waarde"/>
+        <rdfs:comment xml:lang="nl">Het azimut is een van de coördinaten uit het
+            horizon-coördinatenstelsel. In dit stelsel wordt de positie van een object aan de hemel
+            aangegeven door de twee coördinaten: azimut en elevatie. Het azimut is daarin de
+            horizontale component, de kompasrichting, dus de hoek met het noorden gemeten over het
+            oosten. Gewoonlijk wordt het azimut uitgedrukt in graden. De positie van een ster aan de
+            hemel wordt dus aangegeven door het azimut (de kompasrichting) en de hoogte (de hoek
+            tussen de ster en de horizon). De gehele cirkel is 360°, noord=0°, oost=90°, zuid=180°,
+            west=270°&quot;</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde"/>
+        <rdfs:label xml:lang="nl">Azimut</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Azimuth"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.omgeving.vlaanderen.be/ns/waarde#breedte -->
+
+    <owl:ObjectProperty rdf:about="https://data.omgeving.vlaanderen.be/ns/waarde#breedte">
+        <rdfs:range rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde#Waarde"/>
+        <rdfs:comment xml:lang="nl">De breedte is een van de afmetingen van een (meerdimensionaal)
+            object. Van een min of meer rechthoekig tweedimensionaal object wordt de kleinste van de
+            twee afmetingen de breedte genoemd. Van een driedimensionaal object wordt de kleinste
+            afmeting in het horizontale vlak de breedte genoemd.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde"/>
+        <rdfs:label xml:lang="nl">Breedte</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://dbpedia.org/property/width"/>
+    </owl:ObjectProperty>
+    
+    <owl:ObjectProperty rdf:about="https://data.omgeving.vlaanderen.be/ns/waarde#gebaseerdOp">
+        <rdfs:comment>TO DO</rdfs:comment>
+        <rdfs:label xml:lang="nl">gebaseerd op</rdfs:label>
+        <vann:usageNote>TO DO</vann:usageNote>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    </owl:ObjectProperty>
+
+    <!-- https://data.omgeving.vlaanderen.be/ns/waarde#frequentie -->
+
+    <owl:ObjectProperty rdf:about="https://data.omgeving.vlaanderen.be/ns/waarde#frequentie">
+        <rdfs:range rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde#Waarde"/>
+        <rdfs:comment xml:lang="nl">TO DO</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde"/>
+        <rdfs:label xml:lang="nl">TO DO</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Azimuth"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.omgeving.vlaanderen.be/ns/waarde#hoogte -->
+
+    <owl:ObjectProperty rdf:about="https://data.omgeving.vlaanderen.be/ns/waarde#hoogte">
+        <rdfs:range rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde#Waarde"/>
+        <rdfs:comment xml:lang="nl">De hoogte van een voorwerp is de verticale afstand van een
+            referentiepunt (zoals een oppervlak) tot het punt waar een voorwerp zich
+            bevindt.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde"/>
+        <rdfs:label xml:lang="nl">Hoogte</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://dbpedia.org/property/height"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.omgeving.vlaanderen.be/ns/waarde#horizontaleopeningshoek -->
+
+    <owl:ObjectProperty rdf:about="https://data.omgeving.vlaanderen.be/ns/waarde#horizontaleopeningshoek">
+        <rdfs:range rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde#Waarde"/>
+        <rdfs:comment xml:lang="nl">TO DO</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde"/>
+        <rdfs:label xml:lang="nl">horizontale openingshoek</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.omgeving.vlaanderen.be/ns/waarde#maximaleinvloedsstraal -->
+
+    <owl:ObjectProperty rdf:about="https://data.omgeving.vlaanderen.be/ns/waarde#maximaleinvloedsstraal">
+        <rdfs:range rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde#Waarde"/>
+        <rdfs:comment xml:lang="nl">TO DO</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde"/>
+        <rdfs:label xml:lang="nl">TO DO</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Azimuth"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.omgeving.vlaanderen.be/ns/waarde#mechanischetilt -->
+
+    <owl:ObjectProperty rdf:about="https://data.omgeving.vlaanderen.be/ns/waarde#mechanischetilt">
+        <rdfs:range rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde#Waarde"/>
+        <rdfs:comment xml:lang="nl">mechanische tilt</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde"/>
+        <rdfs:label xml:lang="nl">TO DO</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Azimuth"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.omgeving.vlaanderen.be/ns/waarde#ophangingshoogte -->
+
+    <owl:ObjectProperty rdf:about="https://data.omgeving.vlaanderen.be/ns/waarde#ophangingshoogte">
+        <rdfs:range rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde#Waarde"/>
+        <rdfs:comment xml:lang="nl">TO DO</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde"/>
+        <rdfs:label xml:lang="nl">ophangingshoogte</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.omgeving.vlaanderen.be/ns/waarde#totfrequentie -->
+
+    <owl:ObjectProperty rdf:about="https://data.omgeving.vlaanderen.be/ns/waarde#totfrequentie">
+        <rdfs:range rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde#Waarde"/>
+        <rdfs:comment xml:lang="nl">De hoogste frequentie waarbij een dempend materiaal een bepaalde
+            frequentiedempingsfactor heeft.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde"/>
+        <rdfs:label xml:lang="nl">tot frequentie</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.omgeving.vlaanderen.be/ns/waarde#tothoek -->
+
+    <owl:ObjectProperty rdf:about="https://data.omgeving.vlaanderen.be/ns/waarde#tothoek">
+        <rdfs:range rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde#Waarde"/>
+        <rdfs:isDefinedBy rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde"/>
+        <rdfs:label xml:lang="nl">tothoek</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.omgeving.vlaanderen.be/ns/waarde#vanfrequentie -->
+
+    <owl:ObjectProperty rdf:about="https://data.omgeving.vlaanderen.be/ns/waarde#vanfrequentie">
+        <rdfs:range rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde#Waarde"/>
+        <rdfs:comment xml:lang="nl">De laagste frequentie waarbij een dempend materiaal een bepaalde
+            frequentiedempingsfactor heeft.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde"/>
+        <rdfs:label xml:lang="nl">van frequentie</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.omgeving.vlaanderen.be/ns/waarde#vanhoek -->
+
+    <owl:ObjectProperty rdf:about="https://data.omgeving.vlaanderen.be/ns/waarde#vanhoek">
+        <rdfs:range rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde#Waarde"/>
+        <rdfs:isDefinedBy rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde"/>
+        <rdfs:label xml:lang="nl">vanhoek</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.omgeving.vlaanderen.be/ns/waarde#vermogen -->
+
+    <owl:ObjectProperty rdf:about="https://data.omgeving.vlaanderen.be/ns/waarde#vermogen">
+        <rdfs:range rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde#Waarde"/>
+        <rdfs:isDefinedBy rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde"/>
+        <rdfs:label xml:lang="nl">vermogen</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.omgeving.vlaanderen.be/ns/waarde#verticaleopeningshoek -->
+
+    <owl:ObjectProperty rdf:about="https://data.omgeving.vlaanderen.be/ns/waarde#verticaleopeningshoek">
+        <rdfs:range rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde#Waarde"/>
+        <rdfs:comment xml:lang="nl">TO DO</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde"/>
+        <rdfs:label xml:lang="nl">verticale openingshoek</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://data.omgeving.vlaanderen.be/ns/waarde#winst -->
+
+    <owl:ObjectProperty rdf:about="https://data.omgeving.vlaanderen.be/ns/waarde#winst">
+        <rdfs:range rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde#Waarde"/>
+        <rdfs:comment xml:lang="nl">De antenneversterking of winst vat de gerichtheid en
+            efficiëntie van een antenne samen. Hij is de verhouding van de afgeleverde in de
+            hoofdrichting resp. geabsorbeerde stralingsvermogensdichtheid in vergelijking met een
+            verliesvrije referentie-antenne van dezelfde antennevoermacht, die per definitie een
+            antenneversterking van 0 dB heeft. De gebruikte referentie-antenne is meestal een
+            dipoolantenne of een hypothetische isotrope radiator met dezelfde bundelsterkte in alle
+            richtingen.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde"/>
+        <rdfs:label xml:lang="nl">Winst</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://dbpedia.org/page/Antenna_gain"/>
+        <foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Antenna_gain"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+    
+    <owl:DatatypeProperty rdf:about="https://data.omgeving.vlaanderen.be/ns/waarde#key"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- https://data.omgeving.vlaanderen.be/ns/waarde#Waarde -->
+
+    <owl:Class rdf:about="https://data.omgeving.vlaanderen.be/ns/waarde#Waarde">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+       
+        <vann:usageNote xml:lang="nl">Te gebruiken bij het vastleggen van een meetwaarde en de
+            gebruikte maateenheid buiten observaties die het RDF data cube formaat
+            volgen.</vann:usageNote>
+        <rdfs:comment xml:lang="nl">Klasse om meetwaarden vast te leggen gecombineerd met de
+            gebruikte maateenheid</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde"/>
+        <rdfs:label xml:lang="nl">Meetwaarde</rdfs:label>
+    </owl:Class>
+    <rdf:Description>
+        <schema:affiliation>
+            <rdf:Description>
+                <foaf:homepage rdf:resource="https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij"/>
+                <foaf:mbox rdf:resource="mailto:didm.omgeving@vlaanderen.be"/>
+                <foaf:name>Vlaamse Overheid, Departement Omgeving, Data-en informatiebeheer
+                            &amp; Digitale Maatschappij</foaf:name>
+            </rdf:Description>
+        </schema:affiliation>
+        <foaf:mbox rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
+        <foaf:name>Van Haute, Geert</foaf:name>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

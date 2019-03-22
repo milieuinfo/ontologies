@@ -1,0 +1,167 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+    xmlns:qudt="http://qudt.org/schema/qudt#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:schema="http://schema.org/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:regorg="http://www.w3.org/ns/regorg#" > 
+  <rdf:Description rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeelding">
+    <skos:broader rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document_onderdeel"/>
+    <skos:prefLabel xml:lang="nl">afbeelding</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <foaf:name>Van Haute, Geert</foaf:name>
+    <foaf:mbox rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
+    <schema:affiliation rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003751"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/dossier">
+    <skos:prefLabel>Onderdelen van een dossier voor de aanvraag van een conformiteitsattest</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:topConceptOf rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier"/>
+    <skos:inScheme rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document_onderdeel">
+    <skos:narrower rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeelding"/>
+    <skos:narrower rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/bijlage"/>
+    <skos:prefLabel xml:lang="nl">bestand</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:topConceptOf rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier"/>
+    <skos:inScheme rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdf:rest rdf:nodeID="A2"/>
+    <rdf:first rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/procedurestap"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdf:rest rdf:nodeID="A1"/>
+    <rdf:first rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/dossier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/bijlage">
+    <skos:narrower rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/signedsubmission"/>
+    <skos:narrower rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/elevatieplan"/>
+    <skos:narrower rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/antenneplan"/>
+    <skos:narrower rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/dwarsdoorsneeplan"/>
+    <skos:broader rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document_onderdeel"/>
+    <skos:prefLabel xml:lang="nl">afbeelding</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/beslissing">
+    <skos:broader rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/procedurestap"/>
+    <skos:prefLabel xml:lang="nl">beslissing</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/procedurestap">
+    <skos:narrower rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/beslissing"/>
+    <skos:narrower rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/aanvraag"/>
+    <skos:prefLabel xml:lang="nl">procedurestap</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:topConceptOf rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier"/>
+    <skos:inScheme rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/conformiteitsattest">
+    <skos:broader rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document"/>
+    <skos:prefLabel xml:lang="nl">conformiteitsattest</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <rdf:first rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/document_onderdeel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/procedurestap">
+    <skos:member rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/procedurestap"/>
+    <xkos:depth rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2</xkos:depth>
+    <skos:prefLabel xml:lang="nl">procedurestap</skos:prefLabel>
+    <rdf:type rdf:resource="http://rdf-vocabulary.ddialliance.org/xkos#ClassificationLevel"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdf:rest rdf:nodeID="A4"/>
+    <rdf:first rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/document_onderdeel">
+    <skos:member rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document_onderdeel"/>
+    <skos:member rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/antenneplan"/>
+    <skos:member rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeelding"/>
+    <skos:member rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/elevatieplan"/>
+    <xkos:depth rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">4</xkos:depth>
+    <skos:prefLabel xml:lang="nl">bestand</skos:prefLabel>
+    <skos:member rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/bijlage"/>
+    <skos:member rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/dwarsdoorsneeplan"/>
+    <rdf:type rdf:resource="http://rdf-vocabulary.ddialliance.org/xkos#ClassificationLevel"/>
+    <skos:member rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/signedsubmission"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeeldingen">
+    <skos:broader rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document"/>
+    <skos:prefLabel xml:lang="nl">afbeelding</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/document">
+    <skos:member rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeeldingen"/>
+    <skos:member rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/conformiteitsattest"/>
+    <skos:member rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document"/>
+    <xkos:depth rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">3</xkos:depth>
+    <skos:prefLabel xml:lang="nl">document</skos:prefLabel>
+    <rdf:type rdf:resource="http://rdf-vocabulary.ddialliance.org/xkos#ClassificationLevel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document">
+    <skos:narrower rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeeldingen"/>
+    <skos:narrower rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/conformiteitsattest"/>
+    <skos:prefLabel xml:lang="nl">document</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:topConceptOf rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier"/>
+    <skos:inScheme rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/aanvraag">
+    <skos:broader rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/procedurestap"/>
+    <skos:prefLabel xml:lang="nl">aanvraag</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier">
+    <rdfs:comment xml:lang="nl">TO DO</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:altLabel xml:lang="nl">antenne_dossier</skos:altLabel>
+    <owl:versionInfo xml:lang="nl">Eerste versie, zoals in gebruik genomen in het kader van
+            archivering van zendantennes</owl:versionInfo>
+    <xkos:levels rdf:nodeID="A5"/>
+    <foaf:maker rdf:nodeID="A0"/>
+    <dcterms:title xml:lang="nl">Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest</dcterms:title>
+    <vann:changes xml:lang="nl"></vann:changes>
+    <xkos:belongsTo rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/dataset"/>
+    <skos:prefLabel xml:lang="nl">Informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest</skos:prefLabel>
+    <xkos:numberOfLevels rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">4</xkos:numberOfLevels>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-19</dcterms:issued>
+    <skos:prefLabel>Onderdelen van een dossier voor de aanvraag van een conformiteitsattest</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/dossier">
+    <skos:member rdf:resource="https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/dossier"/>
+    <xkos:depth rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1</xkos:depth>
+    <skos:prefLabel xml:lang="nl">document</skos:prefLabel>
+    <rdf:type rdf:resource="http://rdf-vocabulary.ddialliance.org/xkos#ClassificationLevel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.vlaanderen.be/id/organisatie/OVO003751">
+    <org:classification rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa"/>
+    <skos:altLabel xml:lang="nl">DIDM</skos:altLabel>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <org:changedBy rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting"/>
+    <dcterms:type rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa"/>
+    <foaf:homepage rdf:resource="https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij"/>
+    <foaf:name xml:lang="nl">Data- en informatiebeheer &amp; digitale maatschappij</foaf:name>
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+    <regorg:orgStatus rdf:resource="http://data.vlaanderen.be/id/concept/organisatiestatus/actief"/>
+    <org:identifier>OVO003751</org:identifier>
+    <skos:prefLabel xml:lang="nl">Data- en informatiebeheer &amp; digitale maatschappij</skos:prefLabel>
+    <foaf:mbox rdf:resource="mailto:didm.omgeving@vlaanderen.be"/>
+    <rdfs:seeAlso rdf:resource="https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66"/>
+  </rdf:Description>
+</rdf:RDF>

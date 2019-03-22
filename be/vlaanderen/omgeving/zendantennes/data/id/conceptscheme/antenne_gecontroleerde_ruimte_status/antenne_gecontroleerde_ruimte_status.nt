@@ -1,0 +1,49 @@
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> <http://rdf-vocabulary.ddialliance.org/xkos#belongsTo> <https://data.zendantennes.omgeving.vlaanderen.be/id/dataset> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lijst van mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> <http://www.w3.org/2004/02/skos/core#altLabel> "antenne_gecontroleerde_ruimte_status"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> <http://purl.org/dc/terms/issued> "2018-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> <http://purl.org/vocab/vann/changes> ""@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> <http://purl.org/dc/terms/title> "Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> <http://www.w3.org/2002/07/owl#versionInfo> "Eerste versie, zoals in gebruik genomen in het kader van\n            archivering van zendantennes"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> <http://xmlns.com/foaf/0.1/maker> _:B4b6633caX2D9bc2X2D43e7X2D9310X2D9be2b2f1e4ea .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+_:B4b6633caX2D9bc2X2D43e7X2D9310X2D9be2b2f1e4ea <http://schema.org/affiliation> <http://data.vlaanderen.be/id/organisatie/OVO003751> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/name> "Data- en informatiebeheer & digitale maatschappij"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2004/02/skos/core#altLabel> "DIDM"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data- en informatiebeheer & digitale maatschappij"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#changedBy> <http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#classification> <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#identifier> "OVO003751" .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/regorg#orgStatus> <http://data.vlaanderen.be/id/concept/organisatiestatus/actief> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/homepage> <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://purl.org/dc/terms/type> <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/mbox> <mailto:didm.omgeving@vlaanderen.be> .
+_:B4b6633caX2D9bc2X2D43e7X2D9310X2D9be2b2f1e4ea <http://xmlns.com/foaf/0.1/mbox> <mailto:geert.vanhaute@vlaanderen.be> .
+_:B4b6633caX2D9bc2X2D43e7X2D9310X2D9be2b2f1e4ea <http://xmlns.com/foaf/0.1/name> "Van Haute, Geert" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/niet_overschrijdend_gedempt> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/niet_overschrijdend_gedempt> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/niet_overschrijdend_gedempt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/niet_overschrijdend_gedempt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Niet overschrijdend gedempt"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/niet_overschrijdend_gedempt> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "NIET_OVERSCHRIJDEND_GEDEMPT" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/niet_overschrijdend_gedempt> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/niet_overschrijdend> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/niet_overschrijdend> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/niet_overschrijdend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/niet_overschrijdend> <http://www.w3.org/2004/02/skos/core#prefLabel> "Niet overschrijdend"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/niet_overschrijdend> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "NIET_OVERSCHRIJDEND" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/niet_overschrijdend> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/overschrijdend> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/overschrijdend> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/overschrijdend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/overschrijdend> <http://www.w3.org/2004/02/skos/core#prefLabel> "Overschrijdend"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/overschrijdend> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "OVERSCHRIJDEND" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/overschrijdend> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/niet_overschrijdend_manueel> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/niet_overschrijdend_manueel> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/niet_overschrijdend_manueel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/niet_overschrijdend_manueel> <http://www.w3.org/2004/02/skos/core#prefLabel> "Niet overschrijdend manueel"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/niet_overschrijdend_manueel> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "NIET_OVERSCHRIJDEND_MANUEEL" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/niet_overschrijdend_manueel> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .

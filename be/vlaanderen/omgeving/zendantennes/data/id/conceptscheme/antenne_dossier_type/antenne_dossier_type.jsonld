@@ -1,0 +1,282 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "affiliation" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "mbox" : "mailto:geert.vanhaute@vlaanderen.be",
+    "name" : "Van Haute, Geert"
+  }, {
+    "@id" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "@type" : [ "foaf:Agent", "org:Organization" ],
+    "type" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "seeAlso" : "https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "DIDM"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    },
+    "changedBy" : "http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting",
+    "classification" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "identifier" : "OVO003751",
+    "orgStatus" : "http://data.vlaanderen.be/id/concept/organisatiestatus/actief",
+    "homepage" : "https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij",
+    "mbox" : "mailto:didm.omgeving@vlaanderen.be",
+    "name" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/1",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Luchtvaartsector"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "waarde:groot" : false,
+    "key" : "luchtvaartsector",
+    "waarde:zichtbaar_op_publieke_kaart" : false
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/10",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Draadloos internet"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "waarde:groot" : true,
+    "key" : "draadloos internet",
+    "waarde:zichtbaar_op_publieke_kaart" : true
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/11",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "radio/televisie"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "waarde:groot" : false,
+    "key" : "radio/televisie",
+    "waarde:zichtbaar_op_publieke_kaart" : true
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/2",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Treinverkeer"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "waarde:groot" : false,
+    "key" : "treinverkeer",
+    "waarde:zichtbaar_op_publieke_kaart" : true
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/3",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Scheepvaart"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "waarde:groot" : false,
+    "key" : "scheepvaart",
+    "waarde:zichtbaar_op_publieke_kaart" : true
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/4",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Radar"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "waarde:groot" : false,
+    "key" : "radar",
+    "waarde:zichtbaar_op_publieke_kaart" : true
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/5",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "ASTRID-netwerk"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "waarde:groot" : false,
+    "key" : "ASTRID-netwerk",
+    "waarde:zichtbaar_op_publieke_kaart" : false
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/6",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Militaire toepassingen"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "waarde:groot" : false,
+    "key" : "militaire toepassingen",
+    "waarde:zichtbaar_op_publieke_kaart" : false
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/7",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Radio"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "waarde:groot" : false,
+    "key" : "radio",
+    "waarde:zichtbaar_op_publieke_kaart" : true
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/8",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Televisie"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "waarde:groot" : false,
+    "key" : "televisie",
+    "waarde:zichtbaar_op_publieke_kaart" : true
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier_type/9",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "gsm-netwerk"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "waarde:groot" : true,
+    "key" : "gsm-netwerk",
+    "waarde:zichtbaar_op_publieke_kaart" : true
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier_type",
+    "@type" : "skos:ConceptScheme",
+    "issued" : "2018-11-19",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne"
+    },
+    "changes" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "versionInfo" : {
+      "@language" : "nl",
+      "@value" : "Eerste versie, zoals in gebruik genomen in het kader van\n            archivering van zendantennes"
+    },
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "antenne_dossier_type"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Lijst van dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne"
+    },
+    "maker" : "_:b0"
+  } ],
+  "@context" : {
+    "zichtbaar_op_publieke_kaart" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#zichtbaar_op_publieke_kaart",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "groot" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#groot",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "key" : {
+      "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde#key"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "topConceptOf" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
+      "@type" : "@id"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "classification" : {
+      "@id" : "http://www.w3.org/ns/org#classification",
+      "@type" : "@id"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "changedBy" : {
+      "@id" : "http://www.w3.org/ns/org#changedBy",
+      "@type" : "@id"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/terms/type",
+      "@type" : "@id"
+    },
+    "homepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/homepage",
+      "@type" : "@id"
+    },
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
+    },
+    "orgStatus" : {
+      "@id" : "http://www.w3.org/ns/regorg#orgStatus",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://www.w3.org/ns/org#identifier"
+    },
+    "mbox" : {
+      "@id" : "http://xmlns.com/foaf/0.1/mbox",
+      "@type" : "@id"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type" : "@id"
+    },
+    "maker" : {
+      "@id" : "http://xmlns.com/foaf/0.1/maker",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "changes" : {
+      "@id" : "http://purl.org/vocab/vann/changes"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "affiliation" : {
+      "@id" : "http://schema.org/affiliation",
+      "@type" : "@id"
+    },
+    "schema" : "http://schema.org/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "org" : "http://www.w3.org/ns/org#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "regorg" : "http://www.w3.org/ns/regorg#",
+    "waarde" : "https://data.omgeving.vlaanderen.be/ns/waarde#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "vann" : "http://purl.org/vocab/vann/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "xkos" : "http://rdf-vocabulary.ddialliance.org/xkos#"
+  }
+}

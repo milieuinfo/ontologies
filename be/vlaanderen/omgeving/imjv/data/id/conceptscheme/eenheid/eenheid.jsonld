@@ -1,0 +1,940 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "affiliation" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "mbox" : "mailto:geert.vanhaute@vlaanderen.be",
+    "name" : "Van Haute, Geert"
+  }, {
+    "@id" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "@type" : [ "foaf:Agent", "org:Organization" ],
+    "type" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "seeAlso" : "https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "DIDM"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    },
+    "changedBy" : "http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting",
+    "classification" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "identifier" : "OVO003751",
+    "orgStatus" : "http://data.vlaanderen.be/id/concept/organisatiestatus/actief",
+    "homepage" : "https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij",
+    "mbox" : "mailto:didm.omgeving@vlaanderen.be",
+    "name" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid",
+    "@type" : "owl:Ontology",
+    "imports" : [ "http://www.w3.org/2004/02/skos/core", "http://purl.org/dc/terms/", "http://purl.org/dc/elements/1.1/" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/CubicMeter",
+    "@type" : "skos:Concept",
+    "symbol" : "m³",
+    "seeAlso" : "http://qudt.org/vocab/unit#CubicMeter",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "m³"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "kubieke meter"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : [ "m³", "m3", "M3", "kubieke meter", "kub" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/CubicMeterPerHour",
+    "@type" : "skos:Concept",
+    "symbol" : "m³/h",
+    "seeAlso" : "http://qudt.org/vocab/unit#CubicMeterPerHour",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "m³/uur"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "kubieke meter per uur"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : [ "m³/uur", "m³/h", "m³/u" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/DegreeCelsius",
+    "@type" : "skos:Concept",
+    "symbol" : "°C",
+    "seeAlso" : "http://qudt.org/vocab/unit#DegreeCelsius",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "°C"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "graden celcius"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : [ "celsius", "°C" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/GigaJoule",
+    "@type" : "skos:Concept",
+    "symbol" : "GJ",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Gigajoule"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/GigaJoule_prim", "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/GigaJoule_sec" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "gigajoule"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "gebaseerdOp" : "http://qudt.org/vocab/unit#Joule",
+    "key" : [ "gigajoule", "GJ", "Gigajoule" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/GigaJoule_prim",
+    "@type" : "skos:Concept",
+    "symbol" : "GJ",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "gigajoule primair"
+    },
+    "gebaseerdOp" : "http://qudt.org/vocab/unit#Joule",
+    "key" : [ "GJ prim", "GJprim" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/GigaJoule_sec",
+    "@type" : "skos:Concept",
+    "symbol" : "GJ",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "gigajoule secundair"
+    },
+    "gebaseerdOp" : "http://qudt.org/vocab/unit#Joule",
+    "key" : [ "GJ sec", "GJsec" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Herbruikbaar_materiaal",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "herbruikbaar materiaal"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "herbruikbaar materiaal"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Kilogram",
+    "@type" : "skos:Concept",
+    "symbol" : "kg",
+    "seeAlso" : "http://qudt.org/vocab/unit#Kilogram",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "kg"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "kilogram"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : [ "KG", "kilogram", "kilo", "kg" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/KilogramPerHour",
+    "@type" : "skos:Concept",
+    "symbol" : "kg/uur",
+    "seeAlso" : "http://qudt.org/vocab/unit#KilogramPerHour",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "kg/uur"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "kilogram per uur"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "kilogram per uur"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Kilowatthour",
+    "@type" : "skos:Concept",
+    "symbol" : "KWh",
+    "seeAlso" : "http://qudt.org/vocab/unit#Kilowatthour",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "KWh"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "kilowattuur"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "kWh"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Liter",
+    "@type" : "skos:Concept",
+    "symbol" : "l",
+    "seeAlso" : "http://qudt.org/vocab/unit#Liter",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "l"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "liter"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : [ "l", "LITER", "liter" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Megawatt",
+    "@type" : "skos:Concept",
+    "symbol" : "MW",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "MW"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "megawatt"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "gebaseerdOp" : "http://qudt.org/vocab/unit#Kilowatt",
+    "key" : "MW"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Megawattuur",
+    "@type" : "skos:Concept",
+    "symbol" : "MWh",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "MWh"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Megawattuur_bvw", "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Megawattuur_sec", "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Megawattuur_ovw" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "megawattuur"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "gebaseerdOp" : "http://qudt.org/vocab/unit#Kilowatthour",
+    "key" : [ "Mwh", "MWh" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Megawattuur_bvw",
+    "@type" : "skos:Concept",
+    "symbol" : "MWhbvw",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "MWh bvw"
+    },
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Aardgas: De aardgasfactuur van een bedrijf wordt normaliter uitgedrukt in kWhbvw of MWhbvw. Eerst rekenen we de bovenste verbrandingswaarde (bvw) om naar onderste verbrandingswaarde (ovw) door te vermenigvuldigen met de factor 0,903. Door te vermenigvuldigen met 3600 zetten we \"Wattuur\" om naar \"Joule\". Om de getallen hanteerbare te houden werken we in de praktijk met GJ (10^9 J) of PJ (10^15 J)."
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "megawattuur bovenste verbrandingswaarde"
+    },
+    "key" : [ "MWh bvw", "MWhbvw" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Megawattuur_ovw",
+    "@type" : "skos:Concept",
+    "symbol" : "MWhovw",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "MWhovw"
+    },
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Aardgas: De aardgasfactuur van een bedrijf wordt normaliter uitgedrukt in kWhbvw of MWhbvw. Eerst rekenen we de bovenste verbrandingswaarde (bvw) om naar onderste verbrandingswaarde (ovw) door te vermenigvuldigen met de factor 0,903. Door te vermenigvuldigen met 3600 zetten we \"Wattuur\" om naar \"Joule\". Om de getallen hanteerbare te houden werken we in de praktijk met GJ (10^9 J) of PJ (10^15 J)."
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "megawattuur onderste verbrandingswaarde"
+    },
+    "key" : [ "MWhSec ovw", "MWh OVW", "MWhovw" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Megawattuur_sec",
+    "@type" : "skos:Concept",
+    "symbol" : "MWhsec",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "MWh sec"
+    },
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Elektriciteit   De elektriciteitsfactuur, die is uitgedrukt in kWhsec of MWhsec, wordt omgezet naar primaire energie door een opwekkings- en transportrendement van 40% in rekening te brengen. Daarna volgt zoals bij aardgas de omzetting van \"Wattuur\" naar \"Joule\". "
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "megawattuur sec"
+    },
+    "key" : "MWhsec"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Meter",
+    "@type" : "skos:Concept",
+    "symbol" : "m",
+    "seeAlso" : "http://qudt.org/vocab/unit#Meter",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "m"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "meter"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : [ "meters", "meter" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/MetricTon",
+    "@type" : "skos:Concept",
+    "symbol" : "ton",
+    "seeAlso" : "http://qudt.org/vocab/unit#MetricTon",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "ton"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : [ "t", "TON", "ton", "Ton" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Microgram_TEQ_per_uur",
+    "@type" : "skos:Concept",
+    "symbol" : ".",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "microgram toxiciteit equivalenten per uur"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "microgram toxiciteit equivalenten per uur"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Nm3",
+    "@type" : "skos:Concept",
+    "symbol" : "Nm³",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Nm³"
+    },
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "De normaal kubieke meter is de eenheid waarin het volume van gassen, bijvoorbeeld aardgas, wordt uitgedrukt. Omdat bij gassen het soortelijk volume (uitgedrukt in m³/kg) afhankelijk is van druk en temperatuur, rekent men het volume om naar een volume bij een vooraf vastgestelde druk en temperatuur. Een normaal kubieke meter is een hoeveelheid gas, die bij de \"normaal\"temperatuur en de \"normaal\"druk een volume inneemt van 1 kubieke meter (m³)."
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "normaal kubieke meter"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : [ "Nm³", "Nm3" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Nm3_per_jaar",
+    "@type" : "skos:Concept",
+    "symbol" : "Nm³/j",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Nm³/jaar"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "normaal kubieke meter per jaar"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "Nm3/jaar"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Nm3_per_uur",
+    "@type" : "skos:Concept",
+    "symbol" : "Nm³/h",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Nm³/h"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "narrower" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Nm3_per_uur_droog",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "normaal kubieke meter per uur"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : [ "Nm3/h", "Nm³/h", "normaal kubieke meter per uur", "Nm3/uur" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Nm3_per_uur_droog",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Nm³/h droog"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "normaal kubieke meter per uur droog"
+    },
+    "key" : "Nm³/h droog"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Percent",
+    "@type" : "skos:Concept",
+    "symbol" : "%",
+    "seeAlso" : "http://qudt.org/vocab/unit#Percent",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "percent"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "percent"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/PetaJoule",
+    "@type" : "skos:Concept",
+    "symbol" : "PJ",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "petajoule"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "gebaseerdOp" : "http://qudt.org/vocab/unit#Joule",
+    "key" : [ "PJ", "Gigajoule" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/SquareMeter",
+    "@type" : "skos:Concept",
+    "symbol" : "m²",
+    "seeAlso" : "http://qudt.org/vocab/unit#SquareMeter",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "m²"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "vierkante meter"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : [ "vierkante meter", "m²" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Ton_fosfor_pentoxide",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "ton P2O5"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "ton P2O5"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Ton_gebakken",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "ton gebakken"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "ton gebakken"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Ton_per_dag",
+    "@type" : "skos:Concept",
+    "symbol" : "ton/dag",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "ton/dag"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "ton per dag"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : [ "ton/dag", "ton per dag", "TON/DAG" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/Ton_per_jaar",
+    "@type" : "skos:Concept",
+    "symbol" : "ton/jaar",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "ton/jaar"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "ton per jaar"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : [ "ton/jaar", "ton per jaar", "TON/JAAR" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/bumpers_per_dag",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bumpers per dag"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : [ "bumpers per dag", "bumpers pe dag", "Bumpers per dag" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/dag_per_jaar",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "dagen per jaar"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "dag per jaar"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/duitse_hardheid",
+    "@type" : "skos:Concept",
+    "symbol" : "°dH",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Duitse hardheid"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Duitse hardheid"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : [ "dH°", "°D" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/franse_hardheid",
+    "@type" : "skos:Concept",
+    "symbol" : "°fH",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Franse hardheid"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Franse hardheid"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : [ "fH°", "°F" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/gasflessen",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "gasflessen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "gasflessen"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/kg_per_dag",
+    "@type" : "skos:Concept",
+    "symbol" : "kg/dag",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "kg/dag"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "kilogram per dag"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "gebaseerdOp" : "http://qudt.org/vocab/unit#KilogramPerHour",
+    "key" : "Kg per dag"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/kg_per_jaar",
+    "@type" : "skos:Concept",
+    "symbol" : "kg/jaar",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "kg/jaar"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "kilogram per jaar"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "gebaseerdOp" : "http://qudt.org/vocab/unit#KilogramPerHour",
+    "key" : [ "kg/jr", "kg/jaar" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/kg_solvent",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "kilogram solventen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : [ "kg solventen", "kg solvent" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/kton",
+    "@type" : "skos:Concept",
+    "symbol" : "Kton",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "kiloton"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "kton"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/lm",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "lm"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "lm"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/m3_per_jaar",
+    "@type" : "skos:Concept",
+    "symbol" : "m³/jaar",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "kubieke meter per jaar"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "m3/jr"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/mg_TEQ_per_jaar",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "milligram toxiciteit equivalenten per jaar"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "milligram toxiciteit equivalenten per jaar"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/mg_per_Nm3",
+    "@type" : "skos:Concept",
+    "symbol" : "mg/m³",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "milligram per normaal kubieke meter"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "milligram per normaal kubieke meter"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/mg_per_l",
+    "@type" : "skos:Concept",
+    "symbol" : "mg/l",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "mg per liter"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "milligram per liter"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "mg/l"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/microgram_per_l",
+    "@type" : "skos:Concept",
+    "symbol" : "µg/l",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "µg per liter"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "microgramgram per liter"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "µg/l"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/microsiemens_per_centimeter",
+    "@type" : "skos:Concept",
+    "symbol" : "µS/cm",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "µS/cm"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/millisiemens_per_centimeter_bij_25_graden", "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/millisiemens_per_centimeter_bij_20_graden", "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/microsiemens_per_centimeter_bij_20_graden" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "elektrische conductiviteit in microsiemens per centimeter"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "µS/cm"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/microsiemens_per_centimeter_bij_20_graden",
+    "@type" : "skos:Concept",
+    "symbol" : "µS/cm",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "µS/cm bij 20°C"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "elektrische conductiviteit bij 20 °C in microsiemens per centimeter"
+    },
+    "key" : "µS/cm bij 20°C"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/milliequivalenten_per_l",
+    "@type" : "skos:Concept",
+    "symbol" : "mEq/l",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "mEq per liter"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "milli-equivalenten per liter"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "meq/l"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/millimol_per_l",
+    "@type" : "skos:Concept",
+    "symbol" : "mmol/l",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "mmol per liter"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "millimol per liter"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "mmol/l"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/millisiemens_per_centimeter_bij_20_graden",
+    "@type" : "skos:Concept",
+    "symbol" : "mS/cm",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "mS/cm bij 20°C"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "elektrische conductiviteit bij 20 °C in microsiemens per centimeter"
+    },
+    "key" : "mS/cm bij 20°C"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/millisiemens_per_centimeter_bij_25_graden",
+    "@type" : "skos:Concept",
+    "symbol" : "mS/cm",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "mS/cm bij 25°C"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "elektrische conductiviteit bij 25 °C in millisiemens per centimeter"
+    },
+    "key" : "mS/cm bij 25°C"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/parts_per_million",
+    "@type" : "skos:Concept",
+    "symbol" : "ppm",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "ppm"
+    },
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Parts per million (ppm) oftewel delen per miljoen is een maat voor concentratie. Een concentratie van 1 ppm geeft aan dat er één deel van een product is op een totaal van een miljoen delen, meestal uitgedrukt in massa. Eén ppm is duizend keer kleiner dan één promille."
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Delen per miljoen"
+    }, {
+      "@language" : "en",
+      "@value" : "Parts per million"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "ppm"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/ph_zuurtegraad",
+    "@type" : "skos:Concept",
+    "symbol" : "pH",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "pH"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "pH (een maat voor de zuurtegraad van een waterige oplossing)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : [ "pH", "Sörensen" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/picogram_TEQ_per_Nm3",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "picogram toxiciteit equiv. per normaal kub. meter"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "picogram toxiciteit equiv. per normaal kub. meter"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/eenheid/uur_per_jaar",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "uur per jaar"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "key" : "uur per jaar"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/eenheid",
+    "@type" : "skos:ConceptScheme",
+    "issued" : "2019-01-03",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over eenheden bij een waarde binnen het IMJV"
+    },
+    "changes" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "belongsTo" : "https://data.imjv.omgeving.vlaanderen.be/id/dataset",
+    "versionInfo" : {
+      "@language" : "nl",
+      "@value" : "Tweede versie, zoals in gebruik genomen in het kader van de herwerking volgens de uri-standaard"
+    },
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "eenheid"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Lijst van eenheden bij een waarde"
+    },
+    "maker" : "_:b0"
+  } ],
+  "@context" : {
+    "symbol" : {
+      "@id" : "http://qudt.org/schema/qudt#symbol"
+    },
+    "key" : {
+      "@id" : "https://data.imjv.omgeving.vlaanderen.be/ns/imjv#key"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type" : "@id"
+    },
+    "topConceptOf" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
+      "@type" : "@id"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "narrower" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#narrower",
+      "@type" : "@id"
+    },
+    "gebaseerdOp" : {
+      "@id" : "https://data.imjv.omgeving.vlaanderen.be/ns/imjv#gebaseerdOp",
+      "@type" : "@id"
+    },
+    "imports" : {
+      "@id" : "http://www.w3.org/2002/07/owl#imports",
+      "@type" : "@id"
+    },
+    "definition" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "classification" : {
+      "@id" : "http://www.w3.org/ns/org#classification",
+      "@type" : "@id"
+    },
+    "changedBy" : {
+      "@id" : "http://www.w3.org/ns/org#changedBy",
+      "@type" : "@id"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/terms/type",
+      "@type" : "@id"
+    },
+    "homepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/homepage",
+      "@type" : "@id"
+    },
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
+    },
+    "orgStatus" : {
+      "@id" : "http://www.w3.org/ns/regorg#orgStatus",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://www.w3.org/ns/org#identifier"
+    },
+    "mbox" : {
+      "@id" : "http://xmlns.com/foaf/0.1/mbox",
+      "@type" : "@id"
+    },
+    "affiliation" : {
+      "@id" : "http://schema.org/affiliation",
+      "@type" : "@id"
+    },
+    "maker" : {
+      "@id" : "http://xmlns.com/foaf/0.1/maker",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "changes" : {
+      "@id" : "http://purl.org/vocab/vann/changes"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "belongsTo" : {
+      "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
+      "@type" : "@id"
+    },
+    "schema" : "http://schema.org/",
+    "imjv" : "https://data.imjv.omgeving.vlaanderen.be/ns/imjv#",
+    "qudt" : "http://qudt.org/schema/qudt#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "org" : "http://www.w3.org/ns/org#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xkos" : "http://rdf-vocabulary.ddialliance.org/xkos#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "regorg" : "http://www.w3.org/ns/regorg#",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "vann" : "http://purl.org/vocab/vann/",
+    "foaf" : "http://xmlns.com/foaf/0.1/"
+  }
+}

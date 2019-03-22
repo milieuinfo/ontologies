@@ -1,0 +1,2480 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "affiliation" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "mbox" : "mailto:geert.vanhaute@vlaanderen.be",
+    "name" : "Van Haute, Geert"
+  }, {
+    "@id" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "@type" : [ "foaf:Agent", "org:Organization" ],
+    "type" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "seeAlso" : "https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "DIDM"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    },
+    "changedBy" : "http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting",
+    "classification" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "identifier" : "OVO003751",
+    "orgStatus" : "http://data.vlaanderen.be/id/concept/organisatiestatus/actief",
+    "homepage" : "https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij",
+    "mbox" : "mailto:didm.omgeving@vlaanderen.be",
+    "name" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvaloverbrenger",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "narrower" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvaloverbrenger",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "aangifte afvaloverbrenger"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalproducent",
+    "@type" : "skos:Concept",
+    "source" : "https://imjv.milieuinfo.be/delen-van-het-imjv/afval",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Een bedrijf, organisatie moet het deel Afval invullen indien:           \n            het in de OVAM-steekproef voor deel Afval zit. OF het een 'PRTR'-bedrijf betreft. Dit zijn bedrijven die een milieuvergunning hebben waarbij in kolom 7 van een of meerdere vergunde rubrieken een 'R' staat. Bedrijven die hier een 'J' hebben staan en geen 'R', moeten deel Afval niet invullen, behalve als ze opgenomen zijn in de OVAM-steekproef voor deel Afval. Meer informatie over de vergunde rubrieken vindt u op de Vlaamse Milieunavigator.\n        "
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvalproducent", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_afvalproducent" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "aangifte afvalproducent"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalverwerker",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvalverwerker", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_afvalverwerker" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "aangifte afvalverwerker"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_energie",
+    "@type" : "skos:Concept",
+    "source" : "https://imjv.milieuinfo.be/delen-van-het-imjv/energie",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "en bedrijf, organisatie dient het deel Energie in te vullen wanneer:            \n            de exploitatie een primair energieverbruik heeft van meer dan 0,1 petajoule\n            u voor de exploitatie ook het deelformulier luchtemissie moet invullen\n            de exploitatie een GPBV/IPPC bedrijf betreft            \n            Een IMJV-plichtige die aangeeft alleen te moeten melden omwille van het energieverbruik, vult alleen de speciaal daarvoor ontworpen tabel 3 in het deel Energiegegevens in; elektriciteitsverbruik/jaar; brandstoffenverbruik/jaar per brandstof.\n            Deze bedrijven moeten niet het deel Lucht invullen (tenzij ze één of meerdere drempels overschrijden).         \n        "
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_energie", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_energie" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "aangifte energie"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondstoffenproducent",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondstoffenproducent", "https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondstoffenproducent" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "aangifte grondstoffenproducent"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater",
+    "@type" : "skos:Concept",
+    "source" : "https://imjv.milieuinfo.be/delen-van-het-imjv/grondwater",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Bedrijven, organisaties dienen het deel Grondwater in te vullen wanneer zij:    \n            een Vlaremvergunning met een totaal vergund debiet van meer dan 30 000 m³/jaar hebben.\n            een oude klasse B grondwatervergunning hebben.\n            indien dit in de bijzondere voorwaarden van de vergunning staat gemeld. Hieronder vallen bijvoorbeeld sommige vergunde installaties met aquifercodes 1300, 1310, 1320, 1330 en 1340.\n            In de voorwaarden staat vermeld welk deel (onttrekkingen, peilgegevens en/of kwaliteitsgegevens) moet ingevuld worden en hoeveel keer per jaar de metingen moeten uitgevoerd worden.\n        Vanaf 2016 is de aangifte grondwaterstatistiek vervangen door aangifte grondwater"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondwater", "https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondwater" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "aangifte grondwater"
+    },
+    "related" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek",
+    "@type" : "skos:Concept",
+    "source" : "https://imjv.milieuinfo.be/delen-van-het-imjv/grondwater",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Bedrijven, organisaties dienen het deel Grondwater in te vullen wanneer zij:    \n            een Vlaremvergunning met een totaal vergund debiet van meer dan 30 000 m³/jaar hebben.\n            een oude klasse B grondwatervergunning hebben.\n            indien dit in de bijzondere voorwaarden van de vergunning staat gemeld. Hieronder vallen bijvoorbeeld sommige vergunde installaties met aquifercodes 1300, 1310, 1320, 1330 en 1340.\n            In de voorwaarden staat vermeld welk deel (onttrekkingen, peilgegevens en/of kwaliteitsgegevens) moet ingevuld worden en hoeveel keer per jaar de metingen moeten uitgevoerd worden."
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondwaterstatistiek", "https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondwaterstatistiek" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "aangifte grondwaterstatistiek"
+    },
+    "related" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_identificatie",
+    "@type" : "skos:Concept",
+    "source" : "https://imjv.milieuinfo.be/delen-van-het-imjv/identificatie",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Elk IMJV bevat het deel Identificatie"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_identificatie", "https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_identificatie" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "aangifte identificatie"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie",
+    "@type" : "skos:Concept",
+    "source" : "https://imjv.milieuinfo.be/delen-van-het-imjv/lucht",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Een exploitatie moet het deel Lucht invullen indien het:         \n            ofwel conform Vlarem I over een J-type vergunning beschikt;\n            ofwel milieuvergunningsplichtig is als klasse 1 of 2;\n            en als bovendien de totale emissie van de gehele milieutechnische eenheid voor ten minste één verontreinigende stof in het beschouwde jaar groter is dan de drempelwaarden vermeld in de overzichtstabel van verontreinigende stoffen van het deelformulier luchtemissies.          \n            Indien in het verleden deze drempelwaarden voor de exploitatie werden overschreden, dient u het deel Lucht in te vullen gedurende de 3 daaropvolgende jaren, ook al blijft de emissie onder de drempelwaarden.           \n            Bijvoorbeeld, indien de exploitatie in 2011 nog boven de drempel emitteerde, maar dit de daaropvolgende jaren niet meer deed, dient u in 2015 (rapporteringsjaar 2014) voor de laatste keer het deel Lucht in te vullen."
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_luchtemissie", "https://data.imjv.omgeving.vlaanderen.be/id/concept/processchema_luchtemissie", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_luchtemissie" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "aangifte luchtemissie"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie",
+    "@type" : "skos:Concept",
+    "source" : "https://imjv.milieuinfo.be/delen-van-het-imjv/water",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Een bedrijf, organisatie moet het deel Water invullen indien het:           \n            ofwel conform Vlarem I over een J-type vergunning beschikt\n            ofwel milieuvergunningsplichtig is als klasse 1 of 2           \n            en bovendien bepaalde stoffen in afvalwater afvoert van zijn bedrijfsterrein boven een bepaalde drempel. Het maakt geen verschil of het afvalwater geloosd wordt in oppervlaktewater, riolering of afgevoerd wordt naar een private waterzuiveringsinstallatie. De lijst met verontreinigende stoffen en drempelwaarden is aangepast door de wetswijziging van december 2006.           \n            Indien in het verleden deze drempelwaarden voor de exploitatie werden overschreden, dient het deel wateremissie te worden ingevuld gedurende de 3 daaropvolgende jaren, ook al blijft de emissie onder de drempelwaarden.         \n            Bijvoorbeeld, indien de exploitatie in 2012 nog boven de drempel emitteerde, maar dit de daaropvolgende jaren niet meer deed, dient u in 2016 (rapporteringsjaar 2015) dus voor de laatste keer het deel wateremissie in te vullen."
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_wateremissie", "https://data.imjv.omgeving.vlaanderen.be/id/concept/processchema_wateremissie", "https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_wateremissie" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "aangifte wateremissie"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aanmaning",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/brief",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Aanmaning bij een jaarverslag"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aanmaning"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_afvalproducent",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalproducent",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "aanvulling afvalproducent"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_afvalverwerker",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalverwerker",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "aanvulling afvalverwerker"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_energie",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_energie",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "aanvulling energie"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondstoffenproducent",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondstoffenproducent",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "aanvulling grondstoffenproducent"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondwater",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "aanvulling grondwater"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondwaterstatistiek",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "aanvulling grondwaterstatistiek"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_identificatie",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_identificatie",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "aanvulling identificatie"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_luchtemissie",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "aanvulling luchtemissie"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_wateremissie",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "aanvulling wateremissie"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/abnormaleemissies",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "abnormale emissies"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type",
+    "notation" : "AbnormaleEmissies",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "abnormale emissies"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/afvalstof_aard_producent",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Producent van afvalstoffen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afvalstof/aard",
+    "notation" : "producent",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Producent van afvalstoffen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afvalstof/aard"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/afvalstof_aard_verwerker",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Verwerker van afvalstoffen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afvalstof/aard",
+    "notation" : "verwerker",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Verwerker van afvalstoffen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afvalstof/aard"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/afvoer_naar_andere_exploitatie-industriele_wzi",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "afvoer naar andere exploitatie/industriële wzi"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats",
+    "notation" : "Afvoer naar andere exploitatie/industriële WZI",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "afvoer naar andere exploitatie/industriële wzi"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/alternatieve_meetmethode_overeenkomstig_bestaande_cen/iso-meetnormen",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "alternatieve meetmethode overeenkomstig bestaande cen/iso-meetnormen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht",
+    "notation" : "Alternatieve meetmethode overeenkomstig bestaande CEN/ISO-meetnormen",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "alternatieve meetmethode overeenkomstig bestaande cen/iso-meetnormen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/anderenietgeleideemissies",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "andere niet-geleide emissies"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type",
+    "notation" : "AndereNietGeleideEmissies",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "andere niet-geleide emissies"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/berekeningsmethode_opgelegd_in_de_exploitatievergunning",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "berekeningsmethode opgelegd in de exploitatievergunning"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht",
+    "notation" : "Berekeningsmethode opgelegd in de exploitatievergunning",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "berekeningsmethode opgelegd in de exploitatievergunning"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_andere",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Andere"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming",
+    "notation" : "Andere",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Andere"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_beregeningglasteelt",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "BeregeningGlasteelt"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming",
+    "notation" : "BeregeningGlasteelt",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "BeregeningGlasteelt"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_beregeningopenlucht",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "BeregeningOpenLucht"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming",
+    "notation" : "BeregeningOpenLucht",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "BeregeningOpenLucht"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_bodemsanering",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Bodemsanering"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming",
+    "notation" : "Bodemsanering",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bodemsanering"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_drinkwater",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Drinkwater"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming",
+    "notation" : "Drinkwater",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Drinkwater"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_drinkwatervee",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "DrinkwaterVee"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming",
+    "notation" : "DrinkwaterVee",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "DrinkwaterVee"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_koelwater",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Koelwater"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming",
+    "notation" : "Koelwater",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Koelwater"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_proceswater",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Proceswater"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming",
+    "notation" : "Proceswater",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Proceswater"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_sanitair",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Sanitair"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming",
+    "notation" : "Sanitair",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Sanitair"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_spoelwater",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Spoelwater"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming",
+    "notation" : "Spoelwater",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Spoelwater"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_stoomproductie",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Stoomproductie"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming",
+    "notation" : "Stoomproductie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Stoomproductie"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvaloverbrenger",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvaloverbrenger",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "bijlage afvaloverbrenger"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvalproducent",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalproducent",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "bijlage afvalproducent"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvalverwerker",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalverwerker",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "bijlage afvalverwerker"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_energie",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_energie",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "bijlage energie"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondstoffenproducent",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondstoffenproducent",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "bijlage grondstoffenproducent"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondwater",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "bijlage grondwater"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondwaterstatistiek",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "bijlage grondwaterstatistiek"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_identificatie",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_identificatie",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "bijlage identificatie"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_luchtemissie",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "bijlage luchtemissie"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_wateremissie",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "bijlage wateremissie"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/brief",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Brief bij een jaarverslag"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/handhavingovam", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aanmaning", "https://data.imjv.omgeving.vlaanderen.be/id/concept/uitnodiging" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "brief"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/collector",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "closeMatch" : "https://id.milieuinfo.be/vocab/vlaremII/concept/collectoren",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "collector"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats",
+    "notation" : "Collector",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "collector"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/concentratie_kleiner_dan_de_detectielimiet",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "concentratie kleiner dan de detectielimiet"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht",
+    "notation" : "Concentratie kleiner dan de detectielimiet",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "concentratie kleiner dan de detectielimiet"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/doorzetemissie",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "doorzetemissie"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type",
+    "notation" : "DoorzetEmissie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "doorzetemissie"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvaloverbrenger", "https://data.imjv.omgeving.vlaanderen.be/id/concept/metadata", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalverwerker", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_identificatie", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalproducent", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_energie", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondstoffenproducent" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "dossier"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/energieproductie",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "energieproductie"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context",
+    "notation" : "EnergieProductie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "energieproductie"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/europese_sectorspecifieke_berekeningsmethode",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "europese sectorspecifieke berekeningsmethode"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht",
+    "notation" : "Europese sectorspecifieke berekeningsmethode",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "europese sectorspecifieke berekeningsmethode"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/exploitatie",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "de IMJV-plichtige exploitatie, zoals dit binnen de werking van het imjv wordt geïnterpreteerd"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/administratie",
+    "notation" : "exploitatie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "exploitatie"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/administratie"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/fakkel",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "fakkel"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context",
+    "notation" : "Fakkel",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "fakkel"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/fakkelemissie",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "fakkelemissie"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type",
+    "notation" : "FakkelEmissie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "fakkelemissie"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/gebouw",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "broadMatch" : "http://www.eionet.europa.eu/gemet/concept/6357",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "gebouw, zoals gebruikt binnen het IMJV"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort",
+    "notation" : "GEBOUW",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "gebouw"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/gecertificeerde_meetmethode_goedgekeurd_door_de_bevoegde_instantie",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "gecertificeerde meetmethode goedgekeurd door de bevoegde instantie"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht",
+    "notation" : "Gecertificeerde meetmethode goedgekeurd door de bevoegde instantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "gecertificeerde meetmethode goedgekeurd door de bevoegde instantie"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/geleideemissies",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "geleideemissies"
+    },
+    "exactMatch" : "https://id.milieuinfo.be/vocab/vlaremII/concept/imjv_geleide_emissie",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type",
+    "notation" : "GeleideEmissies",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "geleideemissies"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/geleidelozing",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "geleidelozing"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozing-type",
+    "notation" : "GeleideLozing",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "geleidelozing"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozing-type"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/geschatte_gegevens",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "geschatte gegevens"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/bepalings-methode-water",
+    "notation" : "geschatte gegevens",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "geschatte gegevens"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/bepalings-methode-water"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwater",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "closeMatch" : "https://id.milieuinfo.be/vocab/vlaremII/conceptscheme/oppervlaktewater_en_grondwaterbescherming/grondwater",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "grondwater"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats",
+    "notation" : "Grondwater",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "grondwater"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterfilter",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "filter"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/peilfilter", "https://data.imjv.omgeving.vlaanderen.be/id/concept/pompfilter" ],
+    "notation" : "filter",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "filter"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterput",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "grondwaterput"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/peilput", "https://data.imjv.omgeving.vlaanderen.be/id/concept/pompput" ],
+    "notation" : "grondwaterput",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "grondwaterput"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/handhavingovam",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/brief",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Handhaving OVAM bij een jaarverslag"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Handhaving OVAM"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_ander",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Andere herkomst"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst",
+    "notation" : "Ander",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Andere herkomst"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_drinkwater",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Drinkwater"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst",
+    "notation" : "Drinkwater",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Drinkwater"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_grijswater",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Grijswater"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst",
+    "notation" : "Grijswater",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Grijswater"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_grondwater",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Grondwater"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst",
+    "notation" : "Grondwater",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Grondwater"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_hemelwater",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Hemelwater"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst",
+    "notation" : "Hemelwater",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Hemelwater"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_oppervlaktewatervijvers",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "OppervlaktewaterVijvers"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst",
+    "notation" : "OppervlaktewaterVijvers",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "OppervlaktewaterVijvers"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_oppervlaktewaterwaterwegen",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "OppervlaktewaterWaterwegen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst",
+    "notation" : "OppervlaktewaterWaterwegen",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "OppervlaktewaterWaterwegen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/influent_rwzi",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "influent rwzi"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats",
+    "notation" : "Influent RWZI",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "influent rwzi"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/installatie_of_apparaat",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "broadMatch" : "http://www.eionet.europa.eu/gemet/concept/6357",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "installatie of apparaat"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort",
+    "notation" : "INSTALLATIE OF APPARAAT",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "installatie of apparaat"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/instrument_peilmeting_type_1",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Peillint"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/instrument_meting",
+    "notation" : "Peillint",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Peillint"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/instrument_meting"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/instrument_peilmeting_type_2",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Elektronische meting (sonde)"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/instrument_meting",
+    "notation" : "Elektronische meting (sonde)",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Elektronische meting (sonde)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/instrument_meting"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_volgens_ipcc",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "internationaal aanvaarde berekeningsmethode volgens ipcc"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht",
+    "notation" : "Internationaal aanvaarde berekeningsmethode volgens IPCC",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "internationaal aanvaarde berekeningsmethode volgens ipcc"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_volgens_unece/emep",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "internationaal aanvaarde berekeningsmethode volgens unece/emep"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht",
+    "notation" : "Internationaal aanvaarde berekeningsmethode volgens UNECE/EMEP",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "internationaal aanvaarde berekeningsmethode volgens unece/emep"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_voor_verhandelbare_emissierechten",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "internationaal aanvaarde berekeningsmethode voor verhandelbare emissierechten"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht",
+    "notation" : "Internationaal aanvaarde berekeningsmethode voor verhandelbare emissierechten",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "internationaal aanvaarde berekeningsmethode voor verhandelbare emissierechten"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_meetnorm",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "internationaal aanvaarde meetnorm"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht",
+    "notation" : "Internationaal aanvaarde meetnorm",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "internationaal aanvaarde meetnorm"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/interne_stroom",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "interne stroom"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats",
+    "notation" : "Interne stroom",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "interne stroom"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/kunstmatige_afvoer_hemelwater",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "kunstmatige afvoer hemelwater"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats",
+    "notation" : "Kunstmatige afvoer hemelwater",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "kunstmatige afvoer hemelwater"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_laboanalyse",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Laboanalyse"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monstername_analysetype",
+    "notation" : "Laboanalyse",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Laboanalyse"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monstername_analysetype"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_onbekend",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Onbekend"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monstername_analysetype",
+    "notation" : "Onbekend",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Onbekend"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monstername_analysetype"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_veldanalyse",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Veldanalyse"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monstername_analysetype",
+    "notation" : "Veldanalyse",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Veldanalyse"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monstername_analysetype"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/lekverliezen",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "lekverliezen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type",
+    "notation" : "Lekverliezen",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "lekverliezen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/lozend",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "lozend"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/meetput-type",
+    "notation" : "Lozend",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "lozend"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/meetput-type"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/massabalansmethode_goedgekeurd_door_de_bevoegde_instantie",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "massabalansmethode goedgekeurd door de bevoegde instantie"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht",
+    "notation" : "Massabalansmethode goedgekeurd door de bevoegde instantie",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "massabalansmethode goedgekeurd door de bevoegde instantie"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/meetgegevens",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "meetgegevens"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/bepalings-methode-water",
+    "notation" : "meetgegevens",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "meetgegevens"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/bepalings-methode-water"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/meetmethode_opgelegd_in_de_exploitatievergunning",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "meetmethode opgelegd in de exploitatievergunning"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht",
+    "notation" : "Meetmethode opgelegd in de exploitatievergunning",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "meetmethode opgelegd in de exploitatievergunning"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/metadata",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Metadata over een jaarverslag"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "metadata"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginrust",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/peilmeting",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "metinginrust"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten",
+    "notation" : "metinginrust",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "metinginrust"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginwerking",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/peilmeting",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "metinginwerking"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten",
+    "notation" : "metinginwerking",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "metinginwerking"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_1",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Staalname door aftap via monsternamekraantje"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek",
+    "notation" : "Staalname door aftap via monsternamekraantje",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Staalname door aftap via monsternamekraantje"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_2",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Staalname via pomp"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek",
+    "notation" : "Staalname via pomp",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Staalname via pomp"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_3",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Staalname via schepmonster"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek",
+    "notation" : "Staalname via schepmonster",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Staalname via schepmonster"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_4",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Staalmethode onbekend"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek",
+    "notation" : "Staalmethode onbekend",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Staalmethode onbekend"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_5",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Opvang aan bron"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek",
+    "notation" : "Opvang aan bron",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Opvang aan bron"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/nationaal_of_regionaal_wettelijk_verplichte_berekeningsmethode",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "nationaal of regionaal wettelijk verplichte berekeningsmethode"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht",
+    "notation" : "Nationaal of regionaal wettelijk verplichte berekeningsmethode",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "nationaal of regionaal wettelijk verplichte berekeningsmethode"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/nationaal_of_regionaal_wettelijk_verplichte_meetmethode",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "nationaal of regionaal wettelijk verplichte meetmethode"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht",
+    "notation" : "Nationaal of regionaal wettelijk verplichte meetmethode",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "nationaal of regionaal wettelijk verplichte meetmethode"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/nietgeleideemissies",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "nietgeleideemissies"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type",
+    "notation" : "NietGeleideEmissies",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "nietgeleideemissies"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/ongekend",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "ongekend"
+    },
+    "exactMatch" : "http://www.eionet.europa.eu/gemet/concept/2674",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort",
+    "notation" : "ONGEKEND",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "ongekend"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/opgenomen_in_oppervlaktewater",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "opgenomen in oppervlaktewater"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats",
+    "notation" : "Opgenomen in oppervlaktewater",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "opgenomen in oppervlaktewater"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/opgenomen_oppervlaktewater",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "opgenomen oppervlaktewater"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats",
+    "notation" : "Opgenomen oppervlaktewater",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "opgenomen oppervlaktewater"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/oppervlaktewater",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "closeMatch" : "https://id.milieuinfo.be/vocab/vlaremII/concept/oppervlaktewater",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "oppervlaktewater als lozingsplaats"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats",
+    "notation" : "Oppervlaktewater",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "oppervlaktewater"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/oppompend",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "oppompend"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/meetput-type",
+    "notation" : "Oppompend",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "oppompend"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/meetput-type"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/opslagverliezen",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "opslagverliezen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context",
+    "notation" : "Opslagverliezen",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "opslagverliezen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/overige_berekeningsmethode",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "overige berekeningsmethode"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht",
+    "notation" : "overige berekeningsmethode",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "overige berekeningsmethode"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/overige_meetmethode",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "overige meetmethode"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht",
+    "notation" : "Overige meetmethode",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "overige meetmethode"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/overslagverliezen",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "overslagverliezen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context",
+    "notation" : "Overslagverliezen",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "overslagverliezen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/peilfilter",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterfilter",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "peilfilter"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten",
+    "notation" : "peilfilter",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "peilfilter"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/peilmeting",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "peilmeting"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginwerking", "https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginrust" ],
+    "notation" : "peilmeting",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "peilmeting"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/peilput",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterput",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "peilput"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten",
+    "notation" : "peilput",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "peilput"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/pompfilter",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterfilter",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "pompfilter"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten",
+    "notation" : "pompfilter",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "pompfilter"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/pompput",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterput",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "pompput"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten",
+    "notation" : "pompput",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "pompput"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/processchema_luchtemissie",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "processchema luchtemissie"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/processchema_wateremissie",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "processchema wateremissie"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/productieeenheid",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "productieeenheid"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context",
+    "notation" : "ProductieEenheid",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "productieeenheid"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_1",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Het maaiveld (oppervlakte van de natuurlijke omgeving)"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting",
+    "notation" : "Het maaiveld (oppervlakte van de natuurlijke omgeving)",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Het maaiveld (oppervlakte van de natuurlijke omgeving)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_2",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "De bovenkant van de peilbuis (buis, vaak in PVC, van enkele cm diameter waarin het peil gemeten wordt)"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting",
+    "notation" : "De bovenkant van de peilbuis (buis, vaak in PVC, van enkele cm diameter waarin het peil gemeten wordt)",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "De bovenkant van de peilbuis (buis, vaak in PVC, van enkele cm diameter waarin het peil gemeten wordt)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_3",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "De bovenkant van de beschermbuis (grote buis waarin o.a. de peilbuis is opgehangen)"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting",
+    "notation" : "De bovenkant van de beschermbuis (grote buis waarin o.a. de peilbuis is opgehangen)",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "De bovenkant van de beschermbuis (grote buis waarin o.a. de peilbuis is opgehangen)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_4",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Het peil wordt opgemeten in mTAW"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting",
+    "notation" : "Het peil wordt opgemeten in mTAW",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Het peil wordt opgemeten in mTAW"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/rekengegevens",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "rekengegevens"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/bepalings-methode-water",
+    "notation" : "rekengegevens",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "rekengegevens"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/bepalings-methode-water"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/riolering",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "closeMatch" : "https://id.milieuinfo.be/vocab/vlaremII/concept/openbare_riolering",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "riolering"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats",
+    "notation" : "Riolering",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "riolering"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/riool",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "closeMatch" : "https://id.milieuinfo.be/vocab/vlaremII/concept/openbare_riolering",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "riool"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats",
+    "notation" : "Riool",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "riool"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/schatting",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "schatting"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht",
+    "notation" : "Schatting",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "schatting"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/schoorsteen_of_pijp_met_vertikale_uitstroming",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "broadMatch" : "http://www.eionet.europa.eu/gemet/concept/6357",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "schoorsteen of pijp met vertikale uitstroming"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort",
+    "notation" : "SCHOORSTEEN OF PIJP MET VERTIKALE UITSTROMING",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "schoorsteen of pijp met vertikale uitstroming"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/schoorsteen_of_pijp_zonder_vertikale_uitstroming",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "broadMatch" : "http://www.eionet.europa.eu/gemet/concept/6357",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "schoorsteen of pijp zonder vertikale uitstroming"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort",
+    "notation" : "SCHOORSTEEN OF PIJP ZONDER VERTIKALE UITSTROMING",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "schoorsteen of pijp zonder vertikale uitstroming"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/transfer",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "transfer"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/meetput-type",
+    "notation" : "Transfer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "transfer"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/meetput-type"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/uitnodiging",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/brief",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Uitnodiging bij een jaarverslag"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Uitnodiging"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/andere",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Afval Vervoerswijze Andere"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze",
+    "notation" : "Andere",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Afval Vervoerswijze Andere"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/spoorweg",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Afval Vervoerswijze Spoorweg"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze",
+    "notation" : "Spoorweg",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Afval Vervoerswijze Spoorweg"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/waterweg",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Afval Vervoerswijze Waterweg"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze",
+    "notation" : "Waterweg",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Afval Vervoerswijze Waterweg"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/wegvervoer",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Afval Vervoerswijze Wegvervoer"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze",
+    "notation" : "Wegvervoer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Afval Vervoerswijze Wegvervoer"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/andere_voorbehandeling",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Afval Verwerkingswijze Andere voorbehandeling"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze",
+    "notation" : "Andere voorbehandeling",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Afval Verwerkingswijze Andere voorbehandeling"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/composteren",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Afval Verwerkingswijze Composteren"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze",
+    "notation" : "Composteren",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Afval Verwerkingswijze Composteren"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/hergebruik",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Afval Verwerkingswijze Hergebruik"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze",
+    "notation" : "Hergebruik",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Afval Verwerkingswijze Hergebruik"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/recyclage",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Afval Verwerkingswijze Recyclage"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze",
+    "notation" : "Recyclage",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Afval Verwerkingswijze Recyclage"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/sorteren",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Afval Verwerkingswijze Sorteren"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze",
+    "notation" : "Sorteren",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Afval Verwerkingswijze Sorteren"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/storten",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Afval Verwerkingswijze Storten"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze",
+    "notation" : "Storten",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Afval Verwerkingswijze Storten"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Afval Verwerkingswijze Verbranden"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze",
+    "notation" : "Verbranden",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Afval Verwerkingswijze Verbranden"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden_nuttige_toepassing",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Afval Verwerkingswijze Verbranden (nuttige toepassing)"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze",
+    "notation" : "Verbranden (nuttige toepassing)",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Afval Verwerkingswijze Verbranden (nuttige toepassing)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden_verwijdering",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Afval Verwerkingswijze Verbranden (verwijdering)"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze",
+    "notation" : "Verbranden (verwijdering)",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Afval Verwerkingswijze Verbranden (verwijdering)"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/waterzuivering",
+    "@type" : "skos:Concept",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "waterzuivering"
+    },
+    "exactMatch" : "http://www.eionet.europa.eu/gemet/concept/9143",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context",
+    "notation" : "Waterzuivering",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "waterzuivering"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/administratie",
+    "@type" : "skos:ConceptScheme",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "concepten m.b.t. identificatie en administratie (IMJV)"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze",
+    "@type" : "skos:ConceptScheme",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Vervoerswijze Afval (IMJV)"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze",
+    "@type" : "skos:ConceptScheme",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Verwerkingswijze Afval (IMJV)"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afvalstof/aard",
+    "@type" : "skos:ConceptScheme",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Grondwaterputten (IMJV)"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief",
+    "@type" : [ "owl:Ontology", "skos:ConceptScheme" ],
+    "issued" : "2019-01-03",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over onderdelen van het IMJV"
+    },
+    "changes" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "belongsTo" : "https://data.imjv.omgeving.vlaanderen.be/id/dataset",
+    "imports" : [ "http://www.w3.org/2004/02/skos/core", "http://purl.org/dc/terms/", "http://purl.org/dc/elements/1.1/" ],
+    "versionInfo" : {
+      "@language" : "nl",
+      "@value" : "Tweede versie, zoals in gebruik genomen in het kader van de herwerking volgens de uri-standaard"
+    },
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "eenheid"
+    },
+    "hasTopConcept" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "archiefconcepten (IMJV)"
+    }, {
+      "@language" : "nl",
+      "@value" : "Lijst van onderdelen van het IMJV"
+    } ],
+    "maker" : "_:b0"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming",
+    "@type" : "skos:ConceptScheme",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bestemming van het water in de jaarlijkse waterbalans van een exploitatie (IMJV)"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten",
+    "@type" : "skos:ConceptScheme",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Grondwaterputten (IMJV)"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst",
+    "@type" : "skos:ConceptScheme",
+    "creator" : "http://data.kbodata.be/organisation/2_199_335_339#id",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Herkomst van het water in de jaarlijkse waterbalans van een exploitatie (IMJV)"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/instrument_meting",
+    "@type" : "skos:ConceptScheme",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Instrumenten voor Peilmetingen ivm. grondwater (IMJV)"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monstername_analysetype",
+    "@type" : "skos:ConceptScheme",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Analysetypen voor Kwaliteitsmetingen ivm. grondwater (IMJV)"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek",
+    "@type" : "skos:ConceptScheme",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Monstenametechnieken ivm. grondwater (IMJV)"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting",
+    "@type" : "skos:ConceptScheme",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Referentiepunten bij metingen ivm. grondwater (IMJV)"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht",
+    "@type" : "skos:ConceptScheme",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "bepalingsmethodes lucht (IMJV)"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context",
+    "@type" : "skos:ConceptScheme",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "emissie contexten (IMJV)"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type",
+    "@type" : "skos:ConceptScheme",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "emissietypes (IMJV)"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort",
+    "@type" : "skos:ConceptScheme",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "emissiepunt soorten (IMJV)"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/bepalings-methode-water",
+    "@type" : "skos:ConceptScheme",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "bepalingsmethodes water (IMJV)"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozing-type",
+    "@type" : "skos:ConceptScheme",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "lozingstypes (IMJV)"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats",
+    "@type" : "skos:ConceptScheme",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "lozingsplaatsen (IMJV)"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/meetput-type",
+    "@type" : "skos:ConceptScheme",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "meetputtypes (IMJV)"
+    }
+  } ],
+  "@context" : {
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "definition" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "narrower" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#narrower",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "@id"
+    },
+    "notation" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#notation"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator",
+      "@type" : "@id"
+    },
+    "topConceptOf" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
+      "@type" : "@id"
+    },
+    "exactMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+      "@type" : "@id"
+    },
+    "related" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#related",
+      "@type" : "@id"
+    },
+    "closeMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#closeMatch",
+      "@type" : "@id"
+    },
+    "broadMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broadMatch",
+      "@type" : "@id"
+    },
+    "classification" : {
+      "@id" : "http://www.w3.org/ns/org#classification",
+      "@type" : "@id"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "changedBy" : {
+      "@id" : "http://www.w3.org/ns/org#changedBy",
+      "@type" : "@id"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/terms/type",
+      "@type" : "@id"
+    },
+    "homepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/homepage",
+      "@type" : "@id"
+    },
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
+    },
+    "orgStatus" : {
+      "@id" : "http://www.w3.org/ns/regorg#orgStatus",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://www.w3.org/ns/org#identifier"
+    },
+    "mbox" : {
+      "@id" : "http://xmlns.com/foaf/0.1/mbox",
+      "@type" : "@id"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type" : "@id"
+    },
+    "imports" : {
+      "@id" : "http://www.w3.org/2002/07/owl#imports",
+      "@type" : "@id"
+    },
+    "hasTopConcept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+      "@type" : "@id"
+    },
+    "belongsTo" : {
+      "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
+      "@type" : "@id"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "changes" : {
+      "@id" : "http://purl.org/vocab/vann/changes"
+    },
+    "maker" : {
+      "@id" : "http://xmlns.com/foaf/0.1/maker",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "affiliation" : {
+      "@id" : "http://schema.org/affiliation",
+      "@type" : "@id"
+    },
+    "schema" : "http://schema.org/",
+    "imjv" : "https://data.imjv.omgeving.vlaanderen.be/ns/imjv#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "org" : "http://www.w3.org/ns/org#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xkos" : "http://rdf-vocabulary.ddialliance.org/xkos#",
+    "dct" : "http://purl.org/dc/terms/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "regorg" : "http://www.w3.org/ns/regorg#",
+    "vann" : "http://purl.org/vocab/vann/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

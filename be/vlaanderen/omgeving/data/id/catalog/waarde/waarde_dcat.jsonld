@@ -1,0 +1,253 @@
+{
+  "@graph" : [ {
+    "@id" : "http://data.vlaanderen.be/id/organisatie/OVO003323",
+    "@type" : "foaf:Agent",
+    "type" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/1e54c545-6f5d-4942-a509-978ae405f34c",
+    "seeAlso" : "https://wegwijs.vlaanderen.be/#/organisations/ef10b997-ab90-f07c-a689-0da2d0fef485/info",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Departement Omgeving"
+    },
+    "classification" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/1e54c545-6f5d-4942-a509-978ae405f34c",
+    "identifier" : "OVO003323",
+    "homepage" : "https://www.omgevingvlaanderen.be",
+    "name" : {
+      "@language" : "nl",
+      "@value" : "Departement Omgeving"
+    }
+  }, {
+    "@id" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "@type" : "foaf:Agent",
+    "type" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "seeAlso" : "https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "DIDM"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    },
+    "classification" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "identifier" : "OVO003751",
+    "homepage" : "https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij",
+    "name" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    }
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/id/catalog/waarde",
+    "@type" : "dcat:Catalog",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "De datasets die in het kader van waarde worden gepubliceerd"
+    },
+    "issued" : "2018-11-19",
+    "language" : {
+      "@language" : "nl",
+      "@value" : "nl"
+    },
+    "license" : "https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "modified" : "2018-05-23+02:00",
+    "publisher" : "http://data.vlaanderen.be/id/organisatie/OVO003323",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Catalog Waarde"
+    },
+    "dataset" : "https://data.omgeving.vlaanderen.be/id/dataset/ontology/waarde",
+    "homepage" : "https://data.omgeving.vlaanderen.be/doc/waarde"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/id/dataset/ontology/waarde",
+    "@type" : "dcat:Dataset",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Waarde ontologie"
+    },
+    "issued" : "2018-11-19",
+    "license" : "https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "publisher" : "http://data.vlaanderen.be/id/organisatie/OVO003323",
+    "spatial" : "http://publications.europa.eu/resource/authority/country/BEL",
+    "temporal" : "2018",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Waarde ontologie"
+    },
+    "contactPoint" : "mailto:geert.vanhaute@vlaanderen.be",
+    "distribution" : [ "https://data.omgeving.vlaanderen.be/id/distribution/ontology/waarde/ttl", "https://data.omgeving.vlaanderen.be/id/distribution/ontology/waarde/nt", "https://data.omgeving.vlaanderen.be/id/distribution/ontology/waarde/rdf", "https://data.omgeving.vlaanderen.be/id/distribution/ontology/waarde/jsonld" ],
+    "landingPage" : "https://data.omgeving.vlaanderen.be/ns/waarde",
+    "theme" : "http://eurovoc.europa.eu/2176"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/id/distribution/ontology/waarde/jsonld",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Waarde ontologie in application/json"
+    },
+    "format" : "application/json",
+    "license" : "https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Waarde ontologie, json-ld distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/ontologie/waarde/waarde.jsonld",
+    "mediaType" : "application/json"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/id/distribution/ontology/waarde/nt",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Waarde ontologie in application/n-triples"
+    },
+    "format" : "application/n-triples",
+    "license" : "https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Waarde ontologie, n-triples distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/ontologie/waarde/waarde.nt",
+    "mediaType" : "application/n-triples"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/id/distribution/ontology/waarde/rdf",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Waarde ontologie in application/rdf+xml"
+    },
+    "format" : "application/rdf+xml",
+    "license" : "https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Waarde ontologie, rdf+xml distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/ontologie/waarde/waarde.rdf",
+    "mediaType" : "application/rdf+xml"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/id/distribution/ontology/waarde/ttl",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Waarde ontologie in text/turtle"
+    },
+    "format" : "text/turtle",
+    "license" : "https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Waarde ontologie, turtle distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/ontologie/waarde/waarde.ttl",
+    "mediaType" : "text/turtle"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "@type" : "dcterms:LicenseDocument",
+    "rightsHolder" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "source" : "https://data.vlaanderen.be/doc/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "type" : "http://purl.org/adms/licencetype/Attribution"
+  } ],
+  "@context" : {
+    "type" : {
+      "@id" : "http://purl.org/dc/terms/type",
+      "@type" : "@id"
+    },
+    "homepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/homepage",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://www.w3.org/ns/org#identifier"
+    },
+    "classification" : {
+      "@id" : "http://www.w3.org/ns/org#classification",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type" : "@id"
+    },
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license",
+      "@type" : "@id"
+    },
+    "format" : {
+      "@id" : "http://purl.org/dc/terms/format"
+    },
+    "mediaType" : {
+      "@id" : "http://www.w3.org/ns/dcat#mediaType"
+    },
+    "accessURL" : {
+      "@id" : "http://www.w3.org/ns/dcat#accessURL",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "dataset" : {
+      "@id" : "http://www.w3.org/ns/dcat#dataset",
+      "@type" : "@id"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/terms/language"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/terms/publisher",
+      "@type" : "@id"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/terms/source",
+      "@type" : "@id"
+    },
+    "rightsHolder" : {
+      "@id" : "http://purl.org/dc/terms/rightsHolder",
+      "@type" : "@id"
+    },
+    "theme" : {
+      "@id" : "http://www.w3.org/ns/dcat#theme",
+      "@type" : "@id"
+    },
+    "distribution" : {
+      "@id" : "http://www.w3.org/ns/dcat#distribution",
+      "@type" : "@id"
+    },
+    "temporal" : {
+      "@id" : "http://purl.org/dc/terms/temporal"
+    },
+    "spatial" : {
+      "@id" : "http://purl.org/dc/terms/spatial",
+      "@type" : "@id"
+    },
+    "landingPage" : {
+      "@id" : "http://www.w3.org/ns/dcat#landingPage",
+      "@type" : "@id"
+    },
+    "contactPoint" : {
+      "@id" : "http://www.w3.org/ns/dcat#contactPoint",
+      "@type" : "@id"
+    },
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "org" : "http://www.w3.org/ns/org#",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "dcat" : "http://www.w3.org/ns/dcat#",
+    "foaf" : "http://xmlns.com/foaf/0.1/"
+  }
+}

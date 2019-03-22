@@ -1,0 +1,412 @@
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix vs:  <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix locn:  <http://www.w3.org/ns/locn#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix vann:  <http://purl.org/vocab/vann/> .
+@prefix dc:  <http://purl.org/dc/elements/1.1/> .
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix antenne:  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#> .
+@prefix adres:  <http://data.vlaanderen.be/ns/adres#> .
+@prefix schema:  <http://schema.org/> .
+@prefix voaf:  <http://purl.org/vocommons/voaf#> .
+@prefix org:  <http://www.w3.org/ns/org#> .
+@prefix regorg:  <http://www.w3.org/ns/regorg#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne>
+        rdf:type                       owl:Ontology ;
+        owl:versionInfo                "Tweede versie, zoals in gebruik genomen in het kader van archivering van zendantennes, na afstemming met subdomeinen binnen vlaanderen.be"@nl ;
+        rdfs:label                     "Antenna"@en ;
+        rdfs:label                     "Zendantenne"@nl ;
+        dcterms:title                  "Antenna"@en ;
+        dcterms:title                  "Zendantenne"@nl ;
+        vann:preferredNamespacePrefix  "antenne" ;
+        vann:preferredNamespaceUri     "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#" ;
+        dcterms:issued                 "2018-11-19"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        dcterms:temporal               "2018" ;
+        foaf:maker                     _:b0 .
+
+<http://data.vlaanderen.be/id/organisatie/OVO003751>
+        rdf:type  org:Organization .
+
+_:b0    schema:affiliation  <http://data.vlaanderen.be/id/organisatie/OVO003751> .
+
+<http://data.vlaanderen.be/id/organisatie/OVO003751>
+        rdf:type            foaf:Agent ;
+        foaf:name           "Data- en informatiebeheer & digitale maatschappij"@nl ;
+        rdfs:seeAlso        <https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66> ;
+        skos:altLabel       "DIDM"@nl ;
+        skos:prefLabel      "Data- en informatiebeheer & digitale maatschappij"@nl ;
+        org:changedBy       <http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting> ;
+        org:classification  <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> ;
+        org:identifier      "OVO003751" ;
+        regorg:orgStatus    <http://data.vlaanderen.be/id/concept/organisatiestatus/actief> ;
+        foaf:homepage       <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> ;
+        dcterms:type        <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> ;
+        foaf:mbox           <mailto:didm.omgeving@vlaanderen.be> .
+
+_:b0    foaf:mbox  <mailto:geert.vanhaute@vlaanderen.be> ;
+        foaf:name  "Van Haute, Geert" .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne>
+        voaf:reliesOn  foaf: ;
+        voaf:reliesOn  <http://data.vlaanderen.be/ns/besluit#> ;
+        voaf:reliesOn  dbo: ;
+        voaf:reliesOn  prov: ;
+        vann:changes   ""@nl .
+
+antenne:Aannemer  rdf:type  owl:Class ;
+        rdfs:label        "Aannemer"@nl ;
+        vann:usageNote    "TO DO"@nl ;
+        rdfs:comment      ""@nl ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> ;
+        rdfs:subClassOf   prov:Organization .
+
+antenne:Antenneaanpassing
+        rdf:type          owl:Class ;
+        rdfs:label        "Antenneaanpassing"@nl ;
+        vann:usageNote    "TO DO"@nl ;
+        rdfs:comment      ""@nl ;
+        rdfs:subClassOf   prov:Activity ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> .
+
+antenne:Goedkeuren  rdf:type  owl:Class ;
+        rdfs:label        "Goedkeuren van een conformiteitsattest"@nl ;
+        vann:usageNote    "Het verlenen van een conformiteitsattest op een bepaald tijdstip. Vanaf dan is het conformiteitsattest geldig."@nl ;
+        rdfs:comment      ""@nl ;
+        rdfs:subClassOf   prov:Activity ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> .
+
+antenne:Intrekken  rdf:type  owl:Class ;
+        rdfs:label        "Intrekken van een conformiteitsattest"@nl ;
+        vann:usageNote    "Het intrekken van een conformiteitsattest op een bepaald tijdstip. Vanaf dan is het conformiteitsattest niet meer geldig."@nl ;
+        rdfs:comment      ""@nl ;
+        rdfs:subClassOf   prov:Activity ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> .
+
+antenne:Antennetechnologie
+        rdf:type          owl:Class ;
+        rdfs:label        "Antennetechnologie"@nl ;
+        vann:usageNote    "TO DO"@nl ;
+        rdfs:comment      ""@nl ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> .
+
+antenne:Antennetype  rdf:type  owl:Class ;
+        rdfs:label        "Antennetype"@nl ;
+        vann:usageNote    "TO DO"@nl ;
+        rdfs:comment      ""@nl ;
+        rdfs:subClassOf   prov:Entity ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> .
+
+antenne:Antennewinstverlies
+        rdf:type          owl:Class ;
+        rdfs:label        "Antennewinstverlies"@nl ;
+        vann:usageNote    "TO DO"@nl ;
+        rdfs:comment      ""@nl ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> .
+
+antenne:Conformiteitsattest
+        rdf:type          owl:Class ;
+        rdfs:label        "Conformiteitsattest"@nl ;
+        vann:usageNote    "TO DO"@nl ;
+        rdfs:comment      "Vooraleer een antenne-eigenaar zendantennes in gebruik mag\n      nemen, moet hij een conformiteitsattest krijgen van de Vlaamse overheid. Om dat aan te\n      vragen moet de antenne-eigenaar een technisch dossier opmaken. Dat bevat de technische\n      eigenschappen van de antennes zoals zendvermogen en de kenmerken van de omgeving zoals\n      de hoogte van de gebouwen in de buurt van de antennes. Daarmee toont de antenne-eigenaar\n      aan dat de antennes de norm respecteren. De Vlaamse overheid controleert vervolgens het\n      technisch dossier. Als het dossier in orde is, bezorgt de Vlaamse overheid het\n      conformiteitsattest aan de antenne-eigenaar en tegelijk ook aan de gemeente waar de\n      antenne gelegen is."@en ;
+        rdfs:subClassOf   <https://data.omgeving.vlaanderen.be/ns/dossier#Besluit> ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> .
+
+antenne:DempendeMaatregel
+        rdf:type          owl:Class ;
+        rdfs:label        "Dempende maatregel"@nl ;
+        vann:usageNote    "Dit is één van de mogelijk te nemen acties waarmee de invloed van straling door een zendantenne op een gecontroleerde ruimte kan worden beïnvloed."@nl ;
+        rdfs:comment      "Het nemen van een dempende maatregel waarbij gebruik gemaakt wordt van een dempend materiaal met een bepaalde frequentie-afhankelijke dempingsfactor"@nl ;
+        rdfs:subClassOf   prov:Agent ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> .
+
+antenne:Demping  rdf:type  owl:Class ;
+        rdfs:label        "Demping"@nl ;
+        vann:usageNote    "TO DO"@nl ;
+        rdfs:comment      ""@nl ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> ;
+        rdfs:subClassOf   prov:Activity .
+
+antenne:Dempingsfactor
+        rdf:type          owl:Class ;
+        rdfs:label        "Dempingsfactor"@nl ;
+        vann:usageNote    "TO DO"@nl ;
+        rdfs:comment      ""@nl ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> ;
+        rdfs:subClassOf   prov:Entity .
+
+antenne:GecontroleerdeRuimte
+        rdf:type          owl:Class ;
+        rdfs:label        "Gecontroleerde Ruimte"@nl ;
+        vann:usageNote    "TO DO"@nl ;
+        rdfs:comment      ""@nl ;
+        rdfs:subClassOf   prov:Entity ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> .
+
+antenne:GedempteStraling
+        rdf:type          owl:Class ;
+        rdfs:label        "Gedempte Straling"@nl ;
+        vann:usageNote    "Straling die het resultaat is van ongedempte straling van de antenne, gemodifieerd door de dempende maatregel"@nl ;
+        rdfs:comment      ""@nl ;
+        rdfs:subClassOf   antenne:Straling ;
+        rdfs:subClassOf   prov:Entity ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> .
+
+antenne:Operator  rdf:type  owl:Class ;
+        rdfs:label        "Operator"@nl ;
+        vann:usageNote    "TO DO"@nl ;
+        rdfs:comment      ""@nl ;
+        rdfs:subClassOf   prov:Agent ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> .
+
+antenne:Site  rdf:type    owl:Class ;
+        rdfs:label        "Site"@nl ;
+        vann:usageNote    "TO DO"@nl ;
+        rdfs:comment      ""@nl ;
+        rdfs:subClassOf   prov:Location ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> .
+
+antenne:Stralen  rdf:type  owl:Class ;
+        rdfs:label        "Stralen"@nl ;
+        vann:usageNote    "TO DO"@nl ;
+        rdfs:comment      ""@nl ;
+        rdfs:subClassOf   prov:Activity ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> .
+
+antenne:Straling  rdf:type  owl:Class ;
+        rdfs:label        "Straling"@nl ;
+        vann:usageNote    "TO DO"@nl ;
+        rdfs:comment      ""@nl ;
+        rdfs:subClassOf   prov:Entity ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> .
+
+antenne:Zendantenne  rdf:type  owl:Class ;
+        rdfs:label        "Zendantenne"@nl ;
+        vann:usageNote    "TO DO"@nl ;
+        rdfs:comment      ""@nl ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> ;
+        rdfs:label        "Zendantenne"@nl ;
+        rdfs:subClassOf   prov:Agent ;
+        rdfs:subClassOf   dbo:Device .
+
+adres:adresvoorstellingVan
+        rdf:type          owl:ObjectProperty ;
+        rdfs:label        "Adresvoorstelling van"@nl ;
+        vann:usageNote    "Deze property is tegengesteld aan locn:address. Kan gebruikt worden om te refereren vanuit blank nodes."@nl ;
+        rdfs:comment      "Legt de link tussen een adresvoorstelling en de resource waaraan deze adresvoorstelling is toegekend."@nl ;
+        rdfs:domain       locn:Address ;
+        rdfs:isDefinedBy  <http://data.vlaanderen.be/ns/adres> ;
+        rdfs:range        owl:Thing ;
+        owl:inverseOf     locn:address .
+
+antenne:antennetechnologie
+        rdf:type          owl:ObjectProperty ;
+        rdfs:label        "antennetechnologie"@nl ;
+        rdfs:range        antenne:Antennetechnologie ;
+        rdfs:domain       antenne:Zendantenne ;
+        vann:usageNote    "TO DO"@nl ;
+        rdfs:comment      "TO DO"@nl ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> .
+
+antenne:antennewinstverlies
+        rdf:type          owl:ObjectProperty ;
+        rdfs:comment      "TO DO"@nl ;
+        rdfs:domain       antenne:Antennetype ;
+        rdfs:range        antenne:Antennewinstverlies ;
+        rdfs:label        "antennewinstverlies"@nl ;
+        vann:usageNote    "TO DO"@nl ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> .
+
+antenne:isAntennewinstverliesVan
+        rdf:type          owl:ObjectProperty ;
+        rdfs:comment      "TO DO"@nl ;
+        rdfs:domain       antenne:Antennewinstverlies ;
+        rdfs:range        antenne:Antennetype ;
+        rdfs:label        "is antennewinstverlies van"@nl ;
+        vann:usageNote    "TO DO"@nl ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> .
+
+antenne:contactpersoon
+        rdf:type          owl:ObjectProperty ;
+        rdfs:comment      "TO DO"@nl ;
+        rdfs:range        <http://www.w3.org/ns/person#Person> ;
+        rdfs:label        "contactpersoon"@nl ;
+        vann:usageNote    "TO DO"@nl ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> .
+
+antenne:antennetype  rdf:type  owl:ObjectProperty ;
+        rdfs:label          "antennetype"@nl ;
+        vann:usageNote      "Een antenne verwijst naar haar eigenschappen"@nl ;
+        rdfs:comment        "TO DO"@nl ;
+        rdfs:subPropertyOf  prov:wasInfluencedBy ;
+        rdfs:range          antenne:Antennetype ;
+        rdfs:domain         antenne:Zendantenne ;
+        rdfs:isDefinedBy    <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> .
+
+antenne:basishoogte  rdf:type  owl:ObjectProperty ;
+        rdfs:label          "Basis"@nl ;
+        rdfs:range          <https://data.omgeving.vlaanderen.be/ns/waarde#Waarde> ;
+        rdfs:comment        "is de hoogte van het grondvlak\n      bvb een gebouw heeft als basis 0 en als hoogte 8\n      maar daar bovenop is een dakterras\n      dat wordt dan een vrije 3D ruimte met als basis 8 en als hoogte bvb 2,40 m\n      en in die 3D ruimte moet dan ook de binnennorm afgechecked worden omdat daar een terras is "@nl ;
+        rdfs:isDefinedBy    <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> ;
+        rdfs:subPropertyOf  <https://data.omgeving.vlaanderen.be/ns/waarde#hoogte> .
+
+antenne:ligt_binnen_de_maximale_invloedsfeer_van
+        rdf:type            owl:ObjectProperty ;
+        rdfs:range          antenne:Zendantenne ;
+        rdfs:isDefinedBy    <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> ;
+        rdfs:subPropertyOf  prov:wasInfluencedBy ;
+        rdfs:comment        "TO DO"@nl ;
+        rdfs:label          "TO DO"@nl ;
+        rdfs:domain         antenne:GecontroleerdeRuimte ;
+        vann:usageNote      "TO DO"@nl .
+
+antenne:gedempteStraling
+        rdf:type            owl:ObjectProperty ;
+        rdfs:isDefinedBy    <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> ;
+        rdfs:subPropertyOf  prov:generated ;
+        rdfs:comment        ""@nl ;
+        rdfs:label          "gedempte straling"@nl ;
+        rdfs:domain         antenne:Demping ;
+        rdfs:range          antenne:GedempteStraling .
+
+antenne:oorspronkelijkeStraling
+        rdf:type            owl:ObjectProperty ;
+        rdfs:isDefinedBy    <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> ;
+        rdfs:subPropertyOf  prov:used ;
+        rdfs:comment        ""@nl ;
+        rdfs:label          "oorspronkelijke straling"@nl ;
+        rdfs:domain         antenne:Demping ;
+        rdfs:range          antenne:Straling .
+
+antenne:niscode  rdf:type  owl:ObjectProperty ;
+        rdfs:range      skos:Concept ;
+        rdfs:label      "niscode"@nl ;
+        rdfs:comment    "TO DO"@nl ;
+        vann:usageNote  "TO DO"@nl .
+
+antenne:normtype  rdf:type  owl:ObjectProperty ;
+        rdfs:range      skos:Concept ;
+        rdfs:comment    "TO DO"@nl ;
+        vann:usageNote  "TO DO"@nl ;
+        rdfs:label      "normtype"@nl .
+
+antenne:dempendMateriaal
+        rdf:type          owl:ObjectProperty ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> ;
+        rdfs:range        skos:Concept ;
+        rdfs:label        "dempend materiaal"@nl ;
+        rdfs:comment      ""@nl ;
+        vann:usageNote    "TO DO"@nl .
+
+antenne:rekenmethode  rdf:type  owl:ObjectProperty ;
+        rdfs:comment    "TO DO"@nl ;
+        rdfs:range      skos:Concept ;
+        rdfs:label      "rekenmethode"@nl ;
+        vann:usageNote  "TO DO"@nl .
+
+antenne:werdUitgevoerdDoor
+        rdf:type            owl:ObjectProperty ;
+        rdfs:comment        "legt een relatie tussen de activiteit Demping en de maatregel die de demping van de straling verwezenlijkt"@nl ;
+        rdfs:range          antenne:DempendeMaatregel ;
+        rdfs:domain         antenne:Demping ;
+        rdfs:label          "werd uitgevoerd door"@nl ;
+        vann:usageNote      "legt een relatie tussen de activiteit Demping en de maatregel die de demping van de straling verwezenlijkt"@nl ;
+        rdfs:subPropertyOf  prov:wasAssociatedWith .
+
+antenne:status  rdf:type  owl:ObjectProperty ;
+        rdfs:comment    "TO DO"@nl ;
+        vann:usageNote  "TO DO"@nl ;
+        rdfs:label      "status"@nl ;
+        rdfs:range      skos:Concept .
+
+antenne:stralingstype
+        rdf:type          owl:ObjectProperty ;
+        rdfs:comment      "TO DO"@nl ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> ;
+        rdfs:label        "TO DO"@nl ;
+        rdfs:range        skos:Concept ;
+        vann:usageNote    "TO DO"@nl .
+
+locn:address  rdf:type    owl:ObjectProperty ;
+        rdfs:label        "adres"@nl ;
+        rdfs:isDefinedBy  locn: ;
+        rdfs:range        locn:Address .
+
+antenne:basis  rdf:type   owl:DatatypeProperty ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> ;
+        rdfs:range        rdfs:Literal ;
+        rdfs:label        "basis"@nl ;
+        rdfs:comment      "TO DO"@nl ;
+        vann:usageNote    "TO DO"@nl .
+
+antenne:elektrischetilt
+        rdf:type          owl:DatatypeProperty ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> ;
+        rdfs:range        rdfs:Literal ;
+        rdfs:label        "elektrische tilt"@nl ;
+        rdfs:seeAlso      <http://dbpedia.org/resource/Azimuth> ;
+        rdfs:comment      "TO DO"@nl ;
+        vann:usageNote    "TO DO"@nl .
+
+locn:geometry  rdf:type  owl:DatatypeProperty .
+
+antenne:grb_oidn  rdf:type  owl:DatatypeProperty ;
+        rdfs:comment      "TO DO"@nl ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> ;
+        rdfs:label        "grb oidn"@nl ;
+        rdfs:range        rdfs:Literal .
+
+antenne:grb_uidn  rdf:type  owl:DatatypeProperty ;
+        rdfs:comment      "TO DO"@nl ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> ;
+        rdfs:label        "grb uidn"@nl ;
+        rdfs:range        rdfs:Literal .
+
+antenne:grootAntennetype
+        rdf:type          owl:DatatypeProperty ;
+        rdfs:comment      "De kostprijs van het dossier is "@en ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> ;
+        rdfs:label        "groot Antennetype"@nl ;
+        rdfs:range        rdfs:Literal .
+
+antenne:publiekzichtbaar
+        rdf:type          owl:DatatypeProperty ;
+        rdfs:comment      ""@en ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> ;
+        rdfs:label        "publiek zichtbaar"@nl ;
+        rdfs:range        rdfs:Literal .
+
+antenne:vlakwinstverlies
+        rdf:type          owl:DatatypeProperty ;
+        rdfs:comment      "TO DO"@nl ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> ;
+        rdfs:label        "vlakwinstverlies"@nl ;
+        rdfs:range        rdfs:Literal .
+
+antenne:winst  rdf:type   owl:DatatypeProperty ;
+        rdfs:seeAlso      <http://dbpedia.org/page/Antenna_gain> ;
+        rdfs:isDefinedBy  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne> ;
+        rdfs:range        rdfs:Literal ;
+        rdfs:label        "Antenne winst"@nl ;
+        rdfs:comment      "In electromagnetics, an antenna's power gain or simply gain is a\n            key performance number which combines the antenna's directivity and electrical\n            efficiency. As a transmitting antenna, the gain describes how well the antenna converts\n            input power into radio waves headed in a specified direction. As a receiving antenna,\n            the gain describes how well the antenna converts radio waves arriving from a specified\n            direction into electrical power. When no direction is specified, \"gain\" is understood to\n            refer to the peak value of the gain. A plot of the gain as a function of direction is\n            called the radiation pattern. Antenna gain is usually defined as the ratio of the power\n            produced by the antenna from a far-field source on the antenna's beam axis to the power\n            produced by a hypothetical lossless isotropic antenna, which is equally sensitive to\n            signals from all directions. Usually this ratio is expressed in decibels, and these\n            units are referred to as \"decibels-isotropic\" (dBi). An alternative definition compares\n            the antenna to the power received by a lossless half-wave dipole antenna, in which case\n            the units are written as dBd. Since a lossless dipole antenna has a gain of 2.15 dBi,\n            the relation between these units is: gain in dBd = gain in dBi − 2.15. For a given\n            frequency, the antenna's effective area is proportional to the power gain. An antenna's\n            effective length is proportional to the square root of the antenna's gain for a\n            particular frequency and radiation resistance. Due to reciprocity, the gain of any\n            antenna when receiving is equal to its gain when transmitting. Directive gain or\n            directivity is a different measure which does not take an antenna's electrical\n            efficiency into account. This term is sometimes more relevant in the case of a receiving\n            antenna where one is concerned mainly with the ability of an antenna to receive signals\n            from one direction while rejecting interfering signals coming from a different\n            direction."@en ;
+        rdfs:label        "Antenna gain"@en .
+
+rdf:value  rdf:type  owl:AnnotationProperty .
+
+dcterms:type  rdf:type  owl:AnnotationProperty .
+
+foaf:phone  rdf:type  owl:ObjectProperty .
+
+locn:fullAddress  rdf:type  owl:DatatypeProperty ;
+        rdfs:comment        "The complete address written as a string, with or without\n            formatting. The domain of locn:fullAddress is locn:Address."@en ;
+        dcterms:identifier  "locn:fullAddress" ;
+        rdfs:range          rdfs:Literal ;
+        rdfs:domain         locn:Address ;
+        vs:term_status      "testing"@en ;
+        rdfs:isDefinedBy    <http://www.w3.org/ns/locn> ;
+        rdfs:label          "full address"@en .

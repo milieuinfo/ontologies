@@ -1,0 +1,108 @@
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lijst van stralingsdempende materialen"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> <http://www.w3.org/2004/02/skos/core#altLabel> "antenne_demping_materiaal"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> <http://purl.org/dc/terms/issued> "2018-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> <http://purl.org/dc/terms/title> "Conceptscheme dempend materiaal bij elektromagnetische straling"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> <http://www.w3.org/2002/07/owl#versionInfo> "Eerste versie, zoals in gebruik genomen in het kader van\n            archivering van zendantennes"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> <http://purl.org/dc/terms/temporal> "2018" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> <http://xmlns.com/foaf/0.1/maker> _:Bafa41951X2D878bX2D437eX2DbbbdX2D45f28b77090c .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+_:Bafa41951X2D878bX2D437eX2DbbbdX2D45f28b77090c <http://schema.org/affiliation> <http://data.vlaanderen.be/id/organisatie/OVO003751> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/name> "Data- en informatiebeheer & digitale maatschappij"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2004/02/skos/core#altLabel> "DIDM"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data- en informatiebeheer & digitale maatschappij"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#changedBy> <http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#classification> <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#identifier> "OVO003751" .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/regorg#orgStatus> <http://data.vlaanderen.be/id/concept/organisatiestatus/actief> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/homepage> <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://purl.org/dc/terms/type> <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/mbox> <mailto:didm.omgeving@vlaanderen.be> .
+_:Bafa41951X2D878bX2D437eX2DbbbdX2D45f28b77090c <http://xmlns.com/foaf/0.1/mbox> <mailto:geert.vanhaute@vlaanderen.be> .
+_:Bafa41951X2D878bX2D437eX2DbbbdX2D45f28b77090c <http://xmlns.com/foaf/0.1/name> "Van Haute, Geert" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/4> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/4> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/4> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stenen buitenmuur"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/4> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "Stenen buiten muur" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/4> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/12> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/12> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/12> <http://www.w3.org/2004/02/skos/core#prefLabel> "Beton + absorber"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/12> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "Beton+absorber" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/12> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/15> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/15> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/15> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dubbel glas"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/15> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "Dubbel glas" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/15> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/13> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/13> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/13> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pannendak (met isolatie)"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/13> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "Pannendak (met isolatie)" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/13> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/3> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/3> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pannendak (zonder isolatie)"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/3> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "Pannendak (zonder isolatie)" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/3> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/11> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/11> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/11> <http://www.w3.org/2004/02/skos/core#prefLabel> "Metalen wand"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/11> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "Metalen wand" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/11> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/6> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/6> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/6> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gewapend beton-verdiep"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/6> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "Gewapend beton-verdiep" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/6> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/14> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/14> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/14> <http://www.w3.org/2004/02/skos/core#prefLabel> "Enkel glas"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/14> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "Enkel glas" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/14> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/9> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/9> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/9> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hoek van een muur > 20 cm"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/9> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "Hoek van een muur > 20 cm" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/9> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/7> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/7> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/7> <http://www.w3.org/2004/02/skos/core#prefLabel> "Auto"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/7> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "Auto" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/7> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/10> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/10> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/10> <http://www.w3.org/2004/02/skos/core#prefLabel> "Meerdere muren"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/10> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "Meerdere muren" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/10> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/5> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/5> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/5> <http://www.w3.org/2004/02/skos/core#prefLabel> "Betonnen muur (20 cm)"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/5> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "Betonnen muur (20 cm)" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/5> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/8> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/8> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/8> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hoek van een muur > 40 cm"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/8> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "Hoek van een muur > 40 cm" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/8> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/2> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/2> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_demping_materiaal> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/2> <http://www.w3.org/2004/02/skos/core#prefLabel> "muur met ramen"@nl .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/2> <https://data.omgeving.vlaanderen.be/ns/waarde#key> "muur met ramens" .
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_demping_materiaal/2> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .

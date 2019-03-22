@@ -1,0 +1,517 @@
+<https://data.omgeving.vlaanderen.be/ns/dossier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://data.omgeving.vlaanderen.be/ns/dossier> <http://www.w3.org/2002/07/owl#versionInfo> "Tweede versie, zoals in gebruik genomen in het kader van archivering van zendantennes, na afstemming tussen de Vlaams uri-stategie en proxy-afhankelijkheden bij DIDM"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier> <http://purl.org/dc/terms/issued> "2018-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.omgeving.vlaanderen.be/ns/dossier> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://data.omgeving.vlaanderen.be/ns/dossier#" .
+<https://data.omgeving.vlaanderen.be/ns/dossier> <http://purl.org/dc/terms/title> "Case"@en .
+<https://data.omgeving.vlaanderen.be/ns/dossier> <http://purl.org/vocommons/voaf#reliesOn> <http://xmlns.com/foaf/0.1/> .
+<https://data.omgeving.vlaanderen.be/ns/dossier> <http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/ns/person#> .
+<https://data.omgeving.vlaanderen.be/ns/dossier> <http://purl.org/vocab/vann/changes> ""@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier> <http://purl.org/dc/terms/title> "Dossier"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier> <http://purl.org/dc/terms/temporal> "2018" .
+<https://data.omgeving.vlaanderen.be/ns/dossier> <http://www.w3.org/2004/02/skos/core#altLabel> "Zaak"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier> <http://purl.org/vocommons/voaf#reliesOn> <http://data.vlaanderen.be/ns/besluit#> .
+<https://data.omgeving.vlaanderen.be/ns/dossier> <http://xmlns.com/foaf/0.1/maker> _:B5a219707X2D6aa2X2D4f18X2D9d23X2D37963af459ae .
+_:B5a219707X2D6aa2X2D4f18X2D9d23X2D37963af459ae <http://xmlns.com/foaf/0.1/mbox> <mailto:geert.vanhaute@vlaanderen.be> .
+_:B5a219707X2D6aa2X2D4f18X2D9d23X2D37963af459ae <http://schema.org/affiliation> <http://data.vlaanderen.be/id/organisatie/OVO003751> .
+_:B5a219707X2D6aa2X2D4f18X2D9d23X2D37963af459ae <http://xmlns.com/foaf/0.1/name> "Van Haute, Geert" .
+<https://data.omgeving.vlaanderen.be/ns/dossier> <http://purl.org/vocab/vann/preferredNamespacePrefix> "dossier" .
+<https://data.omgeving.vlaanderen.be/ns/dossier> <http://www.w3.org/2000/01/rdf-schema#label> "Case"@en .
+<https://data.omgeving.vlaanderen.be/ns/dossier> <http://purl.org/vocommons/voaf#reliesOn> <http://dbpedia.org/ontology/> .
+<https://data.omgeving.vlaanderen.be/ns/dossier> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dossier"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier> <http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/ns/prov#> .
+<https://data.omgeving.vlaanderen.be/ns/dossier> <http://www.w3.org/2000/01/rdf-schema#label> "Dossier"@nl .
+<http://purl.org/dc/dcam/memberOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/terms/hasVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/terms/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/terms/type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/vocab/vann/usageNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://schema.org/affiliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/ns/org#changedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/ns/org#classification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/ns/org#identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/ns/regorg#orgStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://xmlns.com/foaf/0.1/mbox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://purl.org/dc/terms/hasPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/isPartOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://data.omgeving.vlaanderen.be/ns/dossier#vervangtOfisOnderdeelVan> .
+<http://purl.org/dc/terms/isPartOf> <http://www.w3.org/2000/01/rdf-schema#label> "is onderdeel van"@nl .
+<http://purl.org/dc/terms/isReplacedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/replaces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/replaces> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://data.omgeving.vlaanderen.be/ns/dossier#vervangtOfisOnderdeelVan> .
+<http://purl.org/dc/terms/replaces> <http://www.w3.org/2000/01/rdf-schema#label> "vervangt"@nl .
+<http://purl.org/dc/terms/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/rights> <http://www.w3.org/2002/07/owl#inverseOf> <https://data.omgeving.vlaanderen.be/ns/dossier#certifiëert> .
+<http://purl.org/dc/terms/rights> <http://www.w3.org/2002/07/owl#inverseOf> <https://data.omgeving.vlaanderen.be/ns/dossier#vergunt> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDocument> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/isPartOf> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDocument> <http://www.w3.org/2002/07/owl#inverseOf> <https://data.omgeving.vlaanderen.be/ns/dossier#heeftOnderdeel> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDocument> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDocument> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/dossier#Document> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDocument> <http://purl.org/vocab/vann/usageNote> "Legt de relatie tussen een bepaald onderdeel (een foto, bijlage, etc.) en het document waartoe het behoort."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDocument> <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan tot welk document een bepaalde foto, bijlage enz. behoort."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDocument> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDocument> <http://www.w3.org/2000/01/rdf-schema#label> "behoort tot document"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDossier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDossier> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/isPartOf> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDossier> <http://www.w3.org/2002/07/owl#inverseOf> <https://data.omgeving.vlaanderen.be/ns/dossier#heeftProcedurestap> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDossier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDossier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDossier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDossier> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDossier> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDossier> <http://purl.org/vocab/vann/usageNote> "Legt de relatie tussen een formeel gedefiniëerde stap binnen een specifieke procedure en het dossier waartoe dit onderdeel behoort."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDossier> <http://www.w3.org/2000/01/rdf-schema#comment> "Een onderdeel van een bepaald dossier geeft aan tot welk dossier het behoort."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDossier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotDossier> <http://www.w3.org/2000/01/rdf-schema#label> "behoort tot dossier"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotProcedurestap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotProcedurestap> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/isPartOf> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotProcedurestap> <http://www.w3.org/2002/07/owl#inverseOf> <https://data.omgeving.vlaanderen.be/ns/dossier#heeftDocument> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotProcedurestap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotProcedurestap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotProcedurestap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotProcedurestap> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.omgeving.vlaanderen.be/ns/dossier#Document> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotProcedurestap> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotProcedurestap> <http://purl.org/vocab/vann/usageNote> "Legt de relatie tussen een document en de procedurestap of de fase waarbinnen het document is toegevoegd aan het dossier."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotProcedurestap> <http://www.w3.org/2000/01/rdf-schema#comment> "Een document is toegevoegd aan het dossier binnen een formeel gedefiniëerde stap."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotProcedurestap> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#behoortTotProcedurestap> <http://www.w3.org/2000/01/rdf-schema#label> "behoort tot procedurestap"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#certifiëert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#certifiëert> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://data.omgeving.vlaanderen.be/ns/dossier#vergunt> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#certifiëert> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/RightsStatement> .
+_:B541855b0X2D39ebX2D4ecbX2Db7f1X2D76cafcd8f644 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#certifiëert> <http://www.w3.org/2000/01/rdf-schema#range> _:B541855b0X2D39ebX2D4ecbX2Db7f1X2D76cafcd8f644 .
+_:B541855b0X2D39ebX2D4ecbX2Db7f1X2D76cafcd8f644 <http://www.w3.org/2002/07/owl#unionOf> _:B3bfdddcbX2D96b1X2D4718X2Da3efX2Da1338a837c36 .
+_:B3bfdddcbX2D96b1X2D4718X2Da3efX2Da1338a837c36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Activity> .
+_:B3bfdddcbX2D96b1X2D4718X2Da3efX2Da1338a837c36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bd19a62f4X2D3200X2D45deX2Dae20X2Dbcb5607514bf .
+_:Bd19a62f4X2D3200X2D45deX2Dae20X2Dbcb5607514bf <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Agent> .
+_:Bd19a62f4X2D3200X2D45deX2Dae20X2Dbcb5607514bf <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B708ad212X2D321dX2D43f3X2Db1eeX2D1412f774a5e7 .
+_:B708ad212X2D321dX2D43f3X2Db1eeX2D1412f774a5e7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Entity> .
+_:B708ad212X2D321dX2D43f3X2Db1eeX2D1412f774a5e7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#certifiëert> <http://purl.org/vocab/vann/usageNote> "Legt de relatie tussen het certificaat en hetgeen hierdoor gecertificeerd is."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#certifiëert> <http://www.w3.org/2000/01/rdf-schema#comment> "Als voorbeeld uit de context van de procedure voor aanvraag van een conformiteitsattest voor een zendantenne.: \"Het Vlaams planbureau voor omgeving certificeert dat, als de elementen in het technische dossier (bijlage) de werkelijke situatie weergeven, de vermelde vast opgestelde zendantennes voldoen aan de bepalingen van deel 2 (milieukwaliteitsnorm voor elektromagnetische golven) en, indien van toepassing, deel 6 (norm per vast opgestelde zendantenne) van titel II van het VLAREM.\""@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#certifiëert> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#certifiëert> <http://www.w3.org/2000/01/rdf-schema#label> "certifiëert"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#dossierbehandelaar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#dossierbehandelaar> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#dossierbehandelaar> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/person#Person> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#dossierbehandelaar> <http://purl.org/vocab/vann/usageNote> "TO DO"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#dossierbehandelaar> <http://www.w3.org/2000/01/rdf-schema#comment> "Wijst naar een ambtenaar die het dossier behandelt"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#dossierbehandelaar> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#dossierbehandelaar> <http://www.w3.org/2000/01/rdf-schema#label> "dossierbehandelaar"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#evaluatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#evaluatie> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#evaluatie> <http://purl.org/vocab/vann/usageNote> "TO DO"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#evaluatie> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#evaluatie> <http://www.w3.org/2000/01/rdf-schema#label> "evaluatie"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#evaluatie> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#dossiereigenaar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#dossiereigenaar> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#dossiereigenaar> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/person#Person> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#dossiereigenaar> <http://purl.org/vocab/vann/usageNote> "TO DO"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#dossiereigenaar> <http://www.w3.org/2000/01/rdf-schema#comment> "Eigenaar van het dossier"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#dossiereigenaar> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#dossiereigenaar> <http://www.w3.org/2000/01/rdf-schema#label> "dossiereigenaar"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#dossiermedewerker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#dossiermedewerker> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#dossiermedewerker> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/person#Person> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#dossiermedewerker> <http://purl.org/vocab/vann/usageNote> "TO DO"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#dossiermedewerker> <http://www.w3.org/2000/01/rdf-schema#comment> "Medewerker"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#dossiermedewerker> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#dossiermedewerker> <http://www.w3.org/2000/01/rdf-schema#label> "dossiermedewerker"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftDocument> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/hasPart> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftDocument> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftDocument> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/dossier#Document> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftDocument> <http://purl.org/vocab/vann/usageNote> "Legt de relatie tussen een bepaalde stap of fase van een dossier en de documenten die ertoe behoren of de documenten die binnen deze stap aan het dossier zijn toegevoegd"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftDocument> <http://www.w3.org/2000/01/rdf-schema#comment> "Onderdelen van een bepaalde procedurestap"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftDocument> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftDocument> <http://www.w3.org/2000/01/rdf-schema#label> "heeft document"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftOnderdeel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftOnderdeel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/hasPart> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftOnderdeel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftOnderdeel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftOnderdeel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftOnderdeel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.omgeving.vlaanderen.be/ns/dossier#Document> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftOnderdeel> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftOnderdeel> <http://purl.org/vocab/vann/usageNote> "Legt de relatie tussen een bepaald document en de onderdelen, (foto's, bijlagen, etc.)  die tot dat document behoren"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftOnderdeel> <http://www.w3.org/2000/01/rdf-schema#comment> "Onderdelen van een bepaald document"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftOnderdeel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftOnderdeel> <http://www.w3.org/2000/01/rdf-schema#label> "heeft documentonderdeel"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftProcedurestap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftProcedurestap> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/hasPart> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftProcedurestap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftProcedurestap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftProcedurestap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftProcedurestap> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftProcedurestap> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftProcedurestap> <http://purl.org/vocab/vann/usageNote> "Legt de relatie tussen een dossier binnen een specifieke procedure en een bepaalde stap of fase binnen die procedure"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftProcedurestap> <http://www.w3.org/2000/01/rdf-schema#comment> "Onderdelen van een bepaald dossier"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftProcedurestap> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#heeftProcedurestap> <http://www.w3.org/2000/01/rdf-schema#label> "heeft procedurestap"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#isVervangenDoor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#isVervangenDoor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/isReplacedBy> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#isVervangenDoor> <http://www.w3.org/2002/07/owl#inverseOf> <https://data.omgeving.vlaanderen.be/ns/dossier#vervangt> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#isVervangenDoor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#isVervangenDoor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.omgeving.vlaanderen.be/ns/dossier#Document> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#isVervangenDoor> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/dossier#Document> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#isVervangenDoor> <http://purl.org/vocab/vann/usageNote> "Opvangen van rechtzettingen, versies, lussen, ... . Het opvangen van fouten, correcties, het feit dat zich een administratieve lus heeft voorgedaan en dergelijke zijn gebeurtenissen die gedocumenteerd worden. \n            Om die reden is het in de eerste plaats het document dat geversioneerd, vervangen wordt.\n            Wijzigingen op bitstreamrepresentaties van stappen of dossiers (bv. serialisaties van relavante onderdelen van databanken) worden afgehandeld met dcterms:isReplacedBy"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#isVervangenDoor> <http://www.w3.org/2000/01/rdf-schema#comment> "Een verwant document dat door een ander document wordt vervangen."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#isVervangenDoor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#isVervangenDoor> <http://www.w3.org/2000/01/rdf-schema#label> "vervangen door"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#procedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#procedure> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#procedure> <http://purl.org/vocab/vann/usageNote> "Het type van procedure typeert een dossier, determineert de discrete procedurestappen en bepaalt welke documenten binnen welke procedurestappen worden verwacht."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#procedure> <http://www.w3.org/2000/01/rdf-schema#comment> "De naam die verwijst naar de formele definitie van een verzameling stappen die in de juiste volgorde leiden tot de afronding van het dossier."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#procedure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#procedure> <http://www.w3.org/2000/01/rdf-schema#label> "procedure"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#vergunt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#vergunt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/terms/RightsStatement> .
+_:B027ae33bX2D98feX2D49f1X2Db9f5X2D0f1e90bb02f7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#vergunt> <http://www.w3.org/2000/01/rdf-schema#range> _:B027ae33bX2D98feX2D49f1X2Db9f5X2D0f1e90bb02f7 .
+_:B027ae33bX2D98feX2D49f1X2Db9f5X2D0f1e90bb02f7 <http://www.w3.org/2002/07/owl#unionOf> _:B3a2b9c47X2D9bd1X2D40dfX2D92bdX2D13e5ed723ad6 .
+_:B3a2b9c47X2D9bd1X2D40dfX2D92bdX2D13e5ed723ad6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Activity> .
+_:B3a2b9c47X2D9bd1X2D40dfX2D92bdX2D13e5ed723ad6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B9032beffX2Df8c7X2D46b2X2Da982X2D75ec3eb0d15e .
+_:B9032beffX2Df8c7X2D46b2X2Da982X2D75ec3eb0d15e <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Entity> .
+_:B9032beffX2Df8c7X2D46b2X2Da982X2D75ec3eb0d15e <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#vergunt> <http://purl.org/vocab/vann/usageNote> "Legt de relatie tussen een vergunning en hetgeen vergund is."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#vergunt> <http://www.w3.org/2000/01/rdf-schema#comment> "Een vergunning is een besluit dat het recht, goedkeuring of toestemming verleent om een activiteit uit te voeren of een inrichting, gebouw, etc. te construeren of uit te baten."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#vergunt> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#vergunt> <http://www.w3.org/2000/01/rdf-schema#label> "vergund"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#vervangt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#vervangt> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/replaces> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#vervangt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#vervangt> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.omgeving.vlaanderen.be/ns/dossier#Document> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#vervangt> <http://www.w3.org/2000/01/rdf-schema#range> <https://data.omgeving.vlaanderen.be/ns/dossier#Document> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#vervangt> <http://purl.org/vocab/vann/usageNote> "Opvangen van rechtzettingen, versies, lussen, ... . Het opvangen van fouten, correcties, het feit dat zich een administratieve lus heeft voorgedaan en dergelijke zijn gebeurtenissen die gedocumenteerd worden. \n            Om die reden is het in de eerste plaats het document dat geversioneerd, vervangen wordt.\n            Wijzigingen op bitstreamrepresentaties van stappen of dossiers (bv. serialisaties van relavante onderdelen van databanken) worden afgehandeld met dcterms:replaces"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#vervangt> <http://www.w3.org/2000/01/rdf-schema#comment> "Een verwant document een ander document vervangt of verdringt."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#vervangt> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#vervangt> <http://www.w3.org/2000/01/rdf-schema#label> "vervangt"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#vervangtOfisOnderdeelVan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#vervangtOfisOnderdeelVan> <http://www.w3.org/2000/01/rdf-schema#label> "vervangt of is onderdeel van"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#referentie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#referentie> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#referentie> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#referentie> <http://purl.org/vocab/vann/usageNote> "De referentie van iemand naar een dossier."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#referentie> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#referentie> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#referentie> <http://www.w3.org/2000/01/rdf-schema#label> "referentie"@nl .
+<http://data.vlaanderen.be/ns/besluit#Besluit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://data.vlaanderen.be/ns/besluit#Besluit> <http://www.w3.org/2002/07/owl#equivalentClass> <https://data.omgeving.vlaanderen.be/ns/dossier#Besluit> .
+<http://data.vlaanderen.be/ns/besluit#Besluit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/RightsStatement> .
+<http://data.vlaanderen.be/ns/besluit#Besluit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://data.omgeving.vlaanderen.be/ns/dossier#Document> .
+<http://data.vlaanderen.be/ns/besluit#Besluit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossierstuk> .
+<http://data.vlaanderen.be/ns/besluit#Besluit> <http://www.w3.org/2002/07/owl#disjointWith> <http://dbpedia.org/ontology/Case> .
+<http://data.vlaanderen.be/ns/besluit#Besluit> <http://www.w3.org/2002/07/owl#disjointWith> <http://dbpedia.org/ontology/UnitOfWork> .
+<http://data.vlaanderen.be/ns/besluit#Besluit> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.w3.org/2002/07/owl#Thing-complement> .
+<http://data.vlaanderen.be/ns/besluit#Besluit> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> .
+<http://data.vlaanderen.be/ns/besluit#Besluit> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> .
+<http://dbpedia.org/ontology/Case> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Case> <http://www.w3.org/2002/07/owl#equivalentClass> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> .
+<http://dbpedia.org/ontology/Case> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/ontology/UnitOfWork> .
+<http://dbpedia.org/ontology/Case> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Afbeelding> .
+<http://dbpedia.org/ontology/Case> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Besluit> .
+<http://dbpedia.org/ontology/Case> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Bijlage> .
+<http://dbpedia.org/ontology/Case> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Document> .
+<http://dbpedia.org/ontology/Case> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel> .
+<http://dbpedia.org/ontology/Case> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossierstuk> .
+<http://dbpedia.org/ontology/UnitOfWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/UnitOfWork> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.w3.org/2002/07/owl#Thing-complement> .
+<http://dbpedia.org/ontology/UnitOfWork> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Afbeelding> .
+<http://dbpedia.org/ontology/UnitOfWork> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Besluit> .
+<http://dbpedia.org/ontology/UnitOfWork> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Bijlage> .
+<http://dbpedia.org/ontology/UnitOfWork> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Document> .
+<http://dbpedia.org/ontology/UnitOfWork> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel> .
+<http://dbpedia.org/ontology/UnitOfWork> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossierstuk> .
+<http://purl.org/dc/dcmitype/Collection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/dcmitype/Collection> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> .
+<http://purl.org/dc/dcmitype/Collection> <http://purl.org/dc/terms/description> "A collection is described as a group; its parts may also be separately described."@en .
+<http://purl.org/dc/dcmitype/Collection> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Collection-003> .
+<http://purl.org/dc/dcmitype/Collection> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/Collection> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/Collection> <http://www.w3.org/2000/01/rdf-schema#comment> "An aggregation of resources."@en .
+<http://purl.org/dc/dcmitype/Collection> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Collection> <http://www.w3.org/2000/01/rdf-schema#label> "Collection"@en .
+<http://purl.org/dc/dcmitype/Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/dcmitype/Dataset> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> .
+<http://purl.org/dc/dcmitype/Dataset> <http://purl.org/dc/terms/description> "Examples include lists, tables, and databases.  A dataset may be useful for direct machine processing."@en .
+<http://purl.org/dc/dcmitype/Dataset> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Dataset-003> .
+<http://purl.org/dc/dcmitype/Dataset> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/Dataset> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Data encoded in a defined structure."@en .
+<http://purl.org/dc/dcmitype/Dataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset"@en .
+<http://purl.org/dc/dcmitype/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/dcmitype/Event> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> .
+<http://purl.org/dc/dcmitype/Event> <http://purl.org/dc/terms/description> "Metadata for an event provides descriptive information that is the basis for discovery of the purpose, location, duration, and responsible agents associated with an event. Examples include an exhibition, webcast, conference, workshop, open day, performance, battle, trial, wedding, tea party, conflagration."@en .
+<http://purl.org/dc/dcmitype/Event> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Event-003> .
+<http://purl.org/dc/dcmitype/Event> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/Event> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/Event> <http://www.w3.org/2000/01/rdf-schema#comment> "A non-persistent, time-based occurrence."@en .
+<http://purl.org/dc/dcmitype/Event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event"@en .
+<http://purl.org/dc/dcmitype/Image> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/dcmitype/Image> <http://www.w3.org/2002/07/owl#equivalentClass> <https://data.omgeving.vlaanderen.be/ns/dossier#Afbeelding> .
+<http://purl.org/dc/dcmitype/Image> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> .
+<http://purl.org/dc/dcmitype/Image> <http://purl.org/dc/terms/description> "Examples include images and photographs of physical objects, paintings, prints, drawings, other images and graphics, animations and moving pictures, film, diagrams, maps, musical notation.  Note that Image may include both electronic and physical representations."@en .
+<http://purl.org/dc/dcmitype/Image> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Image-004> .
+<http://purl.org/dc/dcmitype/Image> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/Image> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/Image> <http://www.w3.org/2000/01/rdf-schema#comment> "A visual representation other than text."@en .
+<http://purl.org/dc/dcmitype/Image> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Image> <http://www.w3.org/2000/01/rdf-schema#label> "Image"@en .
+<http://purl.org/dc/dcmitype/InteractiveResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/dcmitype/InteractiveResource> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> .
+<http://purl.org/dc/dcmitype/InteractiveResource> <http://purl.org/dc/terms/description> "Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments."@en .
+<http://purl.org/dc/dcmitype/InteractiveResource> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#InteractiveResource-003> .
+<http://purl.org/dc/dcmitype/InteractiveResource> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/InteractiveResource> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/InteractiveResource> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource requiring interaction from the user to be understood, executed, or experienced."@en .
+<http://purl.org/dc/dcmitype/InteractiveResource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/InteractiveResource> <http://www.w3.org/2000/01/rdf-schema#label> "Interactive Resource"@en .
+<http://purl.org/dc/dcmitype/MovingImage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/dcmitype/MovingImage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/dcmitype/Image> .
+<http://purl.org/dc/dcmitype/MovingImage> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> .
+<http://purl.org/dc/dcmitype/MovingImage> <http://purl.org/dc/terms/description> "Examples include animations, movies, television programs, videos, zoetropes, or visual output from a simulation.  Instances of the type Moving Image must also be describable as instances of the broader type Image."@en .
+<http://purl.org/dc/dcmitype/MovingImage> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#MovingImage-003> .
+<http://purl.org/dc/dcmitype/MovingImage> <http://purl.org/dc/terms/issued> "2003-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/MovingImage> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/MovingImage> <http://www.w3.org/2000/01/rdf-schema#comment> "A series of visual representations imparting an impression of motion when shown in succession."@en .
+<http://purl.org/dc/dcmitype/MovingImage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/MovingImage> <http://www.w3.org/2000/01/rdf-schema#label> "Moving Image"@en .
+<http://purl.org/dc/dcmitype/PhysicalObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/dcmitype/PhysicalObject> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> .
+<http://purl.org/dc/dcmitype/PhysicalObject> <http://purl.org/dc/terms/description> "Note that digital representations of, or surrogates for, these objects should use Image, Text or one of the other types."@en .
+<http://purl.org/dc/dcmitype/PhysicalObject> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#PhysicalObject-003> .
+<http://purl.org/dc/dcmitype/PhysicalObject> <http://purl.org/dc/terms/issued> "2002-07-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/PhysicalObject> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/PhysicalObject> <http://www.w3.org/2000/01/rdf-schema#comment> "An inanimate, three-dimensional object or substance."@en .
+<http://purl.org/dc/dcmitype/PhysicalObject> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/PhysicalObject> <http://www.w3.org/2000/01/rdf-schema#label> "Physical Object"@en .
+<http://purl.org/dc/dcmitype/Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/dcmitype/Service> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> .
+<http://purl.org/dc/dcmitype/Service> <http://purl.org/dc/terms/description> "Examples include a photocopying service, a banking service, an authentication service, interlibrary loans, a Z39.50 or Web server."@en .
+<http://purl.org/dc/dcmitype/Service> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Service-003> .
+<http://purl.org/dc/dcmitype/Service> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/Service> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/Service> <http://www.w3.org/2000/01/rdf-schema#comment> "A system that provides one or more functions."@en .
+<http://purl.org/dc/dcmitype/Service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Service> <http://www.w3.org/2000/01/rdf-schema#label> "Service"@en .
+<http://purl.org/dc/dcmitype/Software> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/dcmitype/Software> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> .
+<http://purl.org/dc/dcmitype/Software> <http://purl.org/dc/terms/description> "Examples include a C source file, MS-Windows .exe executable, or Perl script."@en .
+<http://purl.org/dc/dcmitype/Software> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Software-003> .
+<http://purl.org/dc/dcmitype/Software> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/Software> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/Software> <http://www.w3.org/2000/01/rdf-schema#comment> "A computer program in source or compiled form."@en .
+<http://purl.org/dc/dcmitype/Software> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Software> <http://www.w3.org/2000/01/rdf-schema#label> "Software"@en .
+<http://purl.org/dc/dcmitype/Sound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/dcmitype/Sound> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> .
+<http://purl.org/dc/dcmitype/Sound> <http://purl.org/dc/terms/description> "Examples include a music playback file format, an audio compact disc, and recorded speech or sounds."@en .
+<http://purl.org/dc/dcmitype/Sound> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Sound-003> .
+<http://purl.org/dc/dcmitype/Sound> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/Sound> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/Sound> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource primarily intended to be heard."@en .
+<http://purl.org/dc/dcmitype/Sound> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Sound> <http://www.w3.org/2000/01/rdf-schema#label> "Sound"@en .
+<http://purl.org/dc/dcmitype/StillImage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/dcmitype/StillImage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/dcmitype/Image> .
+<http://purl.org/dc/dcmitype/StillImage> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> .
+<http://purl.org/dc/dcmitype/StillImage> <http://purl.org/dc/terms/description> "Examples include paintings, drawings, graphic designs, plans and maps. Recommended best practice is to assign the type Text to images of textual materials. Instances of the type Still Image must also be describable as instances of the broader type Image."@en .
+<http://purl.org/dc/dcmitype/StillImage> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#StillImage-003> .
+<http://purl.org/dc/dcmitype/StillImage> <http://purl.org/dc/terms/issued> "2003-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/StillImage> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/StillImage> <http://www.w3.org/2000/01/rdf-schema#comment> "A static visual representation."@en .
+<http://purl.org/dc/dcmitype/StillImage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/StillImage> <http://www.w3.org/2000/01/rdf-schema#label> "Still Image"@en .
+<http://purl.org/dc/dcmitype/Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/dcmitype/Text> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> .
+<http://purl.org/dc/dcmitype/Text> <http://purl.org/dc/terms/description> "Examples include books, letters, dissertations, poems, newspapers, articles, archives of mailing lists. Note that facsimiles or images of texts are still of the genre Text."@en .
+<http://purl.org/dc/dcmitype/Text> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Text-003> .
+<http://purl.org/dc/dcmitype/Text> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/Text> <http://purl.org/dc/terms/modified> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://purl.org/dc/dcmitype/Text> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource consisting primarily of words for reading."@en .
+<http://purl.org/dc/dcmitype/Text> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Text> <http://www.w3.org/2000/01/rdf-schema#label> "Text"@en .
+<http://purl.org/dc/terms/RightsStatement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/terms/RightsStatement> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.w3.org/2002/07/owl#Thing-complement> .
+<http://www.w3.org/2002/07/owl#Thing-complement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/org#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/person#Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/prov#Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/prov#Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/prov#Bundle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/prov#Entity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Afbeelding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Afbeelding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Afbeelding> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Afbeelding> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Afbeelding> <http://purl.org/vocab/vann/usageNote> ""@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Afbeelding> <http://www.w3.org/2000/01/rdf-schema#comment> ""@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Afbeelding> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Afbeelding> <http://www.w3.org/2000/01/rdf-schema#label> "Afbeelding"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Besluit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Besluit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/RightsStatement> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Besluit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://data.omgeving.vlaanderen.be/ns/dossier#Document> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Besluit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossierstuk> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Besluit> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Besluit> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Besluit> <http://purl.org/vocab/vann/usageNote> "Een procedure, en het dossier als bundeling van documenten en neerslag van deze doorlopen procedure, wordt afgesloten tijdens een finale, beslissende stap of fase. Eventueel beroep tegen deze beslissing is voorwerp van ander dossier, binnen een andere procedure. In dit beroepsdossier wordt verwezen naar het dossier uit eerste aanleg."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Besluit> <http://www.w3.org/2000/01/rdf-schema#comment> "De beslissing van een bestuursorgaan. Deze beslissing houdt een rechtshandeling in waarbij sprake is van een beoogd rechtsgevolg. Deze beslissing sluit een dossier af, documenteert een (onderdeel van een) belissende stap van de procedure."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Besluit> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Besluit> <http://www.w3.org/2000/01/rdf-schema#label> "Besluit"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Bijlage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Bijlage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Bijlage> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Bijlage> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Bijlage> <http://purl.org/vocab/vann/usageNote> ""@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Bijlage> <http://www.w3.org/2000/01/rdf-schema#comment> ""@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Bijlage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Bijlage> <http://www.w3.org/2000/01/rdf-schema#label> "Bijlage"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Document> <http://www.w3.org/2002/07/owl#equivalentClass> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossierstuk> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Document> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Bundle> .
+_:B4b3ef661X2D548cX2D42bbX2D9964X2D73e9cd1abac7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Document> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B4b3ef661X2D548cX2D42bbX2D9964X2D73e9cd1abac7 .
+_:B4b3ef661X2D548cX2D42bbX2D9964X2D73e9cd1abac7 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:B4b3ef661X2D548cX2D42bbX2D9964X2D73e9cd1abac7 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel> .
+_:Bafa1965dX2D04d4X2D460aX2Db046X2D0ff798de4402 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Document> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bafa1965dX2D04d4X2D460aX2Db046X2D0ff798de4402 .
+_:Bafa1965dX2D04d4X2D460aX2Db046X2D0ff798de4402 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/isPartOf> .
+_:Bafa1965dX2D04d4X2D460aX2Db046X2D0ff798de4402 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://dbpedia.org/ontology/UnitOfWork> .
+_:B55d612ceX2Dab76X2D42efX2D9a26X2D5d2d9de2ae21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Document> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B55d612ceX2Dab76X2D42efX2D9a26X2D5d2d9de2ae21 .
+_:B55d612ceX2Dab76X2D42efX2D9a26X2D5d2d9de2ae21 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/isReplacedBy> .
+_:B55d612ceX2Dab76X2D42efX2D9a26X2D5d2d9de2ae21 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://data.omgeving.vlaanderen.be/ns/dossier#Document> .
+_:B09415935X2Deae4X2D4544X2D82a3X2D418014ce636a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Document> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B09415935X2Deae4X2D4544X2D82a3X2D418014ce636a .
+_:B09415935X2Deae4X2D4544X2D82a3X2D418014ce636a <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/replaces> .
+_:B09415935X2Deae4X2D4544X2D82a3X2D418014ce636a <http://www.w3.org/2002/07/owl#allValuesFrom> <https://data.omgeving.vlaanderen.be/ns/dossier#Document> .
+_:Bed1f94e6X2Db814X2D4760X2Db9c6X2Dfe93af424d77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Document> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bed1f94e6X2Db814X2D4760X2Db9c6X2Dfe93af424d77 .
+_:Bed1f94e6X2Db814X2D4760X2Db9c6X2Dfe93af424d77 <http://www.w3.org/2002/07/owl#onProperty> <https://data.omgeving.vlaanderen.be/ns/dossier#vervangtOfisOnderdeelVan> .
+_:Bed1f94e6X2Db814X2D4760X2Db9c6X2Dfe93af424d77 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Document> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Document> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Document> <http://purl.org/dc/terms/source> <http://dbpedia.org/page/Suzanne_Briet> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Document> <http://purl.org/dc/terms/source> <http://people.ischool.berkeley.edu/~buckland/thing.html> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Document> <http://purl.org/vocab/vann/usageNote> "Een document documenteert."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Document> <http://www.w3.org/2000/01/rdf-schema#comment> "Any concrete or symbolic indication, preserved or recorded, for reconstructing or for proving a phenomenon, whether physical or mental."@en .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Document> <http://www.w3.org/2000/01/rdf-schema#comment> "Om het even welk concreet of symbolisch bewijs dat toelaat om een gebeurtenis te reconstrueren."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Document> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Document> <http://www.w3.org/2000/01/rdf-schema#label> "Document"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:Bd1489fbdX2D495bX2D4cf8X2D9c78X2D610d8bc0dbe3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bd1489fbdX2D495bX2D4cf8X2D9c78X2D610d8bc0dbe3 .
+_:Bd1489fbdX2D495bX2D4cf8X2D9c78X2D610d8bc0dbe3 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/isPartOf> .
+_:Bd1489fbdX2D495bX2D4cf8X2D9c78X2D610d8bc0dbe3 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://data.omgeving.vlaanderen.be/ns/dossier#Document> .
+_:B12a6cbe0X2D8db2X2D4a16X2D8c12X2D4cef1ade88df <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B12a6cbe0X2D8db2X2D4a16X2D8c12X2D4cef1ade88df .
+_:B12a6cbe0X2D8db2X2D4a16X2D8c12X2D4cef1ade88df <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/isReplacedBy> .
+_:B12a6cbe0X2D8db2X2D4a16X2D8c12X2D4cef1ade88df <http://www.w3.org/2002/07/owl#allValuesFrom> <https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel> .
+_:B7515d33bX2D0565X2D4017X2Da15bX2D3fb458cde85b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B7515d33bX2D0565X2D4017X2Da15bX2D3fb458cde85b .
+_:B7515d33bX2D0565X2D4017X2Da15bX2D3fb458cde85b <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/replaces> .
+_:B7515d33bX2D0565X2D4017X2Da15bX2D3fb458cde85b <http://www.w3.org/2002/07/owl#allValuesFrom> <https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel> .
+_:Bbc5de012X2D33c1X2D4829X2Dad69X2Dc5c41d60c2b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bbc5de012X2D33c1X2D4829X2Dad69X2Dc5c41d60c2b8 .
+_:Bbc5de012X2D33c1X2D4829X2Dad69X2Dc5c41d60c2b8 <http://www.w3.org/2002/07/owl#onProperty> <https://data.omgeving.vlaanderen.be/ns/dossier#vervangtOfisOnderdeelVan> .
+_:Bbc5de012X2D33c1X2D4829X2Dad69X2Dc5c41d60c2b8 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel> <http://purl.org/vocab/vann/usageNote> "Een document kan uit verschillende onderdelen bestaan. Deze klasse wordt gebruik om deze onderdelen uniek te kunnen identificeren of te metadateren. In een digitaal archief kunnen samengestelde documenten tot op het meest granulaire niveau van individuele bitstreams worden opgesplitst om het aantal mogelijke gebruiken in de toekomst niet te hypothekeren."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel> <http://www.w3.org/2000/01/rdf-schema#comment> "de onderdelen die tot een document behoren of waaruit een document is samengesteld  (foto's, bijlagen, etc.)"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#DocumentOnderdeel> <http://www.w3.org/2000/01/rdf-schema#label> "documentonderdeel"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/ontology/UnitOfWork> .
+_:B440e56b0X2Da13bX2D4a3cX2Da844X2D6f1ce5da39ab <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B440e56b0X2Da13bX2D4a3cX2Da844X2D6f1ce5da39ab .
+_:B440e56b0X2Da13bX2D4a3cX2Da844X2D6f1ce5da39ab <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:B440e56b0X2Da13bX2D4a3cX2Da844X2D6f1ce5da39ab <http://www.w3.org/2002/07/owl#allValuesFrom> <https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> .
+_:B03b8416aX2De7beX2D4225X2Da86cX2D0af3f1a5411f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B03b8416aX2De7beX2D4225X2Da86cX2D0af3f1a5411f .
+_:B03b8416aX2De7beX2D4225X2Da86cX2D0af3f1a5411f <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/isReplacedBy> .
+_:B03b8416aX2De7beX2D4225X2Da86cX2D0af3f1a5411f <http://www.w3.org/2002/07/owl#allValuesFrom> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> .
+_:B064c600bX2D8d4bX2D41bcX2D8151X2D01720b643ff5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B064c600bX2D8d4bX2D41bcX2D8151X2D01720b643ff5 .
+_:B064c600bX2D8d4bX2D41bcX2D8151X2D01720b643ff5 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/replaces> .
+_:B064c600bX2D8d4bX2D41bcX2D8151X2D01720b643ff5 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> .
+_:B75548ae8X2D2f1cX2D4e1aX2Dbb5eX2D9855a2432791 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B75548ae8X2D2f1cX2D4e1aX2Dbb5eX2D9855a2432791 .
+_:B75548ae8X2D2f1cX2D4e1aX2Dbb5eX2D9855a2432791 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/replaces> .
+_:B75548ae8X2D2f1cX2D4e1aX2Dbb5eX2D9855a2432791 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossierstuk> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> <http://purl.org/vocab/vann/usageNote> "Te gebruiken als logische bundeling van documenten binnen een bepaalde zaak."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> <http://www.w3.org/2000/01/rdf-schema#comment> "Een dossier is het geheel aan werk gedaan om tot een bestuurlijke of zakelijke beslissing te komen. Een dossier slaat doorgaans neer in een verzameling documenten."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> <http://www.w3.org/2000/01/rdf-schema#label> "Case"@en .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> <http://www.w3.org/2000/01/rdf-schema#label> "Dossier"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Dossierstuk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Dossierstuk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Bundle> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Dossierstuk> <http://www.w3.org/2002/07/owl#disjointWith> <https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Dossierstuk> <http://purl.org/vocab/vann/usageNote> "Het gebruik van de term Document of Dossierstuk is een kwestie van smaak en/of herkenbaarheid."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Dossierstuk> <http://www.w3.org/2000/01/rdf-schema#comment> "Een logisch, organisatorisch of wettelijk bepaald, noodzakelijk document binnen een procedure."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Dossierstuk> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Dossierstuk> <http://www.w3.org/2000/01/rdf-schema#label> "Dossierstuk"@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/ontology/UnitOfWork> .
+_:B5f0bfae6X2De0bbX2D4847X2D8627X2D95280dda4c73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B5f0bfae6X2De0bbX2D4847X2D8627X2D95280dda4c73 .
+_:B5f0bfae6X2De0bbX2D4847X2D8627X2D95280dda4c73 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:B5f0bfae6X2De0bbX2D4847X2D8627X2D95280dda4c73 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://data.omgeving.vlaanderen.be/ns/dossier#Document> .
+_:B7ab6c3e8X2D03e5X2D45a5X2Daeb2X2Da4c731fe3e1a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B7ab6c3e8X2D03e5X2D45a5X2Daeb2X2Da4c731fe3e1a .
+_:B7ab6c3e8X2D03e5X2D45a5X2Daeb2X2Da4c731fe3e1a <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/isPartOf> .
+_:B7ab6c3e8X2D03e5X2D45a5X2Daeb2X2Da4c731fe3e1a <http://www.w3.org/2002/07/owl#allValuesFrom> <https://data.omgeving.vlaanderen.be/ns/dossier#Dossier> .
+_:B9de91316X2D522eX2D409cX2Db865X2D9b1bad4329db <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B9de91316X2D522eX2D409cX2Db865X2D9b1bad4329db .
+_:B9de91316X2D522eX2D409cX2Db865X2D9b1bad4329db <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/isReplacedBy> .
+_:B9de91316X2D522eX2D409cX2Db865X2D9b1bad4329db <http://www.w3.org/2002/07/owl#allValuesFrom> <https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> .
+_:Bcdce8bcbX2Dab77X2D435eX2D94b0X2D3963bb880765 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Bcdce8bcbX2Dab77X2D435eX2D94b0X2D3963bb880765 .
+_:Bcdce8bcbX2Dab77X2D435eX2D94b0X2D3963bb880765 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/replaces> .
+_:Bcdce8bcbX2Dab77X2D435eX2D94b0X2D3963bb880765 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> .
+_:B414d0e92X2Ddbf9X2D4e37X2Daf0bX2Df490b0377c21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:B414d0e92X2Ddbf9X2D4e37X2Daf0bX2Df490b0377c21 .
+_:B414d0e92X2Ddbf9X2D4e37X2Daf0bX2Df490b0377c21 <http://www.w3.org/2002/07/owl#onProperty> <https://data.omgeving.vlaanderen.be/ns/dossier#vervangtOfisOnderdeelVan> .
+_:B414d0e92X2Ddbf9X2D4e37X2Daf0bX2Df490b0377c21 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> <http://purl.org/vocab/vann/usageNote> "\n            De formeel gedefiniëerde stappen die in de juiste volgorde leiden tot de afronding van het dossier. Deze volgorde kan zowel (deels) sequentiëel als parallel gedefiniëerd zijn.\n            Afhankelijk van het perspectief kan een bepaalde procedurestap op zich ook een dossier zijn, en getypeerd worden door dossier:procedure. \n            Bijvoorbeeld: Vanuit het perspectief van het verlenen van een vergunning kan de stap \"Adviezen op het verlenen van een vergunning\" een procedurestap zijn. \n            Vanuit het perspectief van de adviesverlener kan het advies op zich een \"een bestuurlijke of zakelijke beslissing\" zijn, die de procedure \"Advies van VMM in het kader van vergunningsverlening\" afsluit.\n        "@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> <http://www.w3.org/2000/01/rdf-schema#comment> "Een procedurestap is het geheel aan werk gedaan binnen een specifiek chronologisch, logisch, organisatorisch of wettelijk bepaald onderdeel van een procedure."@nl .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://data.omgeving.vlaanderen.be/ns/dossier> .
+<https://data.omgeving.vlaanderen.be/ns/dossier#Procedurestap> <http://www.w3.org/2000/01/rdf-schema#label> "Procedurestap"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://purl.org/dc/terms/type> <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2004/02/skos/core#altLabel> "DIDM"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data- en informatiebeheer & digitale maatschappij"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#changedBy> <http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#classification> <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#identifier> "OVO003751" .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/regorg#orgStatus> <http://data.vlaanderen.be/id/concept/organisatiestatus/actief> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/homepage> <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/mbox> <mailto:didm.omgeving@vlaanderen.be> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/name> "Data- en informatiebeheer & digitale maatschappij"@nl .
+_:B54ff67caX2D2ee2X2D4741X2DbeddX2D42d766afd904 <http://schema.org/affiliation> <http://data.vlaanderen.be/id/organisatie/OVO003751> .
+_:B54ff67caX2D2ee2X2D4741X2DbeddX2D42d766afd904 <http://xmlns.com/foaf/0.1/mbox> <mailto:geert.vanhaute@vlaanderen.be> .
+_:B54ff67caX2D2ee2X2D4741X2DbeddX2D42d766afd904 <http://xmlns.com/foaf/0.1/name> "Van Haute, Geert" .
+_:Bf9f8b893X2D080fX2D4b48X2Dada7X2D84ddbe20aa1f <http://schema.org/affiliation> <http://data.vlaanderen.be/id/organisatie/OVO003751> .
+_:Bf9f8b893X2D080fX2D4b48X2Dada7X2D84ddbe20aa1f <http://xmlns.com/foaf/0.1/mbox> <mailto:geert.vanhaute@vlaanderen.be> .
+_:Bf9f8b893X2D080fX2D4b48X2Dada7X2D84ddbe20aa1f <http://xmlns.com/foaf/0.1/name> "Van Haute, Geert" .

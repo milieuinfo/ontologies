@@ -1,0 +1,1855 @@
+# baseURI: https://id.milieuinfo.be/milieuvocab/v0.95
+# imports: http://purl.org/dc/terms/
+# imports: http://purl.org/linked-data/cube
+# imports: http://www.w3.org/2003/01/geo/wgs84_pos
+# imports: http://www.w3.org/2004/02/skos/core
+# imports: http://www.w3.org/ns/org.ttl
+# imports: http://www.w3.org/ns/prov-o
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix datatypes: <http://www.w3.org/2001/XMLSchema-datatypes#> .
+@prefix dbpedia: <http://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmi: <http://purl.org/dc/dcmitype/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix gr: <http://purl.org/goodrelations/v1#> .
+@prefix kbo: <http://data.kbodata.be/def#> .
+@prefix lcy: <http://purl.org/vocab/lifecycle/schema#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix imjv: <https://data.imjv.omgeving.vlaanderen.be/ns/imjv#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix qudt: <http://qudt.org/schema/qudt#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rec: <http://www.w3.org/2001/02pd/rec54#> .
+@prefix regorg: <http://www.w3.org/ns/regorg#> .
+@prefix schema: <http://schema.org/> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix sdmx: <http://purl.org/linked-data/sdmx#> .
+@prefix sdmx-attr: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix sdmx-code: <http://purl.org/linked-data/sdmx/2009/code#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix spin: <http://spinrdf.org/spin#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+imjv:AfvalProductie
+  rdf:type owl:Class ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "de afvalproduktie van een bedrijf/organisatie/site in een bepaald jaar"@nl ;
+  rdfs:label "AfvalProductie"@nl ;
+  rdfs:subClassOf prov:Activity ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass geo:SpatialThing ;
+            owl:onProperty imjv:referentiegebied ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onDataRange xsd:gYear ;
+            owl:onProperty imjv:tijdsperiode ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onProperty schema:subjectOf ;
+            owl:someValuesFrom qb:Observation ;
+          ]
+        ) ;
+    ] ;
+.
+imjv:AfvalVerwerking
+  rdf:type owl:Class ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "de afvalverwerking van een bedrijf/organisatie/site in een bepaald jaar"@nl ;
+  rdfs:label "AfvalVerwerking"@nl ;
+  rdfs:subClassOf prov:Activity ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass geo:SpatialThing ;
+            owl:onProperty imjv:referentiegebied ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onDataRange xsd:gYear ;
+            owl:onProperty imjv:tijdsperiode ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onProperty schema:subjectOf ;
+            owl:someValuesFrom qb:Observation ;
+          ]
+        ) ;
+    ] ;
+.
+
+imjv:Debietmeter
+  rdf:type owl:Class ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "Debietmeter"@nl ;
+  rdfs:subClassOf dbpedia:Device ;
+  rdfs:subClassOf prov:Entity ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty imjv:merk ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty imjv:serienummer ;
+          ]
+        ) ;
+    ] ;
+.
+imjv:Emissie
+  rdf:type owl:Class ;
+  vann:usageNote "TODO" ;
+  rdfs:comment "Emissie is de uitstoot of lozing van de verontreinigingen, die door een bron worden uitgeworpen op een bepaalde plaats over een welbepaalde periode." ;
+  rdfs:label "Emissie"@nl ;
+  rdfs:subClassOf prov:Activity ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass geo:SpatialThing ;
+            owl:onProperty imjv:referentiegebied ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onDataRange xsd:gYear ;
+            owl:onProperty imjv:tijdsperiode ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onProperty schema:subjectOf ;
+            owl:someValuesFrom qb:Observation ;
+          ]
+        ) ;
+    ] ;
+.
+imjv:Emissiepunt
+  rdf:type owl:Class ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "Punt locatie waarop de emissie gemeten is." ;
+  rdfs:label "Emissiepunt"@nl ;
+  rdfs:subClassOf prov:Location ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty geo:lat ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty geo:long ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onProperty imjv:gekoppeldeActiviteit ;
+            owl:someValuesFrom prov:Activity ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onProperty imjv:zuiveringsApparatuur ;
+            owl:someValuesFrom prov:Entity ;
+          ]
+        ) ;
+    ] ;
+.
+imjv:EmissiepuntStaat
+  rdf:type owl:Class ;
+  vann:usageNote "Te gebruiken voor het opslaan van de tijdelijke status van een emissiepunt." ;
+  rdfs:comment "Geeft de staat (status) weer van een emissiepunt op een bepaald moment in de tijd." ;
+  rdfs:label "EmissiepuntStaat"@nl ;
+  rdfs:subClassOf lcy:State ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass xsd:gYear ;
+            owl:onProperty dcterms:date ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass imjv:Emissiepunt ;
+            owl:onProperty lcy:stateOf ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+        ) ;
+    ] ;
+.
+imjv:EnergieProductie
+  rdf:type owl:Class ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "EnergieProductie"@nl ;
+  rdfs:subClassOf prov:Activity ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onDataRange xsd:gYear ;
+            owl:onProperty imjv:tijdsperiode ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass geo:SpatialThing ;
+            owl:onProperty imjv:referentiegebied ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onProperty schema:subjectOf ;
+            owl:someValuesFrom qb:Observation ;
+          ]
+        ) ;
+    ] ;
+.
+imjv:EnergieVerbruik
+  rdf:type owl:Class ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "EnergieVerbruik"@nl ;
+  rdfs:subClassOf prov:Activity ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass geo:SpatialThing ;
+            owl:onProperty imjv:referentiegebied ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onDataRange xsd:gYear ;
+            owl:onProperty imjv:tijdsperiode ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onProperty schema:subjectOf ;
+            owl:someValuesFrom qb:Observation ;
+          ]
+        ) ;
+    ] ;
+.
+imjv:Exploitant
+  rdf:type owl:Class ;
+  vann:usageNote "Een exploitant heeft (minstens) een naam + adres (statutaire zetel of woonplaats)." ;
+  rdfs:comment "Een exploitant is een natuurlijke of rechtspersoon die (juridisch) aansprakelijk is voor de activiteiten en installaties op zijn locaties." ;
+  rdfs:label "Exploitant"@nl ;
+  rdfs:subClassOf prov:Agent ;
+  rdfs:subClassOf regorg:RegisteredOrganization ;
+.
+imjv:Exploitatie
+  rdf:type owl:Class ;
+  vann:usageNote "Een exploitatie is de uitbating van een geheel van activiteiten en installaties (al dan niet vergunningsplichtig) door een welbepaalde exploitant en op een welbepaalde locatie." ;
+  rdfs:comment "een exploitatie komt in principe in de meeste gevallen overeen met een exploitatiezetel. Exploitaties omvatten echter ook onbemande installaties die binnen bepaalde milieu-reglementeringen beschouwd worden als een onafhankelijke entiteit, maar binnen het vennootschapsrecht niet tot exploitatiezetels worden gerekend. In die zin is het begrip “exploitatiezetel” een deelverzameling van het begrip “exploitatie”." ;
+  rdfs:label "Exploitatie"@nl ;
+  rdfs:subClassOf org:Site ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onProperty org:identifier ;
+            owl:someValuesFrom xsd:string ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onProperty locn:address ;
+            owl:someValuesFrom locn:Address ;
+          ]
+        ) ;
+    ] ;
+.
+imjv:ExploitatieStaat
+  rdf:type owl:Class ;
+  vann:usageNote "Te gebruiken voor het opslaan van de tijdelijke status van een exploitatie." ;
+  rdfs:comment "Geeft de staat (status) weer van een exploitatie op een bepaald moment in de tijd." ;
+  rdfs:label "ExploitatieStaat"@nl ;
+  rdfs:subClassOf lcy:State ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass xsd:gYear ;
+            owl:onProperty dcterms:date ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass imjv:Exploitatie ;
+            owl:onProperty lcy:stateOf ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+        ) ;
+    ] ;
+.
+imjv:GeleideLozing
+  rdf:type owl:Class ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "GeleideLozing"@nl ;
+  rdfs:subClassOf prov:Activity ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass geo:SpatialThing ;
+            owl:onProperty imjv:referentiegebied ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onDataRange xsd:gYear ;
+            owl:onProperty imjv:tijdsperiode ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onProperty schema:subjectOf ;
+            owl:someValuesFrom qb:Observation ;
+          ]
+        ) ;
+    ] ;
+.
+
+
+imjv:IHM
+  rdf:type owl:Class ;
+  rdfs:label "IHM" ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onProperty imjv:naam ;
+            owl:someValuesFrom xsd:string ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onProperty imjv:identificatienummer ;
+            owl:someValuesFrom xsd:string ;
+          ]
+        ) ;
+    ] ;
+.
+
+
+imjv:InrichtingOfActiviteitVan
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "Inrichting of activiteit van" ;
+.
+imjv:Lozingspunt
+  rdf:type owl:Class ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "Lozingspunt"@nl ;
+  rdfs:subClassOf prov:Location ;
+.
+imjv:LozingspuntStaat
+  rdf:type owl:Class ;
+  vann:usageNote "Te gebruiken voor het opslaan van de tijdelijke status van een lozingspunt." ;
+  rdfs:comment "Geeft de staat (status) weer van een lozingspunt op een bepaald moment in de tijd." ;
+  rdfs:label "LozingspuntStaat"@nl ;
+  rdfs:subClassOf lcy:State ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty dcterms:date ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass imjv:Lozingspunt ;
+            owl:onProperty lcy:stateOf ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+        ) ;
+    ] ;
+.
+imjv:Monstername
+  rdf:type owl:Class ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "Monstername"@nl ;
+  rdfs:subClassOf prov:Activity ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onDataRange xsd:date ;
+            owl:onProperty imjv:datum ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass imjv:Pompfilter ;
+            owl:onProperty imjv:pompfilter ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty imjv:monsternummer ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onClass qb:Observation ;
+            owl:onProperty schema:subjectOf ;
+          ]
+        ) ;
+    ] ;
+.
+imjv:OrgStatus
+  rdf:type owl:Class ;
+  vann:usageNote "gebruik om een activiteitscode (SKOS concept) in te geven gecombineerd met een datum (bv. actief op 2013-01-01)" ;
+  rdfs:comment "klasse om de status van een organisatie aan te geven" ;
+  rdfs:label "Organisatie status"@nl ;
+.
+imjv:Overbrenging
+  rdf:type owl:Class ;
+  rdfs:label "Afval Overbrenging"@nl ;
+  rdfs:subClassOf prov:Activity ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass skos:Concept ;
+            owl:onProperty imjv:vervoerswijze ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass imjv:IHM ;
+            owl:onProperty imjv:ihm ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+        ) ;
+    ] ;
+.
+imjv:Peilfilter
+  rdf:type owl:Class ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "Peilfilter"@nl ;
+  rdfs:subClassOf dbpedia:Device ;
+  rdfs:subClassOf prov:Entity ;
+.
+imjv:PeilfilterStaat
+  rdf:type owl:Class ;
+  vann:usageNote "Te gebruiken voor het opslaan van de tijdelijke status van een peilfilter." ;
+  rdfs:comment "Geeft de staat (status) weer van een peilfilter op een bepaald moment in de tijd." ;
+  rdfs:label "PeilfilterStaat"@nl ;
+  rdfs:subClassOf lcy:State ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty dcterms:date ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:onClass imjv:Peilfilter ;
+      owl:onProperty lcy:stateOf ;
+      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+    ] ;
+.
+imjv:Peilmeting
+  rdf:type owl:Class ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "Peilmeting"@nl ;
+  rdfs:subClassOf prov:Activity ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass skos:Concept ;
+            owl:onProperty imjv:instrumentPeilmeting ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass skos:Concept ;
+            owl:onProperty imjv:referentiepunt ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onClass qb:Observation ;
+            owl:onProperty schema:subjectOf ;
+          ]
+        ) ;
+    ] ;
+.
+imjv:Peilput
+  rdf:type owl:Class ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "Peilput"@nl ;
+  rdfs:subClassOf prov:Location ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onProperty imjv:watnr ;
+            owl:someValuesFrom xsd:string ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onClass imjv:Peilfilter ;
+            owl:onProperty imjv:peilfilter ;
+          ]
+        ) ;
+    ] ;
+.
+imjv:PeilputStaat
+  rdf:type owl:Class ;
+  vann:usageNote "Te gebruiken voor het opslaan van de tijdelijke status van een peilput." ;
+  rdfs:comment "Geeft de staat (status) weer van een peilput op een bepaald moment in de tijd." ;
+  rdfs:label "PeilputStaat"@nl ;
+  rdfs:subClassOf lcy:State ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass xsd:gYear ;
+            owl:onProperty dcterms:date ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass imjv:Peilput ;
+            owl:onProperty lcy:stateOf ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+        ) ;
+    ] ;
+.
+imjv:Pompfilter
+  rdf:type owl:Class ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "Pompfilter"@nl ;
+  rdfs:subClassOf dbpedia:Device ;
+  rdfs:subClassOf prov:Entity ;
+.
+imjv:PompfilterStaat
+  rdf:type owl:Class ;
+  vann:usageNote "Te gebruiken voor het opslaan van de tijdelijke status van een pompfilter." ;
+  rdfs:comment "Geeft de staat (status) weer van een pompfilter op een bepaald moment in de tijd." ;
+  rdfs:label "PompfilterStaat"@nl ;
+  rdfs:subClassOf lcy:State ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass xsd:gYear ;
+            owl:onProperty dcterms:date ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass imjv:Pompfilter ;
+            owl:onProperty lcy:stateOf ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+        ) ;
+    ] ;
+.
+imjv:Pompput
+  rdf:type owl:Class ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "Pompput"@nl ;
+  rdfs:subClassOf prov:Location ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onProperty imjv:watnr ;
+            owl:someValuesFrom xsd:string ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onClass imjv:Pompfilter ;
+            owl:onProperty imjv:pompfilter ;
+          ]
+        ) ;
+    ] ;
+.
+imjv:PompputStaat
+  rdf:type owl:Class ;
+  vann:usageNote "Te gebruiken voor het opslaan van de tijdelijke status van een pompput." ;
+  rdfs:comment "Geeft de staat (status) weer van een pompput op een bepaald moment in de tijd." ;
+  rdfs:label "PompputStaat"@nl ;
+  rdfs:subClassOf lcy:State ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty dcterms:date ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass imjv:Pompput ;
+            owl:onProperty lcy:stateOf ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+        ) ;
+    ] ;
+.
+imjv:PrtrInrichting
+  rdf:type owl:Class ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "Prtr Inrichting"@nl ;
+  rdfs:subClassOf prov:Entity ;
+.
+imjv:SevesoInrichting
+  rdf:type owl:Class ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "Seveso Inrichting"@nl ;
+  rdfs:subClassOf prov:Entity ;
+.
+imjv:Verwerker
+  rdf:type owl:Class ;
+  rdfs:label "Verwerker"@nl ;
+  rdfs:subClassOf prov:Agent ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onProperty imjv:naam ;
+            owl:someValuesFrom xsd:string ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onProperty imjv:identificatienummer ;
+            owl:someValuesFrom xsd:string ;
+          ]
+        ) ;
+    ] ;
+.
+imjv:Verwerking
+  rdf:type owl:Class ;
+  rdfs:label "Afval Verwerking"@nl ;
+  rdfs:subClassOf prov:Activity ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onDataRange xsd:boolean ;
+            owl:onProperty imjv:verwerkingBinnenBedrijf ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onProperty imjv:verwerkingswijze ;
+            owl:someValuesFrom skos:Concept ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onProperty imjv:verwerker ;
+            owl:someValuesFrom imjv:Verwerker ;
+          ]
+        ) ;
+    ] ;
+.
+imjv:VlaremRubriek
+  rdf:type owl:Class ;
+  vann:usageNote "Te gebruiken als een versie van een rubriek die als concept is gedefinieerd" ;
+  rdfs:comment "Representeert een onderdeel van de indelingslijst (Vlarem II) met een welbepaalde omschrijving van een inrichting of activiteit met een tijdsperiode waarbinnen deze versie van de rubriek geldig was." ;
+  rdfs:label "vlarem rubriek"@nl ;
+  rdfs:subClassOf <http://data.europa.eu/eli/ontology#LegalExpression> ;
+.
+
+
+imjv:Waterbalans
+  rdf:type owl:Class ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "Waterbalans"@nl ;
+  rdfs:subClassOf prov:Entity ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:onClass imjv:Exploitatie ;
+      owl:onProperty imjv:exploitatie ;
+      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+    ] ;
+.
+imjv:WaterbalansStaat
+  rdf:type owl:Class ;
+  rdfs:label "Waterbalans staat" ;
+  rdfs:subClassOf lcy:State ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:cardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty dcterms:date ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass imjv:Exploitatie ;
+            owl:onProperty imjv:exploitatie ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass imjv:Waterbalans ;
+            owl:onProperty lcy:stateOf ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+        ) ;
+    ] ;
+.
+imjv:Watergebruik
+  rdf:type owl:Class ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "Watergebruik"@nl ;
+  rdfs:subClassOf prov:Activity ;
+  rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:intersectionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:onDataRange xsd:gYear ;
+            owl:onProperty imjv:tijdsperiode ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onClass imjv:Waarde ;
+            owl:onProperty imjv:hoeveelheid ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:onProperty schema:subjectOf ;
+            owl:someValuesFrom qb:Observation ;
+          ]
+        ) ;
+    ] ;
+.
+imjv:aantalDagenPerJaar
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "aantal dagen per jaar"@nl ;
+  rdfs:range imjv:Waarde ;
+.
+imjv:aantalPunten
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "Aantal punten indien gegevens voor meerdere bronnen gegroepeerd zijn" ;
+  rdfs:label "aantal punten"@nl ;
+  rdfs:range xsd:integer ;
+.
+imjv:aantalUrenPerJaar
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "aantal uren per jaar"@nl ;
+  rdfs:range imjv:Waarde ;
+.
+imjv:afstandMaaiveld
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "afstand maaiveld"@nl ;
+  rdfs:range imjv:Waarde ;
+.
+imjv:afvalcode
+  rdf:type qb:DimensionProperty ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "afvalcode"@nl ;
+  rdfs:range skos:Concept ;
+.
+imjv:analyseType
+  rdf:type owl:FunctionalProperty ;
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "analyse type"@nl ;
+  rdfs:range skos:Concept ;
+.
+imjv:analysemethode
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "analysemethode"@nl ;
+  rdfs:range xsd:string ;
+.
+imjv:anderInstrumentPeilmeting
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain imjv:Peilmeting ;
+  rdfs:label "ander instrument peilmeting"@nl ;
+  rdfs:range xsd:string ;
+.
+imjv:anderReferentiepunt
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "ander referentiepunt"@nl ;
+  rdfs:range xsd:string ;
+.
+imjv:andereMonsternameTechniek
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:domain imjv:Monstername ;
+  rdfs:label "andere monstername techniek"@nl ;
+  rdfs:range xsd:string ;
+.
+imjv:aquifer
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "Watervoerende laag"@nl ;
+  rdfs:label "aquifer"@nl ;
+  rdfs:range skos:Concept ;
+.
+imjv:belangrijksteBref
+  rdf:type owl:FunctionalProperty ;
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "belangrijkste BREF"@nl ;
+  rdfs:range skos:Concept ;
+  rdfs:subPropertyOf imjv:bref ;
+.
+imjv:bepalingsMethode
+  rdf:type owl:FunctionalProperty ;
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "De methode waarop de emissie bepaald werd, te kiezen uit een vaste lijst met mogelijke methodes" ;
+  rdfs:label "bepalingsmethode"@nl ;
+  rdfs:range skos:Concept ;
+.
+imjv:beschrijving
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "link naar de per jaar vastgelegde properties" ;
+  rdfs:label "beschrijving"@nl ;
+  owl:equivalentProperty lcy:state ;
+  owl:inverseOf lcy:stateOf ;
+.
+imjv:blijvendBuitenWerking
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "Zet deze tag op true indien het emissiepunt niet langer in gebruik is. Volgend jaar zal het emissiepunt niet langer voorkomenin de vaste gegevens." ;
+  rdfs:label "blijvend buiten werking"@nl ;
+  rdfs:range xsd:boolean ;
+.
+imjv:bref
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "link naar BREF"@nl ;
+  rdfs:range skos:Concept ;
+.
+imjv:broeikasgasInstallatie
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "BKG-installatie"@nl ;
+  rdfs:range imjv:BroeikasgasInstallatie ;
+  owl:inverseOf imjv:broeikasgasInstallatieVan ;
+.
+imjv:broeikasgasInstallatieVan
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "broeikasgas installatie van" ;
+.
+imjv:capaciteit
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "capaciteit"@nl ;
+  rdfs:range imjv:Waarde ;
+.
+imjv:certificaatSecundaireGrondstof
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "certificaat secundaire grondstof"@nl ;
+  rdfs:range xsd:string ;
+.
+imjv:concentratie
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "Gemiddelde concentratie eenheidsvolume ofwel in droge ofwel in natte toestand -- xs:decimal met minInclusive = 0" ;
+  rdfs:label "concentratie"@nl ;
+  rdfs:range imjv:Waarde ;
+.
+imjv:concordanteVlaremRubriek
+  rdf:type owl:FunctionalProperty ;
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "vlarem rubriek"@nl ;
+  rdfs:range imjv:VlaremRubriek ;
+.
+imjv:controleInstantie
+  rdf:type qb:AttributeProperty ;
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "De naam van het labo die de meting uitgevoerd heeft" ;
+  rdfs:label "controleinstantie"@nl ;
+  rdfs:range xsd:string ;
+.
+imjv:datum
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "datum"@nl ;
+  rdfs:range xsd:date ;
+.
+imjv:datumLaatsteIjking
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:domain dbpedia:Device ;
+  rdfs:label "datum laatste ijking"@nl ;
+  rdfs:range xsd:date ;
+.
+imjv:datumLaboanalyse
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:domain imjv:Monstername ;
+  rdfs:label "datum laboanalyse"@nl ;
+  rdfs:range xsd:date ;
+.
+imjv:datumWegname
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:domain prov:Entity ;
+  rdfs:label "datum wegname"@nl ;
+  rdfs:range xsd:date ;
+.
+imjv:debiet
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "Debiet zonder verdunning van de afvalgassen in Nm3/uur -- xs:decimal met minInclusive = 0" ;
+  rdfs:domain [
+      rdf:type owl:Class ;
+      owl:unionOf (
+          imjv:Emissie
+          imjv:GeleideLozing
+        ) ;
+    ] ;
+  rdfs:label "debiet"@nl ;
+  rdfs:range imjv:Waarde ;
+.
+imjv:debietmeter
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "debietmeter"@nl ;
+  rdfs:range imjv:Debietmeter ;
+  owl:inverseOf imjv:debietmeterVan ;
+.
+imjv:debietmeterVan
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "debietmeter van" ;
+.
+imjv:diameter
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "diameter (in meter) -- xs:decimal met minInclusive 0" ;
+  rdfs:label "equivalente diameter"@nl ;
+  rdfs:range imjv:Waarde ;
+.
+imjv:diepte
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "diepte"@nl ;
+  rdfs:range imjv:Waarde ;
+.
+imjv:diepteOnderkant
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "diepte onderkant"@nl ;
+  rdfs:range imjv:Waarde ;
+.
+imjv:eindDatum
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "einddatum"@nl ;
+  rdfs:range [
+      rdf:type owl:Class ;
+      owl:unionOf (
+          xsd:date
+          xsd:dateTime
+        ) ;
+    ] ;
+.
+imjv:eindMeterstand
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "eind meterstand"@nl ;
+  rdfs:range imjv:Waarde ;
+.
+imjv:emissieContext
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:domain imjv:Emissie ;
+  rdfs:label "context van de emissie"@nl ;
+  rdfs:range skos:Concept ;
+.
+imjv:emissieDuur
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "Aantal uur per jaar -- xs:int" ;
+  rdfs:domain imjv:Emissie ;
+  rdfs:label "emissieduur"@nl ;
+  rdfs:range imjv:Waarde ;
+.
+imjv:emissieType
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:domain imjv:Emissie ;
+  rdfs:label "type van de emissie"@nl ;
+  rdfs:range skos:Concept ;
+.
+imjv:eprtrCode
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain imjv:PrtrInrichting ;
+  rdfs:label "eprtr Code" ;
+  rdfs:range xsd:integer ;
+.
+imjv:eprtrInrichting
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "TO DO"@nl ;
+  rdfs:range imjv:PrtrInrichting ;
+.
+imjv:exploitant
+  rdf:type owl:FunctionalProperty ;
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO naar CBB" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "exploitant"@nl ;
+  rdfs:range imjv:Exploitant ;
+  owl:equivalentProperty org:organization ;
+  owl:inverseOf imjv:exploitantVan ;
+.
+imjv:exploitantVan
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "exploitant van"@nl ;
+.
+imjv:exploitatie
+  rdf:type owl:FunctionalProperty ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "exploitatie"@nl ;
+  rdfs:range imjv:Exploitatie ;
+  owl:inverseOf imjv:exploitatieVan ;
+.
+imjv:exploitatieStatus
+  rdf:type qb:DimensionProperty ;
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:domain imjv:Exploitatie ;
+  rdfs:label "status van de exploitatie"@nl ;
+  rdfs:range skos:Concept ;
+.
+imjv:exploitatieVan
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "exploitatie van"@nl ;
+.
+imjv:filternummer
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:domain [
+      rdf:type owl:Class ;
+      owl:unionOf (
+          imjv:Peilfilter
+          imjv:Pompfilter
+        ) ;
+    ] ;
+  rdfs:label "filternummer"@nl ;
+  rdfs:range xsd:string ;
+.
+imjv:gebaseerdOp
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "gebruikt om eigen meeteenheden te relateren aan QUDT units" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "gebaseerd op"@nl ;
+.
+imjv:gebruiktAlsSecundaireGrondstof
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain imjv:Verwerking ;
+  rdfs:label "gebruikt als secundaire grondstof"@nl ;
+  rdfs:range xsd:boolean ;
+.
+imjv:gekoppeldeActiviteit
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "gekoppelde activiteit"@nl ;
+  rdfs:range prov:Activity ;
+  owl:inverseOf imjv:activiteitGekoppeldAan ;
+.
+imjv:gemiddeldeConcentratie
+  rdf:type qb:MeasureProperty ;
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "gemiddelde concentratie"@nl ;
+  rdfs:range xsd:decimal ;
+.
+imjv:gewestVanHerkomst
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain imjv:AfvalVerwerking ;
+  rdfs:label "gewest van herkomst"@nl ;
+  rdfs:range xsd:string ;
+.
+imjv:gewonnenVolume
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "gewonnen volume"@nl ;
+  rdfs:range imjv:Waarde ;
+.
+imjv:gpbvId
+  rdf:type owl:DatatypeProperty ;
+  rdf:type owl:InverseFunctionalProperty ;
+  rdfs:label "identifier binnen GPBV" ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf dcterms:identifier ;
+.
+imjv:gpbvInstallatie
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "gpbv installatie"@nl ;
+  rdfs:range imjv:GpbvInstallatie ;
+  owl:inverseOf imjv:gpbvInstallatieVan ;
+.
+imjv:gpbvInstallatieVan
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "gpbv installatie van"@nl ;
+.
+imjv:grondwaterDiepte
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "grondwater diepte"@nl ;
+  rdfs:range xsd:decimal ;
+.
+imjv:heeftSaneringsplanZwareMetalen
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "ivm. gpbv" ;
+  rdfs:label "" ;
+  rdfs:range xsd:boolean ;
+.
+imjv:hoeveelheid
+  rdf:type qb:MeasureProperty ;
+  rdf:type rdf:Property ;
+  vann:usageNote "OPGELET: binnen een datacube te gebruiken als datatype property. Buiten een datacube te gebruiken als objectproperty met als waarde een instance van imjv:Waarde." ;
+  rdfs:comment """Bijvoorbeeld: Emissie hoeveelheid op te geven in t/jr of mg TEQ/jr. Optioneel kan ook de meetmethode opgegeven worden (door hier het ID van de meetmethode op te geven) -- xs:decimal met minInclusive = 0
+Maar wordt ook gebruikt in andere types zoals Capaciteit.""" ;
+  rdfs:label "hoeveelheid"@nl ;
+  rdfs:range [
+      rdf:type owl:Class ;
+      owl:unionOf (
+          imjv:Waarde
+          xsd:decimal
+        ) ;
+    ] ;
+.
+imjv:hoofdActiviteit
+  rdf:type owl:FunctionalProperty ;
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "hoofdactiviteit"@nl ;
+  rdfs:range prov:Activity ;
+  rdfs:subPropertyOf imjv:inrichtingOfActiviteit ;
+  owl:inverseOf imjv:hoofdActiviteitVan ;
+.
+imjv:hoofdActiviteitVan
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "hoofd activiteit van"@nl ;
+.
+imjv:hoogte
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "Hoogte (in meter) -- xs:decimal met minInclusive 0" ;
+  rdfs:label "hoogte"@nl ;
+  rdfs:range imjv:Waarde ;
+.
+imjv:identificatienummer
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "identificatienummer"@nl ;
+  rdfs:range xsd:string ;
+.
+imjv:ihm
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain imjv:Overbrenging ;
+  rdfs:label "ihm"@nl ;
+  rdfs:range imjv:IHM ;
+.
+imjv:inDrogeToestandOpgegeven
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "True indien de waarden (debiet en zuurstofgehalte) in droge toestand opgegeven worden, anders False" ;
+  rdfs:label "in droge toestand opgegeven (boolean)" ;
+  rdfs:range xsd:boolean ;
+.
+imjv:ingedeeldeInrichtingOfActiviteit
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "link naar IngedeeldeInrichtingOfActiviteit" ;
+  rdfs:label "ingedeelde inrichting of activiteit"@nl ;
+  rdfs:range imjv:IngedeeldeInrichtingOfActiviteit ;
+  owl:inverseOf imjv:ingedeeldeInrichtingOfActiviteitVan ;
+.
+imjv:ingedeeldeInrichtingOfActiviteitVan
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "ingedeelde inrichting of activiteit van" ;
+.
+imjv:inrichtingOfActiviteit
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "link naar inrichting of activiteit" ;
+  rdfs:label "inrichting of activiteit"@nl ;
+  rdfs:range imjv:InrichtingOfActiviteit ;
+  owl:inverseOf imjv:InrichtingOfActiviteitVan ;
+.
+imjv:instrumentPeilmeting
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:domain imjv:Peilmeting ;
+  rdfs:label "instrument peilmeting"@nl ;
+  rdfs:range skos:Concept ;
+.
+imjv:isActief
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "Is actief" ;
+  rdfs:range xsd:boolean ;
+.
+imjv:isGpbv
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "Is een eenheid waarop de gpbv-regelgeving van toepassing is" ;
+  rdfs:range xsd:boolean ;
+.
+imjv:isHotspotFijnstof
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "de eenheid is ligt in een gebied dat hotspot voor fijn stof is aangeduidt" ;
+  rdfs:range xsd:boolean ;
+.
+imjv:key
+  rdf:type owl:DatatypeProperty ;
+  rdf:type owl:InverseFunctionalProperty ;
+  rdfs:label "key sleutel"@nl ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf dcterms:identifier ;
+.
+imjv:lambert72_x
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "Type definitie voor een lambertcoordinaat met restricties voor Vlaanderen op de x-as (De X-coordinaat uitgedrukt in meter) -- xs:double met minIncl = 22000 en maxIncl = 259000" ;
+  rdfs:domain geo:Point ;
+  rdfs:label "x-coördinaat (lambert72)"@nl ;
+  rdfs:range xsd:double ;
+.
+imjv:lambert72_y
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "Type definitie voor een lambertcoordinaat met restricties voor Vlaanderen op de y-as (De Y-coordinaat uitgedrukt in meter) -- xs:double met minIncl = 152000 en maxIncl = 245000" ;
+  rdfs:domain geo:Point ;
+  rdfs:label "y-coördinaat (lambert 72)"@nl ;
+  rdfs:range xsd:double ;
+.
+imjv:landVanHerkomst
+  rdf:type owl:FunctionalProperty ;
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "land van herkomst"@nl ;
+  rdfs:range skos:Concept ;
+.
+imjv:lengte
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "lengte"@nl ;
+  rdfs:range owl:Thing ;
+.
+imjv:lozingsplaats
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO: waarde uit gecontroleerd vocabularium" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "plaats van lozing"@nl ;
+  rdfs:range skos:Concept ;
+.
+imjv:lozingstype
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO: waarde uit gecontroleerd vocabularium" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "type van lozing"@nl ;
+  rdfs:range skos:Concept ;
+.
+imjv:luchtOverschot
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "Procent luchtoverschot boven de stoechiometrische verhouding -- xs:decimal met minInclusive = 0" ;
+  rdfs:domain imjv:Emissie ;
+  rdfs:label "luchtoverschot"@nl ;
+  rdfs:range imjv:Waarde ;
+.
+imjv:massastroom
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "de uitgestoten massa van de stof -- xs:decimal met minInclusive = 0" ;
+  rdfs:label "massastroom"@nl ;
+  rdfs:range imjv:Waarde ;
+.
+imjv:meetfrequentie
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "Het aantal metingen (integer MeetfrequentieDiscreet of boolean MeetfrequentieContinue" ;
+  rdfs:label "meetfrequentie"@nl ;
+  rdfs:range xsd:integer ;
+.
+imjv:meetputType
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "type meetput"@nl ;
+  rdfs:range skos:Concept ;
+.
+imjv:meetwaarde
+  rdf:type qb:MeasureProperty ;
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "meetwaarde"@nl ;
+  rdfs:range xsd:decimal ;
+.
+imjv:merDossier
+  rdf:type owl:FunctionalProperty ;
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "link naar het mer-dossier dat op de eenheid van toepassing is" ;
+  rdfs:label "merDossier"@nl ;
+  rdfs:range dbpedia:Case ;
+.
+imjv:merk
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:domain prov:Entity ;
+  rdfs:label "merk"@nl ;
+  rdfs:range xsd:string ;
+.
+imjv:monsternameTechniek
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:domain imjv:Monstername ;
+  rdfs:label "monstername techniek"@nl ;
+  rdfs:range skos:Concept ;
+.
+imjv:monsternummer
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:domain imjv:Monstername ;
+  rdfs:label "monsternummer"@nl ;
+  rdfs:range xsd:string ;
+.
+imjv:naam
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "naam"@nl ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf rdfs:label ;
+.
+imjv:nietgebruiktAlsSecundaireGrondstof
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain imjv:Verwerking ;
+  rdfs:label "niet gebruikt als secundaire grondstof"@nl ;
+  rdfs:range xsd:boolean ;
+.
+imjv:niscode
+  rdf:type owl:FunctionalProperty ;
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "niscode"@nl ;
+  rdfs:range skos:Concept ;
+.
+imjv:observatie
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "aan een activiteit gerelateerde observatie" ;
+  rdfs:label "observatie"@nl ;
+  rdfs:range qb:Observation ;
+  owl:inverseOf imjv:observatieVan ;
+.
+imjv:observatieVan
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain qb:Observation ;
+  rdfs:label "observatie van" ;
+.
+imjv:observatieobject
+  rdf:type qb:DimensionProperty ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "observatieobject"@nl ;
+  rdfs:range xsd:string ;
+.
+imjv:omschrijvingAfvalstof
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "omschrijving afvalstof"@nl ;
+  rdfs:range xsd:string ;
+.
+imjv:onderneming
+  rdf:type owl:FunctionalProperty ;
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO naar KBO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "onderneming"@nl ;
+  owl:equivalentProperty org:organization ;
+  owl:equivalentProperty imjv:exploitant ;
+.
+imjv:ondernemingsnummer
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "ondernemingsnummer"@nl ;
+  rdfs:range xsd:string ;
+.
+imjv:oorzaak
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "Oorzaak van de emissie -- xs:string 1-255" ;
+  rdfs:label "oorzaak"@nl ;
+  rdfs:range xsd:string ;
+.
+imjv:overbrenging
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "overbrenging"@nl ;
+  rdfs:range imjv:Overbrenging ;
+  owl:inverseOf imjv:overbrengingVan ;
+.
+imjv:overbrengingVan
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "overbrenging van"@nl ;
+.
+imjv:pH
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:domain imjv:GeleideLozing ;
+  rdfs:label "zuurtegraad"@nl ;
+  rdfs:range xsd:decimal ;
+.
+imjv:parameter
+  rdf:type qb:DimensionProperty ;
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "parameter"@nl ;
+  rdfs:range skos:Concept ;
+.
+imjv:peilfilter
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:domain imjv:Peilput ;
+  rdfs:label "peilfilter"@nl ;
+  rdfs:range [
+      rdf:type owl:Class ;
+      owl:unionOf (
+          imjv:Peilfilter
+          imjv:PeilfilterStaat
+        ) ;
+    ] ;
+  owl:inverseOf imjv:peilfilterVan ;
+.
+imjv:peilfilterVan
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "peilfilter van"@nl ;
+.
+imjv:peilmeting
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "peilmeting"@nl ;
+  rdfs:range imjv:Peilmeting ;
+  owl:inverseOf imjv:peilmetingVan ;
+.
+imjv:peilmetingVan
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "peilmeting van"@nl ;
+.
+imjv:periode
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "Vrij in te geven periode bv continue, 200 dagen per jaar" ;
+  rdfs:label "periode"@nl ;
+  rdfs:range xsd:integer ;
+.
+imjv:pompfilter
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:domain imjv:Pompput ;
+  rdfs:label "pompfilter"@nl ;
+  rdfs:range [
+      rdf:type owl:Class ;
+      owl:unionOf (
+          imjv:Pompfilter
+          imjv:PompfilterStaat
+        ) ;
+    ] ;
+  owl:inverseOf imjv:pompfilterVan ;
+.
+imjv:pompfilterVan
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "pompfilter van"@nl ;
+.
+imjv:referentiegebied
+  rdf:type qb:DimensionProperty ;
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "wordt gebruikt voor de refArea dimensie van een observatie" ;
+  rdfs:comment "locatie/gebied waar de observatie gemeten is" ;
+  rdfs:label "referentiegebied"@nl ;
+  rdfs:range geo:SpatialThing ;
+  rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/dimension#refArea> ;
+.
+imjv:referentiepunt
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:domain [
+      rdf:type owl:Class ;
+      owl:unionOf (
+          imjv:Peilmeting
+          imjv:Monstername
+        ) ;
+    ] ;
+  rdfs:label "referentiepunt type"@nl ;
+  rdfs:range skos:Concept ;
+.
+imjv:rieRubriek
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:domain imjv:InrichtingOfActiviteit ;
+  rdfs:label "rie rubriek"@nl ;
+  rdfs:range skos:Concept ;
+.
+imjv:rieVerwijzing
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "Verwijzing naar RIE wettekst" ;
+  rdfs:label "verwijzing naar RIE"@nl ;
+  rdfs:range skos:Concept ;
+.
+imjv:ritme
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "Vrij in te geven bv continue, 1x per dag" ;
+  rdfs:label "ritme"@nl ;
+  rdfs:range xsd:string ;
+.
+imjv:serienummer
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:domain dbpedia:Device ;
+  rdfs:label "serienummer"@nl ;
+  rdfs:range xsd:string ;
+.
+imjv:sevesoInrichting
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "verwijzing naar seveso" ;
+  rdfs:label "seveso inrichting"@nl ;
+  rdfs:range imjv:SevesoInrichting ;
+.
+imjv:sevesoStatus
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain imjv:SevesoInrichting ;
+  rdfs:label "seveso Status"@nl ;
+  rdfs:range xsd:string ;
+.
+imjv:situatierapport
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "situatie rapport"@nl ;
+  rdfs:range skos:Concept ;
+.
+imjv:startDatum
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "start datum"@nl ;
+  rdfs:range [
+      rdf:type owl:Class ;
+      owl:unionOf (
+          xsd:date
+          xsd:dateTime
+        ) ;
+    ] ;
+.
+imjv:startMeterstand
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "start meterstand"@nl ;
+  rdfs:range imjv:Waarde ;
+.
+imjv:substantie
+  rdf:type qb:DimensionProperty ;
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "te gebruiken als dimensie op een observatie." ;
+  rdfs:comment "De naam van de verontreinigende stof (te kiezen uit een vaste lijst)" ;
+  rdfs:label "verontreinigende stof"@nl ;
+  rdfs:range [
+      rdf:type owl:Class ;
+      owl:unionOf (
+          dbpedia:ChemicalCompound
+          skos:Concept
+        ) ;
+    ] ;
+.
+imjv:temperatuur
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "In °C  -- xs:decimal met minInclusive = 0" ;
+  rdfs:label "temperatuur"@nl ;
+  rdfs:range imjv:Waarde ;
+.
+imjv:tijd
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "tijd"@nl ;
+  rdfs:range xsd:time ;
+.
+imjv:tijdLaboanalyse
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:domain imjv:Monstername ;
+  rdfs:label "tijd laboanalyse"@nl ;
+  rdfs:range xsd:time ;
+.
+imjv:tijdPompenStil
+  rdf:type qb:AttributeProperty ;
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "tijd pompen stil"@nl ;
+  rdfs:range xsd:duration ;
+.
+imjv:tijdsperiode
+  rdf:type qb:DimensionProperty ;
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "te gebruiken als timePeriod dimensie op een observatie. In deze context gYear als waarde gebruiken." ;
+  rdfs:comment "periode in de tijd waarop de observatie slaat" ;
+  rdfs:label "periode in de tijd"@nl ;
+  rdfs:range xsd:gYear ;
+  rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> ;
+.
+imjv:uitvoerder
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:domain prov:Activity ;
+  rdfs:label "uitvoerder"@nl ;
+  rdfs:range xsd:string ;
+.
+imjv:verbruiktVolume
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "verbruikt volume"@nl ;
+  rdfs:range xsd:decimal ;
+.
+imjv:vervoerswijze
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain imjv:Overbrenging ;
+  rdfs:label "vervoerswijze"@nl ;
+  rdfs:range skos:Concept ;
+.
+imjv:verwerker
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain imjv:Verwerking ;
+  rdfs:label "verwerker"@nl ;
+  rdfs:range imjv:Verwerker ;
+  owl:inverseOf imjv:verwerkerVan ;
+.
+imjv:verwerkerVan
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "verwerker van"@nl ;
+.
+imjv:verwerking
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain imjv:AfvalProductie ;
+  rdfs:label "verwerking"@nl ;
+  rdfs:range imjv:Verwerking ;
+  owl:inverseOf imjv:verwerkingVan ;
+.
+imjv:verwerkingBinnenBedrijf
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain imjv:Verwerking ;
+  rdfs:label "verwerking binnen bedrijf"@nl ;
+  rdfs:range xsd:boolean ;
+.
+imjv:verwerkingVan
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "verwerking van"@nl ;
+.
+imjv:verwerkingswijze
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain imjv:Verwerking ;
+  rdfs:label "verwerkingswijze"@nl ;
+  rdfs:range skos:Concept ;
+.
+imjv:vestiging
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "vestiging"@nl ;
+  rdfs:range org:Organization ;
+  owl:inverseOf imjv:vestigingVan ;
+.
+imjv:vestigingVan
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "vestiging van"@nl ;
+.
+imjv:vlaremRubriek
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "vlarem rubriek"@nl ;
+  rdfs:range imjv:VlaremRubriek ;
+  rdfs:subPropertyOf <http://data.europa.eu/eli/ontology#cited_by> ;
+.
+imjv:vracht
+  rdf:type qb:AttributeProperty ;
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "vracht"@nl ;
+  rdfs:range imjv:Waarde ;
+.
+imjv:waterGehalte
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "Watergehalte uitgedrukt in procent -- xs:decimal met minInclusive = 0" ;
+  rdfs:label "watergehalte"@nl ;
+  rdfs:range imjv:Waarde ;
+.
+imjv:watergebruik
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "watergebruik"@nl ;
+  rdfs:range imjv:Watergebruik ;
+  owl:inverseOf imjv:watergebruikVan ;
+.
+imjv:watergebruikVan
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "watergebruik van"@nl ;
+.
+imjv:watnr
+  rdf:type owl:DatatypeProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:domain [
+      rdf:type owl:Class ;
+      owl:unionOf (
+          imjv:Pompput
+          imjv:Peilput
+        ) ;
+    ] ;
+  rdfs:label "watnr"@nl ;
+  rdfs:range xsd:string ;
+.
+imjv:zuiveringsApparatuur
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "TO DO" ;
+  rdfs:label "zuiveringsapparatuur"@nl ;
+  rdfs:range dbpedia:Device ;
+  owl:inverseOf imjv:zuiveringsApparatuurVan ;
+.
+imjv:zuiveringsApparatuurVan
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "zuiverings apparatuur van"@nl ;
+.
+imjv:zuurstofGehalte
+  rdf:type owl:ObjectProperty ;
+  vann:usageNote "TO DO" ;
+  rdfs:comment "Reel zuurstof gehalte in procent -- xs:decimal met minInclusive = 0" ;
+  rdfs:label "zuurstofgehalte"@nl ;
+  rdfs:range imjv:Waarde ;
+.
+
+<https://id.milieuinfo.be/milieuvocab/v0.95>
+  rdf:type owl:Ontology ;
+  owl:imports dcterms: ;
+  owl:imports <http://purl.org/linked-data/cube> ;
+  owl:imports <http://www.w3.org/2003/01/geo/wgs84_pos> ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+  owl:imports <http://www.w3.org/ns/org.ttl> ;
+  owl:imports <http://www.w3.org/ns/prov-o> ;
+.

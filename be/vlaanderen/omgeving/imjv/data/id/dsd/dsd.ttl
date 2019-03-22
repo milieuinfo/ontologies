@@ -1,0 +1,142 @@
+# baseURI: https://id.milieuinfo.be/milieuvocab/v0.95
+# imports: http://purl.org/dc/terms/
+# imports: http://purl.org/linked-data/cube
+# imports: http://www.w3.org/2003/01/geo/wgs84_pos
+# imports: http://www.w3.org/2004/02/skos/core
+# imports: http://www.w3.org/ns/org.ttl
+# imports: http://www.w3.org/ns/prov-o
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix datatypes: <http://www.w3.org/2001/XMLSchema-datatypes#> .
+@prefix dbpedia: <http://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmi: <http://purl.org/dc/dcmitype/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix gr: <http://purl.org/goodrelations/v1#> .
+@prefix kbo: <http://data.kbodata.be/def#> .
+@prefix lcy: <http://purl.org/vocab/lifecycle/schema#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix imjv: <https://data.imjv.omgeving.vlaanderen.be/ns/imjv#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix qudt: <http://qudt.org/schema/qudt#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rec: <http://www.w3.org/2001/02pd/rec54#> .
+@prefix regorg: <http://www.w3.org/ns/regorg#> .
+@prefix schema: <http://schema.org/> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix sdmx: <http://purl.org/linked-data/sdmx#> .
+@prefix sdmx-attr: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix sdmx-code: <http://purl.org/linked-data/sdmx/2009/code#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix spin: <http://spinrdf.org/spin#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+<https://data.imjv.omgeving.vlaanderen.be/id/dsd/afval>
+  rdf:type qb:DataStructureDefinition ;
+  qb:component [
+      rdf:type qb:ComponentSpecification ;
+      qb:attribute sdmx-attr:unitMeasure ;
+      qb:dimension imjv:afvalcode ;
+      qb:dimension imjv:referentiegebied ;
+      qb:dimension imjv:tijdsperiode ;
+      qb:measure imjv:hoeveelheid ;
+    ] ;
+  rdfs:label "afval dsd"@nl ;
+.
+<https://data.imjv.omgeving.vlaanderen.be/id/dsd/energie>
+  rdf:type qb:DataStructureDefinition ;
+  qb:component [
+      rdf:type qb:ComponentSpecification ;
+      qb:attribute sdmx-attr:unitMeasure ;
+      qb:dimension imjv:observatieobject ;
+      qb:dimension imjv:referentiegebied ;
+      qb:dimension imjv:tijdsperiode ;
+      qb:measure imjv:hoeveelheid ;
+    ] ;
+  rdfs:label "energie dsd"@nl ;
+.
+<https://data.imjv.omgeving.vlaanderen.be/id/dsd/grondwater>
+  rdf:type qb:DataStructureDefinition ;
+  qb:component [
+      rdf:type qb:ComponentSpecification ;
+      qb:attribute sdmx-attr:unitMeasure ;
+      qb:dimension imjv:parameter ;
+      qb:dimension imjv:referentiegebied ;
+      qb:dimension imjv:tijdsperiode ;
+      qb:measure imjv:meetwaarde ;
+    ] ;
+  rdfs:label "grondwater dsd"@nl ;
+  skos:prefLabel "grondwater dsd"@nl ;
+.
+<https://data.imjv.omgeving.vlaanderen.be/id/dsd/grondwateronttrekking>
+  rdf:type qb:DataStructureDefinition ;
+  qb:component [
+      rdf:type qb:ComponentSpecification ;
+      qb:attribute sdmx-attr:unitMeasure ;
+      qb:dimension imjv:referentiegebied ;
+      qb:dimension imjv:tijdsperiode ;
+      qb:measure imjv:hoeveelheid ;
+    ] ;
+  rdfs:label "grondwateronttrekking dsd"@nl ;
+  skos:prefLabel "grondwateronttrekking dsd"@nl ;
+.
+<https://data.imjv.omgeving.vlaanderen.be/id/dsd/luchtemissie>
+  rdf:type qb:DataStructureDefinition ;
+  qb:component [
+      rdf:type qb:ComponentSpecification ;
+      qb:attribute sdmx-attr:unitMeasure ;
+      qb:attribute qudt:relativeStandardUncertainty ;
+      qb:dimension imjv:referentiegebied ;
+      qb:dimension imjv:substantie ;
+      qb:dimension imjv:tijdsperiode ;
+      qb:measure imjv:hoeveelheid ;
+    ] ;
+  rdfs:label "luchtemissie dsd"@nl ;
+  skos:prefLabel "luchtemissie dsd"@nl ;
+.
+<https://data.imjv.omgeving.vlaanderen.be/id/dsd/peilmeting-grondwater>
+  rdf:type qb:DataStructureDefinition ;
+  qb:component [
+      rdf:type qb:ComponentSpecification ;
+      qb:attribute sdmx-attr:unitMeasure ;
+      qb:dimension imjv:referentiegebied ;
+      qb:dimension imjv:tijdsperiode ;
+      qb:measure imjv:grondwaterDiepte ;
+    ] ;
+  rdfs:label "peilmeting-grondwater dsd"@nl ;
+  skos:prefLabel "peilmeting-grondwater dsd"@nl ;
+.
+<https://data.imjv.omgeving.vlaanderen.be/id/dsd/waterlozingen>
+  rdf:type qb:DataStructureDefinition ;
+  qb:component [
+      rdf:type qb:ComponentSpecification ;
+      qb:attribute sdmx-attr:unitMeasure ;
+      qb:attribute <http://qudt.org/schema/qudt/standardUncertainty> ;
+      qb:dimension imjv:referentiegebied ;
+      qb:dimension imjv:substantie ;
+      qb:dimension imjv:tijdsperiode ;
+      qb:measure imjv:gemiddeldeConcentratie ;
+    ] ;
+  rdfs:label "waterlozingen dsd"@nl ;
+  skos:prefLabel "waterlozingen dsd"@nl ;
+.

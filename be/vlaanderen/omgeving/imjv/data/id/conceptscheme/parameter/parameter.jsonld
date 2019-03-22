@@ -1,0 +1,421 @@
+{
+  "@graph" : [ {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter",
+    "@type" : "owl:Ontology",
+    "imports" : [ "http://www.w3.org/2004/02/skos/core", "http://purl.org/dc/terms/", "http://purl.org/dc/elements/1.1/" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID1061",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1061", "https://pubchem.ncbi.nlm.nih.gov/compound/1061", "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID1061" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Phosphate"
+    }, {
+      "@language" : "nl",
+      "@value" : "Fosfaat"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "PO4"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID1117",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1117", "https://pubchem.ncbi.nlm.nih.gov/compound/1117", "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID1117" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Sulfate"
+    }, {
+      "@language" : "nl",
+      "@value" : "Sulfaat"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "SO4"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID19660",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID19660", "https://pubchem.ncbi.nlm.nih.gov/compound/19660", "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID19660" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Carbonate"
+    }, {
+      "@language" : "nl",
+      "@value" : "Carbonaat"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "CO3"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID223",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID223", "https://pubchem.ncbi.nlm.nih.gov/compound/223", "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID223" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : "Ammonium",
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : [ "H4N+", "NH4" ]
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID23930",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23930", "https://pubchem.ncbi.nlm.nih.gov/compound/23930", "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23930" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Manganese"
+    }, {
+      "@language" : "nl",
+      "@value" : "Mangaan"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "Mn"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID24526",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID24526", "https://pubchem.ncbi.nlm.nih.gov/compound/24526", "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID24526" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Chloor"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "CL"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID271",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID271", "https://pubchem.ncbi.nlm.nih.gov/compound/271", "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID271" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Calcium ion"
+    }, {
+      "@language" : "nl",
+      "@value" : "Calcium ion"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "Ca"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID27284",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID27284", "https://pubchem.ncbi.nlm.nih.gov/compound/27284", "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID27284" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Ferrous ion"
+    }, {
+      "@language" : "nl",
+      "@value" : "Ijzer divalent ion"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "Fe2+"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID28179",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID28179", "https://pubchem.ncbi.nlm.nih.gov/compound/28179", "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID28179" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Fluoride"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "F"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID29936",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID29936", "https://pubchem.ncbi.nlm.nih.gov/compound/29936", "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID29936" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Ferric ion"
+    }, {
+      "@language" : "nl",
+      "@value" : "Ijzer trivalent ion"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "Fe3+"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID3032552",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID3032552", "https://pubchem.ncbi.nlm.nih.gov/compound/3032552", "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID3032552" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Nitrogen dioxide"
+    }, {
+      "@language" : "nl",
+      "@value" : "Stikstofdioxide"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "NO2"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID5360545",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5360545", "https://pubchem.ncbi.nlm.nih.gov/compound/5360545", "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5360545" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Sodium"
+    }, {
+      "@language" : "nl",
+      "@value" : "Natrium"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "Na"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID5462224",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5462224", "https://pubchem.ncbi.nlm.nih.gov/compound/5462224", "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5462224" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Magnesium"
+    }, {
+      "@language" : "nl",
+      "@value" : "Magnesium"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "Mg"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID5462311",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5462311", "https://pubchem.ncbi.nlm.nih.gov/compound/5462311", "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5462311" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Oxygen"
+    }, {
+      "@language" : "nl",
+      "@value" : "Zuurstof"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "O2"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID769",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID769", "https://pubchem.ncbi.nlm.nih.gov/compound/769", "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID769" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Bicarbonate"
+    }, {
+      "@language" : "nl",
+      "@value" : "Bicarbonaat"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "HCO3"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID813",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID813", "https://pubchem.ncbi.nlm.nih.gov/compound/813", "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID813" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Potassium Ion"
+    }, {
+      "@language" : "nl",
+      "@value" : "Kalium Ion"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "K"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID943",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID943", "https://pubchem.ncbi.nlm.nih.gov/compound/943", "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID943" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Nitrate"
+    }, {
+      "@language" : "nl",
+      "@value" : "Nitraat"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "NO3"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID961",
+    "@type" : "skos:Concept",
+    "seeAlso" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID961", "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID961", "https://pubchem.ncbi.nlm.nih.gov/compound/961" ],
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Hydroxide"
+    }, {
+      "@language" : "nl",
+      "@value" : "Hydroxide"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "OH"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/ec",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "De mate waarin elektrisch ladingtransport plaatsvindt in een materiaal"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "electrical conductivity"
+    }, {
+      "@language" : "nl",
+      "@value" : "elektrisch geleidingsvermogen"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "EC"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/laboanalyse",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "De analyse werd uitgevoerd in een labo"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/analysetypes_grondwater",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Lab analysis"
+    }, {
+      "@language" : "nl",
+      "@value" : "Laboanalyse"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/analysetypes_grondwater",
+    "key" : "Laboanalyse"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/onbekend",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Onbekend analysetype"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/analysetypes_grondwater",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Unknown"
+    }, {
+      "@language" : "nl",
+      "@value" : "Onbekend"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/analysetypes_grondwater",
+    "key" : "Onbekend"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/ph",
+    "@type" : "skos:Concept",
+    "seeAlso" : "http://dbpedia.org/resource/PH",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "De pH is een maat voor de zuurgraad (ook wel zuurtegraad) van een waterige oplossing. De pH van een neutrale waterige oplossing ligt bij kamertemperatuur rond de 7. Zure oplossingen hebben een pH lager dan 7, en dus een hoge zuurgraad. Basische oplossingen hebben een pH hoger dan 7 en dus een lage zuurgraad."
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Carbonate"
+    }, {
+      "@language" : "nl",
+      "@value" : "Carbonaat"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "pH"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/t",
+    "@type" : "skos:Concept",
+    "seeAlso" : "http://dbpedia.org/resource/Temperature",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Temperatuur is een maat voor hoe warm of koud iets is. Natuurkundig gezien is het een maat voor de gemiddelde chaotische bewegingsenergie per molecuul, plus de beweging van atomen in moleculen. Het woord wordt ook specifiek gebruikt in de betekenissen koorts en buitenluchttemperatuur."
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Temperature"
+    }, {
+      "@language" : "nl",
+      "@value" : "Temperatuur"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "T"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/tam",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "TAM"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "TAM"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/tap",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "TAP"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "TAP"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/veldanalyse",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "De analyse werd uitgevoerd in op het veld"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/analysetypes_grondwater",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Field analysis"
+    }, {
+      "@language" : "nl",
+      "@value" : "Veldanalyse"
+    } ],
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/analysetypes_grondwater",
+    "key" : "Veldanalyse"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/waterhardheid",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Waterhardheid"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "key" : "H(tot)"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/analysetypes_grondwater",
+    "@type" : "skos:ConceptScheme",
+    "prefLabel" : "analysetypes voor grondwater(IMJV)"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter",
+    "@type" : "skos:ConceptScheme",
+    "prefLabel" : "parameters (IMJV)"
+  } ],
+  "@context" : {
+    "key" : {
+      "@id" : "https://data.imjv.omgeving.vlaanderen.be/ns/imjv#key"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "topConceptOf" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
+      "@type" : "@id"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type" : "@id"
+    },
+    "imports" : {
+      "@id" : "http://www.w3.org/2002/07/owl#imports",
+      "@type" : "@id"
+    },
+    "definition" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "imjv" : "https://data.imjv.omgeving.vlaanderen.be/ns/imjv#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

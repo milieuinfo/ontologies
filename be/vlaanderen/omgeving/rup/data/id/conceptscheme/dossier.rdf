@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:qudt="http://qudt.org/schema/qudt#"
+        xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:vann="http://purl.org/vocab/vann/"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:schema="http://schema.org/"
+        xmlns:org="http://www.w3.org/ns/org#"
+        xmlns:regorg="http://www.w3.org/ns/regorg#"
+        xmlns:omv="http://omv.be/">
+        
+        
+        
+        <rdf:Description rdf:about="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier">
+            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+            <rdfs:comment xml:lang="nl">TO DO</rdfs:comment>
+            <xkos:belongsTo rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/dataset"/>
+            <xkos:numberOfLevels rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">4</xkos:numberOfLevels>
+            <xkos:levels rdf:nodeID="skoslevel-listitem-Zendantennes-001"/>
+            <skos:prefLabel xml:lang="nl">Informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest</skos:prefLabel>
+            <skos:altLabel xml:lang="nl">antenne_dossier</skos:altLabel>
+            <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-19</dcterms:issued>
+            <vann:changes xml:lang="nl"></vann:changes>
+            <dcterms:title xml:lang="nl">Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest</dcterms:title>
+            <owl:versionInfo xml:lang="nl">Eerste versie, zoals in gebruik genomen in het kader van
+                archivering van zendantennes</owl:versionInfo>
+            <foaf:maker>
+                <rdf:Description>
+                    <schema:affiliation>
+                        <org:Organization rdf:about="http://data.vlaanderen.be/id/organisatie/OVO003751">
+                            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+                            <foaf:name  xml:lang="nl">Data- en informatiebeheer &amp; digitale maatschappij</foaf:name>
+                            <rdfs:seeAlso rdf:resource="https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66"/>
+                            <skos:altLabel  xml:lang="nl">DIDM</skos:altLabel>
+                            <skos:prefLabel  xml:lang="nl">Data- en informatiebeheer &amp; digitale maatschappij</skos:prefLabel>
+                            <org:changedBy rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting"/>
+                            <org:classification rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa"/>
+                            <org:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVO003751</org:identifier>
+                            <regorg:orgStatus rdf:resource="http://data.vlaanderen.be/id/concept/organisatiestatus/actief"/>
+                            <foaf:homepage rdf:resource="https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij"/>    
+                            <dcterms:type rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa"/>   
+                            <foaf:mbox rdf:resource="mailto:didm.omgeving@vlaanderen.be"/>
+                        </org:Organization>
+                    </schema:affiliation>
+                    <foaf:mbox rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
+                    <foaf:name>Van Haute, Geert</foaf:name>
+                </rdf:Description>
+            </foaf:maker>
+            <skos:prefLabel>Onderdelen van een dossier voor de aanvraag van een conformiteitsattest</skos:prefLabel>
+        </rdf:Description>
+        <rdf:Description rdf:about="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_ruimtelijk_uitvoeringsplan">
+            <skos:inScheme rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>       
+            <skos:topConceptOf rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>      
+            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <skos:prefLabel>Opmaak ruimtelijk uitvoeringsplan</skos:prefLabel>
+            <skos:narrower rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan"/>
+            <skos:narrower rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_provinciaal_ruimtelijk_uitvoeringsplan"/>
+            <skos:narrower rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_gemeentelijk_ruimtelijk_uitvoeringsplan"/>
+        </rdf:Description>
+        
+        <rdf:Description rdf:about="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan">
+            <skos:inScheme rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>         
+            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <skos:prefLabel>Opmaak ruimtelijk uitvoeringsplan</skos:prefLabel>
+            <skos:broader rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_ruimtelijk_uitvoeringsplan"/>
+        </rdf:Description>
+        <rdf:Description rdf:about="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_provinciaal_ruimtelijk_uitvoeringsplan">
+            <skos:inScheme rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>         
+            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <skos:prefLabel>Opmaak provinciaal ruimtelijk uitvoeringsplan</skos:prefLabel>
+            <skos:broader rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_ruimtelijk_uitvoeringsplan"/>
+        </rdf:Description>
+        <rdf:Description rdf:about="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_gemeentelijk_ruimtelijk_uitvoeringsplan">
+            <skos:inScheme rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>         
+            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <skos:prefLabel>Opmaak gemeentelijk ruimtelijk uitvoeringsplan</skos:prefLabel>
+            <skos:broader rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_ruimtelijk_uitvoeringsplan"/>
+        </rdf:Description>
+        <rdf:Description rdf:about="https://data.rup.omgeving.vlaanderen.be/id/collection/procedurestappen/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan">
+            <skos:inScheme rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>         
+            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+            <skos:prefLabel>Procedurestappen die tijdens de opmaak van een gewestelijk ruimtelijk uitvoeringsplan worden doorlopen</skos:prefLabel>
+            <skos:member rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/voorbereidende_fase"/>
+            <skos:member rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_startnota_en_procesnota"/>
+            <skos:member rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/organisatie_raadpleging_publiek_en_adviesvraag"/>
+            <skos:member rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_scopingnota"/>
+            <skos:member rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/organisatie_van_openbaar_onderzoek"/>
+            <skos:member rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/definitieve_vaststelling_van_rup_en_finale_kwaliteitsbeoordeling"/>
+            <omv:sequence rdf:resource="http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_1"></omv:sequence>
+        </rdf:Description>
+        
+        <rdf:Description rdf:about="http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_1">
+            <rdf:first rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/voorbereidende_fase"/>        
+            <rdf:rest rdf:resource="http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_2"/>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_2">
+            <rdf:first rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_startnota_en_procesnota"/>        
+            <rdf:rest rdf:resource="http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_3"/>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_3">
+            <rdf:first rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/organisatie_raadpleging_publiek_en_adviesvraag"/>        
+            <rdf:rest rdf:resource="http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_4"/>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_4">
+            <rdf:first rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_scopingnota"/>        
+            <rdf:rest rdf:resource="http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_5"/>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_5">
+            <rdf:first rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/organisatie_van_openbaar_onderzoek"/>        
+            <rdf:rest rdf:resource="http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_6"/>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_6">
+            <rdf:first rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/definitieve_vaststelling_van_rup_en_finale_kwaliteitsbeoordeling"/>        
+        </rdf:Description>
+        
+     <!--   
+        Stap 0: 
+        
+        Stap 1: 
+        
+        Stap 2: 
+        
+        Stap 3: 
+        
+        Stap 4 en 5: Opmaak (voor)ontwerp-RUP en effectbeoordelingen
+        
+        Stap 6: 
+        
+        Stap 7: 
+        
+        -->
+        
+        <rdf:Description rdf:about="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap">
+            <skos:inScheme rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>  
+            <skos:topConceptOf rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>  
+            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <skos:prefLabel xml:lang="nl">Procedurestap</skos:prefLabel>
+            <skos:narrower rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/voorbereidende_fase"/>
+            <skos:narrower rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_startnota_en_procesnota"/>
+            <skos:narrower rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/organisatie_raadpleging_publiek_en_adviesvraag"/>
+            <skos:narrower rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_scopingnota"/>
+            <skos:narrower rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/organisatie_van_openbaar_onderzoek"/>
+            <skos:narrower rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/definitieve_vaststelling_van_rup_en_finale_kwaliteitsbeoordeling"/>
+           <!-- <skos:narrower rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/beslissing"/>
+            <skos:narrower rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/beslissing"/> -->
+        </rdf:Description>
+        <rdf:Description rdf:about="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/voorbereidende_fase">
+            <skos:inScheme rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>  
+            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <skos:prefLabel xml:lang="nl">Voorbereidende fase</skos:prefLabel>
+            <skos:broader rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap"/>
+        </rdf:Description>
+        <rdf:Description rdf:about="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_startnota_en_procesnota">
+            <skos:inScheme rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>  
+            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <skos:prefLabel xml:lang="nl">Opmaak startnota en procesnota</skos:prefLabel>
+            <skos:broader rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap"/>
+        </rdf:Description>
+        <rdf:Description rdf:about="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/organisatie_raadpleging_publiek_en_adviesvraag">
+            <skos:inScheme rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>  
+            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <skos:prefLabel xml:lang="nl">Organisatie raadpleging publiek en adviesvraag</skos:prefLabel>
+            <skos:broader rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap"/>
+        </rdf:Description>
+        <rdf:Description rdf:about="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_scopingnota">
+            <skos:inScheme rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>  
+            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <skos:prefLabel xml:lang="nl">Opmaak scopingnota</skos:prefLabel>
+            <skos:broader rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap"/>
+        </rdf:Description>
+        <rdf:Description rdf:about="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/organisatie_van_openbaar_onderzoek">
+            <skos:inScheme rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>  
+            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <skos:prefLabel xml:lang="nl">Organisatie van openbaar onderzoek</skos:prefLabel>
+            <skos:broader rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap"/>
+        </rdf:Description>
+        <rdf:Description rdf:about="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/definitieve_vaststelling_van_rup_en_finale_kwaliteitsbeoordeling">
+            <skos:inScheme rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>  
+            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <skos:prefLabel xml:lang="nl">Definitieve vaststelling van RUP en finale kwaliteitsbeoordelinge</skos:prefLabel>
+            <skos:broader rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap"/>
+        </rdf:Description>
+        
+        
+        
+        <rdf:Description rdf:about="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/beslissing">
+            <skos:inScheme rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>  
+            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <skos:prefLabel xml:lang="nl">beslissing</skos:prefLabel>
+            <skos:broader rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap"/>
+        </rdf:Description>
+        
+        
+        <rdf:Description rdf:about="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document">
+            <skos:inScheme rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>  
+            <skos:topConceptOf rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>  
+            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <skos:prefLabel xml:lang="nl">document</skos:prefLabel>
+            <skos:narrower rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/conformiteitsattest"/>
+            <skos:narrower rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeeldingen"/>
+        </rdf:Description>
+        <rdf:Description rdf:about="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/conformiteitsattest">
+            <skos:inScheme rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>  
+            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <skos:prefLabel xml:lang="nl">conformiteitsattest</skos:prefLabel>
+            <skos:broader rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document"/>
+        </rdf:Description>
+        <rdf:Description rdf:about="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeeldingen">
+            <skos:inScheme rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>  
+            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <skos:prefLabel xml:lang="nl">afbeelding</skos:prefLabel>
+            <skos:broader rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document"/>
+        </rdf:Description>
+        <rdf:Description rdf:about="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document_onderdeel">
+            <skos:inScheme rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>  
+            <skos:topConceptOf rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>  
+            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <skos:prefLabel xml:lang="nl">bestand</skos:prefLabel>
+            <skos:narrower rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/bijlage"/>
+            <skos:narrower rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeelding"/>
+        </rdf:Description>
+        <rdf:Description rdf:about="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeelding">
+            <skos:inScheme rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>  
+            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <skos:prefLabel xml:lang="nl">afbeelding</skos:prefLabel>
+            <skos:broader rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document_onderdeel"/>      
+        </rdf:Description>
+        <rdf:Description rdf:about="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeelding">
+            <skos:inScheme rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>  
+            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <skos:prefLabel xml:lang="nl">afbeelding</skos:prefLabel>
+            <skos:broader rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document_onderdeel"/>      
+        </rdf:Description>
+        
+        <rdf:Description rdf:about="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/bijlage">
+            <skos:inScheme rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier"/>  
+            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <skos:prefLabel xml:lang="nl">afbeelding</skos:prefLabel>
+            <skos:broader rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document_onderdeel"/>
+            <skos:narrower rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/dwarsdoorsneeplan"/>
+            <skos:narrower rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/antenneplan"/>
+            <skos:narrower rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/elevatieplan"/>
+            <skos:narrower rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/signedsubmission"/>
+        </rdf:Description>
+        
+
+        
+
+        
+        
+        <rdf:Description rdf:nodeID="skoslevel-listitem-Zendantennes-001">
+            <rdf:first>
+                <xkos:ClassificationLevel rdf:about="https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/dossier/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan">
+                    <skos:prefLabel xml:lang="nl">Dossier opmaak gewestelijk ruimtelijk uitvoeringsplan</skos:prefLabel>
+                    <xkos:depth rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1</xkos:depth>
+                    <skos:member rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan"/>
+                </xkos:ClassificationLevel>
+            </rdf:first>
+            <rdf:rest rdf:nodeID="skoslevel-listitem-Zendantennes-002"/>
+        </rdf:Description>
+        <rdf:Description rdf:nodeID="skoslevel-listitem-Zendantennes-002">
+            <rdf:first>
+                <xkos:ClassificationLevel rdf:about="https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/procedurestap">
+                    <skos:prefLabel xml:lang="nl">procedurestap</skos:prefLabel>
+                    <xkos:depth rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2</xkos:depth>
+                    <skos:member rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/collection/procedurestappen/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan"/>
+                </xkos:ClassificationLevel>
+            </rdf:first>
+            <rdf:rest rdf:nodeID="skoslevel-listitem-Zendantennes-003"/>
+        </rdf:Description>
+        <rdf:Description rdf:nodeID="skoslevel-listitem-Zendantennes-003">
+            <rdf:first>
+                <xkos:ClassificationLevel rdf:about="https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/document">
+                    <skos:prefLabel xml:lang="nl">document</skos:prefLabel>
+                    <xkos:depth rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">3</xkos:depth>
+                    <skos:member rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document"/>
+                    <skos:member rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/conformiteitsattest"/>
+                    <skos:member rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeeldingen"/>
+                </xkos:ClassificationLevel>
+            </rdf:first>
+            <rdf:rest rdf:nodeID="skoslevel-listitem-Zendantennes-004"/>
+        </rdf:Description>
+        <rdf:Description rdf:nodeID="skoslevel-listitem-Zendantennes-004">
+            <rdf:first>
+                <xkos:ClassificationLevel rdf:about="https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/document_onderdeel">
+                    <skos:prefLabel xml:lang="nl">bestand</skos:prefLabel>
+                    <xkos:depth rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">4</xkos:depth>
+                    <skos:member rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document_onderdeel"/>
+                    <skos:member rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/bijlage"/>
+                    <skos:member rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeelding"/>
+                    <skos:member rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/dwarsdoorsneeplan"/>
+                    <skos:member rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/antenneplan"/>
+                    <skos:member rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/elevatieplan"/>
+                    <skos:member rdf:resource="https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/signedsubmission"/>
+                </xkos:ClassificationLevel>
+            </rdf:first>
+        </rdf:Description>
+        
+        
+        
+    </rdf:RDF>
+

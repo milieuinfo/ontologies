@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:org="http://www.w3.org/ns/org#">
+   <dcterms:LicenseDocument rdf:about="https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0">
+      <dcterms:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+      <dcterms:rightsHolder rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003751"/>
+      <dcterms:source rdf:resource="https://data.vlaanderen.be/doc/licentie/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcterms:LicenseDocument>
+   <foaf:Agent rdf:about="http://data.vlaanderen.be/id/organisatie/OVO003323">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+      <foaf:name xml:lang="nl">Departement Omgeving</foaf:name>
+      <rdfs:seeAlso rdf:resource="https://wegwijs.vlaanderen.be/#/organisations/ef10b997-ab90-f07c-a689-0da2d0fef485/info"/>
+      <skos:prefLabel xml:lang="nl">Departement Omgeving</skos:prefLabel>
+      <org:classification rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/1e54c545-6f5d-4942-a509-978ae405f34c"/>
+      <org:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVO003323</org:identifier>
+      <foaf:homepage rdf:resource="https://www.omgevingvlaanderen.be"/>
+      <dcterms:type rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/1e54c545-6f5d-4942-a509-978ae405f34c"/>
+   </foaf:Agent>
+   <foaf:Agent rdf:about="http://data.vlaanderen.be/id/organisatie/OVO003751">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+      <foaf:name xml:lang="nl">Data- en informatiebeheer &amp; digitale maatschappij</foaf:name>
+      <rdfs:seeAlso rdf:resource="https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66"/>
+      <skos:altLabel xml:lang="nl">DIDM</skos:altLabel>
+      <skos:prefLabel xml:lang="nl">Data- en informatiebeheer &amp; digitale maatschappij</skos:prefLabel>
+      <org:classification rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa"/>
+      <org:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVO003751</org:identifier>
+      <foaf:homepage rdf:resource="https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij"/>
+      <dcterms:type rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa"/>
+   </foaf:Agent>
+   <dcat:Catalog rdf:about="https://data.omgeving.vlaanderen.be/id/catalog/waarde">
+      <foaf:homepage rdf:resource="https://data.omgeving.vlaanderen.be/doc/waarde"/>
+      <!--<foaf:homepage rdf:resource="https://data.omgeving.vlaanderen.be"/>-->
+      <dcterms:title xml:lang="nl">Catalog Waarde</dcterms:title>
+      <dcterms:description xml:lang="nl">De datasets die in het kader van waarde worden gepubliceerd</dcterms:description>
+      <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+      <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-19</dcterms:issued>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-23+02:00</dcterms:modified>
+      <dcterms:language xml:lang="nl">nl</dcterms:language>
+      <dcterms:license rdf:resource="https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+      <dcat:dataset rdf:resource="https://data.omgeving.vlaanderen.be/id/dataset/ontology/waarde"/>
+   </dcat:Catalog>
+   <dcat:Dataset rdf:about="https://data.omgeving.vlaanderen.be/id/dataset/ontology/waarde">
+      <dcterms:title xml:lang="nl">Waarde ontologie</dcterms:title>
+      <dcterms:description xml:lang="nl">Waarde ontologie</dcterms:description>
+      <dcat:theme rdf:resource="http://eurovoc.europa.eu/2176"/>
+      <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-19</dcterms:issued>
+      <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/country/BEL"/>
+      <dcterms:temporal>2018</dcterms:temporal>
+      <dcat:contactPoint rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
+      <dcterms:publisher rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003323"/>
+      <dcat:landingPage rdf:resource="https://data.omgeving.vlaanderen.be/ns/waarde"/>
+      <dcterms:license rdf:resource="https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Dataset>
+   <dcat:Dataset rdf:about="https://data.omgeving.vlaanderen.be/id/dataset/ontology/waarde">
+      <dcat:distribution rdf:resource="https://data.omgeving.vlaanderen.be/id/distribution/ontology/waarde/ttl"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.omgeving.vlaanderen.be/id/distribution/ontology/waarde/ttl">
+      <dcterms:title xml:lang="nl">Waarde ontologie, turtle distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Waarde ontologie in text/turtle</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/ontologie/waarde/waarde.ttl"/>
+      <dcat:mediaType>text/turtle</dcat:mediaType>
+      <dcterms:format>text/turtle</dcterms:format>
+      <dcterms:license rdf:resource="https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.omgeving.vlaanderen.be/id/dataset/ontology/waarde">
+      <dcat:distribution rdf:resource="https://data.omgeving.vlaanderen.be/id/distribution/ontology/waarde/jsonld"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.omgeving.vlaanderen.be/id/distribution/ontology/waarde/jsonld">
+      <dcterms:title xml:lang="nl">Waarde ontologie, json-ld distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Waarde ontologie in application/json</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/ontologie/waarde/waarde.jsonld"/>
+      <dcat:mediaType>application/json</dcat:mediaType>
+      <dcterms:format>application/json</dcterms:format>
+      <dcterms:license rdf:resource="https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.omgeving.vlaanderen.be/id/dataset/ontology/waarde">
+      <dcat:distribution rdf:resource="https://data.omgeving.vlaanderen.be/id/distribution/ontology/waarde/rdf"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.omgeving.vlaanderen.be/id/distribution/ontology/waarde/rdf">
+      <dcterms:title xml:lang="nl">Waarde ontologie, rdf+xml distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Waarde ontologie in application/rdf+xml</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/ontologie/waarde/waarde.rdf"/>
+      <dcat:mediaType>application/rdf+xml</dcat:mediaType>
+      <dcterms:format>application/rdf+xml</dcterms:format>
+      <dcterms:license rdf:resource="https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   <dcat:Dataset rdf:about="https://data.omgeving.vlaanderen.be/id/dataset/ontology/waarde">
+      <dcat:distribution rdf:resource="https://data.omgeving.vlaanderen.be/id/distribution/ontology/waarde/nt"/>
+   </dcat:Dataset>
+   <dcat:Distribution rdf:about="https://data.omgeving.vlaanderen.be/id/distribution/ontology/waarde/nt">
+      <dcterms:title xml:lang="nl">Waarde ontologie, n-triples distributie.</dcterms:title>
+      <dcterms:description xml:lang="nl">Waarde ontologie in application/n-triples</dcterms:description>
+      <dcat:accessURL rdf:resource="https://data.omgeving.vlaanderen.be/dumps/ontologie/waarde/waarde.nt"/>
+      <dcat:mediaType>application/n-triples</dcat:mediaType>
+      <dcterms:format>application/n-triples</dcterms:format>
+      <dcterms:license rdf:resource="https://data.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0"/>
+   </dcat:Distribution>
+   
+   
+  
+</rdf:RDF>

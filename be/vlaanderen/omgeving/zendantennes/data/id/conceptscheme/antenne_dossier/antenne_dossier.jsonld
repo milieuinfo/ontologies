@@ -1,0 +1,327 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "first" : "https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/document_onderdeel"
+  }, {
+    "@id" : "_:b1",
+    "first" : "https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/procedurestap",
+    "rest" : "_:b2"
+  }, {
+    "@id" : "_:b2",
+    "first" : "https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/document",
+    "rest" : "_:b0"
+  }, {
+    "@id" : "_:b3",
+    "first" : "https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/dossier",
+    "rest" : "_:b1"
+  }, {
+    "@id" : "_:b4",
+    "affiliation" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "mbox" : "mailto:geert.vanhaute@vlaanderen.be",
+    "name" : "Van Haute, Geert"
+  }, {
+    "@id" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "@type" : [ "foaf:Agent", "org:Organization" ],
+    "type" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "seeAlso" : "https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "DIDM"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    },
+    "changedBy" : "http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting",
+    "classification" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "identifier" : "OVO003751",
+    "orgStatus" : "http://data.vlaanderen.be/id/concept/organisatiestatus/actief",
+    "homepage" : "https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij",
+    "mbox" : "mailto:didm.omgeving@vlaanderen.be",
+    "name" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/document",
+    "@type" : "xkos:ClassificationLevel",
+    "depth" : "3",
+    "member" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeeldingen", "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/conformiteitsattest", "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "document"
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/document_onderdeel",
+    "@type" : "xkos:ClassificationLevel",
+    "depth" : "4",
+    "member" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document_onderdeel", "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/antenneplan", "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeelding", "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/elevatieplan", "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/bijlage", "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/dwarsdoorsneeplan", "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/signedsubmission" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "bestand"
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/dossier",
+    "@type" : "xkos:ClassificationLevel",
+    "depth" : "1",
+    "member" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/dossier",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "document"
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/classificationlevel/procedurestap",
+    "@type" : "xkos:ClassificationLevel",
+    "depth" : "2",
+    "member" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/procedurestap",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "procedurestap"
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/aanvraag",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/procedurestap",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "aanvraag"
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeelding",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document_onderdeel",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "afbeelding"
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeeldingen",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "afbeelding"
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/beslissing",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/procedurestap",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "beslissing"
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/bijlage",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document_onderdeel",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier",
+    "narrower" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/signedsubmission", "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/elevatieplan", "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/antenneplan", "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/dwarsdoorsneeplan" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "afbeelding"
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/conformiteitsattest",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "conformiteitsattest"
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier",
+    "narrower" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeeldingen", "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/conformiteitsattest" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "document"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/document_onderdeel",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier",
+    "narrower" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/afbeelding", "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/bijlage" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "bestand"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/dossier",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier",
+    "prefLabel" : "Onderdelen van een dossier voor de aanvraag van een conformiteitsattest",
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/procedurestap",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier",
+    "narrower" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/beslissing", "https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_dossier/aanvraag" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "procedurestap"
+    },
+    "topConceptOf" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_dossier",
+    "@type" : "skos:ConceptScheme",
+    "issued" : "2018-11-19",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest"
+    },
+    "changes" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "belongsTo" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset",
+    "levels" : "_:b5",
+    "numberOfLevels" : "4",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "versionInfo" : {
+      "@language" : "nl",
+      "@value" : "Eerste versie, zoals in gebruik genomen in het kader van\n            archivering van zendantennes"
+    },
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "antenne_dossier"
+    },
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest"
+    }, "Onderdelen van een dossier voor de aanvraag van een conformiteitsattest" ],
+    "maker" : "_:b4"
+  } ],
+  "@context" : {
+    "narrower" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#narrower",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "topConceptOf" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
+      "@type" : "@id"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "classification" : {
+      "@id" : "http://www.w3.org/ns/org#classification",
+      "@type" : "@id"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "changedBy" : {
+      "@id" : "http://www.w3.org/ns/org#changedBy",
+      "@type" : "@id"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/terms/type",
+      "@type" : "@id"
+    },
+    "homepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/homepage",
+      "@type" : "@id"
+    },
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
+    },
+    "orgStatus" : {
+      "@id" : "http://www.w3.org/ns/regorg#orgStatus",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://www.w3.org/ns/org#identifier"
+    },
+    "mbox" : {
+      "@id" : "http://xmlns.com/foaf/0.1/mbox",
+      "@type" : "@id"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type" : "@id"
+    },
+    "member" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#member",
+      "@type" : "@id"
+    },
+    "depth" : {
+      "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#depth",
+      "@type" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+    },
+    "first" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+      "@type" : "@id"
+    },
+    "rest" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+      "@type" : "@id"
+    },
+    "affiliation" : {
+      "@id" : "http://schema.org/affiliation",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "changes" : {
+      "@id" : "http://purl.org/vocab/vann/changes"
+    },
+    "belongsTo" : {
+      "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
+      "@type" : "@id"
+    },
+    "maker" : {
+      "@id" : "http://xmlns.com/foaf/0.1/maker",
+      "@type" : "@id"
+    },
+    "numberOfLevels" : {
+      "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels",
+      "@type" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+    },
+    "levels" : {
+      "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#levels",
+      "@type" : "@id"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "schema" : "http://schema.org/",
+    "qudt" : "http://qudt.org/schema/qudt#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "org" : "http://www.w3.org/ns/org#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "regorg" : "http://www.w3.org/ns/regorg#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "vann" : "http://purl.org/vocab/vann/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "xkos" : "http://rdf-vocabulary.ddialliance.org/xkos#"
+  }
+}

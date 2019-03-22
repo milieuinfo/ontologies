@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:imjv="https://data.imjv.omgeving.vlaanderen.be/ns/imjv#"
+         xml:base="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter">
+   <owl:Ontology rdf:about="">
+      <owl:imports rdf:resource="http://purl.org/dc/elements/1.1/"/>
+      <owl:imports rdf:resource="http://purl.org/dc/terms/"/>
+      <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+   </owl:Ontology>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <skos:prefLabel>parameters (IMJV)</skos:prefLabel>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/ec">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="nl">elektrisch geleidingsvermogen</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">electrical conductivity</skos:prefLabel>
+      <skos:definition xml:lang="nl">De mate waarin elektrisch ladingtransport plaatsvindt in een materiaal</skos:definition>
+      <imjv:key>EC</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/t">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="nl">Temperatuur</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Temperature</skos:prefLabel>
+      <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Temperature"/>
+      <skos:definition xml:lang="nl">Temperatuur is een maat voor hoe warm of koud iets is. Natuurkundig gezien is het een maat voor de gemiddelde chaotische bewegingsenergie per molecuul, plus de beweging van atomen in moleculen. Het woord wordt ook specifiek gebruikt in de betekenissen koorts en buitenluchttemperatuur.</skos:definition>
+      <imjv:key>T</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/tam">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="nl">TAM</skos:prefLabel>
+      <imjv:key>TAM</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/tap">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="nl">TAP</skos:prefLabel>
+      <imjv:key>TAP</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/ph">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="nl">Carbonaat</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Carbonate</skos:prefLabel>
+      <skos:definition xml:lang="nl">De pH is een maat voor de zuurgraad (ook wel zuurtegraad) van een waterige oplossing. De pH van een neutrale waterige oplossing ligt bij kamertemperatuur rond de 7. Zure oplossingen hebben een pH lager dan 7, en dus een hoge zuurgraad. Basische oplossingen hebben een pH hoger dan 7 en dus een lage zuurgraad.</skos:definition>
+      <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/PH"/>
+      <imjv:key>pH</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID5462311">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdfs:seeAlso rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5462311"/>
+      <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/5462311"/>
+      <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5462311"/>
+      <skos:prefLabel xml:lang="nl">Zuurstof</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Oxygen</skos:prefLabel>
+      <imjv:key>O2</imjv:key>
+   </rdf:Description>  
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID961">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/961"/>
+      <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID961"/>
+      <rdfs:seeAlso rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID961"/>
+      <skos:prefLabel xml:lang="nl">Hydroxide</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Hydroxide</skos:prefLabel>
+      <imjv:key>OH</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID1061">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdfs:seeAlso rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID1061"/>
+      <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/1061"/>
+      <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1061"/>
+      <skos:prefLabel xml:lang="nl">Fosfaat</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Phosphate</skos:prefLabel>
+      <imjv:key>PO4</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID1117">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdfs:seeAlso rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID1117"/>
+      <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/1117"/>
+      <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1117"/>
+      <skos:prefLabel xml:lang="nl">Sulfaat</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Sulfate</skos:prefLabel>
+      <imjv:key>SO4</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID19660">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdfs:seeAlso rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID19660"/>
+      <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/19660"/>
+      <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID19660"/>
+      <skos:prefLabel xml:lang="nl">Carbonaat</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Carbonate</skos:prefLabel>
+      <imjv:key>CO3</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID271">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdfs:seeAlso rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID271"/>
+      <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/271"/>
+      <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID271"/>
+      <skos:prefLabel xml:lang="nl">Calcium ion</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Calcium ion</skos:prefLabel>
+      <imjv:key>Ca</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID769">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdfs:seeAlso rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID769"/>
+      <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/769"/>
+      <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID769"/>
+      <skos:prefLabel xml:lang="nl">Bicarbonaat</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Bicarbonate</skos:prefLabel>
+      <imjv:key>HCO3</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID27284">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdfs:seeAlso rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID27284"/>
+      <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/27284"/>
+      <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID27284"/>
+      <skos:prefLabel xml:lang="nl">Ijzer divalent ion</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Ferrous ion</skos:prefLabel>
+      <imjv:key>Fe2+</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID29936">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdfs:seeAlso rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID29936"/>
+      <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/29936"/>
+      <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID29936"/>
+      <skos:prefLabel xml:lang="nl">Ijzer trivalent ion</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Ferric ion</skos:prefLabel>
+      <imjv:key>Fe3+</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/waterhardheid">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="nl">Waterhardheid</skos:prefLabel>
+      <imjv:key>H(tot)</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID3032552">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdfs:seeAlso rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID3032552"/>
+      <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/3032552"/>
+      <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID3032552"/>
+      <skos:prefLabel xml:lang="nl">Stikstofdioxide</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Nitrogen dioxide</skos:prefLabel>
+      <imjv:key>NO2</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID943">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdfs:seeAlso rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID943"/>
+      <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/943"/>
+      <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID943"/>
+      <skos:prefLabel xml:lang="nl">Nitraat</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Nitrate</skos:prefLabel>
+      <imjv:key>NO3</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID813">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdfs:seeAlso rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID813"/>
+      <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/813"/>
+      <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID813"/>
+      <skos:prefLabel xml:lang="nl">Kalium Ion</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Potassium Ion</skos:prefLabel>
+      <imjv:key>K</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID5462224">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdfs:seeAlso rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5462224"/>
+      <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/5462224"/>
+      <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5462224"/>
+      <skos:prefLabel xml:lang="nl">Magnesium</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Magnesium</skos:prefLabel>
+      <imjv:key>Mg</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID23930">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdfs:seeAlso rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23930"/>
+      <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/23930"/>
+      <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23930"/>
+      <skos:prefLabel xml:lang="nl">Mangaan</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Manganese</skos:prefLabel>
+      <imjv:key>Mn</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID5360545">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdfs:seeAlso rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5360545"/>
+      <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/5360545"/>
+      <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5360545"/>
+      <skos:prefLabel xml:lang="nl">Natrium</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Sodium</skos:prefLabel>
+      <imjv:key>Na</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID28179">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdfs:seeAlso rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID28179"/>
+      <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/28179"/>
+      <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID28179"/>
+      <skos:prefLabel xml:lang="nl">Fluoride</skos:prefLabel>
+      <imjv:key>F</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID24526">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdfs:seeAlso rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID24526"/>
+      <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/24526"/>
+      <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID24526"/>
+      <skos:prefLabel  xml:lang="nl">Chloor</skos:prefLabel>
+      <imjv:key>CL</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/CID223">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/parameter"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <rdfs:seeAlso rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID223"/>
+      <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/223"/>
+      <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID223"/>
+      <skos:prefLabel>Ammonium</skos:prefLabel>
+      <imjv:key>NH4</imjv:key>
+      <imjv:key>H4N+</imjv:key>
+   </rdf:Description>
+   
+   
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/analysetypes_grondwater">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <skos:prefLabel>analysetypes voor grondwater(IMJV)</skos:prefLabel>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/laboanalyse">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/analysetypes_grondwater"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/analysetypes_grondwater"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="nl">Laboanalyse</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Lab analysis</skos:prefLabel>
+      <skos:definition xml:lang="nl">De analyse werd uitgevoerd in een labo</skos:definition>
+      <imjv:key>Laboanalyse</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/onbekend">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/analysetypes_grondwater"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/analysetypes_grondwater"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="nl">Onbekend</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Unknown</skos:prefLabel>
+      <skos:definition xml:lang="nl">Onbekend analysetype</skos:definition>
+      <imjv:key>Onbekend</imjv:key>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/parameter/veldanalyse">
+      <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/analysetypes_grondwater"/>
+      <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/analysetypes_grondwater"/>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:prefLabel xml:lang="nl">Veldanalyse</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">Field analysis</skos:prefLabel>
+      <skos:definition xml:lang="nl">De analyse werd uitgevoerd in op het veld</skos:definition>
+      <imjv:key>Veldanalyse</imjv:key>
+   </rdf:Description>
+  
+</rdf:RDF>

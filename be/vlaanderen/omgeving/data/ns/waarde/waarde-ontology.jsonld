@@ -1,0 +1,473 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "owl:Restriction",
+    "allValuesFrom" : "skos:Concept",
+    "onProperty" : "sdmxa:unitMeasure"
+  }, {
+    "@id" : "_:b1",
+    "homepage" : "https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij",
+    "mbox" : "mailto:didm.omgeving@vlaanderen.be",
+    "name" : "Vlaamse Overheid, Departement Omgeving, Data-en informatiebeheer\n                            & Digitale Maatschappij"
+  }, {
+    "@id" : "_:b2",
+    "@type" : "owl:Restriction",
+    "cardinality" : "1",
+    "onProperty" : "rdf:value"
+  }, {
+    "@id" : "_:b3",
+    "@type" : "owl:Restriction",
+    "allValuesFrom" : "rdfs:Literal",
+    "onProperty" : "rdf:value"
+  }, {
+    "@id" : "_:b4",
+    "@type" : "owl:Restriction",
+    "cardinality" : "1",
+    "onProperty" : "sdmxa:unitMeasure"
+  }, {
+    "@id" : "_:b5",
+    "affiliation" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "mbox" : "mailto:geert.vanhaute@vlaanderen.be",
+    "name" : "Van Haute, Geert"
+  }, {
+    "@id" : "_:b6",
+    "affiliation" : "_:b1",
+    "mbox" : "mailto:geert.vanhaute@vlaanderen.be",
+    "name" : "Van Haute, Geert"
+  }, {
+    "@id" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "@type" : [ "foaf:Agent", "org:Organization" ],
+    "type" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "seeAlso" : "https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "DIDM"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    },
+    "changedBy" : "http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting",
+    "classification" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "identifier" : "OVO003751",
+    "orgStatus" : "http://data.vlaanderen.be/id/concept/organisatiestatus/actief",
+    "homepage" : "https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij",
+    "mbox" : "mailto:didm.omgeving@vlaanderen.be",
+    "name" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    }
+  }, {
+    "@id" : "sdmxa:unitMeasure",
+    "@type" : "owl:ObjectProperty"
+  }, {
+    "@id" : "vann:usageNote",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "schema:affiliation",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "rdf:value",
+    "@type" : "owl:DatatypeProperty"
+  }, {
+    "@id" : "skos:Concept",
+    "@type" : "owl:Class"
+  }, {
+    "@id" : "foaf:homepage",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "foaf:isPrimaryTopicOf",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "foaf:mbox",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "foaf:name",
+    "@type" : "owl:AnnotationProperty"
+  }, {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/waarde",
+    "@type" : "owl:Ontology",
+    "issued" : "2018-11-19",
+    "temporal" : "2018",
+    "title" : [ {
+      "@language" : "nl",
+      "@value" : "Waarde"
+    }, {
+      "@language" : "en",
+      "@value" : "Value"
+    } ],
+    "changes" : {
+      "@language" : "nl",
+      "@value" : ""
+    },
+    "preferredNamespacePrefix" : "waarde",
+    "preferredNamespaceUri" : "https://data.omgeving.vlaanderen.be/ns/waarde#",
+    "reliesOn" : [ "http://data.vlaanderen.be/ns/besluit#", "http://dbpedia.org/ontology/", "http://xmlns.com/foaf/0.1/", "http://www.w3.org/ns/prov#" ],
+    "label" : [ {
+      "@language" : "en",
+      "@value" : "Value"
+    }, {
+      "@language" : "nl",
+      "@value" : "Waarde"
+    } ],
+    "versionInfo" : {
+      "@language" : "nl",
+      "@value" : "Tweede versie, zoals in gebruik genomen in het kader van archivering van zendantennes, na afstemming tussen de Vlaams uri-stategie en proxy-afhankelijkheden bij DIDM"
+    },
+    "maker" : "_:b5"
+  }, {
+    "@id" : "waarde:Waarde",
+    "@type" : "owl:Class",
+    "usageNote" : {
+      "@language" : "nl",
+      "@value" : "Te gebruiken bij het vastleggen van een meetwaarde en de\n            gebruikte maateenheid buiten observaties die het RDF data cube formaat\n            volgen."
+    },
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Klasse om meetwaarden vast te leggen gecombineerd met de\n            gebruikte maateenheid"
+    },
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/waarde",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Meetwaarde"
+    },
+    "subClassOf" : [ "_:b2", "owl:Thing", "_:b3", "_:b4", "_:b0" ]
+  }, {
+    "@id" : "waarde:azimut",
+    "@type" : "owl:ObjectProperty",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "Het azimut is een van de coördinaten uit het\n            horizon-coördinatenstelsel. In dit stelsel wordt de positie van een object aan de hemel\n            aangegeven door de twee coördinaten: azimut en elevatie. Het azimut is daarin de\n            horizontale component, de kompasrichting, dus de hoek met het noorden gemeten over het\n            oosten. Gewoonlijk wordt het azimut uitgedrukt in graden. De positie van een ster aan de\n            hemel wordt dus aangegeven door het azimut (de kompasrichting) en de hoogte (de hoek\n            tussen de ster en de horizon). De gehele cirkel is 360°, noord=0°, oost=90°, zuid=180°,\n            west=270°\""
+    },
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/waarde",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Azimut"
+    },
+    "range" : "waarde:Waarde",
+    "seeAlso" : "http://dbpedia.org/resource/Azimuth"
+  }, {
+    "@id" : "waarde:breedte",
+    "@type" : "owl:ObjectProperty",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "De breedte is een van de afmetingen van een (meerdimensionaal)\n            object. Van een min of meer rechthoekig tweedimensionaal object wordt de kleinste van de\n            twee afmetingen de breedte genoemd. Van een driedimensionaal object wordt de kleinste\n            afmeting in het horizontale vlak de breedte genoemd."
+    },
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/waarde",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Breedte"
+    },
+    "range" : "waarde:Waarde",
+    "seeAlso" : "http://dbpedia.org/property/width"
+  }, {
+    "@id" : "waarde:frequentie",
+    "@type" : "owl:ObjectProperty",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/waarde",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "range" : "waarde:Waarde",
+    "seeAlso" : "http://dbpedia.org/resource/Azimuth"
+  }, {
+    "@id" : "waarde:gebaseerdOp",
+    "@type" : "owl:ObjectProperty",
+    "usageNote" : "TO DO",
+    "comment" : "TO DO",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "gebaseerd op"
+    }
+  }, {
+    "@id" : "waarde:hoogte",
+    "@type" : "owl:ObjectProperty",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "De hoogte van een voorwerp is de verticale afstand van een\n            referentiepunt (zoals een oppervlak) tot het punt waar een voorwerp zich\n            bevindt."
+    },
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/waarde",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Hoogte"
+    },
+    "range" : "waarde:Waarde",
+    "seeAlso" : "http://dbpedia.org/property/height"
+  }, {
+    "@id" : "waarde:horizontaleopeningshoek",
+    "@type" : "owl:ObjectProperty",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/waarde",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "horizontale openingshoek"
+    },
+    "range" : "waarde:Waarde"
+  }, {
+    "@id" : "waarde:key",
+    "@type" : "owl:DatatypeProperty"
+  }, {
+    "@id" : "waarde:maximaleinvloedsstraal",
+    "@type" : "owl:ObjectProperty",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/waarde",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "range" : "waarde:Waarde",
+    "seeAlso" : "http://dbpedia.org/resource/Azimuth"
+  }, {
+    "@id" : "waarde:mechanischetilt",
+    "@type" : "owl:ObjectProperty",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "mechanische tilt"
+    },
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/waarde",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "range" : "waarde:Waarde",
+    "seeAlso" : "http://dbpedia.org/resource/Azimuth"
+  }, {
+    "@id" : "waarde:ophangingshoogte",
+    "@type" : "owl:ObjectProperty",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/waarde",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "ophangingshoogte"
+    },
+    "range" : "waarde:Waarde"
+  }, {
+    "@id" : "waarde:totfrequentie",
+    "@type" : "owl:ObjectProperty",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "De hoogste frequentie waarbij een dempend materiaal een bepaalde\n            frequentiedempingsfactor heeft."
+    },
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/waarde",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "tot frequentie"
+    },
+    "range" : "waarde:Waarde"
+  }, {
+    "@id" : "waarde:tothoek",
+    "@type" : "owl:ObjectProperty",
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/waarde",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "tothoek"
+    },
+    "range" : "waarde:Waarde"
+  }, {
+    "@id" : "waarde:vanfrequentie",
+    "@type" : "owl:ObjectProperty",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "De laagste frequentie waarbij een dempend materiaal een bepaalde\n            frequentiedempingsfactor heeft."
+    },
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/waarde",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "van frequentie"
+    },
+    "range" : "waarde:Waarde"
+  }, {
+    "@id" : "waarde:vanhoek",
+    "@type" : "owl:ObjectProperty",
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/waarde",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "vanhoek"
+    },
+    "range" : "waarde:Waarde"
+  }, {
+    "@id" : "waarde:vermogen",
+    "@type" : "owl:ObjectProperty",
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/waarde",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "vermogen"
+    },
+    "range" : "waarde:Waarde"
+  }, {
+    "@id" : "waarde:verticaleopeningshoek",
+    "@type" : "owl:ObjectProperty",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "TO DO"
+    },
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/waarde",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "verticale openingshoek"
+    },
+    "range" : "waarde:Waarde"
+  }, {
+    "@id" : "waarde:winst",
+    "@type" : "owl:ObjectProperty",
+    "comment" : {
+      "@language" : "nl",
+      "@value" : "De antenneversterking of winst vat de gerichtheid en\n            efficiëntie van een antenne samen. Hij is de verhouding van de afgeleverde in de\n            hoofdrichting resp. geabsorbeerde stralingsvermogensdichtheid in vergelijking met een\n            verliesvrije referentie-antenne van dezelfde antennevoermacht, die per definitie een\n            antenneversterking van 0 dB heeft. De gebruikte referentie-antenne is meestal een\n            dipoolantenne of een hypothetische isotrope radiator met dezelfde bundelsterkte in alle\n            richtingen."
+    },
+    "isDefinedBy" : "https://data.omgeving.vlaanderen.be/ns/waarde",
+    "label" : {
+      "@language" : "nl",
+      "@value" : "Winst"
+    },
+    "range" : "waarde:Waarde",
+    "seeAlso" : "http://dbpedia.org/page/Antenna_gain",
+    "isPrimaryTopicOf" : "http://en.wikipedia.org/wiki/Antenna_gain"
+  } ],
+  "@context" : {
+    "allValuesFrom" : {
+      "@id" : "http://www.w3.org/2002/07/owl#allValuesFrom",
+      "@type" : "@id"
+    },
+    "onProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#onProperty",
+      "@type" : "@id"
+    },
+    "usageNote" : {
+      "@id" : "http://purl.org/vocab/vann/usageNote"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type" : "@id"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+      "@type" : "@id"
+    },
+    "range" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#range",
+      "@type" : "@id"
+    },
+    "classification" : {
+      "@id" : "http://www.w3.org/ns/org#classification",
+      "@type" : "@id"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "changedBy" : {
+      "@id" : "http://www.w3.org/ns/org#changedBy",
+      "@type" : "@id"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/terms/type",
+      "@type" : "@id"
+    },
+    "homepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/homepage",
+      "@type" : "@id"
+    },
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
+    },
+    "orgStatus" : {
+      "@id" : "http://www.w3.org/ns/regorg#orgStatus",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://www.w3.org/ns/org#identifier"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "mbox" : {
+      "@id" : "http://xmlns.com/foaf/0.1/mbox",
+      "@type" : "@id"
+    },
+    "cardinality" : {
+      "@id" : "http://www.w3.org/2002/07/owl#cardinality",
+      "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    },
+    "subClassOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "@type" : "@id"
+    },
+    "isPrimaryTopicOf" : {
+      "@id" : "http://xmlns.com/foaf/0.1/isPrimaryTopicOf",
+      "@type" : "@id"
+    },
+    "affiliation" : {
+      "@id" : "http://schema.org/affiliation",
+      "@type" : "@id"
+    },
+    "reliesOn" : {
+      "@id" : "http://purl.org/vocommons/voaf#reliesOn",
+      "@type" : "@id"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "temporal" : {
+      "@id" : "http://purl.org/dc/terms/temporal"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "maker" : {
+      "@id" : "http://xmlns.com/foaf/0.1/maker",
+      "@type" : "@id"
+    },
+    "changes" : {
+      "@id" : "http://purl.org/vocab/vann/changes"
+    },
+    "schema" : "http://schema.org/",
+    "@vocab" : "https://data.omgeving.vlaanderen.be/ns/waarde#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "org" : "http://www.w3.org/ns/org#",
+    "sdmxa" : "http://purl.org/linked-data/sdmx/2009/attribute#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "waarde" : "https://data.omgeving.vlaanderen.be/ns/waarde#",
+    "voaf" : "http://purl.org/vocommons/voaf#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "frbr" : "http://purl.org/vocab/frbr/core#",
+    "dbo" : "http://dbpedia.org/ontology/",
+    "qb" : "http://purl.org/linked-data/cube#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "regorg" : "http://www.w3.org/ns/regorg#",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "locn" : "http://www.w3.org/ns/locn#",
+    "vann" : "http://purl.org/vocab/vann/",
+    "vs" : "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+    "prov" : "http://www.w3.org/ns/prov#",
+    "foaf" : "http://xmlns.com/foaf/0.1/"
+  }
+}

@@ -1,0 +1,174 @@
+<https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> <http://www.w3.org/2000/01/rdf-schema#comment> "TO DO"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> <http://rdf-vocabulary.ddialliance.org/xkos#belongsTo> <https://data.rup.omgeving.vlaanderen.be/id/dataset> .
+<https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> <http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels> "4"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> <http://rdf-vocabulary.ddialliance.org/xkos#levels> _:B445607e0X2D23d7X2D4789X2D93c9X2Dbbf727a8ae4b .
+<https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> <http://www.w3.org/2004/02/skos/core#prefLabel> "Informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> <http://www.w3.org/2004/02/skos/core#altLabel> "antenne_dossier"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> <http://purl.org/dc/terms/issued> "2018-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> <http://purl.org/vocab/vann/changes> ""@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> <http://purl.org/dc/terms/title> "Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> <http://www.w3.org/2002/07/owl#versionInfo> "Eerste versie, zoals in gebruik genomen in het kader van\n                archivering van zendantennes"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> <http://xmlns.com/foaf/0.1/maker> _:Be2a50b87X2De32aX2D48f7X2Db31bX2Da40ca3e3ade7 .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+_:Be2a50b87X2De32aX2D48f7X2Db31bX2Da40ca3e3ade7 <http://schema.org/affiliation> <http://data.vlaanderen.be/id/organisatie/OVO003751> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/name> "Data- en informatiebeheer & digitale maatschappij"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2004/02/skos/core#altLabel> "DIDM"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data- en informatiebeheer & digitale maatschappij"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#changedBy> <http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#classification> <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#identifier> "OVO003751" .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/regorg#orgStatus> <http://data.vlaanderen.be/id/concept/organisatiestatus/actief> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/homepage> <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://purl.org/dc/terms/type> <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/mbox> <mailto:didm.omgeving@vlaanderen.be> .
+_:Be2a50b87X2De32aX2D48f7X2Db31bX2Da40ca3e3ade7 <http://xmlns.com/foaf/0.1/mbox> <mailto:geert.vanhaute@vlaanderen.be> .
+_:Be2a50b87X2De32aX2D48f7X2Db31bX2Da40ca3e3ade7 <http://xmlns.com/foaf/0.1/name> "Van Haute, Geert" .
+<https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> <http://www.w3.org/2004/02/skos/core#prefLabel> "Onderdelen van een dossier voor de aanvraag van een conformiteitsattest" .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_ruimtelijk_uitvoeringsplan> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_ruimtelijk_uitvoeringsplan> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_ruimtelijk_uitvoeringsplan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_ruimtelijk_uitvoeringsplan> <http://www.w3.org/2004/02/skos/core#prefLabel> "Opmaak ruimtelijk uitvoeringsplan" .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_ruimtelijk_uitvoeringsplan> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_ruimtelijk_uitvoeringsplan> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_provinciaal_ruimtelijk_uitvoeringsplan> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_ruimtelijk_uitvoeringsplan> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_gemeentelijk_ruimtelijk_uitvoeringsplan> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan> <http://www.w3.org/2004/02/skos/core#prefLabel> "Opmaak ruimtelijk uitvoeringsplan" .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan> <http://www.w3.org/2004/02/skos/core#broader> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_ruimtelijk_uitvoeringsplan> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/BE.VL-000000082.INSTALLATION> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/BE.VL-000000082.INSTALLATION> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/BE.VL-000000082.INSTALLATION> <http://www.w3.org/2004/02/skos/core#prefLabel> "Opmaak provinciaal ruimtelijk uitvoeringsplan" .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/BE.VL-000000082.INSTALLATION> <http://www.w3.org/2004/02/skos/core#broader> <https://data.rup.omgeving.vlaanderen.b-e/id/concept/dossier/BE.VL.000000082.INSTALLATION> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_gemeentelijk_ruimtelijk_uitvoeringsplan> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_gemeentelijk_ruimtelijk_uitvoeringsplan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_gemeentelijk_ruimtelijk_uitvoeringsplan> <http://www.w3.org/2004/02/skos/core#prefLabel> "Opmaak gemeentelijk ruimtelijk uitvoeringsplan" .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_gemeentelijk_ruimtelijk_uitvoeringsplan> <http://www.w3.org/2004/02/skos/core#broader> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_ruimtelijk_uitvoeringsplan> .
+<https://data.rup.omgeving.vlaanderen.be/id/collection/procedurestappen/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/collection/procedurestappen/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<https://data.rup.omgeving.vlaanderen.be/id/collection/procedurestappen/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan> <http://www.w3.org/2004/02/skos/core#prefLabel> "Procedurestappen die tijdens de opmaak van een gewestelijk ruimtelijk uitvoeringsplan worden doorlopen" .
+<https://data.rup.omgeving.vlaanderen.be/id/collection/procedurestappen/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan> <http://www.w3.org/2004/02/skos/core#member> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/voorbereidende_fase> .
+<https://data.rup.omgeving.vlaanderen.be/id/collection/procedurestappen/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan> <http://www.w3.org/2004/02/skos/core#member> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_startnota_en_procesnota> .
+<https://data.rup.omgeving.vlaanderen.be/id/collection/procedurestappen/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan> <http://www.w3.org/2004/02/skos/core#member> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/organisatie_raadpleging_publiek_en_adviesvraag> .
+<https://data.rup.omgeving.vlaanderen.be/id/collection/procedurestappen/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan> <http://www.w3.org/2004/02/skos/core#member> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_scopingnota> .
+<https://data.rup.omgeving.vlaanderen.be/id/collection/procedurestappen/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan> <http://www.w3.org/2004/02/skos/core#member> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/organisatie_van_openbaar_onderzoek> .
+<https://data.rup.omgeving.vlaanderen.be/id/collection/procedurestappen/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan> <http://www.w3.org/2004/02/skos/core#member> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/definitieve_vaststelling_van_rup_en_finale_kwaliteitsbeoordeling> .
+<https://data.rup.omgeving.vlaanderen.be/id/collection/procedurestappen/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan> <http://omv.be/sequence> <http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan-stap-1> .
+<http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/voorbereidende_fase> .
+<http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_2> .
+<http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_startnota_en_procesnota> .
+<http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_3> .
+<http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/organisatie_raadpleging_publiek_en_adviesvraag> .
+<http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_4> .
+<http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_scopingnota> .
+<http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_5> .
+<http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/organisatie_van_openbaar_onderzoek> .
+<http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_6> .
+<http://omv.opmaak_gewestelijk_ruimtelijk_uitvoeringsplan_stap_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/definitieve_vaststelling_van_rup_en_finale_kwaliteitsbeoordeling> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap> <http://www.w3.org/2004/02/skos/core#prefLabel> "Procedurestap"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/voorbereidende_fase> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_startnota_en_procesnota> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/organisatie_raadpleging_publiek_en_adviesvraag> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_scopingnota> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/organisatie_van_openbaar_onderzoek> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/definitieve_vaststelling_van_rup_en_finale_kwaliteitsbeoordeling> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/voorbereidende_fase> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/voorbereidende_fase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/voorbereidende_fase> <http://www.w3.org/2004/02/skos/core#prefLabel> "Voorbereidende fase"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/voorbereidende_fase> <http://www.w3.org/2004/02/skos/core#broader> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_startnota_en_procesnota> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_startnota_en_procesnota> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_startnota_en_procesnota> <http://www.w3.org/2004/02/skos/core#prefLabel> "Opmaak startnota en procesnota"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_startnota_en_procesnota> <http://www.w3.org/2004/02/skos/core#broader> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/organisatie_raadpleging_publiek_en_adviesvraag> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/organisatie_raadpleging_publiek_en_adviesvraag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/organisatie_raadpleging_publiek_en_adviesvraag> <http://www.w3.org/2004/02/skos/core#prefLabel> "Organisatie raadpleging publiek en adviesvraag"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/organisatie_raadpleging_publiek_en_adviesvraag> <http://www.w3.org/2004/02/skos/core#broader> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_scopingnota> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_scopingnota> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_scopingnota> <http://www.w3.org/2004/02/skos/core#prefLabel> "Opmaak scopingnota"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_scopingnota> <http://www.w3.org/2004/02/skos/core#broader> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/organisatie_van_openbaar_onderzoek> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/organisatie_van_openbaar_onderzoek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/organisatie_van_openbaar_onderzoek> <http://www.w3.org/2004/02/skos/core#prefLabel> "Organisatie van openbaar onderzoek"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/organisatie_van_openbaar_onderzoek> <http://www.w3.org/2004/02/skos/core#broader> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/definitieve_vaststelling_van_rup_en_finale_kwaliteitsbeoordeling> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/definitieve_vaststelling_van_rup_en_finale_kwaliteitsbeoordeling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/definitieve_vaststelling_van_rup_en_finale_kwaliteitsbeoordeling> <http://www.w3.org/2004/02/skos/core#prefLabel> "Definitieve vaststelling van RUP en finale kwaliteitsbeoordelinge"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/definitieve_vaststelling_van_rup_en_finale_kwaliteitsbeoordeling> <http://www.w3.org/2004/02/skos/core#broader> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/beslissing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/beslissing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/beslissing> <http://www.w3.org/2004/02/skos/core#prefLabel> "beslissing"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/beslissing> <http://www.w3.org/2004/02/skos/core#broader> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/procedurestap> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document> <http://www.w3.org/2004/02/skos/core#prefLabel> "document"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/conformiteitsattest> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeeldingen> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/conformiteitsattest> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/conformiteitsattest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/conformiteitsattest> <http://www.w3.org/2004/02/skos/core#prefLabel> "conformiteitsattest"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/conformiteitsattest> <http://www.w3.org/2004/02/skos/core#broader> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeeldingen> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeeldingen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeeldingen> <http://www.w3.org/2004/02/skos/core#prefLabel> "afbeelding"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeeldingen> <http://www.w3.org/2004/02/skos/core#broader> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document_onderdeel> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document_onderdeel> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document_onderdeel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document_onderdeel> <http://www.w3.org/2004/02/skos/core#prefLabel> "bestand"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document_onderdeel> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/bijlage> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document_onderdeel> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeelding> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeelding> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeelding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeelding> <http://www.w3.org/2004/02/skos/core#prefLabel> "afbeelding"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeelding> <http://www.w3.org/2004/02/skos/core#broader> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document_onderdeel> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeelding> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeelding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeelding> <http://www.w3.org/2004/02/skos/core#prefLabel> "afbeelding"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeelding> <http://www.w3.org/2004/02/skos/core#broader> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document_onderdeel> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/bijlage> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.rup.omgeving.vlaanderen.be/id/conceptscheme/dossier> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/bijlage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/bijlage> <http://www.w3.org/2004/02/skos/core#prefLabel> "afbeelding"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/bijlage> <http://www.w3.org/2004/02/skos/core#broader> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document_onderdeel> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/bijlage> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/dwarsdoorsneeplan> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/bijlage> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/antenneplan> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/bijlage> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/elevatieplan> .
+<https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/bijlage> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/signedsubmission> .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/dossier/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf-vocabulary.ddialliance.org/xkos#ClassificationLevel> .
+_:B445607e0X2D23d7X2D4789X2D93c9X2Dbbf727a8ae4b <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/dossier/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan> .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/dossier/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dossier opmaak gewestelijk ruimtelijk uitvoeringsplan"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/dossier/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan> <http://rdf-vocabulary.ddialliance.org/xkos#depth> "1"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/dossier/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan> <http://www.w3.org/2004/02/skos/core#member> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan> .
+_:B445607e0X2D23d7X2D4789X2D93c9X2Dbbf727a8ae4b <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B683eceefX2Da0baX2D48e0X2Da39fX2D98e208701ef0 .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/procedurestap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf-vocabulary.ddialliance.org/xkos#ClassificationLevel> .
+_:B683eceefX2Da0baX2D48e0X2Da39fX2D98e208701ef0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/procedurestap> .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/procedurestap> <http://www.w3.org/2004/02/skos/core#prefLabel> "procedurestap"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/procedurestap> <http://rdf-vocabulary.ddialliance.org/xkos#depth> "2"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/procedurestap> <http://www.w3.org/2004/02/skos/core#member> <https://data.rup.omgeving.vlaanderen.be/id/collection/procedurestappen/opmaak_gewestelijk_ruimtelijk_uitvoeringsplan> .
+_:B683eceefX2Da0baX2D48e0X2Da39fX2D98e208701ef0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bd0d797aaX2D3f58X2D42d2X2D8ab9X2D5c9d664d66e5 .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf-vocabulary.ddialliance.org/xkos#ClassificationLevel> .
+_:Bd0d797aaX2D3f58X2D42d2X2D8ab9X2D5c9d664d66e5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/document> .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/document> <http://www.w3.org/2004/02/skos/core#prefLabel> "document"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/document> <http://rdf-vocabulary.ddialliance.org/xkos#depth> "3"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/document> <http://www.w3.org/2004/02/skos/core#member> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document> .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/document> <http://www.w3.org/2004/02/skos/core#member> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/conformiteitsattest> .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/document> <http://www.w3.org/2004/02/skos/core#member> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeeldingen> .
+_:Bd0d797aaX2D3f58X2D42d2X2D8ab9X2D5c9d664d66e5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bbd1bcef7X2Da692X2D4cafX2Daba4X2D2701a962adbe .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/document_onderdeel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf-vocabulary.ddialliance.org/xkos#ClassificationLevel> .
+_:Bbd1bcef7X2Da692X2D4cafX2Daba4X2D2701a962adbe <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/document_onderdeel> .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/document_onderdeel> <http://www.w3.org/2004/02/skos/core#prefLabel> "bestand"@nl .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/document_onderdeel> <http://rdf-vocabulary.ddialliance.org/xkos#depth> "4"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/document_onderdeel> <http://www.w3.org/2004/02/skos/core#member> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/document_onderdeel> .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/document_onderdeel> <http://www.w3.org/2004/02/skos/core#member> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/bijlage> .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/document_onderdeel> <http://www.w3.org/2004/02/skos/core#member> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/afbeelding> .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/document_onderdeel> <http://www.w3.org/2004/02/skos/core#member> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/dwarsdoorsneeplan> .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/document_onderdeel> <http://www.w3.org/2004/02/skos/core#member> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/antenneplan> .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/document_onderdeel> <http://www.w3.org/2004/02/skos/core#member> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/elevatieplan> .
+<https://data.rup.omgeving.vlaanderen.be/id/classificationlevel/document_onderdeel> <http://www.w3.org/2004/02/skos/core#member> <https://data.rup.omgeving.vlaanderen.be/id/concept/dossier/signedsubmission> .

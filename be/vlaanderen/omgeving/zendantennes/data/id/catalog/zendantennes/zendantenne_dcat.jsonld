@@ -1,0 +1,1235 @@
+{
+  "@graph" : [ {
+    "@id" : "http://data.vlaanderen.be/id/organisatie/OVO003323",
+    "@type" : "foaf:Agent",
+    "type" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/1e54c545-6f5d-4942-a509-978ae405f34c",
+    "seeAlso" : "https://wegwijs.vlaanderen.be/#/organisations/ef10b997-ab90-f07c-a689-0da2d0fef485/info",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Departement Omgeving"
+    },
+    "classification" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/1e54c545-6f5d-4942-a509-978ae405f34c",
+    "identifier" : "OVO003323",
+    "homepage" : "https://www.omgevingvlaanderen.be",
+    "name" : {
+      "@language" : "nl",
+      "@value" : "Departement Omgeving"
+    }
+  }, {
+    "@id" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "@type" : "foaf:Agent",
+    "type" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "seeAlso" : "https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "DIDM"
+    },
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    },
+    "classification" : "http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa",
+    "identifier" : "OVO003751",
+    "homepage" : "https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij",
+    "name" : {
+      "@language" : "nl",
+      "@value" : "Data- en informatiebeheer & digitale maatschappij"
+    }
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/catalog/zendantennes",
+    "@type" : "dcat:Catalog",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "De datasets die in het kader van zendantennes worden gepubliceerd"
+    },
+    "issued" : "2018-11-19",
+    "language" : {
+      "@language" : "nl",
+      "@value" : "nl"
+    },
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "modified" : "2018-05-23+02:00",
+    "publisher" : "http://data.vlaanderen.be/id/organisatie/OVO003323",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Catalog Zendantenne"
+    },
+    "dataset" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/waarde", "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_rekenmethode", "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/dossier", "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_straling_type", "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/zendantennes", "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_gebouw_dtype", "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_dossier_type", "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_demping_materiaal", "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/eenheid", "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_dossier", "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_norm_type", "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/antenne", "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_gecontroleerde_ruimte_status" ],
+    "homepage" : "https://data.zendantennes.omgeving.vlaanderen.be/doc/zendantennes"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_demping_materiaal",
+    "@type" : "dcat:Dataset",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Lijst van stralingsdempende materialen"
+    },
+    "issued" : "2018-11-19",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "publisher" : "http://data.vlaanderen.be/id/organisatie/OVO003323",
+    "spatial" : "http://publications.europa.eu/resource/authority/country/BEL",
+    "temporal" : "2018",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme dempend materiaal bij elektromagnetische straling"
+    },
+    "contactPoint" : "mailto:geert.vanhaute@vlaanderen.be",
+    "distribution" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_demping_materiaal/rdf", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_demping_materiaal/ttl", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_demping_materiaal/jsonld", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_demping_materiaal/nt" ],
+    "landingPage" : "https://data.zendantennes.omgeving.vlaanderen.be/doc/conceptscheme/antenne_demping_materiaal",
+    "theme" : "http://eurovoc.europa.eu/2176"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_dossier",
+    "@type" : "dcat:Dataset",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest Onderdelen van een dossier voor de aanvraag van een conformiteitsattest"
+    },
+    "issued" : "2018-11-19",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "publisher" : "http://data.vlaanderen.be/id/organisatie/OVO003323",
+    "spatial" : "http://publications.europa.eu/resource/authority/country/BEL",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest"
+    },
+    "contactPoint" : "mailto:geert.vanhaute@vlaanderen.be",
+    "distribution" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier/nt", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier/rdf", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier/jsonld", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier/ttl" ],
+    "landingPage" : "https://data.zendantennes.omgeving.vlaanderen.be/doc/conceptscheme/antenne_dossier",
+    "theme" : "http://eurovoc.europa.eu/2176"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_dossier_type",
+    "@type" : "dcat:Dataset",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Lijst van dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne"
+    },
+    "issued" : "2018-11-19",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "publisher" : "http://data.vlaanderen.be/id/organisatie/OVO003323",
+    "spatial" : "http://publications.europa.eu/resource/authority/country/BEL",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne"
+    },
+    "contactPoint" : "mailto:geert.vanhaute@vlaanderen.be",
+    "distribution" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier_type/ttl", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier_type/jsonld", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier_type/nt", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier_type/rdf" ],
+    "landingPage" : "https://data.zendantennes.omgeving.vlaanderen.be/doc/conceptscheme/antenne_dossier_type",
+    "theme" : "http://eurovoc.europa.eu/2176"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_gebouw_dtype",
+    "@type" : "dcat:Dataset",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Lijst van gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne"
+    },
+    "issued" : "2018-11-19",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "publisher" : "http://data.vlaanderen.be/id/organisatie/OVO003323",
+    "spatial" : "http://publications.europa.eu/resource/authority/country/BEL",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne"
+    },
+    "contactPoint" : "mailto:geert.vanhaute@vlaanderen.be",
+    "distribution" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gebouw_dtype/rdf", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gebouw_dtype/jsonld", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gebouw_dtype/nt", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gebouw_dtype/ttl" ],
+    "landingPage" : "https://data.zendantennes.omgeving.vlaanderen.be/doc/conceptscheme/antenne_gebouw_dtype",
+    "theme" : "http://eurovoc.europa.eu/2176"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_gecontroleerde_ruimte_status",
+    "@type" : "dcat:Dataset",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Lijst van mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne"
+    },
+    "issued" : "2018-11-19",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "publisher" : "http://data.vlaanderen.be/id/organisatie/OVO003323",
+    "spatial" : "http://publications.europa.eu/resource/authority/country/BEL",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne"
+    },
+    "contactPoint" : "mailto:geert.vanhaute@vlaanderen.be",
+    "distribution" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gecontroleerde_ruimte_status/ttl", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gecontroleerde_ruimte_status/jsonld", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gecontroleerde_ruimte_status/nt", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gecontroleerde_ruimte_status/rdf" ],
+    "landingPage" : "https://data.zendantennes.omgeving.vlaanderen.be/doc/conceptscheme/antenne_gecontroleerde_ruimte_status",
+    "theme" : "http://eurovoc.europa.eu/2176"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_norm_type",
+    "@type" : "dcat:Dataset",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Lijst van mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne"
+    },
+    "issued" : "2018-11-19",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "publisher" : "http://data.vlaanderen.be/id/organisatie/OVO003323",
+    "spatial" : "http://publications.europa.eu/resource/authority/country/BEL",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne"
+    },
+    "contactPoint" : "mailto:geert.vanhaute@vlaanderen.be",
+    "distribution" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_norm_type/nt", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_norm_type/ttl", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_norm_type/rdf", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_norm_type/jsonld" ],
+    "landingPage" : "https://data.zendantennes.omgeving.vlaanderen.be/doc/conceptscheme/antenne_norm_type",
+    "theme" : "http://eurovoc.europa.eu/2176"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_rekenmethode",
+    "@type" : "dcat:Dataset",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Lijst van mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne"
+    },
+    "issued" : "2018-11-19",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "publisher" : "http://data.vlaanderen.be/id/organisatie/OVO003323",
+    "spatial" : "http://publications.europa.eu/resource/authority/country/BEL",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne"
+    },
+    "contactPoint" : "mailto:geert.vanhaute@vlaanderen.be",
+    "distribution" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_rekenmethode/nt", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_rekenmethode/rdf", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_rekenmethode/ttl", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_rekenmethode/jsonld" ],
+    "landingPage" : "https://data.zendantennes.omgeving.vlaanderen.be/doc/conceptscheme/antenne_rekenmethode",
+    "theme" : "http://eurovoc.europa.eu/2176"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/antenne_straling_type",
+    "@type" : "dcat:Dataset",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Lijst van mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne"
+    },
+    "issued" : "2018-11-19",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "publisher" : "http://data.vlaanderen.be/id/organisatie/OVO003323",
+    "spatial" : "http://publications.europa.eu/resource/authority/country/BEL",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne"
+    },
+    "contactPoint" : "mailto:geert.vanhaute@vlaanderen.be",
+    "distribution" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_straling_type/jsonld", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_straling_type/ttl", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_straling_type/nt", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_straling_type/rdf" ],
+    "landingPage" : "https://data.zendantennes.omgeving.vlaanderen.be/doc/conceptscheme/antenne_straling_type",
+    "theme" : "http://eurovoc.europa.eu/2176"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/conceptscheme/eenheid",
+    "@type" : "dcat:Dataset",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Lijst van eenheden bij een waarde"
+    },
+    "issued" : "2018-11-19",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "publisher" : "http://data.vlaanderen.be/id/organisatie/OVO003323",
+    "spatial" : "http://publications.europa.eu/resource/authority/country/BEL",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over eenheden bij een waarde"
+    },
+    "contactPoint" : "mailto:geert.vanhaute@vlaanderen.be",
+    "distribution" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/eenheid/nt", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/eenheid/jsonld", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/eenheid/rdf", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/eenheid/ttl" ],
+    "landingPage" : "https://data.zendantennes.omgeving.vlaanderen.be/doc/conceptscheme/eenheid",
+    "theme" : "http://eurovoc.europa.eu/2176"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/antenne",
+    "@type" : "dcat:Dataset",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Zendantenne ontologie"
+    },
+    "issued" : "2018-11-19",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "publisher" : "http://data.vlaanderen.be/id/organisatie/OVO003323",
+    "spatial" : "http://publications.europa.eu/resource/authority/country/BEL",
+    "temporal" : "2018",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Zendantenne ontologie"
+    },
+    "contactPoint" : "mailto:geert.vanhaute@vlaanderen.be",
+    "distribution" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/antenne/nt", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/antenne/rdf", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/antenne/jsonld", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/antenne/ttl" ],
+    "landingPage" : "https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne",
+    "theme" : "http://eurovoc.europa.eu/2176"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/dossier",
+    "@type" : "dcat:Dataset",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Dossier ontologie"
+    },
+    "issued" : "2018-11-19",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "publisher" : "http://data.vlaanderen.be/id/organisatie/OVO003323",
+    "spatial" : "http://publications.europa.eu/resource/authority/country/BEL",
+    "temporal" : "2018",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Dossier ontologie"
+    },
+    "contactPoint" : "mailto:geert.vanhaute@vlaanderen.be",
+    "distribution" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/dossier/ttl", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/dossier/rdf", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/dossier/jsonld", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/dossier/nt" ],
+    "landingPage" : "https://data.omgeving.vlaanderen.be/ns/dossier",
+    "theme" : "http://eurovoc.europa.eu/2176"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/ontology/waarde",
+    "@type" : "dcat:Dataset",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Waarde ontologie"
+    },
+    "issued" : "2018-11-19",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "publisher" : "http://data.vlaanderen.be/id/organisatie/OVO003323",
+    "spatial" : "http://publications.europa.eu/resource/authority/country/BEL",
+    "temporal" : "2018",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Waarde ontologie"
+    },
+    "contactPoint" : "mailto:geert.vanhaute@vlaanderen.be",
+    "distribution" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/waarde/nt", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/waarde/jsonld", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/waarde/ttl", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/waarde/rdf" ],
+    "landingPage" : "https://data.omgeving.vlaanderen.be/ns/waarde",
+    "theme" : "http://eurovoc.europa.eu/2176"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/dataset/zendantennes",
+    "@type" : "dcat:Dataset",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Dataset zendantenne, serialisatie van de databank van https://zendantennes.vlaanderen.be/zendant"
+    },
+    "issued" : "2018-11-19",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "publisher" : "http://data.vlaanderen.be/id/organisatie/OVO003323",
+    "spatial" : "http://publications.europa.eu/resource/authority/country/BEL",
+    "temporal" : [ "2017", "2018" ],
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Dataset zendantenne"
+    },
+    "contactPoint" : "mailto:geert@milieuinfo.be",
+    "distribution" : [ "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/jsonld", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/html", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ttl", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/rdf", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/sparql", "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/nt" ],
+    "landingPage" : "https://data.zendantennes.omgeving.vlaanderen.be/doc/zendantennes",
+    "theme" : "http://eurovoc.europa.eu/2176"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_demping_materiaal/jsonld",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme dempend materiaal bij elektromagnetische straling in application/json"
+    },
+    "format" : "application/json",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme dempend materiaal bij elektromagnetische straling, json-ld distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_demping_materiaal/antenne_demping_materiaal.jsonld",
+    "mediaType" : "application/json"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_demping_materiaal/nt",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme dempend materiaal bij elektromagnetische straling in application/n-triples"
+    },
+    "format" : "application/n-triples",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme dempend materiaal bij elektromagnetische straling, n-triples distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_demping_materiaal/antenne_demping_materiaal.nt",
+    "mediaType" : "application/n-triples"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_demping_materiaal/rdf",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme dempend materiaal bij elektromagnetische straling in application/rdf+xml"
+    },
+    "format" : "application/rdf+xml",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme dempend materiaal bij elektromagnetische straling, rdf+xml distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_demping_materiaal/antenne_demping_materiaal.rdf",
+    "mediaType" : "application/rdf+xml"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_demping_materiaal/ttl",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme dempend materiaal bij elektromagnetische straling in text/turtle"
+    },
+    "format" : "text/turtle",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme dempend materiaal bij elektromagnetische straling, turtle distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_demping_materiaal/antenne_demping_materiaal.ttl",
+    "mediaType" : "text/turtle"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier/jsonld",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest in application/json"
+    },
+    "format" : "application/json",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest, json-ld distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_dossier/antenne_dossier.jsonld",
+    "mediaType" : "application/json"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier/nt",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest in application/n-triples"
+    },
+    "format" : "application/n-triples",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest, n-triples distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_dossier/antenne_dossier.nt",
+    "mediaType" : "application/n-triples"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier/rdf",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest in application/rdf+xml"
+    },
+    "format" : "application/rdf+xml",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest, rdf+xml distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_dossier/antenne_dossier.rdf",
+    "mediaType" : "application/rdf+xml"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier/ttl",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest in text/turtle"
+    },
+    "format" : "text/turtle",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme met informatie over de samenstelling van een dossier over de aanvraag van een conformiteitsattest, turtle distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_dossier/antenne_dossier.ttl",
+    "mediaType" : "text/turtle"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier_type/jsonld",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json"
+    },
+    "format" : "application/json",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_dossier_type/antenne_dossier_type.jsonld",
+    "mediaType" : "application/json"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier_type/nt",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples"
+    },
+    "format" : "application/n-triples",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_dossier_type/antenne_dossier_type.nt",
+    "mediaType" : "application/n-triples"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier_type/rdf",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml"
+    },
+    "format" : "application/rdf+xml",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_dossier_type/antenne_dossier_type.rdf",
+    "mediaType" : "application/rdf+xml"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_dossier_type/ttl",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle"
+    },
+    "format" : "text/turtle",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over dossiertypes bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_dossier_type/antenne_dossier_type.ttl",
+    "mediaType" : "text/turtle"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gebouw_dtype/jsonld",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json"
+    },
+    "format" : "application/json",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_gebouw_dtype/antenne_gebouw_dtype.jsonld",
+    "mediaType" : "application/json"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gebouw_dtype/nt",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples"
+    },
+    "format" : "application/n-triples",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_gebouw_dtype/antenne_gebouw_dtype.nt",
+    "mediaType" : "application/n-triples"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gebouw_dtype/rdf",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml"
+    },
+    "format" : "application/rdf+xml",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_gebouw_dtype/antenne_gebouw_dtype.rdf",
+    "mediaType" : "application/rdf+xml"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gebouw_dtype/ttl",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle"
+    },
+    "format" : "text/turtle",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over gebouwtypes bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_gebouw_dtype/antenne_gebouw_dtype.ttl",
+    "mediaType" : "text/turtle"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gecontroleerde_ruimte_status/jsonld",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json"
+    },
+    "format" : "application/json",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_gecontroleerde_ruimte_status/antenne_gecontroleerde_ruimte_status.jsonld",
+    "mediaType" : "application/json"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gecontroleerde_ruimte_status/nt",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples"
+    },
+    "format" : "application/n-triples",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_gecontroleerde_ruimte_status/antenne_gecontroleerde_ruimte_status.nt",
+    "mediaType" : "application/n-triples"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gecontroleerde_ruimte_status/rdf",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml"
+    },
+    "format" : "application/rdf+xml",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_gecontroleerde_ruimte_status/antenne_gecontroleerde_ruimte_status.rdf",
+    "mediaType" : "application/rdf+xml"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_gecontroleerde_ruimte_status/ttl",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle"
+    },
+    "format" : "text/turtle",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_gecontroleerde_ruimte_status/antenne_gecontroleerde_ruimte_status.ttl",
+    "mediaType" : "text/turtle"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_norm_type/jsonld",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json"
+    },
+    "format" : "application/json",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_norm_type/antenne_norm_type.jsonld",
+    "mediaType" : "application/json"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_norm_type/nt",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples"
+    },
+    "format" : "application/n-triples",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_norm_type/antenne_norm_type.nt",
+    "mediaType" : "application/n-triples"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_norm_type/rdf",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml"
+    },
+    "format" : "application/rdf+xml",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_norm_type/antenne_norm_type.rdf",
+    "mediaType" : "application/rdf+xml"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_norm_type/ttl",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle"
+    },
+    "format" : "text/turtle",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke normen bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_norm_type/antenne_norm_type.ttl",
+    "mediaType" : "text/turtle"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_rekenmethode/jsonld",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json"
+    },
+    "format" : "application/json",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_rekenmethode/antenne_rekenmethode.jsonld",
+    "mediaType" : "application/json"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_rekenmethode/nt",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples"
+    },
+    "format" : "application/n-triples",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_rekenmethode/antenne_rekenmethode.nt",
+    "mediaType" : "application/n-triples"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_rekenmethode/rdf",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml"
+    },
+    "format" : "application/rdf+xml",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_rekenmethode/antenne_rekenmethode.rdf",
+    "mediaType" : "application/rdf+xml"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_rekenmethode/ttl",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle"
+    },
+    "format" : "text/turtle",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke rekenmethodes bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_rekenmethode/antenne_rekenmethode.ttl",
+    "mediaType" : "text/turtle"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_straling_type/jsonld",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/json"
+    },
+    "format" : "application/json",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne, json-ld distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_straling_type/antenne_straling_type.jsonld",
+    "mediaType" : "application/json"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_straling_type/nt",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/n-triples"
+    },
+    "format" : "application/n-triples",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne, n-triples distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_straling_type/antenne_straling_type.nt",
+    "mediaType" : "application/n-triples"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_straling_type/rdf",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne in application/rdf+xml"
+    },
+    "format" : "application/rdf+xml",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne, rdf+xml distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_straling_type/antenne_straling_type.rdf",
+    "mediaType" : "application/rdf+xml"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/antenne_straling_type/ttl",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne in text/turtle"
+    },
+    "format" : "text/turtle",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over mogelijke stralingstypes bij het aanvragen van een conformiteitsattest voor een zendantenne, turtle distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/antenne_straling_type/antenne_straling_type.ttl",
+    "mediaType" : "text/turtle"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/eenheid/jsonld",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over eenheden bij een waarde in application/json"
+    },
+    "format" : "application/json",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over eenheden bij een waarde, json-ld distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/eenheid/eenheid.jsonld",
+    "mediaType" : "application/json"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/eenheid/nt",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over eenheden bij een waarde in application/n-triples"
+    },
+    "format" : "application/n-triples",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over eenheden bij een waarde, n-triples distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/eenheid/eenheid.nt",
+    "mediaType" : "application/n-triples"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/eenheid/rdf",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over eenheden bij een waarde in application/rdf+xml"
+    },
+    "format" : "application/rdf+xml",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over eenheden bij een waarde, rdf+xml distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/eenheid/eenheid.rdf",
+    "mediaType" : "application/rdf+xml"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/conceptscheme/eenheid/ttl",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over eenheden bij een waarde in text/turtle"
+    },
+    "format" : "text/turtle",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Conceptscheme over eenheden bij een waarde, turtle distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/conceptscheme/zendantenne/eenheid/eenheid.ttl",
+    "mediaType" : "text/turtle"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/html",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "dataset van zendantenne in text/html"
+    },
+    "format" : "text/html",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "dataset van zendantenne, html distributie"
+    },
+    "accessURL" : "https://data.zendantennes.omgeving.vlaanderen.be/doc/zendantennes",
+    "mediaType" : "text/html"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/jsonld",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "dataset van zendantenne in application/json"
+    },
+    "format" : "application/json",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "dataset van zendantenne , json-ld distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/data/zendantennes/zendantennes.jsonld",
+    "mediaType" : "application/json"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/nt",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "dataset van zendantenne in application/n-triples"
+    },
+    "format" : "application/n-triples",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "dataset van zendantenne , n-triples distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/data/zendantennes/zendantennes.nt",
+    "mediaType" : "application/n-triples"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/antenne/jsonld",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Zendantenne ontologie in application/json"
+    },
+    "format" : "application/json",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Zendantenne ontologie, json-ld distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/ontologie/zendantenne/zendantenne.jsonld",
+    "mediaType" : "application/json"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/antenne/nt",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Zendantenne ontologie in application/n-triples"
+    },
+    "format" : "application/n-triples",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Zendantenne ontologie, n-triples distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/ontologie/zendantenne/zendantenne.nt",
+    "mediaType" : "application/n-triples"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/antenne/rdf",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Zendantenne ontologie in application/rdf+xml"
+    },
+    "format" : "application/rdf+xml",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Zendantenne ontologie, rdf+xml distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/ontologie/zendantenne/zendantenne.rdf",
+    "mediaType" : "application/rdf+xml"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/antenne/ttl",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Zendantenne ontologie in text/turtle"
+    },
+    "format" : "text/turtle",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Zendantenne ontologie, turtle distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/ontologie/zendantenne/zendantenne.ttl",
+    "mediaType" : "text/turtle"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/dossier/jsonld",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Dossier ontologie in application/json"
+    },
+    "format" : "application/json",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Dossier ontologie, json-ld distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/ontologie/dossier/dossier.jsonld",
+    "mediaType" : "application/json"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/dossier/nt",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Dossier ontologie in application/n-triples"
+    },
+    "format" : "application/n-triples",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Dossier ontologie, n-triples distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/ontologie/dossier/dossier.nt",
+    "mediaType" : "application/n-triples"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/dossier/rdf",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Dossier ontologie in application/rdf+xml"
+    },
+    "format" : "application/rdf+xml",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Dossier ontologie, rdf+xml distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/ontologie/dossier/dossier.rdf",
+    "mediaType" : "application/rdf+xml"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/dossier/ttl",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Dossier ontologie in text/turtle"
+    },
+    "format" : "text/turtle",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Dossier ontologie, turtle distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/ontologie/dossier/dossier.ttl",
+    "mediaType" : "text/turtle"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/waarde/jsonld",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Waarde ontologie in application/json"
+    },
+    "format" : "application/json",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Waarde ontologie, json-ld distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/ontologie/waarde/waarde.jsonld",
+    "mediaType" : "application/json"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/waarde/nt",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Waarde ontologie in application/n-triples"
+    },
+    "format" : "application/n-triples",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Waarde ontologie, n-triples distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/ontologie/waarde/waarde.nt",
+    "mediaType" : "application/n-triples"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/waarde/rdf",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Waarde ontologie in application/rdf+xml"
+    },
+    "format" : "application/rdf+xml",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Waarde ontologie, rdf+xml distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/ontologie/waarde/waarde.rdf",
+    "mediaType" : "application/rdf+xml"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ontology/waarde/ttl",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "Waarde ontologie in text/turtle"
+    },
+    "format" : "text/turtle",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "Waarde ontologie, turtle distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/ontologie/waarde/waarde.ttl",
+    "mediaType" : "text/turtle"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/rdf",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "dataset van zendantenne in application/rdf+xml"
+    },
+    "format" : "application/rdf+xml",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "dataset van zendantenne , rdf+xml distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/data/zendantennes/zendantennes.rdf",
+    "mediaType" : "application/rdf+xml"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/sparql",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "sparql interface op de dataset van zendantenne"
+    },
+    "format" : "application/sparql-query",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "dataset van zendantenne, sparql API"
+    },
+    "accessURL" : "https://data.zendantennes.omgeving.vlaanderen.be/id/zendantenne/sparql?",
+    "mediaType" : "application/sparql-query"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/distribution/ttl",
+    "@type" : "dcat:Distribution",
+    "description" : {
+      "@language" : "nl",
+      "@value" : "dataset van zendantenne in text/turtle"
+    },
+    "format" : "text/turtle",
+    "license" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "title" : {
+      "@language" : "nl",
+      "@value" : "dataset van zendantenne , turtle distributie."
+    },
+    "accessURL" : "https://data.omgeving.vlaanderen.be/dumps/data/zendantennes/zendantennes.ttl",
+    "mediaType" : "text/turtle"
+  }, {
+    "@id" : "https://data.zendantennes.omgeving.vlaanderen.be/id/licensedocument/modellicentie-gratis-hergebruik/v1.0",
+    "@type" : "dcterms:LicenseDocument",
+    "rightsHolder" : "http://data.vlaanderen.be/id/organisatie/OVO003751",
+    "source" : "https://data.vlaanderen.be/doc/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "type" : "http://purl.org/adms/licencetype/Attribution"
+  } ],
+  "@context" : {
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license",
+      "@type" : "@id"
+    },
+    "format" : {
+      "@id" : "http://purl.org/dc/terms/format"
+    },
+    "mediaType" : {
+      "@id" : "http://www.w3.org/ns/dcat#mediaType"
+    },
+    "accessURL" : {
+      "@id" : "http://www.w3.org/ns/dcat#accessURL",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "distribution" : {
+      "@id" : "http://www.w3.org/ns/dcat#distribution",
+      "@type" : "@id"
+    },
+    "spatial" : {
+      "@id" : "http://purl.org/dc/terms/spatial",
+      "@type" : "@id"
+    },
+    "theme" : {
+      "@id" : "http://www.w3.org/ns/dcat#theme",
+      "@type" : "@id"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/terms/publisher",
+      "@type" : "@id"
+    },
+    "landingPage" : {
+      "@id" : "http://www.w3.org/ns/dcat#landingPage",
+      "@type" : "@id"
+    },
+    "contactPoint" : {
+      "@id" : "http://www.w3.org/ns/dcat#contactPoint",
+      "@type" : "@id"
+    },
+    "temporal" : {
+      "@id" : "http://purl.org/dc/terms/temporal"
+    },
+    "homepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/homepage",
+      "@type" : "@id"
+    },
+    "dataset" : {
+      "@id" : "http://www.w3.org/ns/dcat#dataset",
+      "@type" : "@id"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/terms/language"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/terms/source",
+      "@type" : "@id"
+    },
+    "rightsHolder" : {
+      "@id" : "http://purl.org/dc/terms/rightsHolder",
+      "@type" : "@id"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/terms/type",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://www.w3.org/ns/org#identifier"
+    },
+    "classification" : {
+      "@id" : "http://www.w3.org/ns/org#classification",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type" : "@id"
+    },
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
+    },
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "org" : "http://www.w3.org/ns/org#",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "dcat" : "http://www.w3.org/ns/dcat#",
+    "foaf" : "http://xmlns.com/foaf/0.1/"
+  }
+}

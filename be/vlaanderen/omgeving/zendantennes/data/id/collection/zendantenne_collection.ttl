@@ -1,0 +1,120 @@
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix co:  <http://purl.org/co/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix dc:  <http://purl.org/dc/elements/1.1/> .
+@prefix schema:  <http://schema.org/> .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/ontology/zendantenne-archivering>
+        rdf:type     owl:Ontology ;
+        owl:imports  <http://www.w3.org/ns/locn#> ;
+        owl:imports  <http://www.w3.org/ns/person#> ;
+        owl:imports  <http://data.vlaanderen.be/ns/persoon#> ;
+        owl:imports  <http://data.vlaanderen.be/ns/adres#> ;
+        owl:imports  <http://dbpedia.org/ontology/> ;
+        owl:imports  <http://www.w3.org/ns/prov#> ;
+        owl:imports  <http://www.opengis.net/ont/geosparql> ;
+        owl:imports  <https://data.zendantennes.omgeving.vlaanderen.be/ns/zendantenne#> ;
+        owl:imports  <https://data.omgeving.vlaanderen.be/ns/dossier#> ;
+        owl:imports  <https://data.omgeving.vlaanderen.be/ns/waarde#> .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/aannemer>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type aannemer binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/address>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type address binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/afbeelding>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type afbeelding binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/antennetechnologie>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type antennetechnologie binnen\n            de datasets die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/antennetype>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type antennetype binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/antennewinstverlies>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type antennewinstverlies binnen\n            de datasets die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/bijlage>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type bijlage binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/conformiteitsattest>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type conformiteitsattest binnen\n            de datasets die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/delegation>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type delegation binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/dempendemaatregel>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type dempendemaatregel binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/demping>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type demping binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/dempingsfactor>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type dempingsfactor binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/document>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type document binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/dossier>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type dossier binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/gecontroleerderuimte>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type gecontroleerderuimte binnen\n            de datasets die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/gedemptestraling>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type gedemptestraling binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/ontology>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type ontology binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/operator>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type operator binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/person>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type person binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/procedurestap>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type procedurestap binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/site>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type site binnen de datasets die\n            in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/stralen>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type stralen binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/straling>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type straling binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/waarde>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type waarde binnen de datasets\n            die in het kader van zendantennes worden gepubliceerd."@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/collection/zendantenne>
+        rdf:type       co:Collection ;
+        dcterms:title  "Collectie van objecten van het type zendantenne binnen de\n            datasets die in het kader van zendantennes worden gepubliceerd."@nl .

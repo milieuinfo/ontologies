@@ -1,0 +1,1080 @@
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1/> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/terms/> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2004/02/skos/core> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> <http://www.w3.org/2004/02/skos/core#prefLabel> "archiefconcepten (IMJV)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> <http://rdf-vocabulary.ddialliance.org/xkos#belongsTo> <https://data.imjv.omgeving.vlaanderen.be/id/dataset> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lijst van onderdelen van het IMJV"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> <http://www.w3.org/2004/02/skos/core#altLabel> "eenheid"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> <http://purl.org/dc/terms/issued> "2019-01-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> <http://purl.org/vocab/vann/changes> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> <http://purl.org/dc/terms/title> "Conceptscheme over onderdelen van het IMJV"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> <http://www.w3.org/2002/07/owl#versionInfo> "Tweede versie, zoals in gebruik genomen in het kader van de herwerking volgens de uri-standaard"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> <http://xmlns.com/foaf/0.1/maker> _:B913a8bf4X2DccfeX2D43ffX2Da4f7X2D5a42ede73f0e .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Organization> .
+_:B913a8bf4X2DccfeX2D43ffX2Da4f7X2D5a42ede73f0e <http://schema.org/affiliation> <http://data.vlaanderen.be/id/organisatie/OVO003751> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Agent> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/name> "Data- en informatiebeheer & digitale maatschappij"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2004/02/skos/core#altLabel> "DIDM"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data- en informatiebeheer & digitale maatschappij"@nl .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#changedBy> <http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#classification> <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/org#identifier> "OVO003751" .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://www.w3.org/ns/regorg#orgStatus> <http://data.vlaanderen.be/id/concept/organisatiestatus/actief> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/homepage> <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://purl.org/dc/terms/type> <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> .
+<http://data.vlaanderen.be/id/organisatie/OVO003751> <http://xmlns.com/foaf/0.1/mbox> <mailto:didm.omgeving@vlaanderen.be> .
+_:B913a8bf4X2DccfeX2D43ffX2Da4f7X2D5a42ede73f0e <http://xmlns.com/foaf/0.1/mbox> <mailto:geert.vanhaute@vlaanderen.be> .
+_:B913a8bf4X2DccfeX2D43ffX2Da4f7X2D5a42ede73f0e <http://xmlns.com/foaf/0.1/name> "Van Haute, Geert" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> <http://www.w3.org/2004/02/skos/core#prefLabel> "dossier"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/metadata> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalproducent> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_identificatie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_energie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalverwerker> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvaloverbrenger> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondstoffenproducent> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/metadata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/metadata> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/metadata> <http://www.w3.org/2004/02/skos/core#definition> "Metadata over een jaarverslag"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/metadata> <http://www.w3.org/2004/02/skos/core#prefLabel> "metadata"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/metadata> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/brief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/brief> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/brief> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/brief> <http://www.w3.org/2004/02/skos/core#definition> "Brief bij een jaarverslag"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/brief> <http://www.w3.org/2004/02/skos/core#prefLabel> "brief"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/brief> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/uitnodiging> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/brief> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aanmaning> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/brief> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/handhavingovam> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/uitnodiging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/uitnodiging> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/uitnodiging> <http://www.w3.org/2004/02/skos/core#definition> "Uitnodiging bij een jaarverslag"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/uitnodiging> <http://www.w3.org/2004/02/skos/core#prefLabel> "Uitnodiging"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/uitnodiging> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/brief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanmaning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanmaning> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanmaning> <http://www.w3.org/2004/02/skos/core#definition> "Aanmaning bij een jaarverslag"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanmaning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aanmaning"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanmaning> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/brief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/handhavingovam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/handhavingovam> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/handhavingovam> <http://www.w3.org/2004/02/skos/core#definition> "Handhaving OVAM bij een jaarverslag"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/handhavingovam> <http://www.w3.org/2004/02/skos/core#prefLabel> "Handhaving OVAM"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/handhavingovam> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/brief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalproducent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalproducent> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalproducent> <http://www.w3.org/2004/02/skos/core#prefLabel> "aangifte afvalproducent"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalproducent> <http://www.w3.org/2004/02/skos/core#definition> "Een bedrijf, organisatie moet het deel Afval invullen indien:           \n            het in de OVAM-steekproef voor deel Afval zit. OF het een 'PRTR'-bedrijf betreft. Dit zijn bedrijven die een milieuvergunning hebben waarbij in kolom 7 van een of meerdere vergunde rubrieken een 'R' staat. Bedrijven die hier een 'J' hebben staan en geen 'R', moeten deel Afval niet invullen, behalve als ze opgenomen zijn in de OVAM-steekproef voor deel Afval. Meer informatie over de vergunde rubrieken vindt u op de Vlaamse Milieunavigator.\n        "@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalproducent> <http://purl.org/dc/elements/1.1/source> <https://imjv.milieuinfo.be/delen-van-het-imjv/afval> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalproducent> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalproducent> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_afvalproducent> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalproducent> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvalproducent> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_identificatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_identificatie> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_identificatie> <http://www.w3.org/2004/02/skos/core#prefLabel> "aangifte identificatie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_identificatie> <http://www.w3.org/2004/02/skos/core#definition> "Elk IMJV bevat het deel Identificatie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_identificatie> <http://purl.org/dc/elements/1.1/source> <https://imjv.milieuinfo.be/delen-van-het-imjv/identificatie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_identificatie> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_identificatie> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_identificatie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_identificatie> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_identificatie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie> <http://www.w3.org/2004/02/skos/core#definition> "Een exploitatie moet het deel Lucht invullen indien het:         \n            ofwel conform Vlarem I over een J-type vergunning beschikt;\n            ofwel milieuvergunningsplichtig is als klasse 1 of 2;\n            en als bovendien de totale emissie van de gehele milieutechnische eenheid voor ten minste één verontreinigende stof in het beschouwde jaar groter is dan de drempelwaarden vermeld in de overzichtstabel van verontreinigende stoffen van het deelformulier luchtemissies.          \n            Indien in het verleden deze drempelwaarden voor de exploitatie werden overschreden, dient u het deel Lucht in te vullen gedurende de 3 daaropvolgende jaren, ook al blijft de emissie onder de drempelwaarden.           \n            Bijvoorbeeld, indien de exploitatie in 2011 nog boven de drempel emitteerde, maar dit de daaropvolgende jaren niet meer deed, dient u in 2015 (rapporteringsjaar 2014) voor de laatste keer het deel Lucht in te vullen."@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie> <http://www.w3.org/2004/02/skos/core#prefLabel> "aangifte luchtemissie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie> <http://purl.org/dc/elements/1.1/source> <https://imjv.milieuinfo.be/delen-van-het-imjv/lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_luchtemissie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/processchema_luchtemissie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_luchtemissie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_energie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_energie> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_energie> <http://www.w3.org/2004/02/skos/core#prefLabel> "aangifte energie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_energie> <http://www.w3.org/2004/02/skos/core#definition> "en bedrijf, organisatie dient het deel Energie in te vullen wanneer:            \n            de exploitatie een primair energieverbruik heeft van meer dan 0,1 petajoule\n            u voor de exploitatie ook het deelformulier luchtemissie moet invullen\n            de exploitatie een GPBV/IPPC bedrijf betreft            \n            Een IMJV-plichtige die aangeeft alleen te moeten melden omwille van het energieverbruik, vult alleen de speciaal daarvoor ontworpen tabel 3 in het deel Energiegegevens in; elektriciteitsverbruik/jaar; brandstoffenverbruik/jaar per brandstof.\n            Deze bedrijven moeten niet het deel Lucht invullen (tenzij ze één of meerdere drempels overschrijden).         \n        "@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_energie> <http://purl.org/dc/elements/1.1/source> <https://imjv.milieuinfo.be/delen-van-het-imjv/energie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_energie> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_energie> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_energie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_energie> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_energie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalverwerker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalverwerker> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalverwerker> <http://www.w3.org/2004/02/skos/core#prefLabel> "aangifte afvalverwerker"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalverwerker> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalverwerker> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalverwerker> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_afvalverwerker> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalverwerker> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvalverwerker> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie> <http://purl.org/dc/elements/1.1/source> <https://imjv.milieuinfo.be/delen-van-het-imjv/water> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie> <http://www.w3.org/2004/02/skos/core#prefLabel> "aangifte wateremissie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie> <http://www.w3.org/2004/02/skos/core#definition> "Een bedrijf, organisatie moet het deel Water invullen indien het:           \n            ofwel conform Vlarem I over een J-type vergunning beschikt\n            ofwel milieuvergunningsplichtig is als klasse 1 of 2           \n            en bovendien bepaalde stoffen in afvalwater afvoert van zijn bedrijfsterrein boven een bepaalde drempel. Het maakt geen verschil of het afvalwater geloosd wordt in oppervlaktewater, riolering of afgevoerd wordt naar een private waterzuiveringsinstallatie. De lijst met verontreinigende stoffen en drempelwaarden is aangepast door de wetswijziging van december 2006.           \n            Indien in het verleden deze drempelwaarden voor de exploitatie werden overschreden, dient het deel wateremissie te worden ingevuld gedurende de 3 daaropvolgende jaren, ook al blijft de emissie onder de drempelwaarden.         \n            Bijvoorbeeld, indien de exploitatie in 2012 nog boven de drempel emitteerde, maar dit de daaropvolgende jaren niet meer deed, dient u in 2016 (rapporteringsjaar 2015) dus voor de laatste keer het deel wateremissie in te vullen."@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_wateremissie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/processchema_wateremissie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_wateremissie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek> <http://purl.org/dc/elements/1.1/source> <https://imjv.milieuinfo.be/delen-van-het-imjv/grondwater> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek> <http://www.w3.org/2004/02/skos/core#definition> "Bedrijven, organisaties dienen het deel Grondwater in te vullen wanneer zij:    \n            een Vlaremvergunning met een totaal vergund debiet van meer dan 30 000 m³/jaar hebben.\n            een oude klasse B grondwatervergunning hebben.\n            indien dit in de bijzondere voorwaarden van de vergunning staat gemeld. Hieronder vallen bijvoorbeeld sommige vergunde installaties met aquifercodes 1300, 1310, 1320, 1330 en 1340.\n            In de voorwaarden staat vermeld welk deel (onttrekkingen, peilgegevens en/of kwaliteitsgegevens) moet ingevuld worden en hoeveel keer per jaar de metingen moeten uitgevoerd worden."@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek> <http://www.w3.org/2004/02/skos/core#prefLabel> "aangifte grondwaterstatistiek"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondwaterstatistiek> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondwaterstatistiek> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek> <http://www.w3.org/2004/02/skos/core#related> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater> <http://purl.org/dc/elements/1.1/source> <https://imjv.milieuinfo.be/delen-van-het-imjv/grondwater> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater> <http://www.w3.org/2004/02/skos/core#definition> "Bedrijven, organisaties dienen het deel Grondwater in te vullen wanneer zij:    \n            een Vlaremvergunning met een totaal vergund debiet van meer dan 30 000 m³/jaar hebben.\n            een oude klasse B grondwatervergunning hebben.\n            indien dit in de bijzondere voorwaarden van de vergunning staat gemeld. Hieronder vallen bijvoorbeeld sommige vergunde installaties met aquifercodes 1300, 1310, 1320, 1330 en 1340.\n            In de voorwaarden staat vermeld welk deel (onttrekkingen, peilgegevens en/of kwaliteitsgegevens) moet ingevuld worden en hoeveel keer per jaar de metingen moeten uitgevoerd worden.\n        Vanaf 2016 is de aangifte grondwaterstatistiek vervangen door aangifte grondwater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater> <http://www.w3.org/2004/02/skos/core#prefLabel> "aangifte grondwater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondwater> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondwater> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater> <http://www.w3.org/2004/02/skos/core#related> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvaloverbrenger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvaloverbrenger> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvaloverbrenger> <http://www.w3.org/2004/02/skos/core#prefLabel> "aangifte afvaloverbrenger"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvaloverbrenger> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvaloverbrenger> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvaloverbrenger> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvaloverbrenger> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondstoffenproducent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondstoffenproducent> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondstoffenproducent> <http://www.w3.org/2004/02/skos/core#prefLabel> "aangifte grondstoffenproducent"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondstoffenproducent> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondstoffenproducent> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/dossier> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondstoffenproducent> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondstoffenproducent> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondstoffenproducent> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondstoffenproducent> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_afvalproducent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_afvalproducent> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_afvalproducent> <http://www.w3.org/2004/02/skos/core#prefLabel> "aanvulling afvalproducent"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_afvalproducent> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_afvalproducent> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalproducent> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvalproducent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvalproducent> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvalproducent> <http://www.w3.org/2004/02/skos/core#prefLabel> "bijlage afvalproducent"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvalproducent> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvalproducent> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalproducent> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_identificatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_identificatie> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_identificatie> <http://www.w3.org/2004/02/skos/core#prefLabel> "bijlage identificatie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_identificatie> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_identificatie> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_identificatie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_identificatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_identificatie> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_identificatie> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_identificatie> <http://www.w3.org/2004/02/skos/core#prefLabel> "aanvulling identificatie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_identificatie> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_identificatie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_luchtemissie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_luchtemissie> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_luchtemissie> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_luchtemissie> <http://www.w3.org/2004/02/skos/core#prefLabel> "aanvulling luchtemissie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_luchtemissie> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/processchema_luchtemissie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/processchema_luchtemissie> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/processchema_luchtemissie> <http://www.w3.org/2004/02/skos/core#prefLabel> "processchema luchtemissie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/processchema_luchtemissie> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/processchema_luchtemissie> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_luchtemissie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_luchtemissie> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_luchtemissie> <http://www.w3.org/2004/02/skos/core#prefLabel> "bijlage luchtemissie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_luchtemissie> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_luchtemissie> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_luchtemissie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_energie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_energie> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_energie> <http://www.w3.org/2004/02/skos/core#prefLabel> "aanvulling energie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_energie> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_energie> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_energie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_energie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_energie> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_energie> <http://www.w3.org/2004/02/skos/core#prefLabel> "bijlage energie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_energie> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_energie> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_energie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_afvalverwerker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_afvalverwerker> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_afvalverwerker> <http://www.w3.org/2004/02/skos/core#prefLabel> "aanvulling afvalverwerker"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_afvalverwerker> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_afvalverwerker> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalverwerker> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvalverwerker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvalverwerker> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvalverwerker> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvalverwerker> <http://www.w3.org/2004/02/skos/core#prefLabel> "bijlage afvalverwerker"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvalverwerker> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvalverwerker> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_wateremissie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_wateremissie> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_wateremissie> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_wateremissie> <http://www.w3.org/2004/02/skos/core#prefLabel> "bijlage wateremissie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_wateremissie> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/processchema_wateremissie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/processchema_wateremissie> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/processchema_wateremissie> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/processchema_wateremissie> <http://www.w3.org/2004/02/skos/core#prefLabel> "processchema wateremissie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/processchema_wateremissie> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_wateremissie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_wateremissie> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_wateremissie> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_wateremissie> <http://www.w3.org/2004/02/skos/core#prefLabel> "aanvulling wateremissie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_wateremissie> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_wateremissie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondwaterstatistiek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondwaterstatistiek> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondwaterstatistiek> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondwaterstatistiek> <http://www.w3.org/2004/02/skos/core#prefLabel> "bijlage grondwaterstatistiek"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondwaterstatistiek> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondwater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondwater> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondwater> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondwater> <http://www.w3.org/2004/02/skos/core#prefLabel> "bijlage grondwater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondwater> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondwaterstatistiek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondwaterstatistiek> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondwaterstatistiek> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondwaterstatistiek> <http://www.w3.org/2004/02/skos/core#prefLabel> "aanvulling grondwaterstatistiek"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondwaterstatistiek> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwaterstatistiek> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondwater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondwater> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondwater> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondwater> <http://www.w3.org/2004/02/skos/core#prefLabel> "aanvulling grondwater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondwater> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondwater> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvaloverbrenger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvaloverbrenger> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvaloverbrenger> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvaloverbrenger> <http://www.w3.org/2004/02/skos/core#prefLabel> "bijlage afvaloverbrenger"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_afvaloverbrenger> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_afvaloverbrenger> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondstoffenproducent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondstoffenproducent> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondstoffenproducent> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondstoffenproducent> <http://www.w3.org/2004/02/skos/core#prefLabel> "bijlage grondstoffenproducent"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bijlage_grondstoffenproducent> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondstoffenproducent> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondstoffenproducent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondstoffenproducent> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/archief> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondstoffenproducent> <http://www.w3.org/2004/02/skos/core#prefLabel> "aanvulling grondstoffenproducent"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondstoffenproducent> <http://www.w3.org/2004/02/skos/core#definition> ""@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/aanvulling_grondstoffenproducent> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/aangifte_grondstoffenproducent> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/administratie> <http://www.w3.org/2004/02/skos/core#prefLabel> "concepten m.b.t. identificatie en administratie (IMJV)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/administratie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/exploitatie> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/administratie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/exploitatie> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/administratie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/exploitatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/exploitatie> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/exploitatie> <http://www.w3.org/2004/02/skos/core#definition> "de IMJV-plichtige exploitatie, zoals dit binnen de werking van het imjv wordt geïnterpreteerd"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/exploitatie> <http://www.w3.org/2004/02/skos/core#prefLabel> "exploitatie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/exploitatie> <http://www.w3.org/2004/02/skos/core#notation> "exploitatie" .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort> <http://www.w3.org/2004/02/skos/core#prefLabel> "emissiepunt soorten (IMJV)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/gebouw> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/gebouw> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/gebouw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/gebouw> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/gebouw> <http://www.w3.org/2004/02/skos/core#definition> "gebouw, zoals gebruikt binnen het IMJV"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/gebouw> <http://www.w3.org/2004/02/skos/core#prefLabel> "gebouw"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/gebouw> <http://www.w3.org/2004/02/skos/core#notation> "GEBOUW" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/gebouw> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://www.eionet.europa.eu/gemet/concept/6357> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/installatie_of_apparaat> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/installatie_of_apparaat> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/installatie_of_apparaat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/installatie_of_apparaat> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/installatie_of_apparaat> <http://www.w3.org/2004/02/skos/core#definition> "installatie of apparaat"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/installatie_of_apparaat> <http://www.w3.org/2004/02/skos/core#prefLabel> "installatie of apparaat"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/installatie_of_apparaat> <http://www.w3.org/2004/02/skos/core#notation> "INSTALLATIE OF APPARAAT" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/installatie_of_apparaat> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://www.eionet.europa.eu/gemet/concept/6357> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/ongekend> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/ongekend> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/ongekend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/ongekend> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/ongekend> <http://www.w3.org/2004/02/skos/core#definition> "ongekend"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/ongekend> <http://www.w3.org/2004/02/skos/core#prefLabel> "ongekend"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/ongekend> <http://www.w3.org/2004/02/skos/core#notation> "ONGEKEND" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/ongekend> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.eionet.europa.eu/gemet/concept/2674> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schoorsteen_of_pijp_met_vertikale_uitstroming> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schoorsteen_of_pijp_met_vertikale_uitstroming> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schoorsteen_of_pijp_met_vertikale_uitstroming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schoorsteen_of_pijp_met_vertikale_uitstroming> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schoorsteen_of_pijp_met_vertikale_uitstroming> <http://www.w3.org/2004/02/skos/core#definition> "schoorsteen of pijp met vertikale uitstroming"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schoorsteen_of_pijp_met_vertikale_uitstroming> <http://www.w3.org/2004/02/skos/core#prefLabel> "schoorsteen of pijp met vertikale uitstroming"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schoorsteen_of_pijp_met_vertikale_uitstroming> <http://www.w3.org/2004/02/skos/core#notation> "SCHOORSTEEN OF PIJP MET VERTIKALE UITSTROMING" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schoorsteen_of_pijp_met_vertikale_uitstroming> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://www.eionet.europa.eu/gemet/concept/6357> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schoorsteen_of_pijp_zonder_vertikale_uitstroming> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schoorsteen_of_pijp_zonder_vertikale_uitstroming> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissiepunt-soort> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schoorsteen_of_pijp_zonder_vertikale_uitstroming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schoorsteen_of_pijp_zonder_vertikale_uitstroming> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schoorsteen_of_pijp_zonder_vertikale_uitstroming> <http://www.w3.org/2004/02/skos/core#definition> "schoorsteen of pijp zonder vertikale uitstroming"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schoorsteen_of_pijp_zonder_vertikale_uitstroming> <http://www.w3.org/2004/02/skos/core#prefLabel> "schoorsteen of pijp zonder vertikale uitstroming"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schoorsteen_of_pijp_zonder_vertikale_uitstroming> <http://www.w3.org/2004/02/skos/core#notation> "SCHOORSTEEN OF PIJP ZONDER VERTIKALE UITSTROMING" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schoorsteen_of_pijp_zonder_vertikale_uitstroming> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://www.eionet.europa.eu/gemet/concept/6357> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> <http://www.w3.org/2004/02/skos/core#prefLabel> "emissietypes (IMJV)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/abnormaleemissies> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/abnormaleemissies> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/abnormaleemissies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/abnormaleemissies> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/abnormaleemissies> <http://www.w3.org/2004/02/skos/core#definition> "abnormale emissies"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/abnormaleemissies> <http://www.w3.org/2004/02/skos/core#prefLabel> "abnormale emissies"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/abnormaleemissies> <http://www.w3.org/2004/02/skos/core#notation> "AbnormaleEmissies" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/anderenietgeleideemissies> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/anderenietgeleideemissies> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/anderenietgeleideemissies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/anderenietgeleideemissies> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/anderenietgeleideemissies> <http://www.w3.org/2004/02/skos/core#definition> "andere niet-geleide emissies"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/anderenietgeleideemissies> <http://www.w3.org/2004/02/skos/core#prefLabel> "andere niet-geleide emissies"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/anderenietgeleideemissies> <http://www.w3.org/2004/02/skos/core#notation> "AndereNietGeleideEmissies" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/doorzetemissie> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/doorzetemissie> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/doorzetemissie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/doorzetemissie> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/doorzetemissie> <http://www.w3.org/2004/02/skos/core#definition> "doorzetemissie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/doorzetemissie> <http://www.w3.org/2004/02/skos/core#prefLabel> "doorzetemissie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/doorzetemissie> <http://www.w3.org/2004/02/skos/core#notation> "DoorzetEmissie" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/fakkelemissie> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/fakkelemissie> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/fakkelemissie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/fakkelemissie> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/fakkelemissie> <http://www.w3.org/2004/02/skos/core#definition> "fakkelemissie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/fakkelemissie> <http://www.w3.org/2004/02/skos/core#prefLabel> "fakkelemissie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/fakkelemissie> <http://www.w3.org/2004/02/skos/core#notation> "FakkelEmissie" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/lekverliezen> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/lekverliezen> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/lekverliezen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/lekverliezen> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/lekverliezen> <http://www.w3.org/2004/02/skos/core#definition> "lekverliezen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/lekverliezen> <http://www.w3.org/2004/02/skos/core#prefLabel> "lekverliezen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/lekverliezen> <http://www.w3.org/2004/02/skos/core#notation> "Lekverliezen" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nietgeleideemissies> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nietgeleideemissies> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nietgeleideemissies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nietgeleideemissies> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nietgeleideemissies> <http://www.w3.org/2004/02/skos/core#definition> "nietgeleideemissies"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nietgeleideemissies> <http://www.w3.org/2004/02/skos/core#prefLabel> "nietgeleideemissies"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nietgeleideemissies> <http://www.w3.org/2004/02/skos/core#notation> "NietGeleideEmissies" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geleideemissies> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geleideemissies> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-type> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geleideemissies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geleideemissies> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geleideemissies> <http://www.w3.org/2004/02/skos/core#definition> "geleideemissies"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geleideemissies> <http://www.w3.org/2004/02/skos/core#prefLabel> "geleideemissies"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geleideemissies> <http://www.w3.org/2004/02/skos/core#notation> "GeleideEmissies" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geleideemissies> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://id.milieuinfo.be/vocab/vlaremII/concept/imjv_geleide_emissie> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> <http://www.w3.org/2004/02/skos/core#prefLabel> "emissie contexten (IMJV)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/energieproductie> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/energieproductie> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/energieproductie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/energieproductie> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/energieproductie> <http://www.w3.org/2004/02/skos/core#definition> "energieproductie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/energieproductie> <http://www.w3.org/2004/02/skos/core#prefLabel> "energieproductie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/energieproductie> <http://www.w3.org/2004/02/skos/core#notation> "EnergieProductie" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/fakkel> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/fakkel> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/fakkel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/fakkel> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/fakkel> <http://www.w3.org/2004/02/skos/core#definition> "fakkel"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/fakkel> <http://www.w3.org/2004/02/skos/core#prefLabel> "fakkel"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/fakkel> <http://www.w3.org/2004/02/skos/core#notation> "Fakkel" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opslagverliezen> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opslagverliezen> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opslagverliezen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opslagverliezen> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opslagverliezen> <http://www.w3.org/2004/02/skos/core#definition> "opslagverliezen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opslagverliezen> <http://www.w3.org/2004/02/skos/core#prefLabel> "opslagverliezen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opslagverliezen> <http://www.w3.org/2004/02/skos/core#notation> "Opslagverliezen" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overslagverliezen> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overslagverliezen> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overslagverliezen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overslagverliezen> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overslagverliezen> <http://www.w3.org/2004/02/skos/core#definition> "overslagverliezen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overslagverliezen> <http://www.w3.org/2004/02/skos/core#prefLabel> "overslagverliezen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overslagverliezen> <http://www.w3.org/2004/02/skos/core#notation> "Overslagverliezen" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/productieeenheid> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/productieeenheid> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/productieeenheid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/productieeenheid> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/productieeenheid> <http://www.w3.org/2004/02/skos/core#definition> "productieeenheid"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/productieeenheid> <http://www.w3.org/2004/02/skos/core#prefLabel> "productieeenheid"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/productieeenheid> <http://www.w3.org/2004/02/skos/core#notation> "ProductieEenheid" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/waterzuivering> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/waterzuivering> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/emissie-context> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/waterzuivering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/waterzuivering> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/waterzuivering> <http://www.w3.org/2004/02/skos/core#definition> "waterzuivering"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/waterzuivering> <http://www.w3.org/2004/02/skos/core#prefLabel> "waterzuivering"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/waterzuivering> <http://www.w3.org/2004/02/skos/core#notation> "Waterzuivering" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/waterzuivering> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.eionet.europa.eu/gemet/concept/9143> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> <http://www.w3.org/2004/02/skos/core#prefLabel> "bepalingsmethodes lucht (IMJV)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/concentratie_kleiner_dan_de_detectielimiet> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/concentratie_kleiner_dan_de_detectielimiet> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/concentratie_kleiner_dan_de_detectielimiet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/concentratie_kleiner_dan_de_detectielimiet> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/concentratie_kleiner_dan_de_detectielimiet> <http://www.w3.org/2004/02/skos/core#definition> "concentratie kleiner dan de detectielimiet"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/concentratie_kleiner_dan_de_detectielimiet> <http://www.w3.org/2004/02/skos/core#prefLabel> "concentratie kleiner dan de detectielimiet"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/concentratie_kleiner_dan_de_detectielimiet> <http://www.w3.org/2004/02/skos/core#notation> "Concentratie kleiner dan de detectielimiet" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_meetnorm> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_meetnorm> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_meetnorm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_meetnorm> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_meetnorm> <http://www.w3.org/2004/02/skos/core#definition> "internationaal aanvaarde meetnorm"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_meetnorm> <http://www.w3.org/2004/02/skos/core#prefLabel> "internationaal aanvaarde meetnorm"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_meetnorm> <http://www.w3.org/2004/02/skos/core#notation> "Internationaal aanvaarde meetnorm" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/meetmethode_opgelegd_in_de_exploitatievergunning> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/meetmethode_opgelegd_in_de_exploitatievergunning> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/meetmethode_opgelegd_in_de_exploitatievergunning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/meetmethode_opgelegd_in_de_exploitatievergunning> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/meetmethode_opgelegd_in_de_exploitatievergunning> <http://www.w3.org/2004/02/skos/core#definition> "meetmethode opgelegd in de exploitatievergunning"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/meetmethode_opgelegd_in_de_exploitatievergunning> <http://www.w3.org/2004/02/skos/core#prefLabel> "meetmethode opgelegd in de exploitatievergunning"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/meetmethode_opgelegd_in_de_exploitatievergunning> <http://www.w3.org/2004/02/skos/core#notation> "Meetmethode opgelegd in de exploitatievergunning" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nationaal_of_regionaal_wettelijk_verplichte_meetmethode> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nationaal_of_regionaal_wettelijk_verplichte_meetmethode> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nationaal_of_regionaal_wettelijk_verplichte_meetmethode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nationaal_of_regionaal_wettelijk_verplichte_meetmethode> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nationaal_of_regionaal_wettelijk_verplichte_meetmethode> <http://www.w3.org/2004/02/skos/core#definition> "nationaal of regionaal wettelijk verplichte meetmethode"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nationaal_of_regionaal_wettelijk_verplichte_meetmethode> <http://www.w3.org/2004/02/skos/core#prefLabel> "nationaal of regionaal wettelijk verplichte meetmethode"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nationaal_of_regionaal_wettelijk_verplichte_meetmethode> <http://www.w3.org/2004/02/skos/core#notation> "Nationaal of regionaal wettelijk verplichte meetmethode" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/alternatieve_meetmethode_overeenkomstig_bestaande_cen/iso-meetnormen> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/alternatieve_meetmethode_overeenkomstig_bestaande_cen/iso-meetnormen> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/alternatieve_meetmethode_overeenkomstig_bestaande_cen/iso-meetnormen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/alternatieve_meetmethode_overeenkomstig_bestaande_cen/iso-meetnormen> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/alternatieve_meetmethode_overeenkomstig_bestaande_cen/iso-meetnormen> <http://www.w3.org/2004/02/skos/core#definition> "alternatieve meetmethode overeenkomstig bestaande cen/iso-meetnormen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/alternatieve_meetmethode_overeenkomstig_bestaande_cen/iso-meetnormen> <http://www.w3.org/2004/02/skos/core#prefLabel> "alternatieve meetmethode overeenkomstig bestaande cen/iso-meetnormen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/alternatieve_meetmethode_overeenkomstig_bestaande_cen/iso-meetnormen> <http://www.w3.org/2004/02/skos/core#notation> "Alternatieve meetmethode overeenkomstig bestaande CEN/ISO-meetnormen" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/gecertificeerde_meetmethode_goedgekeurd_door_de_bevoegde_instantie> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/gecertificeerde_meetmethode_goedgekeurd_door_de_bevoegde_instantie> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/gecertificeerde_meetmethode_goedgekeurd_door_de_bevoegde_instantie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/gecertificeerde_meetmethode_goedgekeurd_door_de_bevoegde_instantie> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/gecertificeerde_meetmethode_goedgekeurd_door_de_bevoegde_instantie> <http://www.w3.org/2004/02/skos/core#definition> "gecertificeerde meetmethode goedgekeurd door de bevoegde instantie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/gecertificeerde_meetmethode_goedgekeurd_door_de_bevoegde_instantie> <http://www.w3.org/2004/02/skos/core#prefLabel> "gecertificeerde meetmethode goedgekeurd door de bevoegde instantie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/gecertificeerde_meetmethode_goedgekeurd_door_de_bevoegde_instantie> <http://www.w3.org/2004/02/skos/core#notation> "Gecertificeerde meetmethode goedgekeurd door de bevoegde instantie" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overige_meetmethode> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overige_meetmethode> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overige_meetmethode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overige_meetmethode> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overige_meetmethode> <http://www.w3.org/2004/02/skos/core#definition> "overige meetmethode"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overige_meetmethode> <http://www.w3.org/2004/02/skos/core#prefLabel> "overige meetmethode"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overige_meetmethode> <http://www.w3.org/2004/02/skos/core#notation> "Overige meetmethode" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schatting> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schatting> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schatting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schatting> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schatting> <http://www.w3.org/2004/02/skos/core#definition> "schatting"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schatting> <http://www.w3.org/2004/02/skos/core#prefLabel> "schatting"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/schatting> <http://www.w3.org/2004/02/skos/core#notation> "Schatting" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_voor_verhandelbare_emissierechten> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_voor_verhandelbare_emissierechten> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_voor_verhandelbare_emissierechten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_voor_verhandelbare_emissierechten> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_voor_verhandelbare_emissierechten> <http://www.w3.org/2004/02/skos/core#definition> "internationaal aanvaarde berekeningsmethode voor verhandelbare emissierechten"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_voor_verhandelbare_emissierechten> <http://www.w3.org/2004/02/skos/core#prefLabel> "internationaal aanvaarde berekeningsmethode voor verhandelbare emissierechten"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_voor_verhandelbare_emissierechten> <http://www.w3.org/2004/02/skos/core#notation> "Internationaal aanvaarde berekeningsmethode voor verhandelbare emissierechten" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_volgens_ipcc> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_volgens_ipcc> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_volgens_ipcc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_volgens_ipcc> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_volgens_ipcc> <http://www.w3.org/2004/02/skos/core#definition> "internationaal aanvaarde berekeningsmethode volgens ipcc"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_volgens_ipcc> <http://www.w3.org/2004/02/skos/core#prefLabel> "internationaal aanvaarde berekeningsmethode volgens ipcc"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_volgens_ipcc> <http://www.w3.org/2004/02/skos/core#notation> "Internationaal aanvaarde berekeningsmethode volgens IPCC" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_volgens_unece/emep> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_volgens_unece/emep> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_volgens_unece/emep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_volgens_unece/emep> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_volgens_unece/emep> <http://www.w3.org/2004/02/skos/core#definition> "internationaal aanvaarde berekeningsmethode volgens unece/emep"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_volgens_unece/emep> <http://www.w3.org/2004/02/skos/core#prefLabel> "internationaal aanvaarde berekeningsmethode volgens unece/emep"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/internationaal_aanvaarde_berekeningsmethode_volgens_unece/emep> <http://www.w3.org/2004/02/skos/core#notation> "Internationaal aanvaarde berekeningsmethode volgens UNECE/EMEP" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/berekeningsmethode_opgelegd_in_de_exploitatievergunning> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/berekeningsmethode_opgelegd_in_de_exploitatievergunning> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/berekeningsmethode_opgelegd_in_de_exploitatievergunning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/berekeningsmethode_opgelegd_in_de_exploitatievergunning> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/berekeningsmethode_opgelegd_in_de_exploitatievergunning> <http://www.w3.org/2004/02/skos/core#definition> "berekeningsmethode opgelegd in de exploitatievergunning"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/berekeningsmethode_opgelegd_in_de_exploitatievergunning> <http://www.w3.org/2004/02/skos/core#prefLabel> "berekeningsmethode opgelegd in de exploitatievergunning"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/berekeningsmethode_opgelegd_in_de_exploitatievergunning> <http://www.w3.org/2004/02/skos/core#notation> "Berekeningsmethode opgelegd in de exploitatievergunning" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nationaal_of_regionaal_wettelijk_verplichte_berekeningsmethode> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nationaal_of_regionaal_wettelijk_verplichte_berekeningsmethode> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nationaal_of_regionaal_wettelijk_verplichte_berekeningsmethode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nationaal_of_regionaal_wettelijk_verplichte_berekeningsmethode> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nationaal_of_regionaal_wettelijk_verplichte_berekeningsmethode> <http://www.w3.org/2004/02/skos/core#definition> "nationaal of regionaal wettelijk verplichte berekeningsmethode"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nationaal_of_regionaal_wettelijk_verplichte_berekeningsmethode> <http://www.w3.org/2004/02/skos/core#prefLabel> "nationaal of regionaal wettelijk verplichte berekeningsmethode"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/nationaal_of_regionaal_wettelijk_verplichte_berekeningsmethode> <http://www.w3.org/2004/02/skos/core#notation> "Nationaal of regionaal wettelijk verplichte berekeningsmethode" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/massabalansmethode_goedgekeurd_door_de_bevoegde_instantie> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/massabalansmethode_goedgekeurd_door_de_bevoegde_instantie> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/massabalansmethode_goedgekeurd_door_de_bevoegde_instantie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/massabalansmethode_goedgekeurd_door_de_bevoegde_instantie> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/massabalansmethode_goedgekeurd_door_de_bevoegde_instantie> <http://www.w3.org/2004/02/skos/core#definition> "massabalansmethode goedgekeurd door de bevoegde instantie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/massabalansmethode_goedgekeurd_door_de_bevoegde_instantie> <http://www.w3.org/2004/02/skos/core#prefLabel> "massabalansmethode goedgekeurd door de bevoegde instantie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/massabalansmethode_goedgekeurd_door_de_bevoegde_instantie> <http://www.w3.org/2004/02/skos/core#notation> "Massabalansmethode goedgekeurd door de bevoegde instantie" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/europese_sectorspecifieke_berekeningsmethode> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/europese_sectorspecifieke_berekeningsmethode> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/europese_sectorspecifieke_berekeningsmethode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/europese_sectorspecifieke_berekeningsmethode> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/europese_sectorspecifieke_berekeningsmethode> <http://www.w3.org/2004/02/skos/core#definition> "europese sectorspecifieke berekeningsmethode"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/europese_sectorspecifieke_berekeningsmethode> <http://www.w3.org/2004/02/skos/core#prefLabel> "europese sectorspecifieke berekeningsmethode"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/europese_sectorspecifieke_berekeningsmethode> <http://www.w3.org/2004/02/skos/core#notation> "Europese sectorspecifieke berekeningsmethode" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overige_berekeningsmethode> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overige_berekeningsmethode> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/lucht/bepalings-methode-lucht> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overige_berekeningsmethode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overige_berekeningsmethode> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overige_berekeningsmethode> <http://www.w3.org/2004/02/skos/core#definition> "overige berekeningsmethode"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overige_berekeningsmethode> <http://www.w3.org/2004/02/skos/core#prefLabel> "overige berekeningsmethode"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/overige_berekeningsmethode> <http://www.w3.org/2004/02/skos/core#notation> "overige berekeningsmethode" .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> <http://www.w3.org/2004/02/skos/core#prefLabel> "lozingsplaatsen (IMJV)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvoer_naar_andere_exploitatie-industriele_wzi> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvoer_naar_andere_exploitatie-industriele_wzi> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvoer_naar_andere_exploitatie-industriele_wzi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvoer_naar_andere_exploitatie-industriele_wzi> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvoer_naar_andere_exploitatie-industriele_wzi> <http://www.w3.org/2004/02/skos/core#definition> "afvoer naar andere exploitatie/industriële wzi"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvoer_naar_andere_exploitatie-industriele_wzi> <http://www.w3.org/2004/02/skos/core#prefLabel> "afvoer naar andere exploitatie/industriële wzi"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvoer_naar_andere_exploitatie-industriele_wzi> <http://www.w3.org/2004/02/skos/core#notation> "Afvoer naar andere exploitatie/industriële WZI" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/collector> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/collector> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/collector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/collector> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/collector> <http://www.w3.org/2004/02/skos/core#definition> "collector"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/collector> <http://www.w3.org/2004/02/skos/core#prefLabel> "collector"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/collector> <http://www.w3.org/2004/02/skos/core#notation> "Collector" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/collector> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://id.milieuinfo.be/vocab/vlaremII/concept/collectoren> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwater> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwater> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwater> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwater> <http://www.w3.org/2004/02/skos/core#definition> "grondwater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwater> <http://www.w3.org/2004/02/skos/core#prefLabel> "grondwater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwater> <http://www.w3.org/2004/02/skos/core#notation> "Grondwater" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwater> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://id.milieuinfo.be/vocab/vlaremII/conceptscheme/oppervlaktewater_en_grondwaterbescherming/grondwater> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/influent_rwzi> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/influent_rwzi> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/influent_rwzi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/influent_rwzi> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/influent_rwzi> <http://www.w3.org/2004/02/skos/core#definition> "influent rwzi"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/influent_rwzi> <http://www.w3.org/2004/02/skos/core#prefLabel> "influent rwzi"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/influent_rwzi> <http://www.w3.org/2004/02/skos/core#notation> "Influent RWZI" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/interne_stroom> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/interne_stroom> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/interne_stroom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/interne_stroom> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/interne_stroom> <http://www.w3.org/2004/02/skos/core#definition> "interne stroom"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/interne_stroom> <http://www.w3.org/2004/02/skos/core#prefLabel> "interne stroom"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/interne_stroom> <http://www.w3.org/2004/02/skos/core#notation> "Interne stroom" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kunstmatige_afvoer_hemelwater> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kunstmatige_afvoer_hemelwater> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kunstmatige_afvoer_hemelwater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kunstmatige_afvoer_hemelwater> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kunstmatige_afvoer_hemelwater> <http://www.w3.org/2004/02/skos/core#definition> "kunstmatige afvoer hemelwater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kunstmatige_afvoer_hemelwater> <http://www.w3.org/2004/02/skos/core#prefLabel> "kunstmatige afvoer hemelwater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kunstmatige_afvoer_hemelwater> <http://www.w3.org/2004/02/skos/core#notation> "Kunstmatige afvoer hemelwater" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opgenomen_in_oppervlaktewater> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opgenomen_in_oppervlaktewater> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opgenomen_in_oppervlaktewater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opgenomen_in_oppervlaktewater> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opgenomen_in_oppervlaktewater> <http://www.w3.org/2004/02/skos/core#definition> "opgenomen in oppervlaktewater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opgenomen_in_oppervlaktewater> <http://www.w3.org/2004/02/skos/core#prefLabel> "opgenomen in oppervlaktewater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opgenomen_in_oppervlaktewater> <http://www.w3.org/2004/02/skos/core#notation> "Opgenomen in oppervlaktewater" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opgenomen_oppervlaktewater> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opgenomen_oppervlaktewater> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opgenomen_oppervlaktewater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opgenomen_oppervlaktewater> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opgenomen_oppervlaktewater> <http://www.w3.org/2004/02/skos/core#definition> "opgenomen oppervlaktewater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opgenomen_oppervlaktewater> <http://www.w3.org/2004/02/skos/core#prefLabel> "opgenomen oppervlaktewater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/opgenomen_oppervlaktewater> <http://www.w3.org/2004/02/skos/core#notation> "Opgenomen oppervlaktewater" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/riool> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/riool> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/riool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/riool> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/riool> <http://www.w3.org/2004/02/skos/core#definition> "riool"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/riool> <http://www.w3.org/2004/02/skos/core#prefLabel> "riool"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/riool> <http://www.w3.org/2004/02/skos/core#notation> "Riool" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/riool> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://id.milieuinfo.be/vocab/vlaremII/concept/openbare_riolering> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/oppervlaktewater> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/oppervlaktewater> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/oppervlaktewater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/oppervlaktewater> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/oppervlaktewater> <http://www.w3.org/2004/02/skos/core#definition> "oppervlaktewater als lozingsplaats"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/oppervlaktewater> <http://www.w3.org/2004/02/skos/core#prefLabel> "oppervlaktewater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/oppervlaktewater> <http://www.w3.org/2004/02/skos/core#notation> "Oppervlaktewater" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/oppervlaktewater> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://id.milieuinfo.be/vocab/vlaremII/concept/oppervlaktewater> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/riolering> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/riolering> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozings-plaats> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/riolering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/riolering> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/riolering> <http://www.w3.org/2004/02/skos/core#definition> "riolering"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/riolering> <http://www.w3.org/2004/02/skos/core#prefLabel> "riolering"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/riolering> <http://www.w3.org/2004/02/skos/core#notation> "Riolering" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/riolering> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://id.milieuinfo.be/vocab/vlaremII/concept/openbare_riolering> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/meetput-type> <http://www.w3.org/2004/02/skos/core#prefLabel> "meetputtypes (IMJV)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/meetput-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/lozend> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/meetput-type> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/lozend> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/meetput-type> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/lozend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/lozend> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/lozend> <http://www.w3.org/2004/02/skos/core#definition> "lozend"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/lozend> <http://www.w3.org/2004/02/skos/core#prefLabel> "lozend"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/lozend> <http://www.w3.org/2004/02/skos/core#notation> "Lozend" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/oppompend> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/meetput-type> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/oppompend> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/meetput-type> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/oppompend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/oppompend> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/oppompend> <http://www.w3.org/2004/02/skos/core#definition> "oppompend"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/oppompend> <http://www.w3.org/2004/02/skos/core#prefLabel> "oppompend"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/oppompend> <http://www.w3.org/2004/02/skos/core#notation> "Oppompend" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/transfer> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/meetput-type> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/transfer> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/meetput-type> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/transfer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/transfer> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/transfer> <http://www.w3.org/2004/02/skos/core#definition> "transfer"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/transfer> <http://www.w3.org/2004/02/skos/core#prefLabel> "transfer"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/transfer> <http://www.w3.org/2004/02/skos/core#notation> "Transfer" .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozing-type> <http://www.w3.org/2004/02/skos/core#prefLabel> "lozingstypes (IMJV)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozing-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geleidelozing> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozing-type> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geleidelozing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/lozing-type> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geleidelozing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geleidelozing> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geleidelozing> <http://www.w3.org/2004/02/skos/core#definition> "geleidelozing"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geleidelozing> <http://www.w3.org/2004/02/skos/core#prefLabel> "geleidelozing"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geleidelozing> <http://www.w3.org/2004/02/skos/core#notation> "GeleideLozing" .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/bepalings-methode-water> <http://www.w3.org/2004/02/skos/core#prefLabel> "bepalingsmethodes water (IMJV)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/bepalings-methode-water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/meetgegevens> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/bepalings-methode-water> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/meetgegevens> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/bepalings-methode-water> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/meetgegevens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/meetgegevens> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/meetgegevens> <http://www.w3.org/2004/02/skos/core#definition> "meetgegevens"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/meetgegevens> <http://www.w3.org/2004/02/skos/core#prefLabel> "meetgegevens"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/meetgegevens> <http://www.w3.org/2004/02/skos/core#notation> "meetgegevens" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/rekengegevens> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/bepalings-methode-water> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/rekengegevens> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/bepalings-methode-water> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/rekengegevens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/rekengegevens> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/rekengegevens> <http://www.w3.org/2004/02/skos/core#definition> "rekengegevens"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/rekengegevens> <http://www.w3.org/2004/02/skos/core#prefLabel> "rekengegevens"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/rekengegevens> <http://www.w3.org/2004/02/skos/core#notation> "rekengegevens" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geschatte_gegevens> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/bepalings-methode-water> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geschatte_gegevens> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/water/bepalings-methode-water> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geschatte_gegevens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geschatte_gegevens> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geschatte_gegevens> <http://www.w3.org/2004/02/skos/core#definition> "geschatte gegevens"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geschatte_gegevens> <http://www.w3.org/2004/02/skos/core#prefLabel> "geschatte gegevens"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/geschatte_gegevens> <http://www.w3.org/2004/02/skos/core#notation> "geschatte gegevens" .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> <http://www.w3.org/2004/02/skos/core#prefLabel> "Grondwaterputten (IMJV)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterput> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterput> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterput> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterput> <http://www.w3.org/2004/02/skos/core#definition> "grondwaterput"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterput> <http://www.w3.org/2004/02/skos/core#prefLabel> "grondwaterput"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterput> <http://www.w3.org/2004/02/skos/core#notation> "grondwaterput" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterput> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/pompput> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterput> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/peilput> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/pompput> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/pompput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/pompput> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/pompput> <http://www.w3.org/2004/02/skos/core#definition> "pompput"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/pompput> <http://www.w3.org/2004/02/skos/core#prefLabel> "pompput"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/pompput> <http://www.w3.org/2004/02/skos/core#notation> "pompput" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/pompput> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterput> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilput> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilput> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilput> <http://www.w3.org/2004/02/skos/core#definition> "peilput"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilput> <http://www.w3.org/2004/02/skos/core#prefLabel> "peilput"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilput> <http://www.w3.org/2004/02/skos/core#notation> "peilput" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilput> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterput> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterfilter> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterfilter> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterfilter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterfilter> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterfilter> <http://www.w3.org/2004/02/skos/core#definition> "filter"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterfilter> <http://www.w3.org/2004/02/skos/core#prefLabel> "filter"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterfilter> <http://www.w3.org/2004/02/skos/core#notation> "filter" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterfilter> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/pompfilter> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterfilter> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/peilfilter> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/pompfilter> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/pompfilter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/pompfilter> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/pompfilter> <http://www.w3.org/2004/02/skos/core#definition> "pompfilter"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/pompfilter> <http://www.w3.org/2004/02/skos/core#prefLabel> "pompfilter"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/pompfilter> <http://www.w3.org/2004/02/skos/core#notation> "pompfilter" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/pompfilter> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterfilter> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilfilter> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilfilter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilfilter> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilfilter> <http://www.w3.org/2004/02/skos/core#definition> "peilfilter"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilfilter> <http://www.w3.org/2004/02/skos/core#prefLabel> "peilfilter"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilfilter> <http://www.w3.org/2004/02/skos/core#notation> "peilfilter" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilfilter> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/grondwaterfilter> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilmeting> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilmeting> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilmeting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilmeting> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilmeting> <http://www.w3.org/2004/02/skos/core#definition> "peilmeting"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilmeting> <http://www.w3.org/2004/02/skos/core#prefLabel> "peilmeting"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilmeting> <http://www.w3.org/2004/02/skos/core#notation> "peilmeting" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilmeting> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginrust> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/peilmeting> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginwerking> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginrust> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginrust> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginrust> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginrust> <http://www.w3.org/2004/02/skos/core#definition> "metinginrust"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginrust> <http://www.w3.org/2004/02/skos/core#prefLabel> "metinginrust"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginrust> <http://www.w3.org/2004/02/skos/core#notation> "metinginrust" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginrust> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/peilmeting> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginwerking> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/grondwaterputten> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginwerking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginwerking> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginwerking> <http://www.w3.org/2004/02/skos/core#definition> "metinginwerking"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginwerking> <http://www.w3.org/2004/02/skos/core#prefLabel> "metinginwerking"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginwerking> <http://www.w3.org/2004/02/skos/core#notation> "metinginwerking" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/metinginwerking> <http://www.w3.org/2004/02/skos/core#broader> <https://data.imjv.omgeving.vlaanderen.be/id/concept/peilmeting> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> <http://www.w3.org/2004/02/skos/core#prefLabel> "Herkomst van het water in de jaarlijkse waterbalans van een exploitatie (IMJV)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_grondwater> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_grondwater> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_grondwater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_grondwater> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_grondwater> <http://www.w3.org/2004/02/skos/core#definition> "Grondwater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_grondwater> <http://www.w3.org/2004/02/skos/core#prefLabel> "Grondwater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_grondwater> <http://www.w3.org/2004/02/skos/core#notation> "Grondwater" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_hemelwater> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_hemelwater> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_hemelwater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_hemelwater> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_hemelwater> <http://www.w3.org/2004/02/skos/core#definition> "Hemelwater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_hemelwater> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hemelwater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_hemelwater> <http://www.w3.org/2004/02/skos/core#notation> "Hemelwater" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_oppervlaktewaterwaterwegen> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_oppervlaktewaterwaterwegen> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_oppervlaktewaterwaterwegen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_oppervlaktewaterwaterwegen> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_oppervlaktewaterwaterwegen> <http://www.w3.org/2004/02/skos/core#definition> "OppervlaktewaterWaterwegen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_oppervlaktewaterwaterwegen> <http://www.w3.org/2004/02/skos/core#prefLabel> "OppervlaktewaterWaterwegen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_oppervlaktewaterwaterwegen> <http://www.w3.org/2004/02/skos/core#notation> "OppervlaktewaterWaterwegen" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_oppervlaktewatervijvers> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_oppervlaktewatervijvers> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_oppervlaktewatervijvers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_oppervlaktewatervijvers> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_oppervlaktewatervijvers> <http://www.w3.org/2004/02/skos/core#definition> "OppervlaktewaterVijvers"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_oppervlaktewatervijvers> <http://www.w3.org/2004/02/skos/core#prefLabel> "OppervlaktewaterVijvers"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_oppervlaktewatervijvers> <http://www.w3.org/2004/02/skos/core#notation> "OppervlaktewaterVijvers" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_drinkwater> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_drinkwater> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_drinkwater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_drinkwater> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_drinkwater> <http://www.w3.org/2004/02/skos/core#definition> "Drinkwater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_drinkwater> <http://www.w3.org/2004/02/skos/core#prefLabel> "Drinkwater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_drinkwater> <http://www.w3.org/2004/02/skos/core#notation> "Drinkwater" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_grijswater> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_grijswater> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_grijswater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_grijswater> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_grijswater> <http://www.w3.org/2004/02/skos/core#definition> "Grijswater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_grijswater> <http://www.w3.org/2004/02/skos/core#prefLabel> "Grijswater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_grijswater> <http://www.w3.org/2004/02/skos/core#notation> "Grijswater" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_ander> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_ander> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/herkomst> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_ander> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_ander> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_ander> <http://www.w3.org/2004/02/skos/core#definition> "Andere herkomst"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_ander> <http://www.w3.org/2004/02/skos/core#prefLabel> "Andere herkomst"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/herkomst_ander> <http://www.w3.org/2004/02/skos/core#notation> "Ander" .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bestemming van het water in de jaarlijkse waterbalans van een exploitatie (IMJV)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_drinkwater> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_drinkwater> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_drinkwater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_drinkwater> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_drinkwater> <http://www.w3.org/2004/02/skos/core#definition> "Drinkwater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_drinkwater> <http://www.w3.org/2004/02/skos/core#prefLabel> "Drinkwater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_drinkwater> <http://www.w3.org/2004/02/skos/core#notation> "Drinkwater" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_koelwater> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_koelwater> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_koelwater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_koelwater> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_koelwater> <http://www.w3.org/2004/02/skos/core#definition> "Koelwater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_koelwater> <http://www.w3.org/2004/02/skos/core#prefLabel> "Koelwater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_koelwater> <http://www.w3.org/2004/02/skos/core#notation> "Koelwater" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_sanitair> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_sanitair> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_sanitair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_sanitair> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_sanitair> <http://www.w3.org/2004/02/skos/core#definition> "Sanitair"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_sanitair> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sanitair"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_sanitair> <http://www.w3.org/2004/02/skos/core#notation> "Sanitair" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_beregeningopenlucht> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_beregeningopenlucht> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_beregeningopenlucht> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_beregeningopenlucht> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_beregeningopenlucht> <http://www.w3.org/2004/02/skos/core#definition> "BeregeningOpenLucht"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_beregeningopenlucht> <http://www.w3.org/2004/02/skos/core#prefLabel> "BeregeningOpenLucht"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_beregeningopenlucht> <http://www.w3.org/2004/02/skos/core#notation> "BeregeningOpenLucht" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_beregeningglasteelt> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_beregeningglasteelt> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_beregeningglasteelt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_beregeningglasteelt> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_beregeningglasteelt> <http://www.w3.org/2004/02/skos/core#definition> "BeregeningGlasteelt"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_beregeningglasteelt> <http://www.w3.org/2004/02/skos/core#prefLabel> "BeregeningGlasteelt"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_beregeningglasteelt> <http://www.w3.org/2004/02/skos/core#notation> "BeregeningGlasteelt" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_drinkwatervee> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_drinkwatervee> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_drinkwatervee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_drinkwatervee> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_drinkwatervee> <http://www.w3.org/2004/02/skos/core#definition> "DrinkwaterVee"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_drinkwatervee> <http://www.w3.org/2004/02/skos/core#prefLabel> "DrinkwaterVee"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_drinkwatervee> <http://www.w3.org/2004/02/skos/core#notation> "DrinkwaterVee" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_bodemsanering> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_bodemsanering> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_bodemsanering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_bodemsanering> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_bodemsanering> <http://www.w3.org/2004/02/skos/core#definition> "Bodemsanering"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_bodemsanering> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bodemsanering"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_bodemsanering> <http://www.w3.org/2004/02/skos/core#notation> "Bodemsanering" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_proceswater> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_proceswater> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_proceswater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_proceswater> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_proceswater> <http://www.w3.org/2004/02/skos/core#definition> "Proceswater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_proceswater> <http://www.w3.org/2004/02/skos/core#prefLabel> "Proceswater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_proceswater> <http://www.w3.org/2004/02/skos/core#notation> "Proceswater" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_spoelwater> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_spoelwater> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_spoelwater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_spoelwater> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_spoelwater> <http://www.w3.org/2004/02/skos/core#definition> "Spoelwater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_spoelwater> <http://www.w3.org/2004/02/skos/core#prefLabel> "Spoelwater"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_spoelwater> <http://www.w3.org/2004/02/skos/core#notation> "Spoelwater" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_stoomproductie> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_stoomproductie> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_stoomproductie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_stoomproductie> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_stoomproductie> <http://www.w3.org/2004/02/skos/core#definition> "Stoomproductie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_stoomproductie> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stoomproductie"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_stoomproductie> <http://www.w3.org/2004/02/skos/core#notation> "Stoomproductie" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_andere> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_andere> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/bestemming> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_andere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_andere> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_andere> <http://www.w3.org/2004/02/skos/core#definition> "Andere"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_andere> <http://www.w3.org/2004/02/skos/core#prefLabel> "Andere"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/bestemming_andere> <http://www.w3.org/2004/02/skos/core#notation> "Andere" .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek> <http://www.w3.org/2004/02/skos/core#prefLabel> "Monstenametechnieken ivm. grondwater (IMJV)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_1> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_1> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_1> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_1> <http://www.w3.org/2004/02/skos/core#definition> "Staalname door aftap via monsternamekraantje"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Staalname door aftap via monsternamekraantje"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_1> <http://www.w3.org/2004/02/skos/core#notation> "Staalname door aftap via monsternamekraantje" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_2> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_2> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_2> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_2> <http://www.w3.org/2004/02/skos/core#definition> "Staalname via pomp"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Staalname via pomp"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_2> <http://www.w3.org/2004/02/skos/core#notation> "Staalname via pomp" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_3> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_3> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_3> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_3> <http://www.w3.org/2004/02/skos/core#definition> "Staalname via schepmonster"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Staalname via schepmonster"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_3> <http://www.w3.org/2004/02/skos/core#notation> "Staalname via schepmonster" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_4> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_4> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_4> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_4> <http://www.w3.org/2004/02/skos/core#definition> "Staalmethode onbekend"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_4> <http://www.w3.org/2004/02/skos/core#prefLabel> "Staalmethode onbekend"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_4> <http://www.w3.org/2004/02/skos/core#notation> "Staalmethode onbekend" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_5> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_5> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monsternametechniek> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_5> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_5> <http://www.w3.org/2004/02/skos/core#definition> "Opvang aan bron"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_5> <http://www.w3.org/2004/02/skos/core#prefLabel> "Opvang aan bron"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/monsternametechniek_type_5> <http://www.w3.org/2004/02/skos/core#notation> "Opvang aan bron" .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting> <http://www.w3.org/2004/02/skos/core#prefLabel> "Referentiepunten bij metingen ivm. grondwater (IMJV)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_1> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_1> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_1> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_1> <http://www.w3.org/2004/02/skos/core#definition> "Het maaiveld (oppervlakte van de natuurlijke omgeving)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Het maaiveld (oppervlakte van de natuurlijke omgeving)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_1> <http://www.w3.org/2004/02/skos/core#notation> "Het maaiveld (oppervlakte van de natuurlijke omgeving)" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_2> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_2> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_2> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_2> <http://www.w3.org/2004/02/skos/core#definition> "De bovenkant van de peilbuis (buis, vaak in PVC, van enkele cm diameter waarin het peil gemeten wordt)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_2> <http://www.w3.org/2004/02/skos/core#prefLabel> "De bovenkant van de peilbuis (buis, vaak in PVC, van enkele cm diameter waarin het peil gemeten wordt)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_2> <http://www.w3.org/2004/02/skos/core#notation> "De bovenkant van de peilbuis (buis, vaak in PVC, van enkele cm diameter waarin het peil gemeten wordt)" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_3> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_3> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_3> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_3> <http://www.w3.org/2004/02/skos/core#definition> "De bovenkant van de beschermbuis (grote buis waarin o.a. de peilbuis is opgehangen)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_3> <http://www.w3.org/2004/02/skos/core#prefLabel> "De bovenkant van de beschermbuis (grote buis waarin o.a. de peilbuis is opgehangen)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_3> <http://www.w3.org/2004/02/skos/core#notation> "De bovenkant van de beschermbuis (grote buis waarin o.a. de peilbuis is opgehangen)" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_4> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_4> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/referentiepunt_meting> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_4> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_4> <http://www.w3.org/2004/02/skos/core#definition> "Het peil wordt opgemeten in mTAW"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_4> <http://www.w3.org/2004/02/skos/core#prefLabel> "Het peil wordt opgemeten in mTAW"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/referentiepunt_type_4> <http://www.w3.org/2004/02/skos/core#notation> "Het peil wordt opgemeten in mTAW" .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/instrument_meting> <http://www.w3.org/2004/02/skos/core#prefLabel> "Instrumenten voor Peilmetingen ivm. grondwater (IMJV)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/instrument_meting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/instrument_peilmeting_type_1> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/instrument_meting> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/instrument_peilmeting_type_1> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/instrument_meting> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/instrument_peilmeting_type_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/instrument_peilmeting_type_1> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/instrument_peilmeting_type_1> <http://www.w3.org/2004/02/skos/core#definition> "Peillint"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/instrument_peilmeting_type_1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Peillint"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/instrument_peilmeting_type_1> <http://www.w3.org/2004/02/skos/core#notation> "Peillint" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/instrument_peilmeting_type_2> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/instrument_meting> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/instrument_peilmeting_type_2> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/instrument_meting> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/instrument_peilmeting_type_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/instrument_peilmeting_type_2> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/instrument_peilmeting_type_2> <http://www.w3.org/2004/02/skos/core#definition> "Elektronische meting (sonde)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/instrument_peilmeting_type_2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Elektronische meting (sonde)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/instrument_peilmeting_type_2> <http://www.w3.org/2004/02/skos/core#notation> "Elektronische meting (sonde)" .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monstername_analysetype> <http://www.w3.org/2004/02/skos/core#prefLabel> "Analysetypen voor Kwaliteitsmetingen ivm. grondwater (IMJV)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monstername_analysetype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_onbekend> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monstername_analysetype> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_onbekend> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monstername_analysetype> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_onbekend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_onbekend> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_onbekend> <http://www.w3.org/2004/02/skos/core#definition> "Onbekend"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_onbekend> <http://www.w3.org/2004/02/skos/core#prefLabel> "Onbekend"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_onbekend> <http://www.w3.org/2004/02/skos/core#notation> "Onbekend" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_laboanalyse> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monstername_analysetype> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_laboanalyse> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monstername_analysetype> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_laboanalyse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_laboanalyse> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_laboanalyse> <http://www.w3.org/2004/02/skos/core#definition> "Laboanalyse"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_laboanalyse> <http://www.w3.org/2004/02/skos/core#prefLabel> "Laboanalyse"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_laboanalyse> <http://www.w3.org/2004/02/skos/core#notation> "Laboanalyse" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_veldanalyse> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monstername_analysetype> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_veldanalyse> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/grondwater/monstername_analysetype> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_veldanalyse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_veldanalyse> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_veldanalyse> <http://www.w3.org/2004/02/skos/core#definition> "Veldanalyse"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_veldanalyse> <http://www.w3.org/2004/02/skos/core#prefLabel> "Veldanalyse"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/kwaliteitsmeting_analysetype_veldanalyse> <http://www.w3.org/2004/02/skos/core#notation> "Veldanalyse" .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afvalstof/aard> <http://www.w3.org/2004/02/skos/core#prefLabel> "Grondwaterputten (IMJV)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afvalstof/aard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvalstof_aard_producent> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afvalstof/aard> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvalstof_aard_producent> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afvalstof/aard> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvalstof_aard_producent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvalstof_aard_producent> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvalstof_aard_producent> <http://www.w3.org/2004/02/skos/core#definition> "Producent van afvalstoffen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvalstof_aard_producent> <http://www.w3.org/2004/02/skos/core#prefLabel> "Producent van afvalstoffen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvalstof_aard_producent> <http://www.w3.org/2004/02/skos/core#notation> "producent" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvalstof_aard_verwerker> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afvalstof/aard> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvalstof_aard_verwerker> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afvalstof/aard> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvalstof_aard_verwerker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvalstof_aard_verwerker> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvalstof_aard_verwerker> <http://www.w3.org/2004/02/skos/core#definition> "Verwerker van afvalstoffen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvalstof_aard_verwerker> <http://www.w3.org/2004/02/skos/core#prefLabel> "Verwerker van afvalstoffen"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/afvalstof_aard_verwerker> <http://www.w3.org/2004/02/skos/core#notation> "verwerker" .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> <http://www.w3.org/2004/02/skos/core#prefLabel> "Verwerkingswijze Afval (IMJV)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/andere_voorbehandeling> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/andere_voorbehandeling> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/andere_voorbehandeling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/andere_voorbehandeling> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/andere_voorbehandeling> <http://www.w3.org/2004/02/skos/core#definition> "Afval Verwerkingswijze Andere voorbehandeling"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/andere_voorbehandeling> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afval Verwerkingswijze Andere voorbehandeling"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/andere_voorbehandeling> <http://www.w3.org/2004/02/skos/core#notation> "Andere voorbehandeling" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/composteren> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/composteren> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/composteren> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/composteren> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/composteren> <http://www.w3.org/2004/02/skos/core#definition> "Afval Verwerkingswijze Composteren"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/composteren> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afval Verwerkingswijze Composteren"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/composteren> <http://www.w3.org/2004/02/skos/core#notation> "Composteren" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/hergebruik> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/hergebruik> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/hergebruik> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/hergebruik> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/hergebruik> <http://www.w3.org/2004/02/skos/core#definition> "Afval Verwerkingswijze Hergebruik"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/hergebruik> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afval Verwerkingswijze Hergebruik"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/hergebruik> <http://www.w3.org/2004/02/skos/core#notation> "Hergebruik" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/recyclage> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/recyclage> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/recyclage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/recyclage> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/recyclage> <http://www.w3.org/2004/02/skos/core#definition> "Afval Verwerkingswijze Recyclage"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/recyclage> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afval Verwerkingswijze Recyclage"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/recyclage> <http://www.w3.org/2004/02/skos/core#notation> "Recyclage" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/sorteren> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/sorteren> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/sorteren> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/sorteren> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/sorteren> <http://www.w3.org/2004/02/skos/core#definition> "Afval Verwerkingswijze Sorteren"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/sorteren> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afval Verwerkingswijze Sorteren"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/sorteren> <http://www.w3.org/2004/02/skos/core#notation> "Sorteren" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/storten> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/storten> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/storten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/storten> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/storten> <http://www.w3.org/2004/02/skos/core#definition> "Afval Verwerkingswijze Storten"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/storten> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afval Verwerkingswijze Storten"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/storten> <http://www.w3.org/2004/02/skos/core#notation> "Storten" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden> <http://www.w3.org/2004/02/skos/core#definition> "Afval Verwerkingswijze Verbranden"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afval Verwerkingswijze Verbranden"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden> <http://www.w3.org/2004/02/skos/core#notation> "Verbranden" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden_verwijdering> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden_verwijdering> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden_verwijdering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden_verwijdering> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden_verwijdering> <http://www.w3.org/2004/02/skos/core#definition> "Afval Verwerkingswijze Verbranden (verwijdering)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden_verwijdering> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afval Verwerkingswijze Verbranden (verwijdering)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden_verwijdering> <http://www.w3.org/2004/02/skos/core#notation> "Verbranden (verwijdering)" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden_nuttige_toepassing> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden_nuttige_toepassing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/verwerkingswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden_nuttige_toepassing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden_nuttige_toepassing> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden_nuttige_toepassing> <http://www.w3.org/2004/02/skos/core#definition> "Afval Verwerkingswijze Verbranden (nuttige toepassing)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden_nuttige_toepassing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afval Verwerkingswijze Verbranden (nuttige toepassing)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/verwerkingswijze/verbranden_nuttige_toepassing> <http://www.w3.org/2004/02/skos/core#notation> "Verbranden (nuttige toepassing)" .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vervoerswijze Afval (IMJV)"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/andere> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/andere> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/andere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/andere> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/andere> <http://www.w3.org/2004/02/skos/core#definition> "Afval Vervoerswijze Andere"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/andere> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afval Vervoerswijze Andere"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/andere> <http://www.w3.org/2004/02/skos/core#notation> "Andere" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/spoorweg> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/spoorweg> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/spoorweg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/spoorweg> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/spoorweg> <http://www.w3.org/2004/02/skos/core#definition> "Afval Vervoerswijze Spoorweg"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/spoorweg> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afval Vervoerswijze Spoorweg"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/spoorweg> <http://www.w3.org/2004/02/skos/core#notation> "Spoorweg" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/waterweg> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/waterweg> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/waterweg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/waterweg> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/waterweg> <http://www.w3.org/2004/02/skos/core#definition> "Afval Vervoerswijze Waterweg"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/waterweg> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afval Vervoerswijze Waterweg"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/waterweg> <http://www.w3.org/2004/02/skos/core#notation> "Waterweg" .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/wegvervoer> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/wegvervoer> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/afval/vervoerswijze> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/wegvervoer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/wegvervoer> <http://purl.org/dc/terms/creator> <http://data.kbodata.be/organisation/2_199_335_339#id> .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/wegvervoer> <http://www.w3.org/2004/02/skos/core#definition> "Afval Vervoerswijze Wegvervoer"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/wegvervoer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Afval Vervoerswijze Wegvervoer"@nl .
+<https://data.imjv.omgeving.vlaanderen.be/id/concept/vervoerswijze/wegvervoer> <http://www.w3.org/2004/02/skos/core#notation> "Wegvervoer" .

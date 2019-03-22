@@ -1,0 +1,77 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix waarde:  <https://data.omgeving.vlaanderen.be/ns/waarde#> .
+@prefix xkos:  <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix vann:  <http://purl.org/vocab/vann/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix schema:  <http://schema.org/> .
+@prefix org:  <http://www.w3.org/ns/org#> .
+@prefix regorg:  <http://www.w3.org/ns/regorg#> .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status>
+        rdf:type         skos:ConceptScheme ;
+        xkos:belongsTo   <https://data.zendantennes.omgeving.vlaanderen.be/id/dataset> ;
+        skos:prefLabel   "Lijst van mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne"@nl ;
+        skos:altLabel    "antenne_gecontroleerde_ruimte_status"@nl ;
+        dcterms:issued   "2018-11-19"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        vann:changes     ""@nl ;
+        dcterms:title    "Conceptscheme over mogelijke statussen van gecontroleerde ruimtes bij het aanvragen van een conformiteitsattest voor een zendantenne"@nl ;
+        owl:versionInfo  "Eerste versie, zoals in gebruik genomen in het kader van\n            archivering van zendantennes"@nl ;
+        foaf:maker       _:b0 .
+
+<http://data.vlaanderen.be/id/organisatie/OVO003751>
+        rdf:type  org:Organization .
+
+_:b0    schema:affiliation  <http://data.vlaanderen.be/id/organisatie/OVO003751> .
+
+<http://data.vlaanderen.be/id/organisatie/OVO003751>
+        rdf:type            foaf:Agent ;
+        foaf:name           "Data- en informatiebeheer & digitale maatschappij"@nl ;
+        rdfs:seeAlso        <https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66> ;
+        skos:altLabel       "DIDM"@nl ;
+        skos:prefLabel      "Data- en informatiebeheer & digitale maatschappij"@nl ;
+        org:changedBy       <http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting> ;
+        org:classification  <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> ;
+        org:identifier      "OVO003751" ;
+        regorg:orgStatus    <http://data.vlaanderen.be/id/concept/organisatiestatus/actief> ;
+        foaf:homepage       <https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij> ;
+        dcterms:type        <http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa> ;
+        foaf:mbox           <mailto:didm.omgeving@vlaanderen.be> .
+
+_:b0    foaf:mbox  <mailto:geert.vanhaute@vlaanderen.be> ;
+        foaf:name  "Van Haute, Geert" .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/niet_overschrijdend_gedempt>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Niet overschrijdend gedempt"@nl ;
+        waarde:key         "NIET_OVERSCHRIJDEND_GEDEMPT" ;
+        rdfs:comment       "TO DO"@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/niet_overschrijdend>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Niet overschrijdend"@nl ;
+        waarde:key         "NIET_OVERSCHRIJDEND" ;
+        rdfs:comment       "TO DO"@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/overschrijdend>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Overschrijdend"@nl ;
+        waarde:key         "OVERSCHRIJDEND" ;
+        rdfs:comment       "TO DO"@nl .
+
+<https://data.zendantennes.omgeving.vlaanderen.be/id/concept/antenne_gecontroleerde_ruimte_status/niet_overschrijdend_manueel>
+        skos:inScheme      <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> ;
+        skos:topConceptOf  <https://data.zendantennes.omgeving.vlaanderen.be/id/conceptscheme/antenne_gecontroleerde_ruimte_status> ;
+        rdf:type           skos:Concept ;
+        skos:prefLabel     "Niet overschrijdend manueel"@nl ;
+        waarde:key         "NIET_OVERSCHRIJDEND_MANUEEL" ;
+        rdfs:comment       "TO DO"@nl .

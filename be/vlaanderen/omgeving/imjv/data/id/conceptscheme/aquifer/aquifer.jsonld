@@ -1,0 +1,1888 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "first" : "https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_hoofdeenheden",
+    "rest" : "_:b1"
+  }, {
+    "@id" : "_:b1",
+    "first" : "https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden",
+    "rest" : "_:b2"
+  }, {
+    "@id" : "_:b2",
+    "first" : "https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_basiseenheden",
+    "@type" : "xkos:ClassificationLevel",
+    "depth" : "3",
+    "member" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0232", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1022", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0502", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1113", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1035", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1034", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0251", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0303", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0221", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0151", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1011", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0925", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0252", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0214", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0213", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0215", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0163", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0304", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0131", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0432", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0434", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0431", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0433", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0453", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0701", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0234", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0233", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1023", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0503", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0702", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0241", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0504", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0152", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0922", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0133", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0612", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0253", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0611", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0254", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1012", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0223", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1013", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0222", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0153", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0132", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0501", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0441", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1033", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0435", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0436", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1031", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0171", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0242", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0173", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1032", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0632", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0631", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0301", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0505", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0921", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0923", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0135", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0134", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0212", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0162", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0211", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0161", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0302", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0256", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1112", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0255", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1111", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0924", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0154", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0451", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0231", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1021", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1015", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1014", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0452", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0172", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0442" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "hydrogeologische basiseenheden"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_hoofdeenheden",
+    "@type" : "xkos:ClassificationLevel",
+    "depth" : "1",
+    "member" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0700", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0000", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0900", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1100", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0800", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "hydrogeologische hoofdeenheden"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/classificationlevel/aquifer/hydrogeologische_subeenheden",
+    "@type" : "xkos:ClassificationLevel",
+    "depth" : "2",
+    "member" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0120", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0240", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0440", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0910", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0140", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0620", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0610", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1340", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1330", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1210", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0420", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0640", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1150", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1140", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1230", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1220", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0110", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1130", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1120", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0410", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1320", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1310", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0630" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "hydrogeologische subeenheden"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0000",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Onbepaald"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Onbepaald"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Quartaire Aquifer systemen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0140", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0110", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0120", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Quartaire Aquifer systemen"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0110",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Ophogingen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Ophogingen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0120",
+    "@type" : "skos:Concept",
+    "broader" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0120" ],
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Duinen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0120",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Duinen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Polder­afzettingen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0132", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0131", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0135", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0134", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0133" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Polder­afzettingen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0131",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Kleiige polderafzettingen van de Kustvlakte"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleiige polderafzettingen van de Kustvlakte"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0132",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Kleiige polderafzettingen van het\n            Meetjesland"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleiige polderafzettingen van het Meetjesland"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0133",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Kleiige polderafzettingen van\n            Waasland-Antwerpen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleiige polderafzettingen van\n            Waasland-Antwerpen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0134",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zandige Kreekruggen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zandige Kreekruggen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0135",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0130",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Veen-kleiige poelgronden"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Veen-kleiige poelgronden"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0140",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Alluviale deklagen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Alluviale deklagen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Deklagen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0154", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0153", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0152", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0151" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Deklagen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0151",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zandige deklagen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zandige deklagen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0152",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand-lemige deklagen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand-lemige deklagen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0153",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Lemige deklagen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Lemige deklagen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0154",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0150",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Kleiige deklagen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleiige deklagen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Pleistocene afzettingen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0163", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0162", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0161" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Pleistocene afzettingen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0161",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Pleistoceen van de Kustvlakte"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Pleistoceen van de Kustvlakte"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0162",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Pleistoceen van de Vlaamse Vallei"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Pleistoceen van de Vlaamse Vallei"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0163",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0160",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Pleistoceen van de riviervalleien"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Pleistoceen van de riviervalleien"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Maas- en Rijnafzettingen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0173", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0172", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0171" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Maas- en Rijnafzettingen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0171",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Afzettingen Hoofdterras"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Afzettingen Hoofdterras"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0172",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Afzettingen Tussenterrassen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Afzettingen Tussenterrassen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0173",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0170",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Afzettingen Maasvlakte"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Afzettingen Maasvlakte"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Kempens Aquifer systeem"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0240", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kempens Aquifer systeem"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Afzettingen ten noorden van de Feldbiss-breukzone"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0212", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0211", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0215", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0213", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0214" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Afzettingen ten noorden van de Feldbiss-breukzone"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0211",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zandige eenheid boven de Brunssum I-klei"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zandige eenheid boven de Brunssum I-klei"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0212",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Brunssum I-klei"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Brunssum I-klei"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0213",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Pey"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Pey"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0214",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Brunssum II-klei"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Brunssum II-klei"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0215",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0210",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Waubach"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Waubach"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Klei-zand-complex van de Kempen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0223", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0222", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0221" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klei-zand-complex van de Kempen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0221",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Klei van Turnhout"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klei van Turnhout"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0222",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Beerse"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Beerse"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0223",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0220",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Klei van Rijkevorsel"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klei van Rijkevorsel"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Pleistoceen en Plioceen Aquifer"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0234", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0233", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0232", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0231" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Pleistoceen en Plioceen Aquifer"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0231",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zanden van Brasschaat en/of Merksplas"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zanden van Brasschaat en/of Merksplas"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0232",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Mol"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Mol"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0233",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zandige top van Lillo"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zandige top van Lillo"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0234",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0230",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Poederlee en/of zandige top van Kasterlee"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Poederlee en/of zandige top van Kasterlee"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0240",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Pliocene kleiige laag"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0242", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0241" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Pliocene kleiige laag"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0241",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0240",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Kleiig deel van Lillo en/of van de overgang Lillo-Kattendijk"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleiig deel van Lillo en/of van de overgang Lillo-Kattendijk"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0242",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0240",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Kleiige overgang tussen de zanden van Kasterlee en Diest"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleiige overgang tussen de zanden van Kasterlee en Diest"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Mioceen Aquifersysteem"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0251", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0255", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0254", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0253", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0256", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0252" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Mioceen Aquifersysteem"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0251",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Kattendijk en/of onderste zandlaag van Lillo"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Kattendijk en/of onderste zandlaag van Lillo"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0252",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Diest"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Diest"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0253",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Bolderberg"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Bolderberg"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0254",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zanden van Berchem en/of Voort"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zanden van Berchem en/of Voort"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0255",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Klei van Veldhoven"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klei van Veldhoven"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0256",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0250",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Eigenbilzen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Eigenbilzen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Boom Aquitard"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0304", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0303", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0302", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0301" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Boom Aquitard"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0301",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Kleiig deel van Eigenbilzen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleiig deel van Eigenbilzen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0302",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Klei van Putte"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klei van Putte"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0303",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Klei van Terhagen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klei van Terhagen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0304",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Klei van Belsele-Waas"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klei van Belsele-Waas"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Oligoceen Aquifer systeem"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0420", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0440", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0410", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Oligoceen Aquifer systeem"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0410",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Kerniel"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Kerniel"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0420",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Klei van Kleine-Spouwen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klei van Kleine-Spouwen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Ruisbroek-Berg Aquifer"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0432", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0435", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0431", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0433", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0436", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0434" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Ruisbroek-Berg Aquifer"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0431",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Berg"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Berg"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0432",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Kerkom"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Kerkom"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0433",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Kleiig zand van Oude Biezen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleiig zand van Oude Biezen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0434",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Boutersem"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Boutersem"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0435",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Ruisbroek"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Ruisbroek"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0436",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0430",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Wintham"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Wintham"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0440",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Tongeren Aquitard"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0442", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0441" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Tongeren Aquitard"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0441",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0440",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Klei van Henis"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klei van Henis"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0442",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0440",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Klei van Watervliet"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klei van Watervliet"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Onder-Oligoceen Aquifersysteem"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0453", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0452", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0451" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Onder-Oligoceen Aquifersysteem"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0451",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Neerrepen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Neerrepen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0452",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand-klei van Grimmertingen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand-klei van Grimmertingen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0453",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0450",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Kleiig zand van Bassevelde"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleiig zand van Bassevelde"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Bartoon Aquitard systeem"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0501", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0503", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0502", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0505", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0504" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Bartoon Aquitard systeem"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0501",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Klei van Onderdijke"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klei van Onderdijke"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0502",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Buisputten"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Buisputten"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0503",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Klei van Zomergem"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klei van Zomergem"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0504",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Onderdale"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Onderdale"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0505",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Kleien van Ursel en/of Asse"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleien van Ursel en/of Asse"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Ledo Paniseliaan Brusseliaan Aquifer­systeem"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0640", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0630", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0620", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0610" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Ledo Paniseliaan Brusseliaan Aquifer­systeem"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0610",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Wemmel-Lede Aquifer"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0612", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0611" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Wemmel-Lede Aquifer"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0611",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0610",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Wemmel"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Wemmel"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0612",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0610",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Lede"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Lede"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0620",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Brussel"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Brussel"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0630",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Afzettingen van het Boven-Paniseliaan"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0632", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0631" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Afzettingen van het Boven-Paniseliaan"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0631",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0630",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zanden van Aalter en/of Oedelem"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zanden van Aalter en/of Oedelem"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0632",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0630",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zandige klei van Beernem"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zandige klei van Beernem"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0640",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zandige afzettingen van het Onder-Paniseliaan, Zand van Vlierzele en/of Aalterbrugge"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zandige afzettingen van het Onder-Paniseliaan"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0700",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Paniseliaan Aquitard systeem"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0702", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0701" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Paniseliaan Aquitard systeem"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0701",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0700",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Klei van Pittem"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klei van Pittem"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0702",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0700",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Klei van Merelbeke"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klei van Merelbeke"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0800",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Ieperiaan Aquifer Zand van Egem en/of Mont-Panisel"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Ieperiaan Aquifer Zand van Egem en/of Mont-Panisel"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0900",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Ieperiaan Aquitard systeem"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0910" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Ieperiaan Aquitard systeem"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0910",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0900",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Silt van Kortemark"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Silt van Kortemark"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0900",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Afzettingen van Kortrijk"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0925", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0922", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0923", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0924", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0921" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Afzettingen van Kortrijk"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0921",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Klei van Aalbeke"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klei van Aalbeke"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0922",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Klei van Moen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klei van Moen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0923",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Mons-en-Pévèle"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Mons-en-Pévèle"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0924",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Klei van Saint-Maur"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klei van Saint-Maur"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0925",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0920",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Klei van Mont-Héribu"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klei van Mont-Héribu"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Paleoceen Aquifer­systeem"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Paleoceen Aquifer­systeem"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Landeniaan Aquifer systeem"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1012", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1011", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1014", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1015", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1013" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Landeniaan Aquifer systeem"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1011",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Knokke"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Knokke"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1012",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zandige afzettingen van Loksbergen en/of\n            Dormaal"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zandige afzettingen van Loksbergen en/of\n            Dormaal"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1013",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Grandglise"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Grandglise"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1014",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Kleiig deel van Lincent"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kleiig deel van Lincent"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1015",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1010",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Versteend deel van Lincent"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Versteend deel van Lincent"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Landeniaan en Heersiaan Aquitard"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1023", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1022", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1021" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Landeniaan en Heersiaan Aquitard"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1021",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Siltige afzettingen van Halen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Siltige afzettingen van Halen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1022",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Klei van Waterschei"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klei van Waterschei"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1023",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1020",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Slecht doorlatend deel van de Mergels van\n            Gelinden"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Slecht doorlatend deel van de Mergels van\n            Gelinden"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Heersiaan en Opglabbeek Aquifersysteem"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1035", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1034", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1033", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1032", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1031" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Heersiaan en Opglabbeek Aquifersysteem"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1031",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Doorlatend deel van de Mergels van Gelinden"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Doorlatend deel van de Mergels van Gelinden"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1032",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Orp"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Orp"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1033",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Eisden"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Eisden"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1034",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Klei van Opoeteren"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Klei van Opoeteren"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1035",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1030",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Maasmechelen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Maasmechelen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1100",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Krijt Aquifer­systeem"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Krijt Aquifer­systeem"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1100",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Krijt Aquifer"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1113", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1112", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1111" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Krijt Aquifer"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1111",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Kalksteen van Houthem"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kalksteen van Houthem"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1112",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Tufkrijt van Maastricht"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Tufkrijt van Maastricht"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1113",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1110",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Krijt van Gulpen"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Krijt van Gulpen"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1120",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Afzettingen van Vaals Smectiet van Herve"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Afzettingen van Vaals Smectiet van Herve"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1130",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Zand van Aken"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Zand van Aken"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1140",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Turoonmergels op Massief van Brabant"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Turoonmergels op Massief van Brabant"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1150",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Wealdiaan"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Wealdiaan"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Jura - Trias - Perm"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1230", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1220", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1210" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Jura - Trias - Perm"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1210",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Jura"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Jura"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1220",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Trias"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Trias"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1230",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Perm"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Perm"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300",
+    "@type" : "skos:Concept",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Sokkel"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "narrower" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1340", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1330", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1320", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1310" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Sokkel"
+    },
+    "topConceptOf" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer"
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1310",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Boven-Carboon (steenkoolterrein en -lagen)"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Boven-Carboon (steenkoolterrein en -lagen)"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1320",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Kolenkalk"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Kolenkalk"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1330",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Devoon"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Devoon"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1340",
+    "@type" : "skos:Concept",
+    "broader" : "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300",
+    "definition" : {
+      "@language" : "nl",
+      "@value" : "Cambro-Siluur Massief van Brabant"
+    },
+    "inScheme" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Cambro-Siluur Massief van Brabant"
+    }
+  }, {
+    "@id" : "https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/aquifer",
+    "@type" : "skos:ConceptScheme",
+    "levels" : "_:b0",
+    "numberOfLevels" : "3",
+    "altLabel" : {
+      "@language" : "nl",
+      "@value" : "Watervoerende lagen"
+    },
+    "hasTopConcept" : [ "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0500", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0800", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0600", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0900", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0300", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0200", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1000", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0400", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0100", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0700", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/0000", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1200", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1100", "https://data.imjv.omgeving.vlaanderen.be/id/concept/aquifer/1300" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Aquifers"
+    }
+  } ],
+  "@context" : {
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "definition" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "member" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#member",
+      "@type" : "@id"
+    },
+    "depth" : {
+      "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#depth",
+      "@type" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+    },
+    "narrower" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#narrower",
+      "@type" : "@id"
+    },
+    "hasTopConcept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+      "@type" : "@id"
+    },
+    "numberOfLevels" : {
+      "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels",
+      "@type" : "http://www.w3.org/2001/XMLSchema#positiveInteger"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "levels" : {
+      "@id" : "http://rdf-vocabulary.ddialliance.org/xkos#levels",
+      "@type" : "@id"
+    },
+    "rest" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+      "@type" : "@id"
+    },
+    "first" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+      "@type" : "@id"
+    },
+    "topConceptOf" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
+      "@type" : "@id"
+    },
+    "dct" : "http://purl.org/dc/terms/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "dc" : "http://purl.org/dc/elements/1.1/",
+    "xkos" : "http://rdf-vocabulary.ddialliance.org/xkos#"
+  }
+}

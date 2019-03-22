@@ -1,0 +1,94 @@
+digraph g {
+	graph [bgcolor="#ffffff"  overlap=scale  ]
+    node [style=rounded]
+    edge [overlap = scale]
+    subgraph cluster_zendantenne {
+    "https://lod.milieuinfo.be/ns/zendantenne#"  [fillcolor="#FFF190" shape=box style=filled]
+    ":Aannemer" [fillcolor="#DA582F" shape=box style=filled]
+    ":Antennetechnologie" [fillcolor="#DA582F" shape=box style=filled]
+    ":Antennetype" [fillcolor="#DA582F" shape=box style=filled]
+    ":Antennewinstverlies" [fillcolor="#DA582F" shape=box style=filled]
+    ":Conformiteitsattest" [fillcolor="#DA582F" shape=box style=filled]
+    ":DempendeMaatregel" [fillcolor="#DA582F" shape=box style=filled]
+    ":Demping" [fillcolor="#DA582F" shape=box style=filled]
+    ":Dempingsfactor" [fillcolor="#DA582F" shape=box style=filled]
+    ":GecontroleerdeRuimte" [fillcolor="#DA582F" shape=box style=filled]
+    ":GedempteStraling" [fillcolor="#DA582F" shape=box style=filled]
+    ":Operator" [fillcolor="#DA582F" shape=box style=filled]
+    ":Site" [fillcolor="#DA582F" shape=box style=filled]
+    ":Stralen" [fillcolor="#DA582F" shape=box style=filled]
+    ":Straling" [fillcolor="#DA582F" shape=box style=filled]
+    ":Zendantenne" [fillcolor="#DA582F" shape=box style=filled]
+	"dossier:Besluit" [fillcolor="#DECE5E" shape=box style=filled]
+	"dossier:Afbeelding" [fillcolor="#DECE5E" shape=box style=filled]
+	"dossier:Procedurestap"  [fillcolor="#DECE5E" shape=box style=filled]
+	"locn:Address" [fillcolor="#DEAA5B" shape=box style=filled]
+	"foaf:Person" [fillcolor="#DA582F" shape=box style=filled]
+	"prov:Delegation" [fillcolor="#DEAA5B" shape=box style=filled]
+	"skos:Concept" [fillcolor="#DEAA5B" shape=box style=filled]
+
+    }
+
+   
+
+    subgraph cluster_dbo {
+        "http://dbpedia.org/ontology/"  [fillcolor="#FFF190" shape=box style=filled]
+        "dbo:Device" [fillcolor="#DE5E5B" style=filled]
+    }
+    subgraph cluster_prov_subclasses {
+        "http://www.w3.org/ns/prov#"  [fillcolor="#FFF190" shape=box style=filled]
+        "prov:Organization" [fillcolor="#DEAA5B" style=filled]
+        "prov:Activity" [fillcolor="#DEAA5B" style=filled]
+        "prov:Entity" [fillcolor="#DEAA5B" style=filled]
+        "prov:Agent" [fillcolor="#DEAA5B" style=filled]
+        "prov:Location" [fillcolor="#DEAA5B" style=filled]
+        "prov:Delegation" [fillcolor="#DEAA5B" shape=box style=filled]
+    }
+
+
+   
+
+	
+	":Zendantenne" -> "dbo:Device" [label="rdfs:subClassOf" color="#DC3800"]
+	":Conformiteitsattest" -> "dossier:Besluit" [label="rdfs:subClassOf" color="#DC3800"]
+	":Demping" -> "prov:Activity" [label="rdfs:subClassOf" color="#DC3800"]
+	":Stralen" -> "prov:Activity"[label="rdfs:subClassOf" color="#DC3800"]
+	":DempendeMaatregel" -> "prov:Agent" [label="rdfs:subClassOf" color="#DC3800"]
+	":Operator" -> "prov:Agent" [label="rdfs:subClassOf" color="#DC3800"]
+	":Zendantenne" -> "prov:Agent" [label="rdfs:subClassOf" color="#DC3800"]
+	":Antennetype" -> "prov:Entity" [label="rdfs:subClassOf" color="#DC3800"]
+	":Dempingsfactor" -> "prov:Entity" [label="rdfs:subClassOf" color="#DC3800"]
+
+	":GecontroleerdeRuimte" -> "prov:Entity" [label="rdfs:subClassOf" color="#DC3800"]
+	":GedempteStraling" -> "prov:Entity" [label="rdfs:subClassOf" color="#DC3800"]
+	":Straling" -> "prov:Entity" [label="rdfs:subClassOf" color="#DC3800"]
+	":Site" -> "prov:Location" [label="rdfs:subClassOf" color="#DC3800"]
+	":Aannemer" -> "prov:Organization" [label="rdfs:subClassOf" color="#DC3800"]
+	":GedempteStraling" -> ":Straling"[label="rdfs:subClassOf" color="#DC3800"]
+	":GecontroleerdeRuimte" -> ":Zendantenne" [label=":ligt_binnen_de_maximale_invloedsfeer_van"]
+	":Demping" -> ":Straling" [label=":oorspronkelijkeStraling"]
+	":Zendantenne" -> ":Antennetechnologie" [label=":antennetechnologie"]
+	":Demping" -> ":DempendeMaatregel" [label=":werdUitgevoerdDoor"]
+	":Demping" -> ":GedempteStraling" [label=":gedempteStraling"]
+	":Zendantenne" -> ":Antennetype" [label=":antennetype"]
+	":Zendantenne" -> ":Operator" [label="prov:actedOnBehalfOf"]
+	":Zendantenne" -> ":Site" [label="prov:atLocation"]
+	":Site" -> "foaf:Person" [label=":contactpersoon"]
+	":Site" -> "locn:Address" [label="locn:address"]
+	":GedempteStraling" -> ":Straling" [label="prov:wasDerivedFrom"]
+	":GedempteStraling" -> ":GecontroleerdeRuimte" [label="prov:influenced"]
+	":Dempingsfactor" -> ":DempendeMaatregel" [label="prov:wasAttributedTo"]
+	":Dempingsfactor" -> "skos:Concept" [label=":dempendMateriaal"]
+	":DempendeMaatregel" -> "skos:Concept" [label=":dempendMateriaal"]
+	":Conformiteitsattest" -> ":Zendantenne" [label="dossier:certifiëert"]
+	"dossier:Afbeelding" -> ":GecontroleerdeRuimte"  [label="foaf:depicts"]
+    ":Aannemer" -> ":Operator" [label="prov:actedObBehalfOf"]
+    ":Aannemer" -> "prov:Delegation" [label="prov:qualifiedDelegation"]
+    "prov:Delegation" -> ":Operator" [label="prov:agent"]
+    "prov:Delegation" -> "dossier:Procedurestap" [label="prov:hadActivity"]
+    "dossier:Procedurestap" -> ":Conformiteitsattest" [label="prov:generated"]
+	":Stralen" -> ":Zendantenne"[label="prov:wasAssociatedWith"]
+	":Stralen" -> ":Straling"[label="prov:generated"]
+	
+
+}

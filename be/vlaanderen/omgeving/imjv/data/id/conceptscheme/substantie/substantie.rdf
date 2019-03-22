@@ -1,0 +1,1332 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:imjv="https://data.imjv.omgeving.vlaanderen.be/ns/imjv#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:schema="http://schema.org/"
+    
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:regorg="http://www.w3.org/ns/regorg#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xml:base="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie">
+  
+  <rdf:Description rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <xkos:belongsTo rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/dataset"/>
+    <skos:prefLabel xml:lang="nl">Lijst van substanties</skos:prefLabel>
+    <skos:altLabel xml:lang="nl">substanties</skos:altLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-01-03</dcterms:issued>
+    <dcterms:title xml:lang="nl">Conceptscheme over substanties binnen het IMJV</dcterms:title>
+    <owl:versionInfo xml:lang="nl">Tweede versie, zoals in gebruik genomen in het kader van de herwerking volgens de uri-standaard</owl:versionInfo>
+    <foaf:maker>
+      <rdf:Description>
+        <schema:affiliation>
+          <org:Organization rdf:about="http://data.vlaanderen.be/id/organisatie/OVO003751">
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+            <foaf:name  xml:lang="nl">Data- en informatiebeheer &amp; digitale maatschappij</foaf:name>
+            <rdfs:seeAlso rdf:resource="https://wegwijs.vlaanderen.be/#/organisations/d19a7867-749a-dad6-4f30-351cc3a7fb66"/>
+            <skos:altLabel  xml:lang="nl">DIDM</skos:altLabel>
+            <skos:prefLabel  xml:lang="nl">Data- en informatiebeheer &amp; digitale maatschappij</skos:prefLabel>
+            <org:changedBy rdf:resource="http://data.vlaanderen.be/id/organisatie/OVO003751/oprichting"/>
+            <org:classification rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa"/>
+            <org:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVO003751</org:identifier>
+            <regorg:orgStatus rdf:resource="http://data.vlaanderen.be/id/concept/organisatiestatus/actief"/>
+            <foaf:homepage rdf:resource="https://www.omgevingvlaanderen.be/data-en-informatiebeheer-digitale-maatschappij"/>    
+            <dcterms:type rdf:resource="http://data.vlaanderen.be/id/concept/organisatieclassificatie/b5c586ed-f3dc-4273-b14a-2f458a5c07fa"/>   
+            <foaf:mbox rdf:resource="mailto:didm.omgeving@vlaanderen.be"/>
+          </org:Organization>
+        </schema:affiliation>
+        <foaf:mbox rdf:resource="mailto:geert.vanhaute@vlaanderen.be"/>
+        <foaf:name>Van Haute, Geert</foaf:name>
+      </rdf:Description>
+    </foaf:maker>
+  </rdf:Description>
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+    <owl:imports rdf:resource="http://purl.org/dc/terms/"/>
+    <owl:imports rdf:resource="http://purl.org/dc/elements/1.1/"/>
+  </owl:Ontology>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/trichloorbenzeen">
+    <skos:prefLabel xml:lang="nl">Trichloorbenzeen</skos:prefLabel>
+    <imjv:key>trichloorbenzeen</imjv:key>
+    <skos:topConceptOf>
+      <skos:ConceptScheme rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie">
+        <skos:prefLabel>substanties (IMJV)</skos:prefLabel>
+      </skos:ConceptScheme>
+    </skos:topConceptOf>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/totaal_organostikstofpesticiden">
+    <skos:prefLabel xml:lang="nl">Totaal organostikstofpesticiden</skos:prefLabel>
+    <imjv:key>totaal organostikstofpesticiden</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID24526">
+    <skos:prefLabel xml:lang="nl">Chloor</skos:prefLabel>
+    <imjv:key>chloor</imjv:key>
+    <imjv:key>CL</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID24526"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/24526"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23976">
+    <skos:prefLabel xml:lang="nl">Chroom</skos:prefLabel>
+    <imjv:key>chroom</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23976"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/23976"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/pm10">
+    <skos:prefLabel xml:lang="nl">Zwevende deeltjes (PM10)</skos:prefLabel>
+    <imjv:key>pm10</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID36679">
+    <skos:prefLabel xml:lang="nl">Isoproturon</skos:prefLabel>
+    <imjv:key>isoproturon</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID36679"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/36679"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID241">
+    <skos:prefLabel xml:lang="nl">Benzeen</skos:prefLabel>
+    <imjv:key>benzeen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID241"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/241"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/biochemisch_zuurstofverbruik">
+    <skos:prefLabel xml:lang="nl">Biochemisch zuurstofverbruik</skos:prefLabel>
+    <imjv:key>biochemisch zuurstofverbruik</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID8418">
+    <skos:prefLabel xml:lang="nl">Anthraceen</skos:prefLabel>
+    <imjv:key>anthraceen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID8418"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/8418"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/totaal_organofosforpesticiden">
+    <skos:prefLabel xml:lang="nl">Totaal organofosforpesticiden</skos:prefLabel>
+    <imjv:key>totaal organofosforpesticiden</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5284469">
+    <skos:prefLabel xml:lang="nl">Toxafeen</skos:prefLabel>
+    <imjv:key>toxafeen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5284469"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/5284469"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/chloriden">
+    <skos:prefLabel xml:lang="nl">Chloriden (als totaal Cl)</skos:prefLabel>
+    <imjv:key>chlorides (als cl)</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/zwalveloxiden">
+    <skos:prefLabel xml:lang="nl">Zwalveloxiden (SOX/SO2)</skos:prefLabel>
+    <imjv:key>sox (als so2)</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/stikstofoxiden">
+    <skos:prefLabel xml:lang="nl">Stikstofoxiden (NOx/NO2)</skos:prefLabel>
+    <imjv:key>nox (als no2)</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID977">
+    <skos:prefLabel xml:lang="nl">Boor</skos:prefLabel>
+    <imjv:key>boor</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID977"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/977"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/totaal_stikstof">
+    <skos:prefLabel xml:lang="nl">Stikstof totaal (N)</skos:prefLabel>
+    <imjv:key>stikstof totaal (n)</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID16945">
+    <skos:prefLabel xml:lang="nl">Mirex</skos:prefLabel>
+    <imjv:key>mirex</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID16945"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/16945"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID13">
+    <skos:prefLabel xml:lang="nl">1,2,4-Trichloorbenzeen</skos:prefLabel>
+    <imjv:key>1,2,4-trichloorbenzeen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID13"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/13"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23978">
+    <skos:prefLabel xml:lang="nl">Koper</skos:prefLabel>
+    <imjv:key>koper</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23978"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/23978"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23931">
+    <skos:prefLabel xml:lang="nl">Kwik</skos:prefLabel>
+    <imjv:key>kwik</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23931"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/23931"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/xyleen_isomeren">
+    <skos:prefLabel xml:lang="nl">Xyleen-isomeren</skos:prefLabel>
+    <imjv:key>xyleen-isomeren</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID223">
+    <skos:prefLabel xml:lang="nl">Ammonium</skos:prefLabel>
+    <imjv:key>NH4</imjv:key>
+    <imjv:key>H4N+</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID223"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/223"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID995">
+    <skos:prefLabel xml:lang="nl">Phenanthreen</skos:prefLabel>
+    <imjv:key>phenanthreen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID995"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/995"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23990">
+    <skos:prefLabel xml:lang="nl">Vanadium</skos:prefLabel>
+    <imjv:key>vanadium</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23990"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/23990"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5360545">
+    <imjv:key>Na</imjv:key>
+    <skos:prefLabel xml:lang="en">Sodium</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Natrium</skos:prefLabel>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5360545"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/5360545"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/chlooralkanen">
+    <skos:prefLabel xml:lang="nl">Chlooralkanen, C10-C13</skos:prefLabel>
+    <imjv:key>chlooralkanen (c10 -c13)</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID7500">
+    <skos:prefLabel xml:lang="nl">Ethylbenzeen</skos:prefLabel>
+    <imjv:key>ethylbenzeen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7500"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/7500"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID7238">
+    <skos:prefLabel xml:lang="nl">2-Chloortolueen</skos:prefLabel>
+    <imjv:key>2-chloortolueen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7238"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/7238"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/aox">
+    <skos:prefLabel xml:lang="nl">Gehalogeneerde organische verbindingen (als AOX)</skos:prefLabel>
+    <imjv:key>aox</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID71312306">
+    <skos:prefLabel xml:lang="nl">Endrin</skos:prefLabel>
+    <imjv:key>endrin</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID71312306"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/71312306"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/totaal_stof">
+    <skos:prefLabel xml:lang="nl">Totaal stof</skos:prefLabel>
+    <imjv:key>totaal stof</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6901">
+    <skos:prefLabel xml:lang="nl">Hexachloorbutadieen</skos:prefLabel>
+    <imjv:key>hexachloorbutadieen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6901"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/6901"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID768">
+    <skos:prefLabel xml:lang="nl">Waterstofcyanide (HCN)</skos:prefLabel>
+    <imjv:key>hcn</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID768"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/768"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID8449">
+    <skos:prefLabel xml:lang="nl">2,4-Dichloorfenol</skos:prefLabel>
+    <imjv:key>2,4-dichloorfenol</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID8449"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/8449"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID10066">
+    <skos:prefLabel xml:lang="nl">Isodrin</skos:prefLabel>
+    <imjv:key>isodrin</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID10066"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/10066"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID8343">
+    <skos:prefLabel xml:lang="nl">Di-(2-ethyl hexyl) phthalaat (DEHP)</skos:prefLabel>
+    <skos:altLabel>Di(2-ethylhexyl)ftalaat (DEHP)</skos:altLabel>
+    <imjv:key>di-(2-ethyl hexyl) phthalaat (dehp)</imjv:key>
+    <imjv:key>di(2-ethylhexyl)ftalaat (dehp)</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID8343"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/8343"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/pak">
+    <skos:prefLabel xml:lang="nl">Polycyclische aromatische koolwaterstoffen (PAK’s)</skos:prefLabel>
+    <imjv:key>pak's (polyaromatische koolwaterstoffen)</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID271">
+    <imjv:key>Ca</imjv:key>
+    <skos:prefLabel xml:lang="en">Calcium ion</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Calcium ion</skos:prefLabel>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID271"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/271"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID769">
+    <imjv:key>HCO3</imjv:key>
+    <skos:prefLabel xml:lang="en">Bicarbonate</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Bicarbonaat</skos:prefLabel>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID769"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/769"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/halonen">
+    <skos:prefLabel xml:lang="nl">Halonen</skos:prefLabel>
+    <imjv:key>halonen</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID12310947">
+    <skos:prefLabel xml:lang="nl">Aldrin</skos:prefLabel>
+    <imjv:key>aldrin</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID12310947"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/12310947"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/pfk">
+    <skos:prefLabel xml:lang="nl">Perfluorkoolwaterstoffen (PFK's)</skos:prefLabel>
+    <imjv:key>pfk's (perfluorkoolwaterstoffen)</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5359464">
+    <skos:prefLabel xml:lang="nl">Thallium</skos:prefLabel>
+    <imjv:key>thallium</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5359464"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/5359464"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/fluorverbindingen">
+    <skos:prefLabel xml:lang="nl">Fluor en anorganische verbindingen (als F-)</skos:prefLabel>
+    <imjv:key>f-verbindingen (als f- )</imjv:key>
+    <imjv:key>F</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5943">
+    <skos:prefLabel xml:lang="nl">Tetrachloormethaan (TCM)</skos:prefLabel>
+    <imjv:key>tetrachloormethaan</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5943"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/5943"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID297">
+    <skos:prefLabel xml:lang="nl">Methaan</skos:prefLabel>
+    <imjv:key>ch4</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID297"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/297"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID2336">
+    <skos:prefLabel xml:lang="nl">Benzo(a)pyreen</skos:prefLabel>
+    <imjv:key>benzo(a)pyreen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID2336"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/2336"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/cfk">
+    <skos:prefLabel xml:lang="nl">Chloorfluorkoolstoffen (CFK’s)</skos:prefLabel>
+    <imjv:key>cfk's (chloorfluorkoolstoffen)</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5462311">
+    <imjv:key>O2</imjv:key>
+    <skos:prefLabel xml:lang="en">Oxygen</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Zuurstof</skos:prefLabel>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5462311"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/5462311"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5352425">
+    <skos:prefLabel xml:lang="nl">Lood</skos:prefLabel>
+    <imjv:key>lood</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5352425"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/5352425"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/totaal_organochloorpesticiden_drempel_100g_per_jaar">
+    <skos:prefLabel xml:lang="nl">Totaal organochloorpesticiden waarvan indiv. drempelwaarde = 0,1 kg/j</skos:prefLabel>
+    <imjv:key>totaal organochloorpesticiden waarvan indiv. drempelwaarde = 0,1 kg/j</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID3120">
+    <skos:prefLabel xml:lang="nl">Diuron</skos:prefLabel>
+    <imjv:key>diuron</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID3120"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/3120"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/hexachloorcyclohexaan_isomeren">
+    <skos:prefLabel xml:lang="nl">Hexachloorcyclohexaan-isomeren</skos:prefLabel>
+    <imjv:key>hexachloorcyclohexaan-isomeren</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID9153">
+    <skos:prefLabel xml:lang="nl">benzo(b)fluorantheen</skos:prefLabel>
+    <imjv:key>benzo(b)fluorantheen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID9153"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/9153"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/toc">
+    <skos:prefLabel xml:lang="nl">Totaal organische koolstof (TOC, als C)</skos:prefLabel>
+    <imjv:key>totaal organische koolstof (toc, als c)</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID935">
+    <skos:prefLabel xml:lang="nl">Nikkel</skos:prefLabel>
+    <imjv:key>nikkel</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID935"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/935"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID948">
+    <skos:prefLabel xml:lang="nl">Distikstofoxide</skos:prefLabel>
+    <imjv:key>n2o</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID948"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/948"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID7933">
+    <skos:prefLabel xml:lang="nl">3-Chloorfenol</skos:prefLabel>
+    <imjv:key>3-chloorfenol</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7933"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/7933"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6212">
+    <skos:prefLabel xml:lang="nl">Trichloormethaan</skos:prefLabel>
+    <imjv:key>trichloormethaan</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6212"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/6212"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/zwalvelhexafluoride">
+    <skos:prefLabel xml:lang="nl">Zwalvelhexafluoride</skos:prefLabel>
+    <imjv:key>sf6</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID1117">
+    <imjv:key>SO4</imjv:key>
+    <skos:prefLabel xml:lang="en">Sulfate</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Sulfaat</skos:prefLabel>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1117"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/1117"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID1061">
+    <imjv:key>PO4</imjv:key>
+    <skos:prefLabel xml:lang="en">Phosphate</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Fosfaat</skos:prefLabel>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1061"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/1061"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID2078">
+    <skos:prefLabel xml:lang="nl">Alachloor</skos:prefLabel>
+    <imjv:key>alachloor</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID2078"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/2078"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID299">
+    <skos:prefLabel xml:lang="nl">Chloordecon</skos:prefLabel>
+    <imjv:key>chloordecon</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID299"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/299"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5462224">
+    <imjv:key>Mg</imjv:key>
+    <skos:prefLabel xml:lang="en">Magnesium</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Magnesium</skos:prefLabel>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5462224"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/5462224"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID11">
+    <skos:prefLabel xml:lang="nl">1,2-Dichloorethaan</skos:prefLabel>
+    <imjv:key>1,2-dichloorethaan</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID11"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/11"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23994">
+    <skos:prefLabel xml:lang="nl">Zink</skos:prefLabel>
+    <imjv:key>zink</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23994"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/23994"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID1140">
+    <skos:prefLabel xml:lang="nl">Tolueen</skos:prefLabel>
+    <imjv:key>tolueen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1140"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/1140"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID813">
+    <imjv:key>K</imjv:key>
+    <skos:prefLabel xml:lang="en">Potassium Ion</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Kalium Ion</skos:prefLabel>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID813"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/813"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID7406">
+    <skos:prefLabel xml:lang="nl">Isopropylbenzeen</skos:prefLabel>
+    <imjv:key>isopropylbenzeen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7406"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/7406"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/nonylfenolethoxylaten">
+    <skos:prefLabel xml:lang="nl">Nonylfenolethoxylaten (NP/NPE’s) en verwante stoffen</skos:prefLabel>
+    <imjv:key>nonylfenol en nonylfenolethoxylaten (np/npe's)</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID104730">
+    <skos:prefLabel xml:lang="nl">Kobalt</skos:prefLabel>
+    <imjv:key>kobalt</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID104730"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/104730"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/sulfiden">
+    <skos:prefLabel xml:lang="nl">Sulfiden</skos:prefLabel>
+    <imjv:key>sulfiden</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID712">
+    <skos:prefLabel xml:lang="nl">Formaldehyde</skos:prefLabel>
+    <imjv:key>formaldehyde</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID712"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/712"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/totaal_aromatische_nmvos">
+    <skos:prefLabel xml:lang="nl">Totaal aromatische NMVOS</skos:prefLabel>
+    <imjv:key>totaal aromatische nmvos</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/chemisch_zuurstofverbruik">
+    <skos:prefLabel xml:lang="nl">Chemisch zuurstofverbruik</skos:prefLabel>
+    <imjv:key>chemisch zuurstofverbruik</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/vox">
+    <skos:prefLabel xml:lang="nl">VOX</skos:prefLabel>
+    <imjv:key>vox</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6338">
+    <skos:prefLabel xml:lang="nl">Chlooretheen (vinylchloride)</skos:prefLabel>
+    <skos:altLabel>Mono-vinylchloride</skos:altLabel>
+    <imjv:key>chlooretheen (vinylchloride)</imjv:key>
+    <imjv:key>mono-vinylchloride</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6338"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/6338"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID402">
+    <skos:prefLabel xml:lang="nl">H2S</skos:prefLabel>
+    <imjv:key>h2s</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID402"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/402"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/pcb">
+    <skos:prefLabel xml:lang="nl">Polychloorbifenylen (PCB's)</skos:prefLabel>
+    <imjv:key>polychloorbifenylen (pcb's)</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID992">
+    <skos:prefLabel xml:lang="nl">Pentachloorfenol (PCF)</skos:prefLabel>
+    <imjv:key>pentachloorfenol</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID992"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/992"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5354495">
+    <skos:prefLabel xml:lang="nl">Antimoon</skos:prefLabel>
+    <imjv:key>antimoon</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5354495"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/5354495"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/totaal_gehalogeneerde_nmvos">
+    <skos:prefLabel xml:lang="nl">Totaal gehalogeneerde NMVOS</skos:prefLabel>
+    <imjv:key>totaal gehalogeneerde nmvos</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/hcfk">
+    <skos:prefLabel xml:lang="nl">Chloorfluorkoolwaterstoffen (HCFK’s)</skos:prefLabel>
+    <imjv:key>hcfk's (chloorfluorkoolwaterstoffen)</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID9117">
+    <skos:prefLabel xml:lang="nl">Benzo(g,h,i)peryleen</skos:prefLabel>
+    <imjv:key>benzo(g,h,i)peryleen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID9117"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/9117"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/totaal_organotinverbindingen">
+    <skos:prefLabel xml:lang="nl">Totaal organotinverbindingen</skos:prefLabel>
+    <imjv:key>totaal organotinverbindingen</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/pcdd_pcdf">
+    <skos:prefLabel xml:lang="nl">PCDD + PCDF (dioxinen + furanen) (als Teq)</skos:prefLabel>
+    <imjv:key>pcdd/f</imjv:key>
+    <imjv:key>pcdd+pcdf (dioxinen+furanen) (als teq)</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23932">
+    <skos:prefLabel xml:lang="nl">Molybdeen</skos:prefLabel>
+    <imjv:key>molybdeen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23932"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/23932"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6354">
+    <skos:prefLabel xml:lang="nl">Ethyleenoxide</skos:prefLabel>
+    <imjv:key>ethyleenoxide</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6354"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/6354"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID19660">
+    <imjv:key>CO3</imjv:key>
+    <skos:prefLabel xml:lang="en">Carbonate</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Carbonaat</skos:prefLabel>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID19660"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/19660"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6575">
+    <skos:prefLabel xml:lang="nl">Trichlooretheen</skos:prefLabel>
+    <imjv:key>trichlooretheen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6575"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/6575"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/tributyltin_en_verbindingen">
+    <skos:prefLabel xml:lang="nl">Tributyltin en zijn verbindingen</skos:prefLabel>
+    <imjv:key>tributyltin en zijn verbindingen</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/pbde">
+    <skos:prefLabel xml:lang="nl">Gebromeerde difenylethers (PBDE)</skos:prefLabel>
+    <imjv:key>broomdifenylethers</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID931">
+    <skos:prefLabel xml:lang="nl">Nafthaleen</skos:prefLabel>
+    <imjv:key>naftaleen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID931"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/931"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID3036">
+    <skos:prefLabel xml:lang="nl">DDT</skos:prefLabel>
+    <imjv:key>ddt</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID3036"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/3036"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID943">
+    <imjv:key>NO3</imjv:key>
+    <skos:prefLabel xml:lang="en">Nitrate</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Nitraat</skos:prefLabel>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID943"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/943"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID7964">
+    <skos:prefLabel xml:lang="nl">Chloorbenzeen</skos:prefLabel>
+    <imjv:key>chloorbenzeen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7964"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/7964"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/hfk">
+    <skos:prefLabel xml:lang="nl">Fluorkoolwaterstoffen(HFK's)</skos:prefLabel>
+    <imjv:key>hfk's (fluorkoolwaterstoffen)</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID27284">
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/27284"/>
+    <skos:prefLabel xml:lang="nl">Ijzer divalent ion</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Ferrous ion</skos:prefLabel>
+    <imjv:key>Fe3+</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID29936">
+    <skos:prefLabel xml:lang="nl">Ijzer trivalent ion</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID29936"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <imjv:key>Fe2+</imjv:key>
+    <skos:prefLabel xml:lang="en">Ferric ion</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID7239">
+    <skos:prefLabel xml:lang="nl">1,2-Dichloorbenzeen</skos:prefLabel>
+    <imjv:key>1,2-dichloorbenzeen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7239"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/7239"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/cyaniden">
+    <skos:prefLabel xml:lang="nl">Cyaniden (als totaal CN)</skos:prefLabel>
+    <imjv:key>cyaniden totaal</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/pak_16">
+    <skos:prefLabel xml:lang="nl">PAK 16</skos:prefLabel>
+    <imjv:key>pak 16</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID2730">
+    <skos:prefLabel xml:lang="nl">Chloorpyrifos</skos:prefLabel>
+    <imjv:key>chloorpyrifos</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID2730"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/2730"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID969491">
+    <skos:prefLabel xml:lang="nl">Dieldrin</skos:prefLabel>
+    <imjv:key>dieldrin</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID969491"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/969491"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23930">
+    <imjv:key>Mn</imjv:key>
+    <imjv:key>mangaan</imjv:key>
+    <skos:prefLabel xml:lang="en">Manganese</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Mangaan</skos:prefLabel>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23930"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/23930"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID222">
+    <skos:prefLabel xml:lang="nl">Ammoniak</skos:prefLabel>
+    <imjv:key>nh3</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID222"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/222"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6344">
+    <skos:prefLabel xml:lang="nl">Dichloormethaan (DCM)</skos:prefLabel>
+    <imjv:key>dichloormethaan</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6344"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/6344"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23973">
+    <skos:prefLabel xml:lang="nl">Cadmium</skos:prefLabel>
+    <imjv:key>cadmium</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23973"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/23973"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5352426">
+    <skos:prefLabel xml:lang="nl">Tin</skos:prefLabel>
+    <imjv:key>tin</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5352426"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/5352426"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID9158">
+    <skos:prefLabel xml:lang="nl">Benzo(k)fluorantheen</skos:prefLabel>
+    <imjv:key>benzo(k)fluorantheen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID9158"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/9158"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5569">
+    <skos:prefLabel xml:lang="nl">Trifluralin</skos:prefLabel>
+    <imjv:key>trifluralin</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5569"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/5569"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5954">
+    <skos:prefLabel xml:lang="nl">Benzo(a)anthraceen</skos:prefLabel>
+    <imjv:key>benzo(a)anthraceen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5954"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/5954"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5377784">
+    <skos:prefLabel xml:lang="nl">Chloorfenvinfos</skos:prefLabel>
+    <imjv:key>chloorfenvinfos</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5377784"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/5377784"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/pm2.5">
+    <skos:prefLabel xml:lang="nl">Zwevende deeltjes (PM2.5)</skos:prefLabel>
+    <imjv:key>pm2.5</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/dichlooranilines">
+    <skos:prefLabel xml:lang="nl">Dichlooraniline-isomeren</skos:prefLabel>
+    <imjv:key>dichlooranilines</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID281">
+    <skos:prefLabel xml:lang="nl">Koolmonoxide</skos:prefLabel>
+    <imjv:key>co</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID281"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/281"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID1732">
+    <skos:prefLabel xml:lang="nl">4-Chloor-3-methylfenol</skos:prefLabel>
+    <imjv:key>4-chloor-3-methylfenol</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID1732"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/1732"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5460467">
+    <skos:prefLabel xml:lang="nl">Beryllium</skos:prefLabel>
+    <imjv:key>berylium</imjv:key>
+    <imjv:key>beryllium</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5460467"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/5460467"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID3224">
+    <skos:prefLabel xml:lang="nl">Endosulfaan</skos:prefLabel>
+    <imjv:key>endosulfan</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID3224"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/3224"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID9131">
+    <skos:prefLabel xml:lang="nl">Indeno(1,2,3-cd)pyreen</skos:prefLabel>
+    <imjv:key>indeno(1,2,3-cd)pyreen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID9131"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/9131"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23963">
+    <skos:prefLabel xml:lang="nl">Titanium</skos:prefLabel>
+    <imjv:key>titaan</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23963"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/23963"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/niet_elders_genoemde_ozonafbrekende_stoffen">
+    <skos:prefLabel xml:lang="nl">Niet eerder genoemde ozonafbrekende stoffen en F-gassen</skos:prefLabel>
+    <imjv:key>niet eerder genoemde ozonafbrekende stoffen en f-gassen</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID7245">
+    <skos:prefLabel xml:lang="nl">2-Chloorfenol</skos:prefLabel>
+    <imjv:key>2-chloorfenol</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7245"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/7245"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID280">
+    <skos:prefLabel xml:lang="nl">Kooldioxide</skos:prefLabel>
+    <imjv:key>co2</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID280"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/280"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID7855">
+    <skos:prefLabel xml:lang="nl">Acrylonitrile</skos:prefLabel>
+    <imjv:key>acrylonitrile</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7855"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/7855"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID3589">
+    <skos:prefLabel xml:lang="nl">Heptachloor</skos:prefLabel>
+    <imjv:key>heptachloor</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID3589"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/3589"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23954">
+    <skos:prefLabel xml:lang="nl">Zilver</skos:prefLabel>
+    <imjv:key>zilver</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23954"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/23954"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/chloorverbindingen">
+    <skos:prefLabel xml:lang="nl">Chloor en anorganische verbindingen (als Cl-)</skos:prefLabel>
+    <imjv:key>cl-verbindingen (als cl- )</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID9171">
+    <skos:prefLabel xml:lang="nl">Chryseen</skos:prefLabel>
+    <imjv:key>chryseen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID9171"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/9171"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/zwevende_stof">
+    <skos:prefLabel xml:lang="nl">Zwevende stof</skos:prefLabel>
+    <imjv:key>zwevende stof</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID996">
+    <skos:prefLabel xml:lang="nl">Fenol</skos:prefLabel>
+    <imjv:key>fenol</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID996"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/996"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/niet_elders_genoemde_nmvos">
+    <skos:prefLabel xml:lang="nl">Niet elders genoemde NMVOS</skos:prefLabel>
+    <imjv:key>niet eerder genoemde nmvos</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/octylfenolethoxylaten">
+    <skos:prefLabel xml:lang="nl">Octylfenolen en octylfenolethoxylaten</skos:prefLabel>
+    <imjv:key>octylfenolen en octylfenolethoxylaten</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID9154">
+    <skos:prefLabel xml:lang="nl">Fluorantheen</skos:prefLabel>
+    <imjv:key>fluorantheen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID9154"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/9154"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/totale_fenolen">
+    <skos:prefLabel xml:lang="nl">Totale fenolen</skos:prefLabel>
+    <imjv:key>totale fenolen</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5359596">
+    <skos:prefLabel xml:lang="nl">Arsenicum</skos:prefLabel>
+    <imjv:key>arseen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5359596"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/5359596"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID11855">
+    <skos:prefLabel xml:lang="nl">Pentachloorbenzeen</skos:prefLabel>
+    <imjv:key>pentachloorbenzeen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID11855"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/11855"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID31373">
+    <skos:prefLabel xml:lang="nl">Tetrachloorethyleen (PER)</skos:prefLabel>
+    <imjv:key>tetrachlooretheen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID31373"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/31373"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/totaal_nmvos">
+    <skos:prefLabel xml:lang="nl">Totaal NMVOS</skos:prefLabel>
+    <imjv:key>totaal nmvos</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID961">
+    <imjv:key>OH</imjv:key>
+    <skos:prefLabel xml:lang="en">Hydroxide</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Hydroxide</skos:prefLabel>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID961"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/961"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6278">
+    <skos:prefLabel xml:lang="nl">Trichloorethaan</skos:prefLabel>
+    <imjv:key>trichloorethaan</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6278"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/6278"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID727">
+    <skos:prefLabel xml:lang="nl">Lindaan</skos:prefLabel>
+    <imjv:key>lindaan</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID727"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/727"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID7501">
+    <skos:prefLabel xml:lang="nl">Styreen</skos:prefLabel>
+    <imjv:key>styreen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7501"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/7501"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/trifenyltin_en_verbindingen">
+    <skos:prefLabel xml:lang="nl">Trifenyltin en zijn verbindingen</skos:prefLabel>
+    <imjv:key>trifenyltin en zijn verbindingen</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID7810">
+    <skos:prefLabel xml:lang="nl">4-Chloortolueen</skos:prefLabel>
+    <imjv:key>4-chloortolueen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7810"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/7810"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID4684">
+    <skos:prefLabel xml:lang="nl">4-Chloorfenol</skos:prefLabel>
+    <imjv:key>4-chloorfenol</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID4684"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/4684"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6326970">
+    <skos:prefLabel xml:lang="nl">Seleen</skos:prefLabel>
+    <imjv:key>seleen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6326970"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/6326970"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID42948">
+    <skos:prefLabel xml:lang="nl">Hexabroombifenyl</skos:prefLabel>
+    <imjv:key>hexabroombifenyl</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID42948"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/42948"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID2256">
+    <skos:prefLabel xml:lang="nl">Atrazine</skos:prefLabel>
+    <imjv:key>atrazine</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID2256"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/2256"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6574">
+    <skos:prefLabel xml:lang="nl">1,1,2-Trichloorethaan</skos:prefLabel>
+    <imjv:key>1,1,2-trichloorethaan</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6574"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/6574"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5993">
+    <skos:prefLabel xml:lang="nl">Chloordaan</skos:prefLabel>
+    <imjv:key>chloordaan</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5993"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/5993"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/fosfor_totaal">
+    <skos:prefLabel xml:lang="nl">Fosfor totaal (P)</skos:prefLabel>
+    <imjv:key>fosfor totaal (p)</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6327182">
+    <skos:prefLabel xml:lang="nl">Tellurium</skos:prefLabel>
+    <imjv:key>tellurium</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6327182"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/6327182"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6591">
+    <skos:prefLabel xml:lang="nl">1,1,2,2-Tetrachloroethaan</skos:prefLabel>
+    <imjv:key>1,1,2,2-tetrachloroethaan</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6591"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/6591"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/trichloorbenzeen_technisch">
+    <skos:prefLabel xml:lang="nl">Trichloorbenzeen (technisch)</skos:prefLabel>
+    <imjv:key>trichloorbenzeen (technisch)</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5889">
+    <skos:prefLabel xml:lang="nl">Dibenzo(a,h)anthraceen</skos:prefLabel>
+    <imjv:key>dibenzo(a,h)anthraceen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5889"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/5889"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID8370">
+    <skos:prefLabel xml:lang="nl">Hexachloorbenzeen</skos:prefLabel>
+    <imjv:key>hexachloorbenzeen</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID8370"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/8370"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/niet_elders_genoemde_aromatische_nmvos">
+    <skos:prefLabel xml:lang="nl">Niet elders genoemde aromatische NMVOS</skos:prefLabel>
+    <imjv:key>niet eerder genoemde aromatische nmvos</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID6348">
+    <skos:prefLabel xml:lang="nl">Zwavelkoolstof</skos:prefLabel>
+    <imjv:key>zwavelkoolstof</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID6348"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/6348"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/fluoriden">
+    <skos:prefLabel xml:lang="nl">Fluoriden (als totaal F)</skos:prefLabel>
+    <imjv:key>fluorides (als f)</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5216">
+    <skos:prefLabel xml:lang="nl">Simazine</skos:prefLabel>
+    <imjv:key>simazine</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5216"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/5216"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID3032552">
+    <imjv:key>NO2</imjv:key>
+    <skos:prefLabel xml:lang="en">Nitrogen dioxide</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Stikstofdioxide</skos:prefLabel>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID3032552"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/3032552"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID23989">
+    <skos:prefLabel xml:lang="nl">Uranium</skos:prefLabel>
+    <imjv:key>uranium</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID23989"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/23989"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5460653">
+    <imjv:key>H(tot)</imjv:key>
+    <skos:prefLabel xml:lang="en">Proton</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Proton</skos:prefLabel>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5460653"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/5460653"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/trichloorfenolen">
+    <skos:prefLabel xml:lang="nl">Trichloorfenolen</skos:prefLabel>
+    <imjv:key>trichloorfenolen</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/niet_elders_genoemde_gehalogeneerde_nmvos">
+    <skos:prefLabel xml:lang="nl">Niet elders genoemde gehalogeneerde NMVOS</skos:prefLabel>
+    <imjv:key>niet eerder genoemde gehalogeneerde nmvos</imjv:key>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID5355457">
+    <skos:prefLabel xml:lang="nl">Barium</skos:prefLabel>
+    <imjv:key>barium</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID5355457"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/5355457"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://data.imjv.omgeving.vlaanderen.be/id/concept/substantie/CID7503">
+    <skos:prefLabel xml:lang="nl">a-Chloortolueen (benzylchloride)</skos:prefLabel>
+    <imjv:key>a-chloortolueen (benzylchloride)</imjv:key>
+    <rdfs:seeAlso rdf:resource="http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID7503"/>
+    <rdfs:seeAlso rdf:resource="https://pubchem.ncbi.nlm.nih.gov/compound/7503"/>
+    <skos:topConceptOf rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+    <skos:inScheme rdf:resource="https://data.imjv.omgeving.vlaanderen.be/id/conceptscheme/substantie"/>
+  </skos:Concept>
+</rdf:RDF>
+
+<!-- Created with TopBraid -->

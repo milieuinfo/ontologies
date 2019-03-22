@@ -1,0 +1,1535 @@
+# baseURI: http://id.milieuinfo.be/milieuinfoshapes
+# imports: http://datashapes.org/dash
+# imports: https://id.milieuinfo.be/milieuvocab/v0.95
+
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix imjv: <https://data.imjv.omgeving.vlaanderen.be/ns/imjv#> .
+@prefix milieush: <https://id.milieuinfo.be/shapesdef#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://id.milieuinfo.be/milieuinfoshapes>
+  rdf:type owl:Ontology ;
+  owl:imports <http://datashapes.org/dash> ;
+  owl:imports <https://id.milieuinfo.be/milieuvocab/v0.95> ;
+  owl:versionInfo "Created with TopBraid Composer" ;
+.
+milieush:AfvalProductie
+  rdf:type sh:NodeShape ;
+  rdfs:label "Afval productie shape"@nl ;
+  rdfs:subClassOf rdfs:Resource ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://schema.org/subjectOf> ;
+      sh:name "subject of" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:datatype xsd:string ;
+      sh:description "label gegeven aan de afvalproduktie" ;
+      sh:languageIn (
+          "nl"
+        ) ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:overbrenging ;
+      sh:class imjv:Overbrenging ;
+      sh:name "overbrenging" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:referentiegebied ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "referentiegebied" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:verwerking ;
+      sh:class imjv:Verwerking ;
+      sh:name "verwerking" ;
+    ] ;
+  sh:property [
+      sh:path imjv:tijdsperiode ;
+      sh:datatype xsd:gYear ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:targetClass imjv:AfvalProductie ;
+.
+milieush:AfvalVerwerking
+  rdf:type sh:NodeShape ;
+  rdfs:label "Afval verwerking shape"@nl ;
+  rdfs:subClassOf rdfs:Resource ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://schema.org/subjectOf> ;
+      sh:name "subject of" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:datatype xsd:string ;
+      sh:description "label gegeven aan de afvalproduktie" ;
+      sh:languageIn (
+          "nl"
+        ) ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:landVanHerkomst ;
+      sh:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+      sh:maxCount 1 ;
+      sh:name "land van herkomst" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:referentiegebied ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "referentiegebied" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      sh:path imjv:tijdsperiode ;
+      sh:datatype xsd:gYear ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:targetClass imjv:AfvalProductie ;
+.
+milieush:BroeikasgasInstallatie
+  rdf:type sh:NodeShape ;
+  rdfs:label "Broeikasgas installatie shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://purl.org/dc/terms/rights> ;
+      sh:class <http://purl.org/dc/terms/RightsStatement> ;
+      sh:minCount 1 ;
+      sh:name "rights" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:datatype xsd:string ;
+      sh:languageIn (
+          "nl"
+        ) ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://www.w3.org/2004/02/skos/core#notation> ;
+      sh:datatype xsd:string ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "notation" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://www.w3.org/ns/locn#address> ;
+      sh:class <http://www.w3.org/ns/locn#Address> ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "address" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:niscode ;
+      sh:maxCount 1 ;
+      sh:name "niscode" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:targetClass imjv:BroeikasgasInstallatie ;
+.
+milieush:Debietmeter
+  rdf:type sh:NodeShape ;
+  rdfs:label "Debietmeter shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:datatype xsd:string ;
+      sh:languageIn (
+          "nl"
+        ) ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:merk ;
+      sh:datatype xsd:string ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "merk" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:serienummer ;
+      sh:datatype xsd:string ;
+      sh:maxCount 1 ;
+      sh:name "serienummer" ;
+    ] ;
+  sh:targetClass imjv:Debietmeter ;
+.
+milieush:Emissie
+  rdf:type sh:NodeShape ;
+  rdfs:label "Emissie shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://schema.org/subjectOf> ;
+      sh:class <http://purl.org/linked-data/cube#Observation> ;
+      sh:minCount 1 ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:datatype xsd:string ;
+      sh:languageIn (
+          "nl"
+        ) ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:debiet ;
+      sh:class imjv:Waarde ;
+      sh:maxCount 1 ;
+      sh:name "debiet" ;
+      sh:nodeKind sh:BlankNode ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:emissieContext ;
+      sh:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+      sh:maxCount 1 ;
+      sh:name "emissie context" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:emissieType ;
+      sh:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+      sh:maxCount 1 ;
+      sh:name "emissie type" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:emissieduur ;
+      sh:class imjv:Waarde ;
+      sh:maxCount 1 ;
+      sh:name "emissieduur" ;
+      sh:nodeKind sh:BlankNode ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:inDrogeToestandOpgegeven ;
+      sh:datatype xsd:boolean ;
+      sh:maxCount 1 ;
+      sh:name "in droge toestand opgegeven" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:periode ;
+      sh:datatype xsd:string ;
+      sh:maxCount 1 ;
+      sh:name "periode" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:referentiegebied ;
+      sh:class <http://purl.org/dc/terms/Location> ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "referentiegebied" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:ritme ;
+      sh:datatype xsd:string ;
+      sh:maxCount 1 ;
+      sh:name "ritme" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:temperatuur ;
+      sh:class imjv:Waarde ;
+      sh:maxCount 1 ;
+      sh:name "temperatuur" ;
+      sh:nodeKind sh:BlankNode ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:tijdsperiode ;
+      sh:datatype xsd:gYear ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "tijdsperiode" ;
+      sh:nodeKind sh:Literal ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:waterGehalte ;
+      sh:class imjv:Waarde ;
+      sh:maxCount 1 ;
+      sh:name "watergehalte" ;
+      sh:nodeKind sh:BlankNode ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:zuurstofGehalte ;
+      sh:class imjv:Waarde ;
+      sh:maxCount 1 ;
+      sh:name "zuurstof gehalte" ;
+      sh:nodeKind sh:BlankNode ;
+    ] ;
+  sh:targetClass imjv:Emissie ;
+.
+milieush:Emissiepunt
+  rdf:type sh:NodeShape ;
+  rdfs:label "Emissiepunt shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://purl.org/dc/terms/date> ;
+      sh:datatype xsd:gYear ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "date" ;
+      sh:nodeKind sh:Literal ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:datatype xsd:string ;
+      sh:languageIn (
+          "en"
+        ) ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+      sh:datatype xsd:decimal ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "lat" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+      sh:datatype xsd:decimal ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "long" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:aantalPunten ;
+      sh:datatype xsd:integer ;
+      sh:maxCount 1 ;
+      sh:name "aantal punten" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:blijvendBuitenWerking ;
+      sh:datatype xsd:boolean ;
+      sh:maxCount 1 ;
+      sh:name "blijvend buiten werking" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:diameter ;
+      sh:class imjv:Waarde ;
+      sh:maxCount 1 ;
+      sh:name "diameter" ;
+      sh:nodeKind sh:BlankNode ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:exploitatie ;
+      sh:class imjv:Exploitatie ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "exploitatie" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:gekoppeldeActiviteit ;
+      sh:class <http://www.w3.org/ns/prov#Activity> ;
+      sh:maxCount 1 ;
+      sh:name "gekoppelde activiteit" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:hoogte ;
+      sh:class imjv:Waarde ;
+      sh:maxCount 1 ;
+      sh:name "hoogte" ;
+      sh:nodeKind sh:BlankNode ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:type ;
+      sh:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+      sh:maxCount 1 ;
+      sh:name "type" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:zuiveringsApparatuur ;
+      sh:class <http://dbpedia.org/ontology/Device> ;
+      sh:name "zuiverings apparatuur" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:targetClass imjv:Emissiepunt ;
+.
+milieush:EmissiepuntStaat
+  rdf:type sh:NodeShape ;
+  rdfs:label "Emissiepunt shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://purl.org/dc/terms/date> ;
+      sh:datatype xsd:gYear ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "date" ;
+      sh:nodeKind sh:Literal ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://purl.org/vocab/lifecycle/schema#stateOf> ;
+      sh:class imjv:Emissiepunt ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "state of" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:datatype xsd:string ;
+      sh:languageIn (
+          "en"
+        ) ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+      sh:datatype xsd:decimal ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "lat" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+      sh:datatype xsd:decimal ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "long" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:aantalPunten ;
+      sh:datatype xsd:integer ;
+      sh:maxCount 1 ;
+      sh:name "aantal punten" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:blijvendBuitenWerking ;
+      sh:datatype xsd:boolean ;
+      sh:maxCount 1 ;
+      sh:name "blijvend buiten werking" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:diameter ;
+      sh:class imjv:Waarde ;
+      sh:maxCount 1 ;
+      sh:name "diameter" ;
+      sh:nodeKind sh:BlankNode ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:exploitatie ;
+      sh:class imjv:Exploitatie ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "exploitatie" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:gekoppeldeActiviteit ;
+      sh:class <http://www.w3.org/ns/prov#Activity> ;
+      sh:maxCount 1 ;
+      sh:name "gekoppelde activiteit" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:hoogte ;
+      sh:class imjv:Waarde ;
+      sh:maxCount 1 ;
+      sh:name "hoogte" ;
+      sh:nodeKind sh:BlankNode ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:type ;
+      sh:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+      sh:maxCount 1 ;
+      sh:name "type" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:zuiveringsApparatuur ;
+      sh:class <http://dbpedia.org/ontology/Device> ;
+      sh:name "zuiverings apparatuur" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:targetClass imjv:Emissiepunt ;
+.
+milieush:EnergieProductie
+  rdf:type sh:NodeShape ;
+  rdfs:label "Energie productie sh	ape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://schema.org/subjectOf> ;
+      sh:class <http://purl.org/linked-data/cube#Observation> ;
+      sh:minCount 1 ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:datatype xsd:string ;
+      sh:languageIn (
+          "nl"
+        ) ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:referentiegebied ;
+      sh:class <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "referentiegebied" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:tijdsperiode ;
+      sh:datatype xsd:gYear ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "tijdsperiode" ;
+    ] ;
+  sh:targetClass imjv:EnergieProductie ;
+.
+milieush:EnergieVerbruik
+  rdf:type sh:NodeShape ;
+  rdfs:label "Energie verbruik shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://schema.org/subjectOf> ;
+      sh:class <http://purl.org/linked-data/cube#Observation> ;
+      sh:minCount 1 ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:datatype xsd:string ;
+      sh:languageIn (
+          "nl"
+        ) ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:referentiegebied ;
+      sh:class <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "referentiegebied" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:tijdsperiode ;
+      sh:datatype xsd:gYear ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "tijdsperiode" ;
+    ] ;
+  sh:targetClass imjv:EnergieVerbruik ;
+.
+milieush:Exploitatie
+  rdf:type sh:NodeShape ;
+  rdfs:label "Exploitatie shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://www.w3.org/ns/locn#address> ;
+      sh:class <http://www.w3.org/ns/locn#Address> ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "address" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://www.w3.org/ns/org#identifier> ;
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:name "identifier" ;
+    ] ;
+  sh:targetClass imjv:Exploitatie ;
+.
+milieush:ExploitatieStaat
+  rdf:type sh:NodeShape ;
+  rdfs:label "Exploitatiestaat shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://purl.org/dc/terms/date> ;
+      sh:datatype xsd:gYear ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "date" ;
+      sh:nodeKind sh:Literal ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://purl.org/vocab/lifecycle/schema#stateOf> ;
+      sh:class imjv:Emissiepunt ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "state of" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:datatype xsd:string ;
+      sh:languageIn (
+          "nl"
+        ) ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://www.w3.org/ns/locn#address> ;
+      sh:class <http://www.w3.org/ns/locn#Address> ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "address" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://www.w3.org/ns/org#identifier> ;
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:name "identifier" ;
+    ] ;
+  sh:targetClass imjv:Exploitatie ;
+.
+milieush:GeleideLozing
+  rdf:type sh:NodeShape ;
+  rdfs:label "Geleide lozing" ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://schema.org/subjectOf> ;
+      sh:class <http://purl.org/linked-data/cube#Observation> ;
+      sh:minCount 1 ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:datatype xsd:string ;
+      sh:languageIn (
+          "nl"
+        ) ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:aantalDagenPerJaar ;
+      sh:class imjv:Waarde ;
+      sh:maxCount 1 ;
+      sh:name "aantal dagen per jaar" ;
+      sh:nodeKind sh:BlankNode ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:aantalUrenPerJaar ;
+      sh:class imjv:Waarde ;
+      sh:maxCount 1 ;
+      sh:name "aantal uren per jaar" ;
+      sh:nodeKind sh:BlankNode ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:debiet ;
+      sh:class imjv:Waarde ;
+      sh:maxCount 1 ;
+      sh:name "debiet" ;
+      sh:nodeKind sh:BlankNode ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:lozingstype ;
+      sh:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+      sh:maxCount 1 ;
+      sh:name "type van lozing" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:pH ;
+      sh:datatype xsd:integer ;
+      sh:maxCount 1 ;
+      sh:name "p h" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:referentiegebied ;
+      sh:class <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "referentiegebied" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:temperatuur ;
+      sh:class imjv:Waarde ;
+      sh:maxCount 1 ;
+      sh:name "temperatuur" ;
+      sh:nodeKind sh:BlankNode ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:tijdsperiode ;
+      sh:datatype xsd:gYear ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "tijdsperiode" ;
+    ] ;
+  sh:targetClass imjv:GeleideLozing ;
+.
+milieush:IHM
+  rdf:type sh:NodeShape ;
+  rdfs:label "IHM shape"@nl ;
+  sh:nodeKind sh:BlankNodeOrIRI ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:identificatienummer ;
+      sh:datatype xsd:string ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "identificatienummer" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:naam ;
+      sh:datatype xsd:string ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "naam" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:ondernemersnummer ;
+      sh:datatype xsd:string ;
+      sh:maxCount 1 ;
+      sh:name "ondernemersnummer" ;
+    ] ;
+  sh:targetClass rdfs:Resource ;
+.
+milieush:Lozingspunt
+  rdf:type sh:NodeShape ;
+  rdfs:label "Lozingspunt" ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:datatype xsd:string ;
+      sh:languageIn (
+          "nl"
+        ) ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:beschrijving ;
+      sh:class imjv:LozingspuntStaat ;
+      sh:minCount 1 ;
+      sh:name "beschrijving" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:targetClass imjv:Lozingspunt ;
+.
+milieush:LozingspuntStaat
+  rdf:type sh:NodeShape ;
+  rdfs:label "Lozingspuntstaat shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://purl.org/dc/terms/date> ;
+      sh:datatype xsd:gYear ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "date" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://purl.org/vocab/lifecycle/schema#stateOf> ;
+      sh:class imjv:Lozingspunt ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "state of" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:datatype xsd:string ;
+      sh:languageIn (
+          "nl"
+        ) ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:blijvendBuitenActiviteit ;
+      sh:datatype xsd:boolean ;
+      sh:maxCount 1 ;
+      sh:name "blijvend buiten activiteit" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:exploitatie ;
+      sh:class imjv:Exploitatie ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "exploitatie" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:gekoppeldeActiviteit ;
+      sh:class <http://www.w3.org/ns/prov#Activity> ;
+      sh:maxCount 1 ;
+      sh:name "gekoppelde activiteit" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:lozingsplaats ;
+      sh:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+      sh:maxCount 1 ;
+      sh:name "lozingsplaats" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:meetputType ;
+      sh:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+      sh:maxCount 1 ;
+      sh:name "meetput type" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:targetClass imjv:LozingspuntStaat ;
+.
+milieush:Monstername
+  rdf:type sh:NodeShape ;
+  rdfs:label "Monstername shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://schema.org/subjectOf> ;
+      sh:class <http://purl.org/linked-data/cube#Observation> ;
+      sh:minCount 1 ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:datatype xsd:string ;
+      sh:languageIn (
+          "nl"
+        ) ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:datum ;
+      sh:datatype xsd:date ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "datum" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:datumLaboanalyse ;
+      sh:datatype xsd:date ;
+      sh:maxCount 1 ;
+      sh:name "datum laboanalyse" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:monsternameTechniek ;
+      sh:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+      sh:maxCount 1 ;
+      sh:name "monstername techniek" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:monsternummer ;
+      sh:datatype xsd:string ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "monsternummer" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:pompfilter ;
+      sh:class imjv:Pompfilter ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "pompfilter" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:uitvoerder ;
+      sh:datatype xsd:string ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "uitvoerder" ;
+    ] ;
+  sh:targetClass imjv:Monstername ;
+.
+milieush:Overbrenging
+  rdf:type sh:NodeShape ;
+  rdfs:label "Afval overbrenging shape"@nl ;
+  rdfs:subClassOf rdfs:Resource ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:ihm ;
+      sh:class imjv:IHM ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "ihm" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:vervoerswijze ;
+      sh:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+      sh:maxCount 1 ;
+      sh:minCount 0 ;
+      sh:name "vervoerswijze" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:targetClass imjv:Overbrenging ;
+.
+milieush:PeilfilterStaat
+  rdf:type sh:NodeShape ;
+  rdfs:label "Peilfilter staat shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://purl.org/dc/terms/date> ;
+      sh:datatype xsd:gYear ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "date" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://purl.org/vocab/lifecycle/schema#stateOf> ;
+      sh:class imjv:Peilfilter ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "state of" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:datatype xsd:string ;
+      sh:languageIn (
+          "nl"
+        ) ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:aquifer ;
+      sh:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+      sh:maxCount 1 ;
+      sh:name "aquifer" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:blijvendBuitenWerking ;
+      sh:datatype xsd:boolean ;
+      sh:maxCount 1 ;
+      sh:name "blijvend buiten werking" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:diepteOnderkant ;
+      sh:class imjv:Waarde ;
+      sh:maxCount 1 ;
+      sh:name "diepte onderkant" ;
+      sh:nodeKind sh:BlankNode ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:exploitatie ;
+      sh:class imjv:Exploitatie ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "exploitatie" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:filternummer ;
+      sh:datatype xsd:string ;
+      sh:maxCount 1 ;
+      sh:name "filternummer" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:lengte ;
+      sh:class imjv:Waarde ;
+      sh:maxCount 1 ;
+      sh:name "lengte" ;
+      sh:nodeKind sh:BlankNode ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:peilmeting ;
+      sh:class imjv:Peilmeting ;
+      sh:name "peilmeting" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:targetClass imjv:PeilfilterStaat ;
+.
+milieush:Peilmeting
+  rdf:type sh:NodeShape ;
+  rdfs:label "Peilmeting shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://schema.org/subjectOf> ;
+      sh:class <http://purl.org/linked-data/cube#Observation> ;
+      sh:minCount 1 ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:datatype xsd:string ;
+      sh:languageIn (
+          "nl"
+        ) ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:instrumentPeilmeting ;
+      sh:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+      sh:minCount 1 ;
+      sh:name "instrument peilmeting" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:referentiepunt ;
+      sh:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "referentiepunt" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:targetClass imjv:Peilmeting ;
+.
+milieush:Peilput
+  rdf:type sh:NodeShape ;
+  rdfs:label "Peilput shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:peilfilter ;
+      sh:class imjv:Peilfilter ;
+      sh:minCount 1 ;
+      sh:name "peilfilter" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:watnr ;
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:name "watnr" ;
+    ] ;
+  sh:targetClass imjv:Peilput ;
+.
+milieush:PeilputStaat
+  rdf:type sh:NodeShape ;
+  rdfs:label "Peilput staat shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://purl.org/dc/terms/date> ;
+      sh:datatype xsd:date ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "date" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://purl.org/vocab/lifecycle/schema#stateOf> ;
+      sh:class imjv:Peilput ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "state of" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:datatype xsd:string ;
+      sh:languageIn (
+          "nl"
+        ) ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+      sh:datatype xsd:decimal ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "lat" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+      sh:datatype xsd:decimal ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "long" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:diepte ;
+      sh:class imjv:Waarde ;
+      sh:maxCount 1 ;
+      sh:name "diepte" ;
+      sh:nodeKind sh:BlankNode ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:exploitatie ;
+      sh:class imjv:Exploitatie ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "exploitatie" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:watnr ;
+      sh:datatype xsd:string ;
+      sh:maxCount 1 ;
+      sh:name "watnr" ;
+    ] ;
+  sh:targetClass imjv:PeilputStaat ;
+.
+milieush:PompfilterStaat
+  rdf:type sh:NodeShape ;
+  rdfs:label "Pompfilter staat shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://purl.org/dc/terms/date> ;
+      sh:datatype xsd:gYear ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "date" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://purl.org/vocab/lifecycle/schema#stateOf> ;
+      sh:class imjv:Pompfilter ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "state of" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:datatype xsd:string ;
+      sh:languageIn (
+          "nl"
+        ) ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:aquifer ;
+      sh:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+      sh:maxCount 1 ;
+      sh:name "aquifer" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:blijvendBuitenWerking ;
+      sh:datatype xsd:boolean ;
+      sh:maxCount 1 ;
+      sh:name "blijvend buiten werking" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:diepteOnderkant ;
+      sh:class imjv:Waarde ;
+      sh:maxCount 1 ;
+      sh:name "diepte onderkant" ;
+      sh:nodeKind sh:BlankNode ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:exploitatie ;
+      sh:class imjv:Exploitatie ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "exploitatie" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:filternummer ;
+      sh:datatype xsd:string ;
+      sh:maxCount 1 ;
+      sh:name "filternummer" ;
+    ] ;
+  sh:targetClass imjv:PompfilterStaat ;
+.
+milieush:Pompput
+  rdf:type sh:NodeShape ;
+  rdfs:label "Pompput shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:pompfilter ;
+      sh:class imjv:Pompfilter ;
+      sh:minCount 1 ;
+      sh:name "pompfilter" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:watnr ;
+      sh:datatype xsd:string ;
+      sh:minCount 1 ;
+      sh:name "watnr" ;
+    ] ;
+  sh:targetClass imjv:Pompput ;
+.
+milieush:PompputStaat
+  rdf:type sh:NodeShape ;
+  rdfs:label "Pompput staat shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://purl.org/dc/terms/date> ;
+      sh:datatype xsd:date ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "date" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://purl.org/vocab/lifecycle/schema#stateOf> ;
+      sh:class imjv:Peilput ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "state of" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:datatype xsd:string ;
+      sh:languageIn (
+          "nl"
+        ) ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+      sh:datatype xsd:decimal ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "lat" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+      sh:datatype xsd:decimal ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "long" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:diepte ;
+      sh:class imjv:Waarde ;
+      sh:maxCount 1 ;
+      sh:name "diepte" ;
+      sh:nodeKind sh:BlankNode ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:exploitatie ;
+      sh:class imjv:Exploitatie ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "exploitatie" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:watnr ;
+      sh:datatype xsd:string ;
+      sh:maxCount 1 ;
+      sh:name "watnr" ;
+    ] ;
+  sh:targetClass imjv:PompputStaat ;
+.
+milieush:Verwerker
+  rdf:type sh:NodeShape ;
+  rdfs:label "Verwerker shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:identificatienummer ;
+      sh:datatype xsd:string ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "identificatienummer" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:naam ;
+      sh:datatype xsd:string ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "naam" ;
+    ] ;
+.
+milieush:Verwerking
+  rdf:type sh:NodeShape ;
+  rdfs:label "Verwerking shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:Verwerker ;
+      sh:class imjv:Verwerker ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "Verwerker" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:verwerkingBinnenBedrijf ;
+      sh:datatype xsd:boolean ;
+      sh:maxCount 1 ;
+      sh:name "verwerking binnen bedrijf" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:verwerkingswijze ;
+      sh:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+      sh:maxCount 1 ;
+      sh:name "verwerkingswijze" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+.
+milieush:Waarde
+  rdf:type sh:NodeShape ;
+  rdfs:label "Waarde shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> ;
+      sh:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+      sh:maxCount 1 ;
+      sh:name "unit measure" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path rdf:value ;
+      sh:datatype [
+          rdf:type owl:Class ;
+          owl:unionOf (
+              xsd:decimal
+              xsd:integer
+            ) ;
+        ] ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:targetClass imjv:Waarde ;
+.
+milieush:Waterbalans
+  rdf:type sh:NodeShape ;
+  rdfs:label "Waterbalans shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:exploitatie ;
+      sh:class imjv:Exploitatie ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "exploitatie" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:targetClass imjv:Waterbalans ;
+.
+milieush:WaterbalansStaat
+  rdf:type sh:NodeShape ;
+  rdfs:label "Waterbalans staat shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://purl.org/dc/terms/date> ;
+      sh:datatype [
+          rdf:type owl:Class ;
+          owl:unionOf (
+              xsd:date
+              xsd:gYear
+            ) ;
+        ] ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "date" ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://purl.org/vocab/lifecycle/schema#stateOf> ;
+      sh:class imjv:Waterbalans ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "state of" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:datatype xsd:string ;
+      sh:languageIn (
+          "nl"
+        ) ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:exploitatie ;
+      sh:class imjv:Exploitatie ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "exploitatie" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:watergebruik ;
+      sh:class imjv:Watergebruik ;
+      sh:maxCount 2 ;
+      sh:minCount 2 ;
+      sh:name "watergebruik" ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:targetClass imjv:WaterbalansStaat ;
+.
+milieush:Watergebruik
+  rdf:type sh:NodeShape ;
+  rdfs:label "Watergebruik shape"@nl ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path <http://schema.org/subjectOf> ;
+      sh:class <http://purl.org/linked-data/cube#Observation> ;
+      sh:minCount 1 ;
+      sh:nodeKind sh:IRI ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path rdfs:label ;
+      sh:datatype xsd:string ;
+      sh:languageIn (
+          "nl"
+        ) ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:hoeveelheid ;
+      sh:class imjv:Waarde ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "hoeveelheid" ;
+      sh:nodeKind sh:BlankNode ;
+    ] ;
+  sh:property [
+      rdf:type sh:PropertyShape ;
+      sh:path imjv:tijdsperiode ;
+      sh:datatype xsd:gYear ;
+      sh:maxCount 1 ;
+      sh:minCount 1 ;
+      sh:name "tijdsperiode" ;
+    ] ;
+  sh:targetClass imjv:Watergebruik ;
+.
